@@ -126,10 +126,15 @@ window.__HERBS = [
     "gender": "阳性",
     "element": "风",
     "planet": "木星",
-    "effect": "灵力，运气",
+    "effect": "灵力，运气，保护，净化，青春，防止噩梦，驱除邪恶",
     "powers": [
       "灵力",
-      "运气"
+      "运气",
+      "保护",
+      "净化",
+      "青春",
+      "防止噩梦",
+      "驱除邪恶"
     ],
     "toxic": false,
     "initial": "B",
@@ -139,6 +144,12 @@ window.__HERBS = [
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
         "row": 186
+      },
+      {
+        "type": "spreadsheet",
+        "file": "AAA草药条目.xlsx",
+        "row": 20,
+        "merged_from": "大茴香"
       }
     ]
   },
@@ -604,31 +615,6 @@ window.__HERBS = [
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
         "row": 127
-      }
-    ]
-  },
-  {
-    "id": 28,
-    "name": "大茴香",
-    "gender": "阳性",
-    "element": "风",
-    "planet": "木星",
-    "effect": "保护，净化，青春，防止噩梦，驱除邪恶",
-    "powers": [
-      "保护",
-      "净化",
-      "青春",
-      "防止噩梦",
-      "驱除邪恶"
-    ],
-    "toxic": false,
-    "initial": "D",
-    "pinyin": "da hui xiang",
-    "sources": [
-      {
-        "type": "spreadsheet",
-        "file": "AAA草药条目.xlsx",
-        "row": 20
       }
     ]
   },
@@ -1873,12 +1859,15 @@ window.__HERBS = [
     "gender": "阳性",
     "element": "火",
     "planet": "太阳",
-    "effect": "保护，预言梦境，消除法律纠纷，灵力",
+    "effect": "保护，预言梦境，消除法律纠纷，灵力，爱情，幸运，心灵力量",
     "powers": [
       "保护",
       "预言梦境",
       "消除法律纠纷",
-      "灵力"
+      "灵力",
+      "爱情",
+      "幸运",
+      "心灵力量"
     ],
     "toxic": false,
     "initial": "J",
@@ -1888,29 +1877,12 @@ window.__HERBS = [
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
         "row": 143
-      }
-    ]
-  },
-  {
-    "id": 79,
-    "name": "金盏菊",
-    "gender": "阳性",
-    "element": "火",
-    "planet": "太阳",
-    "effect": "爱情，幸运，心灵力量",
-    "powers": [
-      "爱情",
-      "幸运",
-      "心灵力量"
-    ],
-    "toxic": false,
-    "initial": "J",
-    "pinyin": "jin zhan ju",
-    "sources": [
+      },
       {
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
-        "row": 216
+        "row": 216,
+        "merged_from": "金盏菊"
       }
     ]
   },
@@ -3113,28 +3085,6 @@ window.__HERBS = [
     ]
   },
   {
-    "id": 129,
-    "name": "柠檬薄荷",
-    "gender": "阳性",
-    "element": "风·",
-    "planet": "水星",
-    "effect": "金钱，成功",
-    "powers": [
-      "金钱",
-      "成功"
-    ],
-    "toxic": false,
-    "initial": "N",
-    "pinyin": "ning meng bo he",
-    "sources": [
-      {
-        "type": "spreadsheet",
-        "file": "AAA草药条目.xlsx",
-        "row": 45
-      }
-    ]
-  },
-  {
     "id": 130,
     "name": "柠檬马鞭草",
     "gender": "阳性",
@@ -3163,12 +3113,13 @@ window.__HERBS = [
     "gender": "阴性",
     "element": "水",
     "planet": "月亮",
-    "effect": "爱情，成功，治疗，寻找爱情",
+    "effect": "爱情，成功，治疗，寻找爱情，金钱",
     "powers": [
       "爱情",
       "成功",
       "治疗",
-      "寻找爱情"
+      "寻找爱情",
+      "金钱"
     ],
     "toxic": false,
     "initial": "N",
@@ -3178,6 +3129,12 @@ window.__HERBS = [
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
         "row": 31
+      },
+      {
+        "type": "spreadsheet",
+        "file": "AAA草药条目.xlsx",
+        "row": 45,
+        "merged_from": "柠檬薄荷"
       }
     ]
   },
@@ -5682,7 +5639,7 @@ window.__HERBS = [
   },
   {
     "id": 233,
-    "name": "孜然【小茴香】",
+    "name": "孜然",
     "gender": "阳性",
     "element": "火",
     "planet": "火星",
@@ -5697,12 +5654,16 @@ window.__HERBS = [
     ],
     "toxic": false,
     "initial": "Z",
-    "pinyin": "zi ran 【 xiao hui xiang 】",
+    "pinyin": "zi ran",
     "sources": [
       {
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
         "row": 87
+      },
+      {
+        "type": "cleanup",
+        "note": "原条目名「孜然【小茴香】」按清理指南改为「孜然」；Fennel/小茴香内容归「茴香」。"
       }
     ]
   }

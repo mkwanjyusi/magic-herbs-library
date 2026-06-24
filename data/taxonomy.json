@@ -429,24 +429,6 @@
     "wikidata": "Q1028248",
     "reviewed": false
   },
-  "大茴香": {
-    "scientificName": "Pimpinella anisum L.",
-    "canonicalName": "Pimpinella anisum",
-    "rank": "SPECIES",
-    "kingdom": "Plantae",
-    "phylum": "Tracheophyta",
-    "class": "Magnoliopsida",
-    "order": "Apiales",
-    "family": "Apiaceae",
-    "genus": "Pimpinella",
-    "species": "Pimpinella anisum",
-    "gbifKey": 8080300,
-    "confidence": 97,
-    "matchType": "EXACT",
-    "source": "manual+gbif",
-    "wikidata": null,
-    "reviewed": true
-  },
   "大蒜": {
     "scientificName": "Allium sativum L.",
     "canonicalName": "Allium sativum",
@@ -1209,24 +1191,6 @@
     "status": "unmatched",
     "query": "金盏"
   },
-  "金盏菊": {
-    "scientificName": "Calendula officinalis L.",
-    "canonicalName": "Calendula officinalis",
-    "rank": "SPECIES",
-    "kingdom": "Plantae",
-    "phylum": "Tracheophyta",
-    "class": "Magnoliopsida",
-    "order": "Asterales",
-    "family": "Asteraceae",
-    "genus": "Calendula",
-    "species": "Calendula officinalis",
-    "gbifKey": 5391480,
-    "confidence": 98,
-    "matchType": "EXACT",
-    "source": "manual+gbif",
-    "wikidata": null,
-    "reviewed": true
-  },
   "韭葱": {
     "status": "unmatched",
     "query": "韭葱"
@@ -1758,10 +1722,6 @@
     "source": "manual+gbif",
     "wikidata": null,
     "reviewed": true
-  },
-  "柠檬薄荷": {
-    "status": "unmatched",
-    "query": "柠檬薄荷"
   },
   "柠檬马鞭草": {
     "scientificName": "Aloysia citriodora Palau",
@@ -2979,7 +2939,7 @@
     "wikidata": null,
     "reviewed": true
   },
-  "孜然【小茴香】": {
+  "孜然": {
     "scientificName": "Cuminum cyminum L.",
     "canonicalName": "Cuminum cyminum",
     "rank": "SPECIES",

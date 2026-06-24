@@ -651,16 +651,6 @@ window.__HERB_IMAGES = {
     "scientificName": "Viola odorata",
     "checkedAt": "2026-06-24T13:39:58.660Z"
   },
-  "孜然【小茴香】": {
-    "status": "not_found",
-    "scientificName": "Cuminum cyminum",
-    "checkedAt": "2026-06-24T13:39:59.436Z"
-  },
-  "大茴香": {
-    "status": "not_found",
-    "scientificName": "Pimpinella anisum",
-    "checkedAt": "2026-06-24T13:36:54.569Z"
-  },
   "番茄": {
     "status": "not_found",
     "scientificName": "Solanum lycopersicum",
@@ -846,17 +836,6 @@ window.__HERB_IMAGES = {
     "license": "CC BY 4.0",
     "title": "<div class=\"fn\">\nRoots of ginger (Zingiber officinale) and of dropwort (Filip</div>",
     "checkedAt": "2026-06-24T13:38:05.519Z"
-  },
-  "金盏菊": {
-    "src": "assets/herbs/079-herb-calendula-officinalis.jpg",
-    "alt": "金盏菊（Calendula officinalis）真实生物照片",
-    "scientificName": "Calendula officinalis",
-    "source": "Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calendula_officinalis_Pr%C3%A0_01.jpg",
-    "author": "Syrio",
-    "license": "CC BY-SA 4.0",
-    "title": "Calendula officinalis Prà 01",
-    "checkedAt": "2026-06-24T13:38:09.392Z"
   },
   "卡瓦胡椒": {
     "src": "assets/herbs/085-herb-piperaceae.jpg",
@@ -1149,5 +1128,21 @@ window.__HERB_IMAGES = {
     "status": "not_found",
     "scientificName": "Narcissus tazetta",
     "checkedAt": "2026-06-24T13:39:44.890Z"
+  },
+  "金盏花": {
+    "src": "assets/herbs/079-herb-calendula-officinalis.jpg",
+    "alt": "金盏花（Calendula officinalis）真实生物照片",
+    "scientificName": "Calendula officinalis",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calendula_officinalis_Pr%C3%A0_01.jpg",
+    "author": "Syrio",
+    "license": "CC BY-SA 4.0",
+    "title": "Calendula officinalis Prà 01",
+    "checkedAt": "2026-06-24T13:38:09.392Z"
+  },
+  "孜然": {
+    "status": "not_found",
+    "scientificName": "Cuminum cyminum",
+    "checkedAt": "2026-06-24T13:39:59.436Z"
   }
 };
