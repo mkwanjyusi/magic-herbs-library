@@ -5408,6 +5408,30 @@ window.__HERBS = [
     ]
   },
   {
+    "id": 234,
+    "name": "芸香",
+    "gender": "阳性",
+    "element": "火",
+    "planet": "火星",
+    "effect": "保护，驱邪，净化，健康守护",
+    "powers": [
+      "保护",
+      "驱邪",
+      "净化",
+      "健康守护"
+    ],
+    "toxic": true,
+    "initial": "Y",
+    "pinyin": "yun xiang",
+    "sources": [
+      {
+        "type": "recipe-promotion",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "原本仅出现在配方材料中；因新增配方需要转为可见草药条目。芸香可能刺激皮肤，孕期避免使用。"
+      }
+    ]
+  },
+  {
     "id": 223,
     "name": "鸢尾花",
     "gender": "阴性",

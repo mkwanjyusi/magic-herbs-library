@@ -5461,5 +5461,438 @@
       "烟草",
       "甜瓜"
     ]
+  },
+  {
+    "id": "hoodoo-herbal-blessing-oil",
+    "title": "祝福油",
+    "type": "魔法油",
+    "complexity": "Hoodoo 复方油",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 84,
+    "intent": [
+      "祝福",
+      "好运",
+      "平安"
+    ],
+    "ingredients": [
+      {
+        "name": "菖蒲",
+        "amount": "1 份",
+        "latin": "Calamus root"
+      },
+      {
+        "name": "没药",
+        "amount": "1 份",
+        "latin": "Myrrh"
+      },
+      {
+        "name": "佛手柑",
+        "amount": "1 份",
+        "latin": "Bergamot"
+      },
+      {
+        "name": "基底油",
+        "amount": "覆盖材料"
+      }
+    ],
+    "method": [
+      "将草药材料放入洁净瓶中，以基底油覆盖。",
+      "静置融合香气，并按个人传统以祈祷或意图为油赋能。",
+      "可置于四点烛火或十字形烛阵中央，连续数日进行祝福。"
+    ],
+    "usage": "用于祝福蜡烛、工具、空间或需要恢复好运与平安的仪式。",
+    "safety": "仅作象征性仪式与外用芳香用途，不可饮用；使用菖蒲、精油或树脂材料时避免接触眼口、破损皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "菖蒲",
+      "没药",
+      "佛手柑"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-uncrossing-oil",
+    "title": "解厄油",
+    "type": "魔法油",
+    "complexity": "Hoodoo 复方油",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 86,
+    "intent": [
+      "解厄",
+      "净化",
+      "破除阻滞"
+    ],
+    "ingredients": [
+      {
+        "name": "乳香",
+        "amount": "1 份",
+        "latin": "Frankincense"
+      },
+      {
+        "name": "月桂叶",
+        "amount": "1 份",
+        "latin": "Bay leaves"
+      },
+      {
+        "name": "薄荷",
+        "amount": "1 份",
+        "latin": "Mint"
+      },
+      {
+        "name": "基底油",
+        "amount": "覆盖材料"
+      }
+    ],
+    "method": [
+      "将乳香、月桂叶与薄荷置入洁净瓶中，以基底油覆盖。",
+      "静置融合，并以净化、解除束缚或移除交叉状态为意图赋能。",
+      "少量用于白色蜡烛、仪式工具或外部点位。"
+    ],
+    "usage": "用于解除交叉状态、清理阻滞和净化类施作。",
+    "safety": "仅作象征性仪式与外用芳香用途，不可饮用；树脂与芳香草药可能刺激皮肤，使用前先小范围测试。",
+    "relatedHerbs": [
+      "乳香",
+      "月桂叶",
+      "薄荷"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-money-drawing-wash",
+    "title": "招财洗液",
+    "type": "洗液 / 喷雾",
+    "complexity": "Hoodoo 洗液",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 100,
+    "intent": [
+      "金钱",
+      "吸引",
+      "繁荣"
+    ],
+    "ingredients": [
+      {
+        "name": "纸钞碎片",
+        "amount": "少量",
+        "latin": "Shredded money"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1 份",
+        "latin": "Cinnamon"
+      },
+      {
+        "name": "蓝旗鸢尾",
+        "amount": "1 份",
+        "latin": "Blue flag"
+      },
+      {
+        "name": "清水",
+        "amount": "适量"
+      }
+    ],
+    "method": [
+      "将材料加入沸水中短暂煮出气味。",
+      "熄火加盖，静置至冷却，并在静置时加入招财意图或祈祷。",
+      "过滤后作为地板洗液、门口洗液或喷雾使用；用过的草药可少量撒在门口附近。"
+    ],
+    "usage": "用于店铺、工作区或家门口的招财与繁荣清洗。",
+    "safety": "仅作象征性空间清洁用途，不可饮用；蓝旗鸢尾不作内服建议，避免儿童、宠物误食。",
+    "relatedHerbs": [
+      "肉桂",
+      "蓝旗鸢尾"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-blessing-wash",
+    "title": "祝福洗液",
+    "type": "洗液 / 喷雾",
+    "complexity": "Hoodoo 洗液",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 101,
+    "intent": [
+      "祝福",
+      "净化",
+      "平安"
+    ],
+    "ingredients": [
+      {
+        "name": "迷迭香",
+        "amount": "1 份",
+        "latin": "Rosemary"
+      },
+      {
+        "name": "檀香",
+        "amount": "1 份",
+        "latin": "Sandalwood"
+      },
+      {
+        "name": "马郁兰",
+        "amount": "1 份",
+        "latin": "Marjoram"
+      },
+      {
+        "name": "清水",
+        "amount": "适量"
+      }
+    ],
+    "method": [
+      "将迷迭香、檀香与马郁兰加入沸水中短暂煮出气味。",
+      "熄火加盖，静置至冷却，并在静置时加入祝福意图。",
+      "过滤后用于门口、地板、工具或空间的象征性清洁。"
+    ],
+    "usage": "用于为家庭、工作区、仪式工具或新开始带来祝福。",
+    "safety": "仅作象征性空间清洁用途，不可饮用；避免接触眼口，使用木粉或细碎材料时避免吸入。",
+    "relatedHerbs": [
+      "迷迭香",
+      "檀香",
+      "马郁兰"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-destroy-crossed-condition-wash",
+    "title": "破除交叉状态洗液",
+    "type": "洗液 / 喷雾",
+    "complexity": "Hoodoo 解厄洗液",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 102,
+    "intent": [
+      "解厄",
+      "净化",
+      "破除阻滞"
+    ],
+    "ingredients": [
+      {
+        "name": "乳香",
+        "amount": "1 份",
+        "latin": "Frankincense"
+      },
+      {
+        "name": "没药",
+        "amount": "1 份",
+        "latin": "Myrrh"
+      },
+      {
+        "name": "白芷",
+        "amount": "1 份",
+        "latin": "Angelica root"
+      },
+      {
+        "name": "清水",
+        "amount": "适量"
+      }
+    ],
+    "method": [
+      "将材料加入沸水中短暂煮出气味。",
+      "熄火加盖，静置至冷却，并在静置时专注于破除交叉状态。",
+      "过滤后作为门口、地板或空间喷雾使用。"
+    ],
+    "usage": "用于清除被阻滞、被干扰或不顺状态的空间净化。",
+    "safety": "仅作象征性空间清洁用途，不可饮用；树脂与根类材料可能刺激皮肤，避免儿童和宠物误食。",
+    "relatedHerbs": [
+      "乳香",
+      "没药",
+      "白芷"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-money-drawing-powder-2",
+    "title": "招财粉 2",
+    "type": "魔法粉",
+    "complexity": "Hoodoo 粉",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 102,
+    "intent": [
+      "金钱",
+      "吸引",
+      "繁荣"
+    ],
+    "ingredients": [
+      {
+        "name": "纸钞灰",
+        "amount": "1 份",
+        "latin": "Money burned to ash"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1 份",
+        "latin": "Cinnamon"
+      },
+      {
+        "name": "磁砂",
+        "amount": "1 份",
+        "latin": "Magnetic sand"
+      }
+    ],
+    "method": [
+      "将纸钞灰、肉桂与磁砂混合。",
+      "研至适合撒用的细度，并以招财意图或祈祷赋能。",
+      "少量用于门口、工作区或招财蜡烛周围。"
+    ],
+    "usage": "用于吸引金钱、商业机会和物质资源。",
+    "safety": "避免吸入粉末；含灰烬与磁砂，仅作象征性撒粉或蜡烛周边使用，远离儿童和宠物。",
+    "relatedHerbs": [
+      "肉桂"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-money-drawing-powder-3",
+    "title": "招财粉 3",
+    "type": "魔法粉",
+    "complexity": "Hoodoo 粉",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 103,
+    "intent": [
+      "金钱",
+      "吸引",
+      "繁荣"
+    ],
+    "ingredients": [
+      {
+        "name": "纸钞碎片灰",
+        "amount": "1 份",
+        "latin": "Shredded money burned to ash"
+      },
+      {
+        "name": "盐",
+        "amount": "1 份"
+      },
+      {
+        "name": "月桂叶",
+        "amount": "1 份",
+        "latin": "Bay leaves"
+      }
+    ],
+    "method": [
+      "将月桂叶研细，与纸钞灰和盐混合。",
+      "以金钱与繁荣意图为粉末赋能。",
+      "少量用于门口、钱包附近、工作区或招财仪式中。"
+    ],
+    "usage": "用于吸引金钱并稳定资源流动。",
+    "safety": "避免吸入粉末；含灰烬和盐，仅作象征性撒粉使用，不可食用。",
+    "relatedHerbs": [
+      "月桂叶"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-love-powder-2",
+    "title": "爱情粉 2",
+    "type": "魔法粉",
+    "complexity": "Hoodoo 粉",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 103,
+    "intent": [
+      "爱情",
+      "吸引",
+      "亲密关系"
+    ],
+    "ingredients": [
+      {
+        "name": "猫薄荷",
+        "amount": "1 份",
+        "latin": "Catnip"
+      },
+      {
+        "name": "玫瑰",
+        "amount": "1 份",
+        "latin": "Rose"
+      },
+      {
+        "name": "泥蜂巢",
+        "amount": "1 份",
+        "latin": "Dirt dauber nest"
+      }
+    ],
+    "method": [
+      "将猫薄荷、玫瑰和泥蜂巢分别研细。",
+      "混合后以爱情、吸引或关系柔和为意图赋能。",
+      "少量用于爱情仪式空间、香包或蜡烛周围。"
+    ],
+    "usage": "用于爱情吸引、温柔互动和关系亲近。",
+    "safety": "避免吸入粉末；泥蜂巢需确认清洁且无虫卵残留，仅作象征性材料使用，远离儿童和宠物。",
+    "relatedHerbs": [
+      "猫薄荷",
+      "玫瑰"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-peaceful-home-powder",
+    "title": "平安家庭粉",
+    "type": "魔法粉",
+    "complexity": "Hoodoo 粉",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 104,
+    "intent": [
+      "家庭",
+      "平安",
+      "和谐"
+    ],
+    "ingredients": [
+      {
+        "name": "熏衣草",
+        "amount": "1 份",
+        "latin": "Lavender"
+      },
+      {
+        "name": "罗勒",
+        "amount": "1 份",
+        "latin": "Basil"
+      },
+      {
+        "name": "月桂叶",
+        "amount": "1 份",
+        "latin": "Bay leaf"
+      }
+    ],
+    "method": [
+      "将熏衣草、罗勒与月桂叶研细。",
+      "混合均匀，并以家庭平安、和谐与安定为意图赋能。",
+      "少量撒在家中合适位置，或用于家庭平安香包。"
+    ],
+    "usage": "用于安抚家庭气氛、减少争执并维持家宅和谐。",
+    "safety": "避免吸入粉末；仅作象征性撒粉或香包使用，远离儿童和宠物。",
+    "relatedHerbs": [
+      "熏衣草",
+      "罗勒",
+      "月桂叶"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-protection-powder",
+    "title": "保护粉",
+    "type": "魔法粉",
+    "complexity": "Hoodoo 粉",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 104,
+    "intent": [
+      "保护",
+      "家宅守护",
+      "净化"
+    ],
+    "ingredients": [
+      {
+        "name": "教堂土",
+        "amount": "1 份",
+        "latin": "Dirt from a church"
+      },
+      {
+        "name": "芸香",
+        "amount": "1 份",
+        "latin": "Rue"
+      },
+      {
+        "name": "罗马洋甘菊",
+        "amount": "1 份",
+        "latin": "Chamomile",
+        "note": "对应原文 Chamomile。"
+      }
+    ],
+    "method": [
+      "将教堂土、芸香与罗马洋甘菊混合。",
+      "研至适合撒用的细度，并以保护与家宅守护意图赋能。",
+      "少量用于门口、窗边、护符或保护蜡烛周围。"
+    ],
+    "usage": "用于家宅保护、空间守护和防护边界。",
+    "safety": "避免吸入粉末；芸香可能刺激皮肤，孕期避免使用；含土壤材料，仅作象征性撒粉使用，远离儿童和宠物。",
+    "relatedHerbs": [
+      "芸香",
+      "罗马洋甘菊"
+    ]
   }
 ]
