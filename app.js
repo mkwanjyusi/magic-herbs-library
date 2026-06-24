@@ -2,12 +2,23 @@ const HERBS = Array.isArray(window.__HERBS) ? window.__HERBS : [];
 const TAXONOMY = window.__TAXONOMY || {};
 const RECIPES = Array.isArray(window.__RECIPES) ? window.__RECIPES : [];
 const MASTERBOOK_DETAILS = window.__MASTERBOOK_DETAILS || {};
+const HERB_STATUS = window.__HERB_STATUS || {};
 const HERB_IMAGES = window.__HERB_IMAGES || {};
 const app = document.querySelector("#app");
 
 HERBS.forEach(herb => {
   if (!herb.beyerl && MASTERBOOK_DETAILS[herb.name]) herb.beyerl = MASTERBOOK_DETAILS[herb.name];
 });
+
+function statusForHerb(herb) {
+  return HERB_STATUS.entries?.[herb.name] || {};
+}
+
+function isVisibleHerb(herb) {
+  return statusForHerb(herb).hidden !== true;
+}
+
+const VISIBLE_HERBS = HERBS.filter(isVisibleHerb);
 
 const state = {
   view: "home",
@@ -30,6 +41,7 @@ let searchComposing = false;
 const elements = { "火": "#c2604a", "水": "#5f82b0", "风": "#6f9e78", "土": "#a6824f", "未知": "#9a93a6" };
 const planets = { "太阳": "☉", "月亮": "☽", "水星": "☿", "金星": "♀", "火星": "♂", "木星": "♃", "土星": "♄", "未知": "·" };
 const genders = { "阳性": "☉", "阴性": "☾", "未知": "·" };
+const LOW_PRIORITY_RECIPE_BOOK = "草药魔法：魔法粉配方";
 const powerCats = [
   { key: "保护", label: "保护 · 辟邪", hue: "#b5503c", match: ["保护", "辟邪", "防护", "护身", "守护"] },
   { key: "爱情", label: "爱情 · 吸引", hue: "#c07a86", match: ["爱情", "吸引", "恋", "情侣", "婚", "倾慕", "爱"] },
@@ -76,7 +88,7 @@ function goBack() {
 }
 
 function countBy(fn) {
-  return HERBS.filter(fn).length;
+  return VISIBLE_HERBS.filter(fn).length;
 }
 
 function catFor(key) {
@@ -140,7 +152,20 @@ function recipeMatchesHerb(recipe, herb) {
 }
 
 function recipesForHerb(herb) {
-  return RECIPES.filter(recipe => recipeMatchesHerb(recipe, herb));
+  return sortedRecipes(RECIPES.filter(recipe => recipeMatchesHerb(recipe, herb)));
+}
+
+function recipeSortWeight(recipe) {
+  return recipe.source_book === LOW_PRIORITY_RECIPE_BOOK ? 100 : 0;
+}
+
+function sortedRecipes(recipes) {
+  return [...recipes].sort((a, b) =>
+    recipeSortWeight(a) - recipeSortWeight(b) ||
+    String(a.source_book || "").localeCompare(String(b.source_book || ""), "zh-Hans-CN") ||
+    Number(a.source_page || 0) - Number(b.source_page || 0) ||
+    String(a.title || "").localeCompare(String(b.title || ""), "zh-Hans-CN")
+  );
 }
 
 function taxonomyRows(herb) {
@@ -278,7 +303,7 @@ function beyerlSections(herb) {
 }
 
 function filteredHerbs() {
-  let list = HERBS;
+  let list = VISIBLE_HERBS;
   if (state.filter) {
     const { type, value } = state.filter;
     if (type === "power") list = list.filter(h => matchesCat(h, catFor(value)));
@@ -387,7 +412,7 @@ function homeDrawer() {
       const count = RECIPES.filter(r => (r.intent || []).includes(intent)).length;
       return { title: `${intent}配方`, meta: `${count} 个`, filter: { type: "intent", value: intent, label: `${intent}配方` } };
     });
-    const typeCards = [...new Set(RECIPES.map(r => r.type))].map(type => ({
+    const typeCards = [...new Set(sortedRecipes(RECIPES).map(r => r.type))].map(type => ({
       title: type,
       meta: `${RECIPES.filter(r => r.type === type).length} 个`,
       filter: { type: "type", value: type, label: type }
@@ -462,7 +487,7 @@ function home() {
               <button class="secondary" data-action="home-section" data-section="purpose">按用途查找</button>
               <button class="secondary" data-action="home-section" data-section="ritual">仪式配方</button>
             </div>
-            <div class="countline">书中已收录 <strong>${HERBS.length}</strong> 项草药、材料，正在继续补充书籍资料</div>
+            <div class="countline">当前资料库显示 <strong>${VISIBLE_HERBS.length}</strong> 项草药、材料，正在继续补充书籍资料</div>
           </section>
           <aside class="hero-panel">
             <div class="gateway-grid">${gatewayCards}</div>
@@ -527,13 +552,13 @@ function recipeCard(recipe) {
 }
 
 function recipesView() {
-  const list = state.recipeFilter
+  const list = sortedRecipes(state.recipeFilter
     ? RECIPES.filter(recipe => {
       if (state.recipeFilter.type === "type") return recipe.type === state.recipeFilter.value;
       if (state.recipeFilter.type === "intent") return (recipe.intent || []).includes(state.recipeFilter.value);
       return true;
     })
-    : RECIPES;
+    : RECIPES);
   const title = state.recipeFilter ? state.recipeFilter.label : "复杂配方";
   return `
     ${topbar("/ 复杂配方")}
@@ -585,7 +610,7 @@ function recipeDetail() {
       <section class="detail-section">
         <h2>相关草药</h2>
         <div class="chips">${recipe.relatedHerbs.map(name => {
-          const herb = HERBS.find(h => h.name === name || h.name.includes(name) || name.includes(h.name));
+          const herb = VISIBLE_HERBS.find(h => h.name === name || h.name.includes(name) || name.includes(h.name));
           return herb ? `<button class="chip" data-action="open" data-id="${herb.id}">${disc(herb.element, elements[herb.element] || elements["未知"])}${esc(herb.name)}</button>` : `<span class="chip">${esc(name)}</span>`;
         }).join("")}</div>
       </section>
@@ -629,12 +654,12 @@ function browse() {
 }
 
 function nameDirectory() {
-  const letters = [...new Set(HERBS.map(h => h.initial))].sort();
+  const letters = [...new Set(VISIBLE_HERBS.map(h => h.initial))].sort();
   const current = state.initial;
   const buttons = ["all", ...letters].map(L => `
     <button class="letter ${current === L ? "active" : ""}" data-action="letter" data-letter="${L}">${L === "all" ? "全部" : L}</button>
   `).join("");
-  const shown = current === "all" ? HERBS : HERBS.filter(h => h.initial === current);
+  const shown = current === "all" ? VISIBLE_HERBS : VISIBLE_HERBS.filter(h => h.initial === current);
   const grouped = shown.reduce((map, herb) => {
     (map[herb.initial] ||= []).push(herb);
     return map;
@@ -654,17 +679,17 @@ function nameDirectory() {
 }
 
 function detail() {
-  const herb = decorate(HERBS.find(h => h.id === state.currentId) || HERBS[0]);
+  const herb = decorate(VISIBLE_HERBS.find(h => h.id === state.currentId) || VISIBLE_HERBS[0] || HERBS[0]);
   const image = imageForHerb(herb);
-  const index = HERBS.findIndex(h => h.id === herb.id);
-  const prev = HERBS[(index - 1 + HERBS.length) % HERBS.length];
-  const next = HERBS[(index + 1) % HERBS.length];
+  const index = VISIBLE_HERBS.findIndex(h => h.id === herb.id);
+  const prev = VISIBLE_HERBS[(index - 1 + VISIBLE_HERBS.length) % VISIBLE_HERBS.length];
+  const next = VISIBLE_HERBS[(index + 1) % VISIBLE_HERBS.length];
   const bookUses = (herb.usage_examples || []).map(item => {
     const formula = item.formula ? ` 配方：${item.formula}` : "";
     return `${item.title ? item.title + "：" : ""}${item.method || ""}${formula}`;
   });
   const uses = bookUses.slice(0, 7);
-  const related = HERBS
+  const related = VISIBLE_HERBS
     .filter(h => h.id !== herb.id && (h.powers.some(p => herb.powers.slice(0, 4).includes(p)) || h.element === herb.element))
     .slice(0, 6);
   const relatedRecipes = recipesForHerb(herb);
@@ -711,7 +736,7 @@ function detail() {
 }
 
 function render() {
-  if (!HERBS.length) {
+  if (!VISIBLE_HERBS.length) {
     app.innerHTML = `<div class="empty"><strong>没有读取到草药数据</strong><span>请确认原始设计包仍在当前文件夹中。</span></div>`;
     return;
   }
