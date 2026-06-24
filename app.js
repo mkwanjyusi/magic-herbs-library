@@ -581,9 +581,11 @@ function contactModal() {
 }
 
 function recipeCard(recipe) {
+  const highRisk = recipe.risk_level === "high";
   return `
-    <button class="recipe-card" data-action="open-recipe" data-id="${esc(recipe.id)}">
+    <button class="recipe-card${highRisk ? " high-risk" : ""}" data-action="open-recipe" data-id="${esc(recipe.id)}">
       <span class="recipe-type">${escDisplay(recipe.type)} · ${escDisplay(recipe.complexity)}</span>
+      ${highRisk ? `<span class="risk-badge">高风险</span>` : ""}
       <strong>${escDisplay(recipe.title)}</strong>
       <small>${escDisplay(recipe.source_book)} p.${escDisplay(recipe.source_page)}</small>
       <span class="tags">${recipe.intent.slice(0, 4).map(x => `<span class="tag">${escDisplay(x)}</span>`).join("")}</span>
@@ -616,6 +618,7 @@ function recipesView() {
 function recipeDetail() {
   const recipe = RECIPES.find(r => r.id === state.currentRecipeId) || RECIPES[0];
   if (!recipe) return recipesView();
+  const highRisk = recipe.risk_level === "high";
   return `
     ${topbar("/ 配方")}
     <section class="wrap recipe-detail">
@@ -633,6 +636,7 @@ function recipeDetail() {
           <span>p.${escDisplay(recipe.source_page)}</span>
         </aside>
       </div>
+      ${highRisk ? `<section class="risk-card"><strong>高风险资料整理</strong><p>${escDisplay(recipe.risk_note || "此条目涉及强控制、驱逐、报复、束缚、羞辱或医疗风险内容，仅作民俗资料整理；不建议直接照做，需遵守法律、伦理与现实安全边界。")}</p></section>` : ""}
       <div class="recipe-columns">
         <section>
           <h2>材料</h2>

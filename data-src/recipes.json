@@ -5894,5 +5894,782 @@
       "芸香",
       "罗马洋甘菊"
     ]
+  },
+  {
+    "id": "hoodoo-herbal-money-drawing-candle",
+    "title": "招财蜡烛",
+    "type": "蜡烛仪式",
+    "complexity": "Hoodoo 蜡烛施作",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 78,
+    "intent": [
+      "金钱",
+      "吸引",
+      "繁荣"
+    ],
+    "ingredients": [
+      {
+        "name": "棒形蜡烛",
+        "amount": "1 支"
+      },
+      {
+        "name": "肉桂",
+        "amount": "少量粉末",
+        "latin": "Cinnamon"
+      },
+      {
+        "name": "糖",
+        "amount": "少量"
+      },
+      {
+        "name": "请愿纸灰",
+        "amount": "少量"
+      }
+    ],
+    "method": [
+      "将请愿纸烧成灰，与肉桂和糖混合。",
+      "在蜡烛上写下自己的名字，并朝向自身方向涂油。",
+      "将蜡烛朝向自身方向滚过粉末，点燃后专注于招财意图。",
+      "蜡烛燃尽后，将残蜡以象征招来的方向处理；可连续数日重复。"
+    ],
+    "usage": "用于吸引金钱、资源和生意机会。",
+    "safety": "涉及明火，必须使用耐热烛台并全程看守；粉末避免吸入，残蜡处理需遵守当地规则。",
+    "relatedHerbs": [
+      "肉桂"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-blessing-candle-work",
+    "title": "祝福蜡烛仪式",
+    "type": "蜡烛仪式",
+    "complexity": "Hoodoo 祝福施作",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 84,
+    "intent": [
+      "祝福",
+      "好运",
+      "平安"
+    ],
+    "ingredients": [
+      {
+        "name": "蓝色蜡烛",
+        "amount": "1 支"
+      },
+      {
+        "name": "橄榄油",
+        "amount": "少量",
+        "latin": "Olive oil"
+      }
+    ],
+    "method": [
+      "在蓝色蜡烛上写下自己的名字或请愿。",
+      "用已祈祷或赋能的橄榄油涂抹蜡烛。",
+      "点燃蜡烛，连续每日对其进行祝福祈祷，直到蜡烛燃尽。"
+    ],
+    "usage": "用于在不顺、低迷或需要支持时请求祝福与守护。",
+    "safety": "涉及明火，必须使用耐热烛台并全程看守；橄榄油只用于少量涂抹蜡烛外侧。",
+    "relatedHerbs": [
+      "橄榄"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-draw-a-blessing",
+    "title": "引来祝福仪式",
+    "type": "蜡烛仪式",
+    "complexity": "Hoodoo 祝福施作",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 84,
+    "intent": [
+      "祝福",
+      "好运",
+      "吸引"
+    ],
+    "ingredients": [
+      {
+        "name": "白碗",
+        "amount": "1 个"
+      },
+      {
+        "name": "蓝色蜡烛",
+        "amount": "1 支"
+      },
+      {
+        "name": "芫荽籽",
+        "amount": "少量",
+        "latin": "Coriander seed"
+      },
+      {
+        "name": "橄榄油",
+        "amount": "少量",
+        "latin": "Olive oil"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "少量"
+      }
+    ],
+    "method": [
+      "将蓝色蜡烛固定在白碗中央，并在蜡烛上写下请愿。",
+      "在蜡烛周围撒少量芫荽籽、橄榄油和蜂蜜。",
+      "点燃蜡烛，并每日以祝福意图进行祈祷，直到蜡烛燃尽。"
+    ],
+    "usage": "用于吸引祝福、恢复顺遂与获得支持。",
+    "safety": "涉及明火和蜂蜜/油类材料，必须使用耐热容器并全程看守；避免让油和蜂蜜接触火焰。",
+    "relatedHerbs": [
+      "芫荽",
+      "橄榄"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-blessing-candle",
+    "title": "蓝烛祝福仪式",
+    "type": "蜡烛仪式",
+    "complexity": "Hoodoo 祝福施作",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 85,
+    "intent": [
+      "祝福",
+      "平安",
+      "支持"
+    ],
+    "ingredients": [
+      {
+        "name": "蓝色蜡烛",
+        "amount": "1 支"
+      },
+      {
+        "name": "橄榄油",
+        "amount": "少量",
+        "latin": "Olive oil"
+      }
+    ],
+    "method": [
+      "在蓝色蜡烛上写下自己的名字或请愿。",
+      "以橄榄油少量涂抹蜡烛。",
+      "点燃蜡烛，并每日以祝福与平安为意图进行祈祷，直到蜡烛燃尽。"
+    ],
+    "usage": "用于向自己、家庭或当前处境引入祝福。",
+    "safety": "涉及明火，必须使用耐热烛台并全程看守；油量不可过多。",
+    "relatedHerbs": [
+      "橄榄"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-protection-barrier-candle",
+    "title": "保护屏障蜡烛",
+    "type": "蜡烛仪式",
+    "complexity": "Hoodoo 保护施作",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 89,
+    "intent": [
+      "保护",
+      "边界",
+      "隔离"
+    ],
+    "ingredients": [
+      {
+        "name": "白色玻璃蜡烛",
+        "amount": "1 支"
+      },
+      {
+        "name": "橄榄油",
+        "amount": "少量",
+        "latin": "Olive oil"
+      }
+    ],
+    "method": [
+      "在蜡烛一侧写下自己的名字，另一侧写下需要保持距离的人或状况。",
+      "以少量橄榄油涂抹蜡烛。",
+      "点燃蜡烛，并每日以边界、保护和互不伤害为意图进行祈祷。"
+    ],
+    "usage": "用于与特定人、状况或压力源建立保护边界。",
+    "safety": "涉及明火，必须使用耐热烛台并全程看守；此条目仅作象征性边界仪式，不替代现实中的安全措施。",
+    "relatedHerbs": [
+      "橄榄"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-red-protection-candle",
+    "title": "红烛保护仪式",
+    "type": "蜡烛仪式",
+    "complexity": "Hoodoo 保护施作",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 90,
+    "intent": [
+      "保护",
+      "勇气",
+      "守护"
+    ],
+    "ingredients": [
+      {
+        "name": "红色蜡烛",
+        "amount": "1 支"
+      },
+      {
+        "name": "橄榄油",
+        "amount": "少量",
+        "latin": "Olive oil"
+      }
+    ],
+    "method": [
+      "在红色蜡烛上写下自己的名字或保护请愿。",
+      "用橄榄油少量涂抹蜡烛。",
+      "点燃蜡烛，并连续数日以保护、勇气和驱散威胁为意图进行祈祷。"
+    ],
+    "usage": "用于个人保护、家宅守护和面对压力时的精神支持。",
+    "safety": "涉及明火，必须使用耐热烛台并全程看守；不替代报警、求助或现实保护措施。",
+    "relatedHerbs": [
+      "橄榄"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-victory-candle",
+    "title": "胜利仪式",
+    "type": "蜡烛仪式",
+    "complexity": "Hoodoo 胜利施作",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 93,
+    "intent": [
+      "胜利",
+      "保护",
+      "突破"
+    ],
+    "ingredients": [
+      {
+        "name": "紫色蜡烛",
+        "amount": "1 支"
+      },
+      {
+        "name": "橄榄油",
+        "amount": "少量",
+        "latin": "Olive oil"
+      }
+    ],
+    "method": [
+      "以少量橄榄油涂抹紫色蜡烛。",
+      "点燃蜡烛，并以胜过阻碍、脱离压迫或获得正当胜利为意图进行祈祷。",
+      "每日重复，直到蜡烛燃尽；原书建议至少持续七日。"
+    ],
+    "usage": "用于面对竞争、压迫或困境时请求胜利与突破。",
+    "safety": "涉及明火，必须使用耐热烛台并全程看守；涉及他人冲突时应优先选择合法、现实和非伤害性的解决方式。",
+    "relatedHerbs": [
+      "橄榄"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-crown-of-success-candle",
+    "title": "成功之冠蜡烛",
+    "type": "蜡烛仪式",
+    "complexity": "Hoodoo 成功施作",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 99,
+    "intent": [
+      "成功",
+      "繁荣",
+      "勇气"
+    ],
+    "ingredients": [
+      {
+        "name": "橙色玻璃蜡烛",
+        "amount": "1 支"
+      },
+      {
+        "name": "芫荽籽",
+        "amount": "一撮",
+        "latin": "Coriander seed"
+      },
+      {
+        "name": "请愿纸灰",
+        "amount": "少量"
+      }
+    ],
+    "method": [
+      "将请愿纸烧成灰，与少量芫荽籽混合。",
+      "在橙色蜡烛上写下自己的名字，并将混合物装入蜡烛开孔或安全的蜡烛周边。",
+      "点燃蜡烛，并以成功、勇气和繁荣为意图持续祈祷，直到蜡烛燃尽。"
+    ],
+    "usage": "用于事业、学习、目标达成和个人成功。",
+    "safety": "涉及明火和灰烬，必须使用耐热容器并全程看守；不要让纸灰或种子直接接触火焰造成飞散。",
+    "relatedHerbs": [
+      "芫荽"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-st-peter-cactus-protection",
+    "title": "圣彼得仙人掌守护",
+    "type": "植物仪式",
+    "complexity": "Hoodoo 植物施作",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 119,
+    "intent": [
+      "保护",
+      "家宅守护",
+      "开路"
+    ],
+    "ingredients": [
+      {
+        "name": "仙人掌",
+        "amount": "1 株",
+        "latin": "Cactus"
+      },
+      {
+        "name": "花盆",
+        "amount": "1 个"
+      },
+      {
+        "name": "盆土、沙与小石子",
+        "amount": "适量"
+      },
+      {
+        "name": "家门照片或家庭照片",
+        "amount": "可选"
+      }
+    ],
+    "method": [
+      "将盆土、沙与小石子混合，准备适合仙人掌的排水环境。",
+      "在盆底放入家门或家庭照片，并以少量土覆盖。",
+      "移入仙人掌，并以圣彼得守护、开路和保护家宅为意图照护植物。",
+      "将植物放在门口或能接受阳光的位置，持续照看。"
+    ],
+    "usage": "用于家宅保护、道路开启和门口守护。",
+    "safety": "仙人掌有刺，移栽时戴手套；植物仪式不替代现实安全措施，避免让儿童和宠物接触尖刺。",
+    "relatedHerbs": [
+      "仙人掌"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-aloe-prosperity-plant",
+    "title": "芦荟丰盛仪式",
+    "type": "植物仪式",
+    "complexity": "Hoodoo 植物施作",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 121,
+    "intent": [
+      "繁荣",
+      "金钱",
+      "家庭"
+    ],
+    "ingredients": [
+      {
+        "name": "芦荟",
+        "amount": "1 株",
+        "latin": "Aloe vera"
+      },
+      {
+        "name": "家门照片",
+        "amount": "1 张"
+      },
+      {
+        "name": "四角土与门口土",
+        "amount": "少量"
+      },
+      {
+        "name": "硬币",
+        "amount": "3 枚"
+      },
+      {
+        "name": "盆土与花盆",
+        "amount": "适量"
+      }
+    ],
+    "method": [
+      "将家宅四角和门口土与盆土混合。",
+      "在盆底放入家门照片并覆盖一层土。",
+      "握住芦荟根部说出繁荣请愿，可将硬币轻放在根部附近。",
+      "栽入芦荟，浇水并持续照护；原书强调植物越健康，施作越稳定。"
+    ],
+    "usage": "用于吸引家庭繁荣、金钱流入和物质稳定。",
+    "safety": "芦荟外用/食用安全性因品种和体质不同而异；此处仅作植物仪式资料整理，不作食用或医疗建议。",
+    "relatedHerbs": [
+      "芦荟"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-easter-lily-love-return",
+    "title": "百合爱情复苏仪式",
+    "type": "植物仪式",
+    "complexity": "Hoodoo 植物施作",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 129,
+    "intent": [
+      "爱情",
+      "复合",
+      "关系修复"
+    ],
+    "ingredients": [
+      {
+        "name": "百合",
+        "amount": "1 株",
+        "latin": "Easter lily"
+      },
+      {
+        "name": "新花盆与盆土",
+        "amount": "适量"
+      },
+      {
+        "name": "伴侣合照",
+        "amount": "1 张"
+      },
+      {
+        "name": "代表双方的蜡烛",
+        "amount": "2 支"
+      }
+    ],
+    "method": [
+      "在合照外画心形和圆圈，将照片放在花盆底部并覆土。",
+      "栽入百合并覆盖根部。",
+      "将两支代表双方的蜡烛置于植物两侧，每日逐渐移近，直到相触。",
+      "蜡烛燃尽后，将百合放在门口附近并持续照护。"
+    ],
+    "usage": "用于象征性地复苏冷淡关系、召回离开的爱意或进行关系修复。",
+    "safety": "百合对猫高度危险，家中有猫时不要摆放；涉及关系议题时应尊重对方意愿和现实边界。",
+    "relatedHerbs": [
+      "百合"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-morning-glory-prosperity",
+    "title": "牵牛花繁荣仪式",
+    "type": "植物仪式",
+    "complexity": "Hoodoo 植物施作",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 147,
+    "intent": [
+      "繁荣",
+      "祝福",
+      "家宅"
+    ],
+    "ingredients": [
+      {
+        "name": "牵牛花",
+        "amount": "1 株",
+        "latin": "Morning glory"
+      },
+      {
+        "name": "洁净花盆",
+        "amount": "1 个"
+      },
+      {
+        "name": "门口土与盆土",
+        "amount": "适量"
+      },
+      {
+        "name": "请愿纸",
+        "amount": "1 张"
+      }
+    ],
+    "method": [
+      "将前后门口两侧的少量土与盆土混合。",
+      "在花盆底部铺一层土，放入请愿纸后再覆土。",
+      "移栽牵牛花，并以繁荣、祝福和家宅兴旺为意图照护。",
+      "放在朝东或日出方向附近，每周浇水时重复祝福意图。"
+    ],
+    "usage": "用于吸引家庭繁荣、祝福和持续增长的好运。",
+    "safety": "牵牛花种子可能有毒，避免儿童和宠物误食；植物仪式不作食用建议。",
+    "relatedHerbs": [
+      "牵牛花"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-moss-protection-packet",
+    "title": "苔藓保护包",
+    "type": "香包 / 护身符",
+    "complexity": "Hoodoo 植物护符",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 149,
+    "intent": [
+      "保护",
+      "隐藏",
+      "守护"
+    ],
+    "ingredients": [
+      {
+        "name": "苔藓",
+        "amount": "覆盖护符",
+        "latin": "Moss"
+      },
+      {
+        "name": "棉花",
+        "amount": "少量",
+        "latin": "Cotton"
+      },
+      {
+        "name": "红色法兰绒",
+        "amount": "小方布"
+      },
+      {
+        "name": "照片或姓名纸",
+        "amount": "1 份"
+      },
+      {
+        "name": "红棉线",
+        "amount": "1 段"
+      },
+      {
+        "name": "茶蜡",
+        "amount": "若干"
+      }
+    ],
+    "method": [
+      "将照片或姓名纸、少量棉花等放在红布中央，折成小包。",
+      "用红棉线绑束，并以保护意图为护符赋能。",
+      "以苔藓包裹护符，使内部内容被遮蔽。",
+      "可在三角形茶蜡阵中连续数日为护符充能，之后收在安全处。"
+    ],
+    "usage": "用于个人保护、隐藏不利影响和维持守护边界。",
+    "safety": "涉及明火时必须全程看守；苔藓需保持干净干燥，避免发霉或滋生虫类。",
+    "relatedHerbs": [
+      "苔藓",
+      "棉花"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-dominating-powder",
+    "title": "支配粉",
+    "type": "魔法粉",
+    "complexity": "Hoodoo 高风险粉",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 103,
+    "risk_level": "high",
+    "risk_note": "此条目涉及强控制与支配意图，仅作民俗资料整理；不建议用于操控他人意志或侵犯他人边界。",
+    "intent": [
+      "控制",
+      "支配",
+      "约束"
+    ],
+    "ingredients": [
+      {
+        "name": "甘草",
+        "amount": "1 份",
+        "latin": "Licorice"
+      },
+      {
+        "name": "菖蒲",
+        "amount": "1 份",
+        "latin": "Calamus"
+      },
+      {
+        "name": "泥蜂巢",
+        "amount": "1 份",
+        "latin": "Dirt dauber nest"
+      }
+    ],
+    "method": [
+      "将甘草、菖蒲与泥蜂巢分别研细。",
+      "混合后以约束或控制意图赋能。",
+      "原书将其归为支配类粉末；本站仅作历史民俗资料记录。"
+    ],
+    "usage": "用于记录 Hoodoo 传统中的支配类粉末概念。",
+    "safety": "高风险资料整理；避免吸入粉末，不可食用。菖蒲有安全与法规风险，不建议实际制作或使用。",
+    "relatedHerbs": [
+      "甘草",
+      "菖蒲"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-shut-your-mouth-plant",
+    "title": "封口植物仪式",
+    "type": "植物仪式",
+    "complexity": "Hoodoo 高风险植物施作",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": "115-116",
+    "risk_level": "high",
+    "risk_note": "此条目涉及封口、压制言语和针对特定对象的攻击性意图，仅作民俗资料整理；不建议照做。",
+    "intent": [
+      "封口",
+      "控制",
+      "驱散流言"
+    ],
+    "ingredients": [
+      {
+        "name": "辣椒植株",
+        "amount": "1 株",
+        "latin": "Jalapeño or hot pepper plant"
+      },
+      {
+        "name": "柠檬",
+        "amount": "1 个",
+        "latin": "Lemon"
+      },
+      {
+        "name": "辣椒粉",
+        "amount": "少量",
+        "latin": "Red pepper"
+      },
+      {
+        "name": "目标照片或姓名纸",
+        "amount": "1 份"
+      },
+      {
+        "name": "针",
+        "amount": "4 枚"
+      },
+      {
+        "name": "花盆与盆土",
+        "amount": "适量"
+      }
+    ],
+    "method": [
+      "将目标照片或姓名纸与辣椒粉夹入切开的柠檬中，再以针固定。",
+      "将柠檬倒置埋入花盆土中。",
+      "移入辣椒植株，并以封口、停止流言或止息攻击性言语为意图命名和照护植物。",
+      "原书强调此类施作需有正当理由；本站仅作资料整理。"
+    ],
+    "usage": "用于记录传统中以辣椒和柠檬象征封口、酸化言语与压制流言的植物施作。",
+    "safety": "高风险资料整理；涉及针、辣椒刺激物和针对他人的压制意图，不建议实际操作。辣椒粉避免接触眼口和皮肤。",
+    "relatedHerbs": [
+      "辣椒",
+      "柠檬"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-bind-enemy-with-moss",
+    "title": "苔藓束缚敌人",
+    "type": "香包 / 护身符",
+    "complexity": "Hoodoo 高风险束缚施作",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 150,
+    "risk_level": "high",
+    "risk_note": "此条目涉及束缚敌人和针对特定对象的攻击性施作，仅作民俗资料整理；不建议照做。",
+    "intent": [
+      "束缚",
+      "保护",
+      "制止伤害"
+    ],
+    "ingredients": [
+      {
+        "name": "苔藓",
+        "amount": "覆盖护符",
+        "latin": "Moss"
+      },
+      {
+        "name": "棉花",
+        "amount": "少量",
+        "latin": "Cotton"
+      },
+      {
+        "name": "红色法兰绒",
+        "amount": "小方布"
+      },
+      {
+        "name": "黑棉线",
+        "amount": "1 段"
+      },
+      {
+        "name": "监狱土",
+        "amount": "少量",
+        "latin": "Dirt from a jailhouse"
+      },
+      {
+        "name": "目标照片或姓名纸",
+        "amount": "1 份"
+      },
+      {
+        "name": "黑色七日蜡烛",
+        "amount": "若干"
+      }
+    ],
+    "method": [
+      "将目标照片或姓名纸、监狱土等放在红布中央，折成小包。",
+      "以黑棉线绑束，再以苔藓覆盖并继续绑紧。",
+      "原书以黑色蜡烛十字阵为束缚施作充能；本站仅保留为民俗资料记录。"
+    ],
+    "usage": "用于记录以苔藓的缠结、隐藏和包覆象征束缚有害对象的传统施作。",
+    "safety": "高风险资料整理；涉及束缚他人和监狱土等材料，不建议实际操作。涉及明火时不可无人看守。",
+    "relatedHerbs": [
+      "苔藓",
+      "棉花"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-justice-work",
+    "title": "正义报应仪式",
+    "type": "蜡烛仪式",
+    "complexity": "Hoodoo 高风险正义施作",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 94,
+    "risk_level": "high",
+    "risk_note": "此条目涉及报应、复仇式正义和强烈对抗性意图，仅作民俗资料整理；不建议因一时情绪照做。",
+    "intent": [
+      "正义",
+      "报应",
+      "制止伤害"
+    ],
+    "ingredients": [
+      {
+        "name": "红色蜡烛",
+        "amount": "2 支"
+      },
+      {
+        "name": "紫色蜡烛",
+        "amount": "2 支"
+      },
+      {
+        "name": "黑色蜡烛",
+        "amount": "1 支"
+      },
+      {
+        "name": "橄榄油",
+        "amount": "少量",
+        "latin": "Olive oil"
+      }
+    ],
+    "method": [
+      "以红、紫蜡烛组成十字阵，中央放黑色蜡烛。",
+      "用少量橄榄油涂抹中央黑烛，并以正义而非私人报复为意图。",
+      "点燃烛阵并进行祈祷，直到蜡烛燃尽；本站仅作资料整理。"
+    ],
+    "usage": "用于记录传统中请求正义、制止伤害和追求报应的蜡烛阵。",
+    "safety": "高风险资料整理；涉及对抗、报应和多支蜡烛明火，不建议实际操作。现实纠纷应优先使用法律和安全求助渠道。",
+    "relatedHerbs": [
+      "橄榄"
+    ]
+  },
+  {
+    "id": "hoodoo-herbal-cut-n-remove-wash",
+    "title": "切断清除洗液",
+    "type": "洗液 / 喷雾",
+    "complexity": "Hoodoo 高风险清除洗液",
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "source_page": 178,
+    "risk_level": "high",
+    "risk_note": "此条目涉及强力切断、清除和破除类施作，仅作民俗资料整理；使用任何清洁混合物都需注意现实化学安全。",
+    "intent": [
+      "切断",
+      "清除",
+      "解厄"
+    ],
+    "ingredients": [
+      {
+        "name": "柠檬",
+        "amount": "1 个",
+        "latin": "Lemon"
+      },
+      {
+        "name": "酒石酸氢钾",
+        "amount": "4 汤匙",
+        "latin": "Cream of tartar"
+      },
+      {
+        "name": "苏打",
+        "amount": "4 汤匙",
+        "latin": "Soda"
+      },
+      {
+        "name": "清水",
+        "amount": "1 锅"
+      }
+    ],
+    "method": [
+      "将水加热至沸腾后关火。",
+      "加入酒石酸氢钾和苏打，逆时针搅拌后加盖冷却。",
+      "冷却后挤入柠檬汁，混合后可加入拖地水或喷瓶。",
+      "原书用于清洁家宅、门窗和院落的切断清除类施作。"
+    ],
+    "usage": "用于象征性地切断、清除不利影响和清理家宅环境。",
+    "safety": "高风险资料整理；不要与漂白剂、氨水或未知清洁剂混合。避免入口、入眼或接触敏感皮肤，远离儿童和宠物。",
+    "relatedHerbs": [
+      "柠檬"
+    ]
   }
 ]

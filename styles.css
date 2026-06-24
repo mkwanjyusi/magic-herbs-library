@@ -1027,6 +1027,24 @@ h1, h2, h3, p { margin: 0; }
   text-align: left;
 }
 .recipe-card:hover { border-color: rgba(111,79,166,.28); transform: translateY(-1px); }
+.recipe-card.high-risk {
+  border-color: rgba(193, 96, 74, .34);
+  background:
+    linear-gradient(135deg, rgba(255,255,255,.82), rgba(255,246,243,.66)),
+    radial-gradient(circle at 80% 0%, rgba(193,96,74,.12), transparent 38%);
+}
+.risk-badge {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+  border: 1px solid rgba(193, 96, 74, .42);
+  border-radius: 999px;
+  background: rgba(193, 96, 74, .1);
+  color: var(--danger);
+  padding: 5px 11px;
+  font-size: 12px;
+  font-weight: 800;
+}
 .recipe-card strong {
   display: block;
   margin: 14px 0 8px;
@@ -1078,6 +1096,25 @@ h1, h2, h3, p { margin: 0; }
 .recipe-hero aside small { color: var(--faint); }
 .recipe-hero aside strong { margin: 8px 0; font-family: "Noto Serif SC", serif; font-size: 18px; }
 .recipe-hero aside span { color: var(--accent); font-family: Spectral, serif; }
+.risk-card {
+  margin-top: 24px;
+  border: 1px solid rgba(193, 96, 74, .42);
+  border-radius: 8px;
+  background: rgba(193, 96, 74, .1);
+  color: var(--danger);
+  padding: 18px 20px;
+}
+.risk-card strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: "Noto Serif SC", serif;
+  font-size: 18px;
+}
+.risk-card p {
+  margin: 0;
+  color: var(--danger);
+  line-height: 1.8;
+}
 .recipe-columns {
   display: grid;
   grid-template-columns: 360px 1fr;
