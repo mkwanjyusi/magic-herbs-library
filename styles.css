@@ -853,7 +853,7 @@ h1, h2, h3, p { margin: 0; }
 }
 .detail-section { margin-top: 38px; }
 .core-entry { margin-top: 28px; }
-.core-entry p { margin-top: 18px; }
+.core-entry p { display: none; }
 .detail-section h2 {
   margin-bottom: 14px;
   font-family: "Noto Serif SC", serif;
