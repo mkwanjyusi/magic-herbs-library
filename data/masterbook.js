@@ -433,5 +433,43 @@ window.__MASTERBOOK_DETAILS = {
     "lore": "民俗记录中，柳树在中国为宗教草药，在欧洲神话中被视作口才之树；当代魔法中也常取其木制作魔杖。",
     "remedial": "传统药用部分记录柳树皮强茶可作收敛用途，也用于体力低弱和恢复健康；其水杨苷使它用于头痛处理。",
     "safety": "对阿司匹林敏感者、抗凝用药者、儿童发热或孕期使用都需谨慎。"
+  },
+  "欧白芷": {
+    "page": 58,
+    "source": {
+      "book": "The Master Book of Herbalism",
+      "page": 58
+    },
+    "description": "书中描述 Angelica 与欧芹近缘，不是一年生或多年生的简单类型，而是需数年从种子长成开花植株；花序呈大型球状伞形，根可用于糖果和烘焙调味，种子也用于味美思等酒类调香。",
+    "lore": "民俗记录中，Angelica 带有宗教与魔法传统；东欧市场中曾伴随古老吟唱携带这种草药，并与圣母领报、圣米迦勒、抵御邪恶和防瘟疫保护相连。",
+    "loreQuote": {
+      "text": "Angelica has a history steeped in lore, religious use, and magickal practises.",
+      "translation": "Angelica 有着浸润于民俗、宗教使用和魔法实践的历史。",
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 58
+      }
+    },
+    "remedial": "传统药用部分将其用于清理肺部、感冒、持续咳嗽、肺中痰液堆积、慢性支气管炎、肺气肿、发热性状态，以及消化不良和胃部不适。",
+    "safety": "书中特别提醒糖尿病者应避免内服 Angelica；涉及内服、孕期或女性周期相关用途时也应谨慎。"
+  },
+  "金盏花": {
+    "page": 129,
+    "source": {
+      "book": "The Master Book of Herbalism",
+      "page": 129
+    },
+    "description": "书中描述 Marigold 为强健而熟悉的一年生植物，园艺品种大小不一，花色多为金黄至深色；花朵在盛放时采集，并倒挂在温暖干燥处直到花瓣完全干燥。",
+    "lore": "民俗记录中，Marigold 是灵视草药，并属于墨西哥民俗；书中还提到它出现在爱情占卜配方中，并有雷雨时发出明亮火花的传说。",
+    "loreQuote": {
+      "text": "Marigolds are used as Visionary Herbes, and are part of the lore of Mexico.",
+      "translation": "金盏花被用作灵视草药，也是墨西哥民俗的一部分。",
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 129
+      }
+    },
+    "remedial": "传统药用部分强调其用于皮肤问题，常见于湿疹、银屑病、虫咬和伤口等草药混合配方；书中也记录其内服用于多种不适，尤其是缓和麻疹和天花并发症、帮助退热，以及用于癫痫和轻度心脏疾病的传统用法。",
+    "safety": "书中未列出特别禁忌；菊科过敏、皮肤敏感或内服场景应谨慎。"
   }
 };
