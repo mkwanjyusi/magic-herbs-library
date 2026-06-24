@@ -874,6 +874,7 @@ h1, h2, h3, p { margin: 0; }
   vertical-align: baseline;
   color: var(--accent);
   font-size: 12px;
+  white-space: nowrap;
 }
 .source-ref summary {
   display: inline-flex;
@@ -898,6 +899,7 @@ h1, h2, h3, p { margin: 0; }
   right: 0;
   top: calc(100% + 7px);
   min-width: 260px;
+  max-width: min(320px, calc(100vw - 32px));
   border: 1px solid var(--line);
   border-radius: 6px;
   background: var(--paper);
@@ -905,6 +907,7 @@ h1, h2, h3, p { margin: 0; }
   color: var(--ink);
   padding: 10px 12px;
   line-height: 1.55;
+  white-space: normal;
 }
 .source-ref i {
   display: block;
@@ -912,6 +915,12 @@ h1, h2, h3, p { margin: 0; }
   color: var(--ink);
   font-family: Spectral, serif;
   font-style: italic;
+}
+@media (max-width: 640px) {
+  .source-ref span {
+    left: 0;
+    right: auto;
+  }
 }
 .magic-row {
   display: flex;

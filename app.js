@@ -2,12 +2,34 @@ const HERBS = Array.isArray(window.__HERBS) ? window.__HERBS : [];
 const TAXONOMY = window.__TAXONOMY || {};
 const RECIPES = Array.isArray(window.__RECIPES) ? window.__RECIPES : [];
 const MASTERBOOK_DETAILS = window.__MASTERBOOK_DETAILS || {};
+const MAGICAL_HERBALISM_DETAILS = window.__MAGICAL_HERBALISM_DETAILS || {};
 const HERB_STATUS = window.__HERB_STATUS || {};
 const HERB_IMAGES = window.__HERB_IMAGES || {};
 const app = document.querySelector("#app");
 
 HERBS.forEach(herb => {
   if (!herb.beyerl && MASTERBOOK_DETAILS[herb.name]) herb.beyerl = MASTERBOOK_DETAILS[herb.name];
+  const cunningham = MAGICAL_HERBALISM_DETAILS[herb.name];
+  if (cunningham) {
+    herb.cunningham = cunningham;
+    herb.englishName ||= cunningham.englishName;
+    herb.gender = cunningham.gender || herb.gender;
+    herb.planet = cunningham.planet || herb.planet;
+    herb.element = cunningham.element || herb.element;
+    if (Array.isArray(cunningham.powers) && cunningham.powers.length) {
+      herb.powers = cunningham.powers;
+      herb.effect = cunningham.effect || cunningham.powers.join("，");
+    }
+    if (cunningham.specificUses) {
+      herb.usage_examples = [
+        ...(herb.usage_examples || []),
+        {
+          title: "Cunningham 具体用法",
+          method: cunningham.specificUses
+        }
+      ];
+    }
+  }
 });
 
 function statusForHerb(herb) {
@@ -337,7 +359,6 @@ function topbar(detail = "") {
     <div class="wrap">
       <div class="topbar">
         <button class="brand" data-action="home">灵草志</button>
-        <button class="toplink" data-action="recipes">复杂配方</button>
         <button class="contact-mini" data-action="contact">联系我们</button>
         ${detail ? `<small>${detail}</small>` : searchBox(true)}
       </div>
