@@ -1,0 +1,25 @@
+{
+  "id": "powder-example-name",
+  "title": "示例配方名",
+  "type": "魔法粉",
+  "complexity": "复方粉",
+  "source_book": "草药魔法：魔法粉配方",
+  "source_page": 58,
+  "intent": ["保护", "净化"],
+  "ingredients": [
+    {
+      "name": "草药名",
+      "amount": "1 份",
+      "latin": "English name",
+      "note": "可选备注"
+    }
+  ],
+  "method": [
+    "将干燥材料研细。",
+    "按比例混合均匀。",
+    "按原书语境整理使用方式。"
+  ],
+  "usage": "一句话说明这个配方适合什么意图。",
+  "safety": "避免吸入粉末；不要用于破损皮肤。含刺激性材料、精油或香料的配方需先做小范围测试，远离儿童和宠物。",
+  "relatedHerbs": ["草药名"]
+}
