@@ -5721,5 +5721,488 @@ window.__HERBS = [
         "note": "原条目名「孜然【小茴香】」按清理指南改为「孜然」；Fennel/小茴香内容归「茴香」。"
       }
     ]
+  },
+  {
+    "id": 236,
+    "name": "高约翰根",
+    "gender": "阳性",
+    "element": "火",
+    "planet": "木星",
+    "effect": "力量，成功，金钱，突破，开路",
+    "powers": [
+      "力量",
+      "成功",
+      "金钱",
+      "突破",
+      "开路"
+    ],
+    "toxic": false,
+    "initial": "G",
+    "pinyin": "gao yue han gen",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "为后续筛选出的 Hoodoo Herbal 配方补建可见条目；属性为保守整理，后续可细化。"
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "name": "林中之主",
+    "gender": "未知",
+    "element": "土",
+    "planet": "未知",
+    "effect": "力量，保护，掌控，稳固，疗愈",
+    "powers": [
+      "力量",
+      "保护",
+      "掌控",
+      "稳固",
+      "疗愈"
+    ],
+    "toxic": false,
+    "initial": "L",
+    "pinyin": "lin zhong zhi zhu",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Master of the Woods；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "name": "主宰根",
+    "gender": "阳性",
+    "element": "火",
+    "planet": "太阳",
+    "effect": "掌控，力量，成功，支配，权威",
+    "powers": [
+      "掌控",
+      "力量",
+      "成功",
+      "支配",
+      "权威"
+    ],
+    "toxic": false,
+    "initial": "Z",
+    "pinyin": "zhu zai gen",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Master Root；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "name": "独活草",
+    "gender": "阳性",
+    "element": "火",
+    "planet": "太阳",
+    "effect": "爱情，吸引，净化，保护",
+    "powers": [
+      "爱情",
+      "吸引",
+      "净化",
+      "保护"
+    ],
+    "toxic": false,
+    "initial": "D",
+    "pinyin": "du huo cao",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Lovage；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "name": "檫木",
+    "gender": "阳性",
+    "element": "火",
+    "planet": "木星",
+    "effect": "金钱，繁荣，吸引，清除",
+    "powers": [
+      "金钱",
+      "繁荣",
+      "吸引",
+      "清除"
+    ],
+    "toxic": false,
+    "initial": "C",
+    "pinyin": "cha mu",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Sassafras；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "name": "血根草",
+    "gender": "阳性",
+    "element": "火",
+    "planet": "火星",
+    "effect": "保护，爱情，家庭守护，驱散",
+    "powers": [
+      "保护",
+      "爱情",
+      "家庭守护",
+      "驱散"
+    ],
+    "toxic": true,
+    "initial": "X",
+    "pinyin": "xue gen cao",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Bloodroot；有毒性风险，仅作为传统民俗材料索引，不建议内服或接触破损皮肤。"
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "name": "虎尾兰",
+    "gender": "阳性",
+    "element": "火",
+    "planet": "火星",
+    "effect": "保护，防流言，封口，家宅守护",
+    "powers": [
+      "保护",
+      "防流言",
+      "封口",
+      "家宅守护"
+    ],
+    "toxic": true,
+    "initial": "H",
+    "pinyin": "hu wei lan",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Mother-in-Law's Tongue / Snake Plant；误食有风险，家中有儿童或宠物时需避免接触。"
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "name": "秋葵",
+    "gender": "阴性",
+    "element": "水",
+    "planet": "月亮",
+    "effect": "净化，清除，保护，祝福",
+    "powers": [
+      "净化",
+      "清除",
+      "保护",
+      "祝福"
+    ],
+    "toxic": false,
+    "initial": "Q",
+    "pinyin": "qiu kui",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "为后续筛选出的 Hoodoo Herbal 配方补建可见条目；属性为保守整理，后续可细化。"
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "name": "白鹤芋",
+    "gender": "阴性",
+    "element": "水",
+    "planet": "金星",
+    "effect": "平安，家庭和谐，和平，安抚",
+    "powers": [
+      "平安",
+      "家庭和谐",
+      "和平",
+      "安抚"
+    ],
+    "toxic": true,
+    "initial": "B",
+    "pinyin": "bai he yu",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Peace Lily；误食有刺激性风险，家中有儿童或宠物时需避免接触。"
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "name": "矮牵牛",
+    "gender": "阴性",
+    "element": "水",
+    "planet": "金星",
+    "effect": "保护，门口守护，吸附负面，平静",
+    "powers": [
+      "保护",
+      "门口守护",
+      "吸附负面",
+      "平静"
+    ],
+    "toxic": false,
+    "initial": "A",
+    "pinyin": "ai qian niu",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Petunia；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "name": "凤仙花",
+    "gender": "阴性",
+    "element": "水",
+    "planet": "月亮",
+    "effect": "保护，反弹，传统疗愈，清凉",
+    "powers": [
+      "保护",
+      "反弹",
+      "传统疗愈",
+      "清凉"
+    ],
+    "toxic": false,
+    "initial": "F",
+    "pinyin": "feng xian hua",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Touch-me-not / Jewelweed；仅作为传统民俗用途索引，不构成医疗建议。"
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "name": "月桂莓",
+    "gender": "阳性",
+    "element": "火",
+    "planet": "木星",
+    "effect": "金钱，繁荣，好运，家庭",
+    "powers": [
+      "金钱",
+      "繁荣",
+      "好运",
+      "家庭"
+    ],
+    "toxic": false,
+    "initial": "Y",
+    "pinyin": "yue gui mei",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Bayberry；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "name": "鸢尾根",
+    "gender": "阴性",
+    "element": "水",
+    "planet": "金星",
+    "effect": "爱情，吸引，梦境，灵性",
+    "powers": [
+      "爱情",
+      "吸引",
+      "梦境",
+      "灵性"
+    ],
+    "toxic": false,
+    "initial": "Y",
+    "pinyin": "yuan wei gen",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Orris Root / Queen Elizabeth Root；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "name": "魔鬼爪",
+    "gender": "阳性",
+    "element": "火",
+    "planet": "火星",
+    "effect": "保护，反制，驱散，阻隔",
+    "powers": [
+      "保护",
+      "反制",
+      "驱散",
+      "阻隔"
+    ],
+    "toxic": false,
+    "initial": "M",
+    "pinyin": "mo gui zhua",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Devil's Claw；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "name": "白芥末籽",
+    "gender": "阳性",
+    "element": "火",
+    "planet": "火星",
+    "effect": "保护，净化，信心，驱邪",
+    "powers": [
+      "保护",
+      "净化",
+      "信心",
+      "驱邪"
+    ],
+    "toxic": false,
+    "initial": "B",
+    "pinyin": "bai jie mo zi",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 White Mustard Seed；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "name": "鹿舌草",
+    "gender": "阳性",
+    "element": "风",
+    "planet": "水星",
+    "effect": "成功，口才，沟通，事业",
+    "powers": [
+      "成功",
+      "口才",
+      "沟通",
+      "事业"
+    ],
+    "toxic": false,
+    "initial": "L",
+    "pinyin": "lu she cao",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Deer's-tongue；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "name": "亚当夏娃根",
+    "gender": "阴性",
+    "element": "水",
+    "planet": "金星",
+    "effect": "爱情，伴侣关系，吸引，结合",
+    "powers": [
+      "爱情",
+      "伴侣关系",
+      "吸引",
+      "结合"
+    ],
+    "toxic": false,
+    "initial": "Y",
+    "pinyin": "ya dang xia wa gen",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Adam and Eve Root；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "name": "达米阿那",
+    "gender": "阳性",
+    "element": "火",
+    "planet": "火星",
+    "effect": "爱情，欲望，梦境，灵性",
+    "powers": [
+      "爱情",
+      "欲望",
+      "梦境",
+      "灵性"
+    ],
+    "toxic": false,
+    "initial": "D",
+    "pinyin": "da mi a na",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Damiana；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "name": "玉竹",
+    "gender": "阴性",
+    "element": "水",
+    "planet": "土星",
+    "effect": "保护，智慧，成功，传统疗愈",
+    "powers": [
+      "保护",
+      "智慧",
+      "成功",
+      "传统疗愈"
+    ],
+    "toxic": false,
+    "initial": "Y",
+    "pinyin": "yu zhu",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Solomon's Seal；仅作为传统民俗用途索引，不构成医疗建议。"
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "name": "秋葵叶粉",
+    "gender": "未知",
+    "element": "土",
+    "planet": "未知",
+    "effect": "金钱，吸引，繁荣，凝聚",
+    "powers": [
+      "金钱",
+      "吸引",
+      "繁荣",
+      "凝聚"
+    ],
+    "toxic": false,
+    "initial": "Q",
+    "pinyin": "qiu kui ye fen",
+    "sources": [
+      {
+        "type": "hoodoo-herbal-needed-material",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "对应 Gumbo filé；通常指檫木叶粉。本站作为材料别名条目，用于配方关联。"
+      }
+    ]
   }
 ];
