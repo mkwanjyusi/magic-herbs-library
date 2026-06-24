@@ -19,6 +19,7 @@ const state = {
 const CONTACT_WECHAT = "Margaret77";
 const viewHistory = [];
 let touchStart = null;
+let searchComposing = false;
 
 const elements = { "火": "#c2604a", "水": "#5f82b0", "风": "#6f9e78", "土": "#a6824f", "未知": "#9a93a6" };
 const planets = { "太阳": "☉", "月亮": "☽", "水星": "☿", "金星": "♀", "火星": "♂", "木星": "♃", "土星": "♄", "未知": "·" };
@@ -672,19 +673,35 @@ function render() {
   app.innerHTML = `${backButton}${state.view === "home" ? home() : state.view === "browse" ? browse() : state.view === "name" ? nameDirectory() : state.view === "recipes" ? recipesView() : state.view === "recipeDetail" ? recipeDetail() : detail()}${contactModal()}`;
 }
 
+function updateSearch(value) {
+  const wasHome = state.view === "home";
+  const nextQuery = value;
+  if (wasHome && nextQuery.trim()) viewHistory.push(snapshotState());
+  state.query = nextQuery;
+  if (wasHome && state.query.trim()) state.view = "browse";
+  render();
+  const input = app.querySelector("[data-action='search']");
+  if (input) {
+    input.focus();
+    input.setSelectionRange(state.query.length, state.query.length);
+  }
+}
+
+app.addEventListener("compositionstart", event => {
+  if (event.target.matches("[data-action='search']")) searchComposing = true;
+});
+
+app.addEventListener("compositionend", event => {
+  if (event.target.matches("[data-action='search']")) {
+    searchComposing = false;
+    updateSearch(event.target.value);
+  }
+});
+
 app.addEventListener("input", event => {
   if (event.target.matches("[data-action='search']")) {
-    const wasHome = state.view === "home";
-    const nextQuery = event.target.value;
-    if (wasHome && nextQuery.trim()) viewHistory.push(snapshotState());
-    state.query = nextQuery;
-    if (wasHome && state.query.trim()) state.view = "browse";
-    render();
-    const input = app.querySelector("[data-action='search']");
-    if (input) {
-      input.focus();
-      input.setSelectionRange(state.query.length, state.query.length);
-    }
+    state.query = event.target.value;
+    if (!searchComposing) updateSearch(event.target.value);
   }
   if (event.target.matches("[data-action='upload-image']")) {
     const file = event.target.files?.[0];
