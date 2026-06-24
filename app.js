@@ -154,9 +154,7 @@ function englishNote(herb) {
   if (herb.englishName) return herb.englishName;
   if (tax?.canonicalName) return tax.canonicalName;
   if (tax?.scientificName) return tax.scientificName;
-  const element = herb.element && herb.element !== "未知" ? `${herb.element} element` : "unclassified element";
-  const planet = herb.planet && herb.planet !== "未知" ? `${herb.planet} correspondence` : "open correspondence";
-  return `${element} · ${planet}`;
+  return "学名待校对";
 }
 
 function imageForHerb(herb) {
@@ -268,6 +266,8 @@ function taxonomyRows(herb) {
     Lauraceae: "樟科",
     Santalaceae: "檀香科",
     Liliaceae: "百合科",
+    Moraceae: "桑科",
+    Pinaceae: "松科",
     Theaceae: "山茶科",
     Poaceae: "禾本科",
     Arecaceae: "棕榈科",
