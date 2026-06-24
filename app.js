@@ -484,7 +484,7 @@ function home() {
   const gateways = [
     { id: "purpose", title: "按用途查找", text: "保护、爱情、疗愈、净化......", meta: "点击展开", icon: "✦", tone: 0 },
     { id: "source", title: "按本源查找", text: "按元素、行星、阴阳分类", meta: "点击展开", icon: "☉", tone: 2 },
-    { id: "ritual", title: "魔法形式", text: "魔法配方", meta: "点击展开", icon: "☽", tone: 1 },
+    { id: "ritual", title: "仪式与配方", text: "魔法形式和魔法配方", meta: "点击展开", icon: "☽", tone: 1 },
     { id: "name", title: "草药全目录", text: "按名称首字母分类", meta: "点击进入", icon: "A-Z", tone: 3, action: "name" }
   ];
   const activeGateway = gateways.find(item => item.id === state.homeSection);
