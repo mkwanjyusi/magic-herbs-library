@@ -812,6 +812,15 @@ h1, h2, h3, p { margin: 0; }
   display: block;
 }
 .image-input { display: none; }
+.image-credit {
+  display: block;
+  margin: 8px 2px 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+.image-credit:hover { color: var(--ink); }
 .attr-card { margin-top: 12px; border: 1px solid var(--line); padding: 2px 12px; }
 .attr-card:empty { display: none; }
 .attr-row {

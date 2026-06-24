@@ -2,6 +2,7 @@ const HERBS = Array.isArray(window.__HERBS) ? window.__HERBS : [];
 const TAXONOMY = window.__TAXONOMY || {};
 const RECIPES = Array.isArray(window.__RECIPES) ? window.__RECIPES : [];
 const MASTERBOOK_DETAILS = window.__MASTERBOOK_DETAILS || {};
+const HERB_IMAGES = window.__HERB_IMAGES || {};
 const app = document.querySelector("#app");
 
 HERBS.forEach(herb => {
@@ -104,11 +105,21 @@ function englishNote(herb) {
 }
 
 function imageForHerb(herb) {
+  const tax = TAXONOMY[herb.name];
+  const trustedImage = tax?.reviewed === true ? HERB_IMAGES[herb.name]?.src : "";
   try {
-    return localStorage.getItem(`lingcaozhi:image:${herb.id}`) || "";
+    return localStorage.getItem(`lingcaozhi:image:${herb.id}`) || trustedImage || "";
   } catch {
-    return "";
+    return trustedImage || "";
   }
+}
+
+function imageCredit(herb) {
+  if (TAXONOMY[herb.name]?.reviewed !== true) return "";
+  const image = HERB_IMAGES[herb.name];
+  if (!image?.sourceUrl) return "";
+  const label = [image.source, image.license].filter(Boolean).join(" · ") || "图片来源";
+  return `<a class="image-credit" href="${esc(image.sourceUrl)}" target="_blank" rel="noopener">${esc(label)}</a>`;
 }
 
 function normalizedName(value) {
@@ -667,6 +678,7 @@ function detail() {
           <input class="image-input" type="file" accept="image/*" data-action="upload-image" data-id="${herb.id}">
           ${image ? `<img src="${esc(image)}" alt="${esc(herb.name)}">` : ""}
         </label>
+        ${image ? imageCredit(herb) : ""}
         <div class="attr-card">
           ${herb.element && herb.element !== "未知" ? `<div class="attr-row"><small>元素</small><strong>${disc(herb.element, herb.elColor)}${esc(herb.element)}</strong></div>` : ""}
           ${herb.planet && herb.planet !== "未知" ? `<div class="attr-row"><small>行星</small><strong><span class="sym">${herb.planetSym}</span>${esc(herb.planet)}</strong></div>` : ""}
