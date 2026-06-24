@@ -5432,6 +5432,30 @@ window.__HERBS = [
     ]
   },
   {
+    "id": 235,
+    "name": "芫荽",
+    "gender": "阳性",
+    "element": "火",
+    "planet": "火星",
+    "effect": "爱情，健康，疗愈，保护",
+    "powers": [
+      "爱情",
+      "健康",
+      "疗愈",
+      "保护"
+    ],
+    "toxic": false,
+    "initial": "Y",
+    "pinyin": "yan sui",
+    "sources": [
+      {
+        "type": "recipe-promotion",
+        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+        "note": "原本仅出现在配方材料中；因后续 Hoodoo Herbal 候选配方需要转为可见草药条目。"
+      }
+    ]
+  },
+  {
     "id": 223,
     "name": "鸢尾花",
     "gender": "阴性",
