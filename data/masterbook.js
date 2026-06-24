@@ -651,5 +651,230 @@ window.__MASTERBOOK_DETAILS = {
         "page": 238
       }
     }
+  },
+  "阿魏": {
+    "page": 201,
+    "source": { "book": "The Master Book of Herbalism", "page": 201 },
+    "lore": "魔法篇将 Asafoetida 主要作为外用和薰香材料，用于严肃的仪式、驱散负面能量、邪灵与恶魔，也用于增强仪式洞察。",
+    "safety": "书中特别提到其味道极苦，使用以外用和薰香为主；不宜随意内服。"
+  },
+  "孜然": {
+    "page": 213,
+    "source": { "book": "The Master Book of Herbalism", "page": 213 },
+    "lore": "魔法篇记录 Cumin 可加入护符与符咒，用于保护家庭、带来好运和繁荣；书中也提到其与性活力相关的民俗配方。"
+  },
+  "杜松": {
+    "page": 228,
+    "source": { "book": "The Master Book of Herbalism", "page": 228 },
+    "lore": "魔法篇说明 Juniper 可用树脂、浆果或针叶；它适合健康仪式，能驱离损害健康的事物，并吸引健康能量。",
+    "safety": "杜松浆果和精油用途需谨慎；孕期、肾脏问题或长期内服不宜自行使用。"
+  },
+  "广藿香": {
+    "page": 240,
+    "source": { "book": "The Master Book of Herbalism", "page": 240 },
+    "lore": "魔法篇把 Patchouli 作为吸引性爱与神圣性魔法中的常用材料；可用油涂抹，也可用干草药入浴。",
+    "safety": "精油可能刺激皮肤，外用应稀释。"
+  },
+  "葫芦巴": {
+    "page": 219,
+    "source": { "book": "The Master Book of Herbalism", "page": 219 },
+    "lore": "魔法篇记录 Fenugreek 种子可浸成灵药，将阿波罗的智慧带入内心；也可在尊奉太阳神的仪式中作为薰香焚烧。"
+  },
+  "风信子": {
+    "page": 226,
+    "source": { "book": "The Master Book of Herbalism", "page": 226 },
+    "lore": "魔法篇讲述 Hyacinth 源自阿波罗与 Zephrus 相关的古希腊神话；它可用于召请 Hyacinthus 与 Apollo，也被记录为男性同性恋者的守护草药。",
+    "safety": "风信子鳞茎有毒，不应内服。"
+  },
+  "马郁兰": {
+    "page": 232,
+    "source": { "book": "The Master Book of Herbalism", "page": 232 },
+    "lore": "魔法篇记录 Marjoram 曾被罗马人视为维纳斯的神圣草药，用于维纳斯仪式、婚礼或手缚礼，并可种在墓上祝福亡者。"
+  },
+  "芝麻": {
+    "page": 248,
+    "source": { "book": "The Master Book of Herbalism", "page": 248 },
+    "lore": "魔法篇把 Sesame seed 视作保护草药，重点在保存生殖与性系统的健康和活力；芝麻油也被用于性相关的涂抹场景。",
+    "safety": "芝麻过敏者应避免；油类外用应注意皮肤反应。"
+  },
+  "金鱼草": {
+    "page": 248,
+    "source": { "book": "The Master Book of Herbalism", "page": 248 },
+    "lore": "魔法篇称 Snapdragon 为保护草药；花束可赠予朋友以护佑其安全，鲜花也可佩戴作护符，并种在房屋周围守护居所。"
+  },
+  "杏仁": {
+    "page": 198,
+    "source": { "book": "The Master Book of Herbalism", "page": 198 },
+    "lore": "魔法篇记录 Almond 有深厚宗教草药传统，可作为薰香或祭火供奉 Artemis、Hecate 与 Zeus；也与魔杖、爱情延续和防醉民俗相关。",
+    "safety": "苦杏仁与杏仁精油有安全风险；食用与仪式材料应区分。"
+  },
+  "桦树": {
+    "page": 203,
+    "source": { "book": "The Master Book of Herbalism", "page": 203 },
+    "lore": "魔法篇称 Birch 有“林中女士”的民俗名，可用于与林地女神或大地母亲沟通；书中也提醒不可随意剥取树皮。"
+  },
+  "芹菜": {
+    "page": 207,
+    "source": { "book": "The Master Book of Herbalism", "page": 207 },
+    "lore": "魔法篇讨论的是 Celery Seed，称其为灵视草药，可用于占卜时打开心智、增强专注；书中明确区别花园芹菜与野芹菜。",
+    "safety": "这里对应芹菜种子；孕期、肾脏问题或过敏体质应谨慎。"
+  },
+  "矢车菊": {
+    "page": 211,
+    "source": { "book": "The Master Book of Herbalism", "page": 211 },
+    "lore": "魔法篇把 Cornflower 作为灵视草药，用于制备 Fluid Condenser、洗眼以增强透视感；书中还记录它与 Flora 女神相关，蓝色五角星状花可装饰祭坛，也可由寻求体现自然女神者佩戴。"
+  },
+  "黄瓜": {
+    "page": 212,
+    "source": { "book": "The Master Book of Herbalism", "page": 212 },
+    "lore": "魔法篇称 Cucumber 为灵视草药，可带来灵魂安宁、身心平静与增强 psychic ability；通常使用新鲜状态。"
+  },
+  "榆树": {
+    "page": 217,
+    "source": { "book": "The Master Book of Herbalism", "page": 217 },
+    "lore": "魔法篇记录 Elm 的冥想用途：可帮助人与草药之灵、小人和 Devas 建立沟通；叶片也见于民间占卜。"
+  },
+  "忍冬": {
+    "page": 224,
+    "source": { "book": "The Master Book of Herbalism", "page": 224 },
+    "lore": "魔法篇称 Honeysuckle 为不朽草药，因其极强生命力而得名；纯净香油可帮助理解非物质现实，也可加入相关仪式。"
+  },
+  "莲花": {
+    "page": 230,
+    "source": { "book": "The Master Book of Herbalism", "page": 230 },
+    "lore": "魔法篇记录 Lotus 具有悠久宗教草药历史，可召请 Isis、Osiris 与 Hermes；花油或花洗剂可用于蜡烛，保护并净化灵性能量。"
+  },
+  "桑树": {
+    "page": 236,
+    "source": { "book": "The Master Book of Herbalism", "page": 236 },
+    "lore": "魔法篇记录 Mulberry 在古代曾献给 Minerva，并被视为智慧之树；压干叶片可夹入个人智慧之书，也可用于保护儿童。"
+  },
+  "兰花": {
+    "page": 238,
+    "source": { "book": "The Master Book of Herbalism", "page": 238 },
+    "lore": "魔法篇讨论 Orchid 时主要指 Satyrion Root，即块根；它与性、爱之仪式、手缚礼饮品和春药传统相关。",
+    "safety": "书中语境偏向根材；不应把所有观赏兰花都视为可食或可药用。"
+  },
+  "水仙": {
+    "page": 237,
+    "source": { "book": "The Master Book of Herbalism", "page": 237 },
+    "lore": "魔法篇中 Narcissus 用于召请少女面向的 Isis，希腊人也把它作为葬礼草药种在墓旁；它还与灵感、创造力和塔罗隐士牌相关。",
+    "safety": "水仙属植物有毒，尤其鳞茎危险；不应内服或自行制剂。"
+  },
+  "芍药": {
+    "page": 240,
+    "source": { "book": "The Master Book of Herbalism", "page": 240 },
+    "lore": "魔法篇记录 Peony 作为保护草药：种子可串成白线项链，根也曾被干燥雕成护符；书中还提到与月亮女神和驱散黑暗相关的民俗。"
+  },
+  "薄荷": {
+    "page": 241,
+    "source": { "book": "The Master Book of Herbalism", "page": 241 },
+    "description": "此处承接 Peppermint/Mints 的西方魔法语境，作为薄荷类泛称处理；若日后拆分，可另建胡椒薄荷。",
+    "lore": "魔法篇称 Peppermint 为灵视草药，可在日落后作为薰香带来预言之梦，也用于占卜、尊奉 Zeus 和理解塔罗愚者牌。",
+    "safety": "薄荷精油刺激性强；儿童、孕期、胃食管反流或皮肤敏感者需谨慎。"
+  },
+  "松树": {
+    "page": 242,
+    "source": { "book": "The Master Book of Herbalism", "page": 242 },
+    "lore": "魔法篇记录 Pine resin 可干燥后作薰香，用于清理空间负面能量；松也作为反制魔法草药，将邪恶能量驱回源头。"
+  },
+  "马齿苋": {
+    "page": 243,
+    "source": { "book": "The Master Book of Herbalism", "page": 243 },
+    "lore": "魔法篇称 Purslane 适合害怕夜晚黑暗者，可防止噩梦与夜间游荡的异灵；常见方式是做成梦枕。",
+    "safety": "食用草药与仪式材料需分开；肾结石或草酸盐敏感者食用需谨慎。"
+  },
+  "向日葵": {
+    "page": 249,
+    "source": { "book": "The Master Book of Herbalism", "page": 249 },
+    "lore": "魔法篇记录 Sunflower 曾是阿兹特克宗教草药；可用于沐浴以吸引快乐，也作为保护草药保护灵魂免受恶意能量。",
+    "safety": "花粉或种子过敏者需注意。"
+  },
+  "蓟": {
+    "page": 250,
+    "source": { "book": "The Master Book of Herbalism", "page": 250 },
+    "description": "此处按 Thistles 泛称处理，不混入圣蓟或奶蓟的专门资料。",
+    "lore": "魔法篇称 Thistles 象征耐力与生存能力，可用于动物的仪式疗愈；红色蓟可放在治疗圈四方召请疗愈力量。"
+  },
+  "亚麻": {
+    "page": 219,
+    "source": { "book": "The Master Book of Herbalism", "page": 219 },
+    "lore": "魔法篇记录 Flax 花可在晨露散去后采集、干燥并作薰香，用于保护、驱除邪恶或负面魔法，并带来祝福与健康。"
+  },
+  "蕨类【部分有毒】": {
+    "page": 219,
+    "source": { "book": "The Master Book of Herbalism", "page": 219 },
+    "description": "此处按 Ferns 泛称处理，不自动并入 Male Fern 的专门根材用法。",
+    "lore": "魔法篇最重视 Ferns 的孢子传说：携带孢子可带来隐身般的低可见感，也可用于水盆占卜未来。",
+    "safety": "蕨类差异很大，部分有毒或含不适合食用的成分；不要泛化为可食或可药用。"
+  },
+  "鸢尾花": {
+    "page": 226,
+    "source": { "book": "The Master Book of Herbalism", "page": 226 },
+    "description": "书中小节为 Iris (Orris Root)，魔法使用重点常在干燥根材，而不只是花。",
+    "lore": "魔法篇记录 Irises 作为宗教草药有悠久声誉，与引导灵魂前往 Elysian Fields 的女神同名，也可作为葬礼草药带来和平与希望。"
+  },
+  "樟树【樟脑】": {
+    "page": 205,
+    "source": { "book": "The Master Book of Herbalism", "page": 205 },
+    "description": "此处对应 Camphor，重点是樟脑材料，而非整株樟树的全部用途。",
+    "lore": "魔法篇记录 Camphor 可清洁和净化家庭或圣殿空间，去除负面能量；晶体形式也用于晚间冥想和预言之梦。",
+    "safety": "樟脑有毒，尤其儿童和宠物风险高；不可内服，外用和熏香都需谨慎。"
+  },
+  "苹果": {
+    "page": 200,
+    "source": { "book": "The Master Book of Herbalism", "page": 200 },
+    "lore": "魔法篇记录 Apple 神圣于 Aphrodite，可在敬奉她的仪式中供奉；苹果汁可共享，种子或树皮可作薰香，也与万圣前夜的好运和内在转变相关。"
+  },
+  "苹果花": {
+    "page": 200,
+    "source": { "book": "The Master Book of Herbalism", "page": 200 },
+    "lore": "魔法篇的 Apple 条目包括苹果树整体传统；苹果花可承接其与 Aphrodite、爱情延续和树木祝福相关的民俗，但应与果实用途区分。"
+  },
+  "大茴香": {
+    "page": 200,
+    "source": { "book": "The Master Book of Herbalism", "page": 200 },
+    "description": "此处只对应 Star Anise / Illicium verum，即大茴香、八角；不使用 Anise 的资料。",
+    "lore": "魔法篇记录 Star Anise 在日本被视为神圣草药，可栽植于寺庙和神圣墓地周围，带来保护与仁善的神圣能量；树皮粉也可作寺庙薰香。",
+    "safety": "必须区分可食用八角与有毒近缘物种；不应误用日本莽草等。"
+  },
+  "基列香膏": {
+    "page": 202,
+    "source": { "book": "The Master Book of Herbalism", "page": 202 },
+    "description": "此处按 Balm of Gilead 作为材料/传统名处理，不强行归为单一物种。",
+    "lore": "魔法篇记录 Balm of Gilead 可作为油彻底涂覆蜡烛，用于 psychic healing；蜡烛需先以加盐冷水洗净以去除不需要的能量。"
+  },
+  "克里特白藓": {
+    "page": 214,
+    "source": { "book": "The Master Book of Herbalism", "page": 214 },
+    "description": "此处对应 Dittany of Crete / Origanum dictamnus；建议后续把条目名改为“克里特牛至”或“克里特迪塔尼”。",
+    "lore": "魔法篇记录 Dittany of Crete 可在万圣前夜用于向逝者、教师与亲族寻求智慧，也可召请 Persephone 与 Osiris 这类掌管彼世钥匙的神祇。"
+  },
+  "龙血": {
+    "page": 215,
+    "source": { "book": "The Master Book of Herbalism", "page": 215 },
+    "description": "书中将 Dragon's Blood 作为红色树脂/粉末材料处理，而非单一鲜活植物。",
+    "lore": "魔法篇记录 Dragon's Blood 可增强任何仪式能量，也是著名保护草药；以龙血墨书写可封护魔法仪式、神圣文件、誓言与契约。",
+    "safety": "树脂、粉末和烟熏可能刺激呼吸道或皮肤；不应随意内服。"
+  },
+  "欧洲岑树": {
+    "page": 201,
+    "source": { "book": "The Master Book of Herbalism", "page": 201 },
+    "description": "此处对应 Ash；条目名后续建议校为“欧洲梣树”。",
+    "lore": "魔法篇记录 Ash 可移除不想要的能量，历史上用于解除咒法和诅咒；叶片也可放在交通工具中作旅途保护。"
+  },
+  "曼陀罗": {
+    "page": 251,
+    "source": { "book": "The Master Book of Herbalism", "page": 251 },
+    "description": "此处对应 Thornapple / Jimson Weed / Datura，不是 Mandrake 曼德拉草。",
+    "lore": "魔法篇称 Thornapple 为灵视草药，长期与施咒和寻求异象相关；书中也提醒大剂量危险。",
+    "safety": "曼陀罗属植物高毒，可致幻、谵妄甚至致命；不提供任何内服、熏吸或制剂建议。"
+  },
+  "天竺葵": {
+    "page": 244,
+    "source": { "book": "The Master Book of Herbalism", "page": 244 },
+    "description": "此处对应 Rose Geranium / 香叶天竺葵，而非所有 Geranium/Pelargonium。",
+    "lore": "魔法篇记录 Rose Geranium 香气出众，叶片可干燥研磨入爱情药粉，精油则由寻求性满足者佩戴，象征性成熟与其中的喜悦。",
+    "safety": "天竺葵类精油可能刺激皮肤，外用应稀释；宠物环境需谨慎。"
   }
 };
