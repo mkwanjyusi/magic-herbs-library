@@ -80,6 +80,17 @@ button { color: inherit; }
   font-weight: 700;
 }
 .toplink:hover { border-color: var(--line-strong); }
+.contact-mini {
+  border: 0;
+  background: none;
+  color: var(--muted);
+  padding: 6px 0;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.contact-mini:hover { color: var(--accent); }
 
 .home-hero {
   position: relative;
@@ -120,6 +131,11 @@ button { color: inherit; }
   padding-top: 46px;
 }
 .hero-actions { display: flex; gap: 12px; }
+.hero-nav-tools {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
 .hero-actions button {
   width: 44px;
   height: 44px;
@@ -418,14 +434,6 @@ h1, h2, h3, p { margin: 0; }
   padding-top: 48px;
   padding-bottom: 48px;
 }
-.contact-kicker {
-  display: inline-block;
-  margin-bottom: 12px;
-  color: var(--accent);
-  font-family: Spectral, serif;
-  font-size: 15px;
-  font-style: italic;
-}
 .contact-copy h2 {
   font-family: "Noto Serif SC", serif;
   font-size: 30px;
@@ -439,18 +447,91 @@ h1, h2, h3, p { margin: 0; }
   font-size: 15.5px;
   line-height: 1.9;
 }
-.contact-card {
+.contact-bottom-card {
   border: 1px solid var(--line);
   background: rgba(255, 255, 255, .62);
   box-shadow: 0 18px 40px rgba(57, 41, 78, .08);
   padding: 22px;
 }
-.contact-card small {
+.contact-bottom-card small {
   display: block;
   color: var(--faint);
   font-size: 13px;
 }
-.contact-card strong {
+.contact-bottom-card strong {
+  display: block;
+  margin-top: 8px;
+  font-family: Spectral, "Noto Serif SC", serif;
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: .02em;
+}
+
+.contact-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  display: grid;
+  place-items: start center;
+  background: rgba(36, 29, 47, .18);
+  padding: max(72px, calc(env(safe-area-inset-top) + 72px)) 20px 20px;
+  backdrop-filter: blur(10px);
+}
+.contact-modal {
+  position: relative;
+  width: min(520px, 100%);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, .94);
+  box-shadow: 0 28px 80px rgba(57, 41, 78, .22);
+  padding: 28px;
+}
+.contact-close {
+  position: absolute;
+  right: 16px;
+  top: 14px;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .7);
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+}
+.contact-close:hover { color: var(--accent); border-color: var(--line-strong); }
+.contact-kicker {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: var(--accent);
+  font-family: Spectral, serif;
+  font-size: 15px;
+  font-style: italic;
+}
+.contact-modal h2 {
+  font-family: "Noto Serif SC", serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: .04em;
+}
+.contact-modal p {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 15.5px;
+  line-height: 1.9;
+}
+.contact-wechat {
+  margin-top: 22px;
+  border: 1px solid var(--line);
+  background: rgba(250, 248, 253, .76);
+  padding: 16px 18px;
+}
+.contact-wechat small {
+  display: block;
+  color: var(--faint);
+  font-size: 13px;
+}
+.contact-wechat strong {
   display: block;
   margin-top: 8px;
   font-family: Spectral, "Noto Serif SC", serif;
@@ -927,7 +1008,10 @@ h1, h2, h3, p { margin: 0; }
   .name-entry { align-items: flex-start; flex-direction: column; }
   .name-entry span { display: block; margin: 8px 0 0; }
   .contact-inner { grid-template-columns: 1fr; gap: 24px; padding-top: 38px; padding-bottom: 38px; }
-  .contact-card { padding: 18px; }
+  .contact-bottom-card { padding: 18px; }
+  .contact-overlay { place-items: start center; padding: max(64px, calc(env(safe-area-inset-top) + 64px)) 18px 18px; }
+  .contact-modal { padding: 24px 20px 20px; }
+  .contact-modal h2 { font-size: 28px; }
   .iris .wrap { min-height: 430px; }
   .iris-copy { left: 20px; right: 20px; top: auto; bottom: 34px; transform: none; padding: 0; }
   .iris img { right: -150px; top: 42%; width: 620px; opacity: .38; }

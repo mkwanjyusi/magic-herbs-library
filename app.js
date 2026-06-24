@@ -10,7 +10,8 @@ const state = {
   initial: "all",
   currentId: null,
   currentRecipeId: null,
-  contactCopied: false
+  contactCopied: false,
+  contactOpen: false
 };
 
 const CONTACT_WECHAT = "Margaret77";
@@ -326,7 +327,7 @@ function topbar(detail = "") {
       <div class="topbar">
         <button class="brand" data-action="home">灵草志</button>
         <button class="toplink" data-action="recipes">复杂配方</button>
-        <button class="toplink" data-action="contact">联系版主</button>
+        <button class="contact-mini" data-action="contact">联系我们</button>
         ${detail ? `<small>${detail}</small>` : searchBox(true)}
       </div>
     </div>
@@ -363,10 +364,13 @@ function home() {
       <div class="wrap hero-shell">
         <nav class="hero-nav">
           <button class="brand" data-action="home">灵草志</button>
-          <div class="hero-actions" aria-label="快速入口">
-            <button data-action="name" title="按名称">A-Z</button>
-            <button data-action="filter" data-type="toxic" data-value="true" data-label="毒草 · 慎用" title="毒草">☠</button>
-            <button data-action="filter" data-type="power" data-value="通灵" data-label="通灵 · 预言" title="通灵">✦</button>
+          <div class="hero-nav-tools">
+            <button class="contact-mini" data-action="contact">联系我们</button>
+            <div class="hero-actions" aria-label="快速入口">
+              <button data-action="name" title="按名称">A-Z</button>
+              <button data-action="filter" data-type="toxic" data-value="true" data-label="毒草 · 慎用" title="毒草">☠</button>
+              <button data-action="filter" data-type="power" data-value="通灵" data-label="通灵 · 预言" title="通灵">✦</button>
+            </div>
           </div>
         </nav>
         <div class="hero-layout">
@@ -430,7 +434,7 @@ function home() {
           <h2>写信给版主</h2>
           <p>如果你想交流草药魔法、配方整理，或在草药魔法、仪式魔法的实践中遇到困惑，版主提供免费咨询。来信尽力回复。</p>
         </div>
-        <div class="contact-card">
+        <div class="contact-bottom-card">
           <small>微信</small>
           <strong>${CONTACT_WECHAT}</strong>
           <button class="secondary contact-copy-button" data-action="copy-contact">${state.contactCopied ? "已复制" : "复制微信号"}</button>
@@ -446,6 +450,25 @@ function home() {
         </div>
       </div>
     </footer>
+  `;
+}
+
+function contactModal() {
+  if (!state.contactOpen) return "";
+  return `
+    <div class="contact-overlay" data-action="close-contact">
+      <section class="contact-modal" role="dialog" aria-modal="true" aria-labelledby="contact-title">
+        <button class="contact-close" data-action="close-contact" aria-label="关闭">×</button>
+        <span class="contact-kicker">Free Consultation</span>
+        <h2 id="contact-title">联系我们</h2>
+        <p>如果你想交流草药魔法、配方整理，或在草药魔法、仪式魔法的实践中遇到困惑，版主提供免费咨询。来信尽力回复。</p>
+        <div class="contact-wechat">
+          <small>微信</small>
+          <strong>${CONTACT_WECHAT}</strong>
+        </div>
+        <button class="secondary contact-copy-button" data-action="copy-contact">${state.contactCopied ? "已复制" : "复制微信号"}</button>
+      </section>
+    </div>
   `;
 }
 
@@ -642,7 +665,7 @@ function render() {
     return;
   }
   const backButton = viewHistory.length ? `<button class="back-float" data-action="back" aria-label="返回上一级" title="返回上一级">‹</button>` : "";
-  app.innerHTML = `${backButton}${state.view === "home" ? home() : state.view === "browse" ? browse() : state.view === "name" ? nameDirectory() : state.view === "recipes" ? recipesView() : state.view === "recipeDetail" ? recipeDetail() : detail()}`;
+  app.innerHTML = `${backButton}${state.view === "home" ? home() : state.view === "browse" ? browse() : state.view === "name" ? nameDirectory() : state.view === "recipes" ? recipesView() : state.view === "recipeDetail" ? recipeDetail() : detail()}${contactModal()}`;
 }
 
 app.addEventListener("input", event => {
@@ -686,8 +709,14 @@ app.addEventListener("click", event => {
   }
   if (action === "home") setView({ view: "home", query: "", filter: null, currentId: null });
   if (action === "contact") {
-    setView({ view: "home", query: "", filter: null, currentId: null });
-    requestAnimationFrame(() => document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth", block: "start" }));
+    state.contactOpen = true;
+    state.contactCopied = false;
+    render();
+  }
+  if (action === "close-contact") {
+    if (el.classList.contains("contact-overlay") && event.target !== el) return;
+    state.contactOpen = false;
+    render();
   }
   if (action === "copy-contact") {
     if (navigator.clipboard?.writeText) {
@@ -705,7 +734,6 @@ app.addEventListener("click", event => {
     }
     state.contactCopied = true;
     render();
-    requestAnimationFrame(() => document.querySelector("#contact")?.scrollIntoView({ block: "center" }));
   }
   if (action === "name") setView({ view: "name", query: "", filter: null, initial: "all" });
   if (action === "recipes") setView({ view: "recipes", query: "", filter: null });
