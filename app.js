@@ -7,11 +7,13 @@ const state = {
   view: "home",
   query: "",
   filter: null,
+  recipeFilter: null,
   initial: "all",
   currentId: null,
   currentRecipeId: null,
   contactCopied: false,
-  contactOpen: false
+  contactOpen: false,
+  homeSection: null
 };
 
 const CONTACT_WECHAT = "Margaret77";
@@ -19,6 +21,7 @@ const viewHistory = [];
 let touchStart = null;
 
 const elements = { "火": "#c2604a", "水": "#5f82b0", "风": "#6f9e78", "土": "#a6824f", "未知": "#9a93a6" };
+const elementSymbols = { "火": "🜂", "水": "🜄", "风": "🜁", "土": "🜃" };
 const planets = { "太阳": "☉", "月亮": "☽", "水星": "☿", "金星": "♀", "火星": "♂", "木星": "♃", "土星": "♄", "未知": "·" };
 const genders = { "阳性": "☉", "阴性": "☾", "未知": "·" };
 const powerCats = [
@@ -107,6 +110,7 @@ function snapshotState() {
     view: state.view,
     query: state.query,
     filter: state.filter ? { ...state.filter } : null,
+    recipeFilter: state.recipeFilter ? { ...state.recipeFilter } : null,
     initial: state.initial,
     currentId: state.currentId,
     currentRecipeId: state.currentRecipeId
@@ -312,7 +316,7 @@ function searchBox(compact = false) {
   return `
     <label class="search ${compact ? "compact" : ""}">
       <span>⌕</span>
-      <input data-action="search" value="${esc(state.query)}" placeholder="${compact ? "继续搜索草药名..." : "搜索草药名..."}">
+      <input data-action="search" value="${esc(state.query)}" placeholder="${compact ? "继续搜索草药、材料..." : "搜索草药、材料..."}">
     </label>
   `;
 }
@@ -334,29 +338,120 @@ function topbar(detail = "") {
   `;
 }
 
+function gatewayCard(id, title, text, meta, icon, tone = 0, action = "home-section") {
+  const active = state.homeSection === id ? "active" : "";
+  return `
+    <button class="gateway-card tone-${tone} ${active}" data-action="${action}" data-section="${id}">
+      <span>${icon}</span>
+      <strong>${title}</strong>
+      <small>${text}</small>
+      <em>${meta}</em>
+    </button>
+  `;
+}
+
+function gatewaySummary(id, title, text, meta, icon, tone = 0) {
+  return `
+    <div class="gateway-card tone-${tone} active">
+      <span>${icon}</span>
+      <strong>${title}</strong>
+      <small>${text}</small>
+      <em>${meta}</em>
+    </div>
+  `;
+}
+
+function homeDrawer() {
+  if (state.homeSection === "purpose") {
+    return `
+      <div class="gateway-drawer">
+        <div class="drawer-head"><strong>按魔法用途目的查找</strong><span>选择想达成的方向，查看对应草药、材料</span></div>
+        <div class="drawer-grid">
+          ${powerCats.map((cat, index) => `
+            <button class="drawer-card tone-${index % 4}" data-action="filter" data-type="power" data-value="${cat.key}" data-label="${cat.label}">
+              <span style="color:${cat.hue}">${["✦", "☽", "♁", "✧"][index % 4]}</span>
+              <strong>${cat.label}</strong>
+              <small>${countBy(h => matchesCat(h, cat))} 项</small>
+            </button>
+          `).join("")}
+        </div>
+      </div>
+    `;
+  }
+  if (state.homeSection === "source") {
+    const sourceCards = [
+      ...["火", "水", "风", "土"].map(el => ({ type: "element", value: el, label: `元素 · ${el}`, title: `${el}元素`, meta: `${countBy(h => h.element === el)} 项`, icon: `<span class="disc element-symbol" style="background:${elements[el]}">${elementSymbols[el]}</span>` })),
+      ...["太阳", "月亮", "水星", "金星", "火星", "木星", "土星"].map(p => ({ type: "planet", value: p, label: `行星 · ${p}`, title: p, meta: `${countBy(h => h.planet === p)} 项`, icon: `<span class="sym">${planets[p]}</span>` })),
+      ...["阳性", "阴性"].map(g => ({ type: "gender", value: g, label: `极性 · ${g}`, title: g, meta: `${countBy(h => h.gender === g)} 项`, icon: `<span class="sym">${genders[g]}</span>` })),
+      { type: "toxic", value: "true", label: "毒草 · 慎用", title: "毒性提示", meta: `${countBy(h => h.toxic)} 项`, icon: `<span class="sym">☠</span>` }
+    ];
+    return `
+      <div class="gateway-drawer">
+        <div class="drawer-head"><strong>按本源查找</strong><span>依元素、行星与阴阳追溯草药、材料的根性</span></div>
+        <div class="drawer-grid compact">
+          ${sourceCards.map(item => `
+            <button class="drawer-card" data-action="filter" data-type="${item.type}" data-value="${item.value}" data-label="${item.label}">
+              ${item.icon}
+              <strong>${item.title}</strong>
+              <small>${item.meta}</small>
+            </button>
+          `).join("")}
+        </div>
+      </div>
+    `;
+  }
+  if (state.homeSection === "ritual") {
+    const intentCards = ["保护", "金钱", "爱情", "好运", "梦境", "净化", "通灵", "破咒"].map(intent => {
+      const count = RECIPES.filter(r => (r.intent || []).includes(intent)).length;
+      return { title: `${intent}配方`, meta: `${count} 个`, filter: { type: "intent", value: intent, label: `${intent}配方` } };
+    });
+    const typeCards = [...new Set(RECIPES.map(r => r.type))].map(type => ({
+      title: type,
+      meta: `${RECIPES.filter(r => r.type === type).length} 个`,
+      filter: { type: "type", value: type, label: type }
+    }));
+    const cards = [
+      { title: "全部仪式配方", meta: `${RECIPES.length} 个`, filter: null },
+      ...typeCards,
+      ...intentCards
+    ];
+    return `
+      <div class="gateway-drawer">
+        <div class="drawer-head"><strong>草药魔法仪式配方</strong><span>按形式或目的查看薰香、粉末、香包与护符</span></div>
+        <div class="drawer-grid compact">
+          ${cards.map(item => `
+            <button class="drawer-card" data-action="recipes" ${item.filter ? `data-recipe-type="${item.filter.type}" data-recipe-value="${esc(item.filter.value)}" data-recipe-label="${esc(item.filter.label)}"` : ""}>
+              <span class="sym">✧</span>
+              <strong>${esc(item.title)}</strong>
+              <small>${esc(item.meta)}</small>
+            </button>
+          `).join("")}
+        </div>
+      </div>
+    `;
+  }
+  return "";
+}
+
 function home() {
-  const heroCats = powerCats.slice(0, 8).map((cat, index) => `
-    <button class="hero-card tone-${index % 4}" data-action="filter" data-type="power" data-value="${cat.key}" data-label="${cat.label}">
-      <span class="hero-icon" style="color:${cat.hue}">${["✦", "☽", "♁", "✧"][index % 4]}</span>
-      <strong>${cat.label}</strong>
-      <small>${countBy(h => matchesCat(h, cat))} 味草药</small>
-    </button>
-  `).join("");
-  const elementChips = ["火", "水", "风", "土"].map(el => `
-    <button class="chip" data-action="filter" data-type="element" data-value="${el}" data-label="元素 · ${el}">
-      ${disc(el, elements[el])}<small>${countBy(h => h.element === el)} 味</small>
-    </button>
-  `).join("");
-  const genderChips = ["阳性", "阴性"].map(g => `
-    <button class="chip" data-action="filter" data-type="gender" data-value="${g}" data-label="极性 · ${g}">
-      <span class="sym">${genders[g]}</span>${g}<small>${countBy(h => h.gender === g)}</small>
-    </button>
-  `).join("");
-  const planetChips = ["太阳", "月亮", "水星", "金星", "火星", "木星", "土星"].map(p => `
-    <button class="chip" data-action="filter" data-type="planet" data-value="${p}" data-label="行星 · ${p}">
-      <span class="sym">${planets[p]}</span>${p}<small>${countBy(h => h.planet === p)}</small>
-    </button>
-  `).join("");
+  const gateways = [
+    { id: "purpose", title: "按用途查找", text: "保护、爱情、疗愈、净化......", meta: "点击展开", icon: "✦", tone: 0 },
+    { id: "source", title: "按本源查找", text: "按元素、行星、阴阳分类", meta: "点击展开", icon: "☉", tone: 2 },
+    { id: "ritual", title: "仪式与配方", text: "魔法配方和仪式形式", meta: "点击展开", icon: "☽", tone: 1 },
+    { id: "name", title: "草药全目录", text: "按名称首字母分类", meta: "点击进入", icon: "A-Z", tone: 3, action: "name" }
+  ];
+  const activeGateway = gateways.find(item => item.id === state.homeSection);
+  const gatewayCards = activeGateway
+    ? `
+      <div class="gateway-focus" data-action="home-section-close">
+        <div class="gateway-expanded" data-stop-collapse="true">
+          <button class="gateway-collapse" data-action="home-section-collapse" aria-label="收起当前入口">收起</button>
+          ${gatewaySummary(activeGateway.id, activeGateway.title, activeGateway.text, activeGateway.meta, activeGateway.icon, activeGateway.tone)}
+          ${homeDrawer()}
+        </div>
+      </div>
+    `
+    : gateways.map(item => gatewayCard(item.id, item.title, item.text, item.meta, item.icon, item.tone, item.action || "home-section")).join("");
 
   return `
     <section class="home-hero">
@@ -378,55 +473,21 @@ function home() {
             <div class="pill">草药 · 魔法 · 对应之书</div>
             <h1>灵草志</h1>
         <div class="latin">Library of Magic Herbs</div>
-            <p class="intro">输入草药名或想达成的魔法目的</p>
+            <p class="intro">输入草药、材料名或想达成的魔法目的</p>
             ${searchBox()}
             <div class="hero-cta">
-              <button class="primary" data-action="name">浏览全部草药 →</button>
-              <button class="secondary" data-action="filter" data-type="power" data-value="保护" data-label="保护 · 辟邪">从保护开始</button>
-              <button class="secondary" data-action="recipes">复杂配方</button>
+              <button class="primary" data-action="name">浏览全部草药、材料 →</button>
+              <button class="secondary" data-action="home-section" data-section="purpose">按用途查找</button>
+              <button class="secondary" data-action="home-section" data-section="ritual">仪式配方</button>
             </div>
-            <div class="countline">书中已收录 <strong>${HERBS.length}</strong> 味草药，正在继续补充书籍资料</div>
+            <div class="countline">书中已收录 <strong>${HERBS.length}</strong> 项草药、材料，正在继续补充书籍资料</div>
           </section>
           <aside class="hero-panel">
-            <div class="panel-title">按功效起步</div>
-            <div class="hero-card-grid">${heroCats}</div>
+            <div class="gateway-grid">${gatewayCards}</div>
           </aside>
         </div>
       </div>
     </section>
-    <div class="home-ribbon">
-      <div class="wrap ribbon-inner">
-        ${powerCats.slice(8).map(cat => `<button data-action="filter" data-type="power" data-value="${cat.key}" data-label="${cat.label}" style="--hue:${cat.hue}">${cat.label}</button>`).join("")}
-      </div>
-    </div>
-    <div class="band">
-      <section class="wrap section compact-section">
-        <div class="section-head"><h2>按本源查找</h2><span>依元素、行星与阴阳追溯草药的根性</span></div>
-        <div class="source-grid">
-          <div>
-            <div class="source-title">四大元素</div>
-            <div class="chips">${elementChips}</div>
-            <div class="source-title">阴阳极性 · 毒性</div>
-            <div class="chips">
-              ${genderChips}
-              <button class="chip danger" data-action="filter" data-type="toxic" data-value="true" data-label="毒草 · 慎用">☠ 毒草慎用 <small>${countBy(h => h.toxic)}</small></button>
-            </div>
-          </div>
-          <div>
-            <div class="source-title">七大行星</div>
-            <div class="chips">${planetChips}</div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <div class="band">
-      <section class="wrap">
-        <button class="name-entry" data-action="name">
-          <strong>按名称查找<span>从 A 到 Z，按拼音首字母翻阅全部草药</span></strong>
-          <i class="arrow">→</i>
-        </button>
-      </section>
-    </div>
     <section class="contact-band" id="contact">
       <div class="wrap contact-inner">
         <div class="contact-copy">
@@ -484,15 +545,23 @@ function recipeCard(recipe) {
 }
 
 function recipesView() {
+  const list = state.recipeFilter
+    ? RECIPES.filter(recipe => {
+      if (state.recipeFilter.type === "type") return recipe.type === state.recipeFilter.value;
+      if (state.recipeFilter.type === "intent") return (recipe.intent || []).includes(state.recipeFilter.value);
+      return true;
+    })
+    : RECIPES;
+  const title = state.recipeFilter ? state.recipeFilter.label : "复杂配方";
   return `
     ${topbar("/ 复杂配方")}
     <section class="wrap recipes-page">
       <div class="results-head">
-        <h1>复杂配方</h1>
-        <span class="total">${RECIPES.length} 个复方仪式</span>
+        <h1>${esc(title)}</h1>
+        <span class="total">${list.length} 个复方仪式</span>
         <button class="ghost" data-action="home">← 返回首页</button>
       </div>
-      <div class="recipe-grid">${RECIPES.map(recipeCard).join("")}</div>
+      <div class="recipe-grid">${list.map(recipeCard).join("")}</div>
     </section>
   `;
 }
@@ -562,7 +631,7 @@ function card(herb) {
 
 function browse() {
   const list = filteredHerbs();
-  const title = state.filter ? state.filter.label : (state.query ? "搜索结果" : "全部草药");
+  const title = state.filter ? state.filter.label : (state.query ? "搜索结果" : "全部草药、材料");
   return `
     ${topbar()}
     <section class="wrap">
@@ -572,7 +641,7 @@ function browse() {
         <span class="total">${list.length} 味</span>
         <button class="ghost" data-action="home">← 返回全部</button>
       </div>
-      ${list.length ? `<div class="card-grid">${list.map(card).join("")}</div>` : `<div class="empty"><strong>没有找到匹配的草药</strong><span>试试别的关键词，或返回全部草药</span></div>`}
+      ${list.length ? `<div class="card-grid">${list.map(card).join("")}</div>` : `<div class="empty"><strong>没有找到匹配的草药、材料</strong><span>试试别的关键词，或返回全部草药、材料</span></div>`}
     </section>
   `;
 }
@@ -613,8 +682,7 @@ function detail() {
     const formula = item.formula ? ` 配方：${item.formula}` : "";
     return `${item.title ? item.title + "：" : ""}${item.method || ""}${formula}${source}`;
   });
-  const genericUses = [...new Set(powerCats.flatMap(cat => matchesCat(herb, cat) ? useMap[cat.key] || [] : []))];
-  const uses = [...bookUses, ...genericUses].slice(0, 7);
+  const uses = bookUses.slice(0, 7);
   const related = HERBS
     .filter(h => h.id !== herb.id && (h.powers.some(p => herb.powers.slice(0, 4).includes(p)) || h.element === herb.element))
     .slice(0, 6);
@@ -643,7 +711,7 @@ function detail() {
           <div class="tags">${herb.powers.map(p => `<span class="tag">${esc(p)}</span>`).join("") || `<span class="tag">待补充</span>`}</div>
           <p style="margin-top:18px">${esc(herb.effect || "这一味草药的功效文本待补充。")}</p>
         </section>
-        ${uses.length ? `<section class="detail-section"><h2>常见魔法用法</h2>${uses.map((u, i) => `<div class="magic-row ${i < bookUses.length ? "book-source" : ""}"><b>※</b><span>${esc(u)}</span></div>`).join("")}</section>` : ""}
+        ${uses.length ? `<section class="detail-section"><h2>书籍记录的魔法用法</h2>${uses.map(u => `<div class="magic-row book-source"><b>※</b><span>${esc(u)}</span></div>`).join("")}</section>` : ""}
         <section class="detail-section"><h2>分类学 · 界门纲目科属</h2><div class="tax">${taxRows.map(r => `<div><span>${r[0]}</span><span>${r[1]}</span></div>`).join("")}</div></section>
         <section class="detail-section">
           <h2>相关复杂配方</h2>
@@ -701,13 +769,31 @@ app.addEventListener("input", event => {
 
 app.addEventListener("click", event => {
   const el = event.target.closest("[data-action]");
+  if (state.view === "home" && state.homeSection && !event.target.closest(".gateway-expanded") && (!el || el.dataset.action === "home-section-close")) {
+    state.homeSection = null;
+    render();
+    return;
+  }
   if (!el) return;
   const action = el.dataset.action;
   if (action === "back") {
     goBack();
     return;
   }
-  if (action === "home") setView({ view: "home", query: "", filter: null, currentId: null });
+  if (action === "home") setView({ view: "home", query: "", filter: null, recipeFilter: null, currentId: null });
+  if (action === "home-section") {
+    state.homeSection = el.dataset.section || "purpose";
+    render();
+  }
+  if (action === "home-section-collapse") {
+    state.homeSection = null;
+    render();
+  }
+  if (action === "home-section-close") {
+    if (event.target.closest("[data-stop-collapse]")) return;
+    state.homeSection = null;
+    render();
+  }
   if (action === "contact") {
     state.contactOpen = true;
     state.contactCopied = false;
@@ -735,12 +821,15 @@ app.addEventListener("click", event => {
     state.contactCopied = true;
     render();
   }
-  if (action === "name") setView({ view: "name", query: "", filter: null, initial: "all" });
-  if (action === "recipes") setView({ view: "recipes", query: "", filter: null });
+  if (action === "name") setView({ view: "name", query: "", filter: null, recipeFilter: null, initial: "all" });
+  if (action === "recipes") {
+    const recipeFilter = el.dataset.recipeType ? { type: el.dataset.recipeType, value: el.dataset.recipeValue, label: el.dataset.recipeLabel } : null;
+    setView({ view: "recipes", query: "", filter: null, recipeFilter });
+  }
   if (action === "open-recipe") setView({ view: "recipeDetail", currentRecipeId: el.dataset.id });
   if (action === "letter") setView({ initial: el.dataset.letter }, { track: false });
   if (action === "open") setView({ view: "detail", currentId: Number(el.dataset.id) });
-  if (action === "filter") setView({ view: "browse", query: "", filter: { type: el.dataset.type, value: el.dataset.value, label: el.dataset.label } });
+  if (action === "filter") setView({ view: "browse", query: "", recipeFilter: null, filter: { type: el.dataset.type, value: el.dataset.value, label: el.dataset.label } });
 });
 
 window.addEventListener("touchstart", event => {
