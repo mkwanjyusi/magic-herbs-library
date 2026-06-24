@@ -13,8 +13,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "小枝与木材",
     "specificUses": "用于保护、灵视。常见形式包括薰香或焚烧、护符、随身携带；使用部位：小枝与木材。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -31,8 +31,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "花",
     "specificUses": "用于治疗。常见形式包括护符、随身携带；使用部位：花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -50,8 +50,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "叶与根",
     "specificUses": "用于保护、驱魔。常见形式包括薰香或焚烧、护符、随身携带、栽种守护；使用部位：叶与根。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -69,8 +69,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "果实、苹果酒与花",
     "specificUses": "用于爱情、治疗。常见形式包括薰香或焚烧、擦拭、洗涤或涂抹；使用部位：果实、苹果酒与花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -88,8 +88,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于驱魔、净化。常见形式包括薰香或焚烧；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -106,8 +106,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "叶与枝条",
     "specificUses": "用于保护。书中记录为仪式、护符或日常魔法操作；使用部位：叶与枝条。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -126,8 +126,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "芽",
     "specificUses": "用于保护、智慧、显化。常见形式包括香包、薰香或焚烧、随身携带；使用部位：芽。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": [
       "missing_core_field"
@@ -149,8 +149,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于净化、保护、驱魔、爱情。常见形式包括香包、薰香或焚烧、沐浴；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -171,8 +171,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "叶",
     "specificUses": "用于保护、灵视、驱魔、净化、治疗。常见形式包括香包、薰香或焚烧、护符、佩戴、沐浴；使用部位：叶。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -190,8 +190,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "树脂",
     "specificUses": "用于智慧、净化。常见形式包括薰香或焚烧；使用部位：树脂。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -209,8 +209,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于灵视、生育。常见形式包括薰香或焚烧、随身携带；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -228,8 +228,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于净化、保护。常见形式包括香包、佩戴；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -246,8 +246,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "整株活植物与刺",
     "specificUses": "用于保护。常见形式包括悬挂或置于门口、居所周边、栽种守护；使用部位：整株活植物与刺。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -265,8 +265,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "花",
     "specificUses": "用于繁荣、冥想。常见形式包括薰香或焚烧、护符；使用部位：花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -283,8 +283,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "树脂",
     "specificUses": "用于抑制情欲。常见形式包括薰香或焚烧；使用部位：树脂。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -302,8 +302,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "种子",
     "specificUses": "用于保护、激情。常见形式包括香包、护符、随身携带；使用部位：种子。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -321,8 +321,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "花",
     "specificUses": "用于保护、能量。常见形式包括薰香或焚烧、祭坛布置；使用部位：花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -340,8 +340,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于爱情、动物沟通。常见形式包括香包、薰香或焚烧；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -360,8 +360,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "树皮",
     "specificUses": "用于保护、治疗、激情。常见形式包括薰香或焚烧；使用部位：树皮。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -381,8 +381,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于保护、爱情、繁荣、治疗。常见形式包括香包、随身携带、悬挂或置于门口、居所周边；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -401,8 +401,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "花蕾",
     "specificUses": "用于保护、驱散负面、止谣。常见形式包括香包、随身携带、悬挂或置于门口、居所周边；使用部位：花蕾。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -419,8 +419,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于保护。常见形式包括护符、随身携带、擦拭、洗涤或涂抹、栽种守护；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -437,8 +437,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于保护。常见形式包括随身携带；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -456,8 +456,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "果实",
     "specificUses": "用于治疗、生育。常见形式包括薰香或焚烧；使用部位：果实。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -476,8 +476,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于爱情、生育、保护。常见形式包括随身携带、栽种守护；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -495,8 +495,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "枝条与木材",
     "specificUses": "用于保护、祝圣。常见形式包括薰香或焚烧、随身携带、悬挂或置于门口、居所周边；使用部位：枝条与木材。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -514,8 +514,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于保护、爱情。常见形式包括香包、薰香或焚烧、沐浴、悬挂或置于门口、居所周边；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -534,8 +534,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "树脂",
     "specificUses": "用于能量、净化、保护。常见形式包括香包、薰香或焚烧；使用部位：树脂。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -553,8 +553,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "叶、浆果与花",
     "specificUses": "用于净化、爱情。书中记录为仪式、护符或日常魔法操作；使用部位：叶、浆果与花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -571,8 +571,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "叶与蒴果",
     "specificUses": "用于治疗。常见形式包括薰香或焚烧、悬挂或置于门口、居所周边；使用部位：叶与蒴果。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -590,8 +590,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于保护、爱情。常见形式包括薰香或焚烧、悬挂或置于门口、居所周边、栽种守护；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -611,8 +611,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "树脂",
     "specificUses": "用于保护、净化、祝圣、驱魔。常见形式包括香包、薰香或焚烧、护符；使用部位：树脂。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -630,8 +630,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "球茎与花",
     "specificUses": "用于保护、驱魔。常见形式包括香包、随身携带、悬挂或置于门口、居所周边、祭坛布置；使用部位：球茎与花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -650,8 +650,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "花",
     "specificUses": "用于爱情、治疗、保护。常见形式包括香包、佩戴、栽种守护；使用部位：花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -668,8 +668,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "叶与木材",
     "specificUses": "用于保护。常见形式包括香包、护符、随身携带；使用部位：叶与木材。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -688,8 +688,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "坚果与木材",
     "specificUses": "用于生育、保护、心智能力。常见形式包括护符、随身携带、悬挂或置于门口、居所周边；使用部位：坚果与木材。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -706,8 +706,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于保护。常见形式包括香包、护符、栽种守护；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -725,8 +725,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "花",
     "specificUses": "用于繁荣、灵视。常见形式包括香包、擦拭、洗涤或涂抹；使用部位：花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -744,8 +744,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "花",
     "specificUses": "用于爱情、保护。常见形式包括香包；使用部位：花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -763,8 +763,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于净化、保护。常见形式包括香包、薰香或焚烧、沐浴；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -781,8 +781,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于保护。常见形式包括悬挂或置于门口、居所周边、栽种守护；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -800,8 +800,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "花",
     "specificUses": "用于爱情、繁荣。常见形式包括香包；使用部位：花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -819,8 +819,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "",
     "specificUses": "用于保护、爱情。常见形式包括香包、薰香或焚烧、护符、佩戴、悬挂或置于门口、居所周边、栽种守护。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -839,8 +839,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "花",
     "specificUses": "用于爱情、保护、净化。常见形式包括香包、薰香或焚烧、随身携带、沐浴；使用部位：花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -858,8 +858,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于保护、爱情。常见形式包括护符、佩戴、悬挂或置于门口、居所周边；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -877,8 +877,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于休息、抑制情欲。常见形式包括擦拭、洗涤或涂抹、栽种守护；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -896,8 +896,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于保护、爱情。常见形式包括护符、悬挂或置于门口、居所周边；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -915,8 +915,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于保护、爱情。常见形式包括护符、佩戴；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -934,8 +934,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于保护、灵视。常见形式包括薰香或焚烧、随身携带、擦拭、洗涤或涂抹、栽种守护、占卜工具处理、浸剂或饮用记录；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -953,8 +953,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于爱情、生育。常见形式包括香包、护符、随身携带、佩戴；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -972,8 +972,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "种子",
     "specificUses": "用于生育、治疗。书中记录为仪式、护符或日常魔法操作；使用部位：种子。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -993,8 +993,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "球茎与花",
     "specificUses": "用于保护、净化、驱魔、治疗。常见形式包括擦拭、洗涤或涂抹、栽种守护；使用部位：球茎与花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1011,8 +1011,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "果实与花",
     "specificUses": "用于爱情。常见形式包括香包、护符、沐浴；使用部位：果实与花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1029,8 +1029,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "花",
     "specificUses": "用于爱情。常见形式包括随身携带；使用部位：花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1048,8 +1048,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于激情、爱情。常见形式包括薰香或焚烧、佩戴；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1067,8 +1067,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于保护、驱魔。常见形式包括薰香或焚烧、悬挂或置于门口、居所周边；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1085,8 +1085,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "浆果",
     "specificUses": "用于保护。常见形式包括薰香或焚烧、护符、随身携带；使用部位：浆果。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1104,8 +1104,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于治疗、净化。常见形式包括薰香或焚烧、护符、擦拭、洗涤或涂抹；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1123,8 +1123,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "球果、坚果与针叶",
     "specificUses": "用于生育、净化。常见形式包括香包、薰香或焚烧、护符、沐浴；使用部位：球果、坚果与针叶。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1143,8 +1143,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "花",
     "specificUses": "用于爱情、生育、灵视。常见形式包括香包、薰香或焚烧、擦拭、洗涤或涂抹、浸剂或饮用记录；使用部位：花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1164,8 +1164,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于净化、爱情、智慧、保护。常见形式包括香包、薰香或焚烧、佩戴、沐浴、浸剂或饮用记录；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1184,8 +1184,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "花",
     "specificUses": "用于净化、灵视、治疗。常见形式包括薰香或焚烧、浸剂或饮用记录；使用部位：花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1203,8 +1203,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于治疗、繁荣。常见形式包括香包、薰香或焚烧、护符；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1223,8 +1223,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "木材",
     "specificUses": "用于保护、净化、治疗。常见形式包括薰香或焚烧；使用部位：木材。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1241,8 +1241,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "叶与树皮",
     "specificUses": "用于保护。常见形式包括薰香或焚烧、护符；使用部位：叶与树皮。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1259,8 +1259,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "花",
     "specificUses": "用于保护。常见形式包括薰香或焚烧、护符、随身携带、佩戴；使用部位：花。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1278,8 +1278,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于保护、驱魔。常见形式包括薰香或焚烧、佩戴、悬挂或置于门口、居所周边；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1296,8 +1296,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "种子",
     "specificUses": "用于灵视。常见形式包括薰香或焚烧；使用部位：种子。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1315,8 +1315,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "种子",
     "specificUses": "用于保护、生育。常见形式包括栽种守护；使用部位：种子。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1333,8 +1333,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于保护。常见形式包括栽种守护；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1352,8 +1352,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于灵视、净化。常见形式包括薰香或焚烧、佩戴、沐浴；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1372,8 +1372,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "全草",
     "specificUses": "用于爱情、净化、保护。常见形式包括香包、薰香或焚烧、护符、沐浴、悬挂或置于门口、居所周边；使用部位：全草。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1391,8 +1391,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "坚果",
     "specificUses": "用于生育、治疗。常见形式包括随身携带；使用部位：坚果。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   },
@@ -1410,8 +1410,8 @@ window.__MAGICAL_HERBALISM_DETAILS = {
     "partsUsed": "枝条",
     "specificUses": "用于治疗、愿望。常见形式包括栽种守护；使用部位：枝条。",
     "source": {
-      "book": "Magical 全草alism: The Secret Craft of the Wise",
-      "section": "Witch's 全草al"
+      "book": "Magical Herbalism: The Secret Craft of the Wise",
+      "section": "Witch's Herbal"
     },
     "reviewFlags": []
   }

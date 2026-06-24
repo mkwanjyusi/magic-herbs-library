@@ -24,8 +24,8 @@ HERBS.forEach(herb => {
       herb.usage_examples = [
         ...(herb.usage_examples || []),
         {
-          title: "Cunningham 具体用法",
-          method: cunningham.specificUses
+          method: cunningham.specificUses,
+          source: cunningham.source
         }
       ];
     }
@@ -306,22 +306,14 @@ function citeRef(source) {
   return `
     <details class="source-ref quote-ref">
       <summary>出处</summary>
-      <span>${esc(book)}${source.page ? ` · p.${esc(source.page)}` : ""}</span>
+      <span>${esc(book)}${source.section ? ` · ${esc(source.section)}` : ""}${source.page ? ` · p.${esc(source.page)}` : ""}</span>
     </details>
   `;
 }
 
-function beyerlSections(herb) {
+function bookDetailData(herb) {
   const data = herb.beyerl || herb.masterBook || herb.book_profile;
-  if (!data) return "";
-  const loreRef = quoteRef(data.loreQuote) || citeRef(data.source);
-  return `
-    ${data.description ? `<section class="detail-section"><h2>植物描述</h2><p>${esc(data.description)}</p></section>` : ""}
-    ${data.lore ? `<section class="detail-section book-notes"><h2>民俗 lore</h2><p>${esc(data.lore)}${loreRef}</p></section>` : ""}
-    ${data.remedial ? `<section class="detail-section"><h2>传统药用</h2><p>${esc(data.remedial)}</p></section>` : ""}
-    ${data.safety ? `<section class="detail-section"><h2>安全提示</h2><p>${esc(data.safety)}</p></section>` : ""}
-    ${Array.isArray(data.notes) && data.notes.length ? `<section class="detail-section"><h2>补充记录</h2>${data.notes.map(note => `<p>${esc(note)}</p>`).join("")}</section>` : ""}
-  `;
+  return data || {};
 }
 
 function filteredHerbs() {
@@ -580,13 +572,13 @@ function recipesView() {
       return true;
     })
     : RECIPES);
-  const title = state.recipeFilter ? state.recipeFilter.label : "复杂配方";
+  const title = state.recipeFilter ? state.recipeFilter.label : "配方";
   return `
-    ${topbar("/ 复杂配方")}
+    ${topbar("/ 配方")}
     <section class="wrap recipes-page">
       <div class="results-head">
         <h1>${esc(title)}</h1>
-        <span class="total">${list.length} 个复方仪式</span>
+        <span class="total">${list.length} 个配方</span>
         <button class="ghost" data-action="home">← 返回首页</button>
       </div>
       <div class="recipe-grid">${list.map(recipeCard).join("")}</div>
@@ -598,7 +590,7 @@ function recipeDetail() {
   const recipe = RECIPES.find(r => r.id === state.currentRecipeId) || RECIPES[0];
   if (!recipe) return recipesView();
   return `
-    ${topbar("/ 复杂配方")}
+    ${topbar("/ 配方")}
     <section class="wrap recipe-detail">
       <button class="ghost back-left" data-action="recipes">← 返回配方</button>
       <div class="recipe-hero">
@@ -646,7 +638,7 @@ function card(herb) {
   return `
     <button class="herb-card" data-action="open" data-id="${h.id}">
       ${h.toxic ? `<span class="toxic">☠ 有毒</span>` : ""}
-      ${hasRecipe ? `<span class="recipe-badge">复方</span>` : ""}
+      ${hasRecipe ? `<span class="recipe-badge">配方</span>` : ""}
       <span class="card-title">
         ${disc(h.element, h.elColor, "width:40px;height:40px;font-size:18px")}
         <span><strong>${esc(h.name)}</strong><span class="pinyin">${esc(englishNote(h))}</span></span>
@@ -707,7 +699,10 @@ function detail() {
   const next = VISIBLE_HERBS[(index + 1) % VISIBLE_HERBS.length];
   const bookUses = (herb.usage_examples || []).map(item => {
     const formula = item.formula ? ` 配方：${item.formula}` : "";
-    return `${item.title ? item.title + "：" : ""}${item.method || ""}${formula}`;
+    return {
+      text: `${item.title ? item.title + "：" : ""}${item.method || ""}${formula}`,
+      source: item.source
+    };
   });
   const uses = bookUses.slice(0, 7);
   const related = VISIBLE_HERBS
@@ -715,7 +710,8 @@ function detail() {
     .slice(0, 6);
   const relatedRecipes = recipesForHerb(herb);
   const taxRows = taxonomyRows(herb);
-  const hasCoreText = herb.powers.length || herb.effect;
+  const bookData = bookDetailData(herb);
+  const loreRef = bookData.lore ? quoteRef(bookData.loreQuote) || citeRef(bookData.source) : "";
   return `
     ${topbar("/ 草药详情")}
     <section class="wrap detail-grid">
@@ -735,17 +731,20 @@ function detail() {
         ${herb.toxic ? `<div class="warning">☠ 此草有毒，切勿内服，仅作护符、熏香等外用法术</div>` : ""}
         <h1 class="detail-title">${esc(herb.name)}</h1>
         <span class="pinyin">${esc(englishNote(herb))}</span>
-        ${hasCoreText ? `
+        ${herb.powers.length ? `
           <section class="detail-section core-entry">
             <h2>魔法力量</h2>
             ${herb.powers.length ? `<div class="tags">${herb.powers.map(p => `<span class="tag">${esc(p)}</span>`).join("")}</div>` : ""}
-            ${herb.effect ? `<p>${esc(herb.effect)}</p>` : ""}
           </section>
         ` : ""}
-        ${beyerlSections(herb)}
-        ${uses.length ? `<section class="detail-section"><h2>具体用法</h2>${uses.map(u => `<div class="magic-row book-source"><span>${esc(u)}</span></div>`).join("")}</section>` : ""}
+        ${bookData.description ? `<section class="detail-section"><h2>植物描述</h2><p>${esc(bookData.description)}</p></section>` : ""}
+        ${uses.length ? `<section class="detail-section"><h2>具体用法</h2>${uses.map(u => `<div class="magic-row book-source"><span>${esc(u.text)}${citeRef(u.source)}</span></div>`).join("")}</section>` : ""}
+        ${bookData.lore ? `<section class="detail-section book-notes"><h2>民俗 lore</h2><p>${esc(bookData.lore)}${loreRef}</p></section>` : ""}
+        ${bookData.remedial ? `<section class="detail-section"><h2>传统药用</h2><p>${esc(bookData.remedial)}</p></section>` : ""}
+        ${bookData.safety ? `<section class="detail-section"><h2>安全提示</h2><p>${esc(bookData.safety)}</p></section>` : ""}
+        ${Array.isArray(bookData.notes) && bookData.notes.length ? `<section class="detail-section"><h2>补充记录</h2>${bookData.notes.map(note => `<p>${esc(note)}</p>`).join("")}</section>` : ""}
         ${taxRows.length ? `<details class="detail-section fold-section"><summary>分类学</summary><div class="tax">${taxRows.map(r => `<div><span>${r[0]}</span><span>${r[1]}</span></div>`).join("")}</div></details>` : ""}
-        ${relatedRecipes.length ? `<section class="detail-section"><h2>相关复杂配方</h2><div class="recipe-grid compact-recipes">${relatedRecipes.map(recipeCard).join("")}</div></section>` : ""}
+        ${relatedRecipes.length ? `<section class="detail-section"><h2>相关配方</h2><div class="recipe-grid compact-recipes">${relatedRecipes.map(recipeCard).join("")}</div></section>` : ""}
         ${related.length ? `<section class="detail-section"><h2>相近条目</h2><div class="chips">${related.map(h => `<button class="chip" data-action="open" data-id="${h.id}">${h.element && h.element !== "未知" ? disc(h.element, elements[h.element] || elements["未知"]) : ""}${esc(h.name)}</button>`).join("")}</div></section>` : ""}
         <div class="pager">
           <button data-action="open" data-id="${prev.id}"><small>← 上一味</small><strong>${esc(prev.name)}</strong></button>

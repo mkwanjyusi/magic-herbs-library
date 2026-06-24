@@ -918,8 +918,12 @@ h1, h2, h3, p { margin: 0; }
 }
 @media (max-width: 640px) {
   .source-ref span {
-    left: 0;
-    right: auto;
+    position: static;
+    display: block;
+    min-width: 0;
+    max-width: 100%;
+    width: min(100%, 320px);
+    margin-top: 8px;
   }
 }
 .magic-row {
