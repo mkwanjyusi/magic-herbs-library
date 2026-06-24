@@ -471,5 +471,185 @@ window.__MASTERBOOK_DETAILS = {
     },
     "remedial": "传统药用部分强调其用于皮肤问题，常见于湿疹、银屑病、虫咬和伤口等草药混合配方；书中也记录其内服用于多种不适，尤其是缓和麻疹和天花并发症、帮助退热，以及用于癫痫和轻度心脏疾病的传统用法。",
     "safety": "书中未列出特别禁忌；菊科过敏、皮肤敏感或内服场景应谨慎。"
+  },
+  "月桂叶": {
+    "page": 66,
+    "source": {
+      "book": "The Master Book of Herbalism",
+      "page": 66
+    },
+    "description": "书中描述 Bay Laurel 为小乔木；日常最熟悉的是狭长、尖端、暗绿色且坚韧发亮的叶片，常用于炖肉和肉类菜肴调味，叶中含有挥发油。",
+    "lore": "民俗记录中，月桂用于吸引爱情和善意；希腊人用它表彰胜利者，它也与德尔斐女祭司的宗教与灵视传统相连。",
+    "loreQuote": {
+      "text": "Bay has a history of use in attracting love and good wishes.",
+      "translation": "月桂有用于吸引爱情和善意的历史。",
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 66
+      }
+    },
+    "remedial": "传统药用部分说明，除烹饪中一片叶足以调味外，月桂很少内服；药用上主要使用油，用于瘀伤、肌肉损伤和耳痛止痛等外用场景。",
+    "safety": "书中提醒大量挥发油会引发强烈反应，可能升高血压和脉搏并导致呕吐；浆果有潜在危险，孕期应避免。"
+  },
+  "常春藤": {
+    "page": 122,
+    "source": {
+      "book": "The Master Book of Herbalism",
+      "page": 122
+    },
+    "description": "书中描述 Ivy 为常绿攀援植物，深绿发亮的角状叶片常见；茎部生出类似根的纤维以攀附墙面或树皮，药草使用多指 Common Ivy。",
+    "lore": "民俗记录中，常春藤与巴克斯的花冠、节庆胜利、婚姻结合有关；其四季攀附的特性也在魔法篇中被解释为忠贞的象征。",
+    "loreQuote": {
+      "text": "Ivy has also been used at times of celebration, those of athletic or political victory.",
+      "translation": "常春藤也曾用于节庆时刻，包括竞技或政治胜利。",
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 122
+      }
+    },
+    "remedial": "传统药用部分说今日已很少作为药草使用；浆果曾用于瘟疫处理但性质强烈且不推荐大众使用，叶可制成外用搽剂。",
+    "safety": "书中强调浆果强烈、味道不佳且不推荐日常使用；常春藤不适合自行内服。"
+  },
+  "洋葱": {
+    "page": 138,
+    "source": {
+      "book": "The Master Book of Herbalism",
+      "page": 138
+    },
+    "description": "书中描述洋葱以白色多汁鳞茎为特征，外覆薄而纸质的皮；会长出中空、光滑的绿色叶片，若继续生长则会开花结籽。",
+    "remedial": "传统药用部分记录洋葱过去常用于感冒，也曾被认为能增强男性活力、增加食欲，并用于毒虫咬伤等民间处理。",
+    "safety": "书中未把洋葱作为现代常用药草；药用量、外敷和民间偏方不应等同于日常食用。"
+  },
+  "冬青": {
+    "page": 224,
+    "source": {
+      "book": "The Master Book of Herbalism",
+      "page": 224
+    },
+    "lore": "魔法篇记录冬青曾是德鲁伊的神圣草药；冬季人们把冬青留在家中，为林地灵体提供避寒之处，也可作为礼物或花环用于节庆和欢迎新成员。",
+    "loreQuote": {
+      "text": "Holly was a sacred herbe of the Druids.",
+      "translation": "冬青曾是德鲁伊的神圣草药。",
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 224
+      }
+    }
+  },
+  "茉莉": {
+    "page": 227,
+    "source": {
+      "book": "The Master Book of Herbalism",
+      "page": 227
+    },
+    "lore": "魔法篇将茉莉描述为与女神相关的细致开花草药，神圣于以弗所的狄安娜、圣母玛利亚和观音；茉莉油可用于蜡烛，带来灵性保护和气场健康。",
+    "loreQuote": {
+      "text": "This very delicate, flowering herbe is often associated with Goddesses.",
+      "translation": "这种非常细致的开花草药常与女神相联。",
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 227
+      }
+    }
+  },
+  "没药": {
+    "page": 237,
+    "source": {
+      "book": "The Master Book of Herbalism",
+      "page": 237
+    },
+    "lore": "魔法篇中，没药用于增强仪式中的魔法觉察，适合在理解个人悲伤时焚烧；它也作为宗教草药、葬礼草药，并与多位女神和神祇相关。",
+    "loreQuote": {
+      "text": "Myrrh was also a holy herbe to the Hebrews and the Ethiopians.",
+      "translation": "没药也是希伯来人和埃塞俄比亚人的神圣草药。",
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 237
+      }
+    },
+    "safety": "树脂烟熏可能刺激呼吸道；精油、酊剂或内服用途应谨慎。"
+  },
+  "玫瑰": {
+    "page": 244,
+    "source": {
+      "book": "The Master Book of Herbalism",
+      "page": 244
+    },
+    "lore": "魔法篇中，玫瑰神圣于爱神阿佛洛狄忒，代表能战胜邪恶与逆境的美；它也象征秘密、爱、滋养、女神的多个面向，并对应塔罗圣杯七。",
+    "loreQuote": {
+      "text": "Roses are sacred to Aphrodite, Goddess of Love, and represent beauty.",
+      "translation": "玫瑰神圣于爱神阿佛洛狄忒，并代表美。",
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 244
+      }
+    }
+  },
+  "檀香": {
+    "page": 247,
+    "source": {
+      "book": "The Master Book of Herbalism",
+      "page": 247
+    },
+    "lore": "魔法篇记录檀香可用于召请维纳斯，也可用于冥想、占卜和出神工作；它安定心智，帮助灵性层面自信而平稳地运作，并带有成功的品性。",
+    "loreQuote": {
+      "text": "Sandalwood may be used in all forms of meditation, divination, and trancework.",
+      "translation": "檀香可用于各种形式的冥想、占卜和出神工作。",
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 247
+      }
+    },
+    "safety": "焚香烟雾和精油可能刺激呼吸道或皮肤；敏感体质使用时应谨慎。"
+  },
+  "雪松": {
+    "page": 206,
+    "source": {
+      "book": "The Master Book of Herbalism",
+      "page": 206
+    },
+    "lore": "魔法篇记录雪松不只用于衣柜和储物箱，古代也是重要薰香材料；雪松香推荐用于祝圣魔杖，也与塔罗权杖牌组和财富吸引的民俗有关。",
+    "loreQuote": {
+      "text": "In ancient times Cedar was a major incense ingredient.",
+      "translation": "在古代，雪松是一种重要的薰香材料。",
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 206
+      }
+    },
+    "safety": "雪松烟熏、木屑和精油可能刺激呼吸道或皮肤；不应随意内服精油。"
+  },
+  "姜": {
+    "page": 221,
+    "source": {
+      "book": "The Master Book of Herbalism",
+      "page": 221
+    },
+    "lore": "魔法篇将姜与增强健康和保护相连：干姜根可放入护符佩戴，也可作为日常补益；书中还说园中姜的长势可象征园丁的健康。",
+    "loreQuote": {
+      "text": "Ginger is known for its ability to improve the state of health.",
+      "translation": "姜以改善健康状态的能力而闻名。",
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 221
+      }
+    },
+    "safety": "日常食用通常温和；高剂量、浓缩制剂、孕期或使用抗凝药物时应谨慎。"
+  },
+  "橄榄": {
+    "page": 238,
+    "source": {
+      "book": "The Master Book of Herbalism",
+      "page": 238
+    },
+    "lore": "魔法篇说橄榄在许多文化中都极为神圣，神圣于雅典娜、波塞冬和宙斯，也可用于荣耀太阳神祇；橄榄油可祝圣香炉、涂抹蜡烛、膏抹人或祝福圣水。",
+    "loreQuote": {
+      "text": "This has been a most sacred herbe for many cultures.",
+      "translation": "这在许多文化中一直是极为神圣的草药。",
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 238
+      }
+    }
   }
 };
