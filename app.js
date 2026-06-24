@@ -82,6 +82,33 @@ function esc(value) {
   return String(value ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
+function displayText(value) {
+  return String(value ?? "")
+    .replace(/复杂配方/g, "配方")
+    .replace(/相关复杂配方/g, "相关配方")
+    .replace(/复方仪式/g, "配方")
+    .replace(/复方/g, "配方");
+}
+
+function escDisplay(value) {
+  return esc(displayText(value));
+}
+
+function cleanUseText(value) {
+  return displayText(value)
+    .replace(/^\s*Cunningham\s*具体用法\s*[：:]\s*/i, "")
+    .replace(/^\s*[^。；;：:\n]{1,32}\s*具体用法\s*[：:]\s*/i, "")
+    .trim();
+}
+
+function useSource(item) {
+  return item.source || {
+    book: item.source_book,
+    section: item.title,
+    page: item.source_page
+  };
+}
+
 function snapshotState() {
   return {
     view: state.view,
@@ -306,7 +333,7 @@ function citeRef(source) {
   return `
     <details class="source-ref quote-ref">
       <summary>出处</summary>
-      <span>${esc(book)}${source.section ? ` · ${esc(source.section)}` : ""}${source.page ? ` · p.${esc(source.page)}` : ""}</span>
+      <span>${escDisplay(book)}${source.section ? ` · ${escDisplay(source.section)}` : ""}${source.page ? ` · p.${escDisplay(source.page)}` : ""}</span>
     </details>
   `;
 }
@@ -556,10 +583,10 @@ function contactModal() {
 function recipeCard(recipe) {
   return `
     <button class="recipe-card" data-action="open-recipe" data-id="${esc(recipe.id)}">
-      <span class="recipe-type">${esc(recipe.type)} · ${esc(recipe.complexity)}</span>
-      <strong>${esc(recipe.title)}</strong>
-      <small>${esc(recipe.source_book)} p.${esc(recipe.source_page)}</small>
-      <span class="tags">${recipe.intent.slice(0, 4).map(x => `<span class="tag">${esc(x)}</span>`).join("")}</span>
+      <span class="recipe-type">${escDisplay(recipe.type)} · ${escDisplay(recipe.complexity)}</span>
+      <strong>${escDisplay(recipe.title)}</strong>
+      <small>${escDisplay(recipe.source_book)} p.${escDisplay(recipe.source_page)}</small>
+      <span class="tags">${recipe.intent.slice(0, 4).map(x => `<span class="tag">${escDisplay(x)}</span>`).join("")}</span>
     </button>
   `;
 }
@@ -595,36 +622,36 @@ function recipeDetail() {
       <button class="ghost back-left" data-action="recipes">← 返回配方</button>
       <div class="recipe-hero">
         <div>
-          <span class="recipe-type">${esc(recipe.type)} · ${esc(recipe.complexity)}</span>
-          <h1>${esc(recipe.title)}</h1>
-          <p>${esc(recipe.usage)}</p>
-          <div class="tags">${recipe.intent.map(x => `<span class="tag">${esc(x)}</span>`).join("")}</div>
+          <span class="recipe-type">${escDisplay(recipe.type)} · ${escDisplay(recipe.complexity)}</span>
+          <h1>${escDisplay(recipe.title)}</h1>
+          <p>${escDisplay(recipe.usage)}</p>
+          <div class="tags">${recipe.intent.map(x => `<span class="tag">${escDisplay(x)}</span>`).join("")}</div>
         </div>
         <aside>
           <small>来源</small>
-          <strong>${esc(recipe.source_book)}</strong>
-          <span>p.${esc(recipe.source_page)}</span>
+          <strong>${escDisplay(recipe.source_book)}</strong>
+          <span>p.${escDisplay(recipe.source_page)}</span>
         </aside>
       </div>
       <div class="recipe-columns">
         <section>
           <h2>材料</h2>
-          <div class="ingredient-list">${recipe.ingredients.map(item => `<div><strong>${esc(item.name)}</strong><span>${esc(item.amount || "")}${item.latin ? ` · ${esc(item.latin)}` : ""}${item.note ? `<br>${esc(item.note)}` : ""}</span></div>`).join("")}</div>
+          <div class="ingredient-list">${recipe.ingredients.map(item => `<div><strong>${escDisplay(item.name)}</strong><span>${escDisplay(item.amount || "")}${item.latin ? ` · ${escDisplay(item.latin)}` : ""}${item.note ? `<br>${escDisplay(item.note)}` : ""}</span></div>`).join("")}</div>
         </section>
         <section>
           <h2>做法</h2>
-          <div class="steps">${recipe.method.map((step, i) => `<div><b>${i + 1}</b><span>${esc(step)}</span></div>`).join("")}</div>
+          <div class="steps">${recipe.method.map((step, i) => `<div><b>${i + 1}</b><span>${escDisplay(step)}</span></div>`).join("")}</div>
         </section>
       </div>
       <section class="detail-section">
         <h2>安全提示</h2>
-        <p>${esc(recipe.safety)}</p>
+        <p>${escDisplay(recipe.safety)}</p>
       </section>
       <section class="detail-section">
         <h2>相关草药</h2>
         <div class="chips">${recipe.relatedHerbs.map(name => {
           const herb = VISIBLE_HERBS.find(h => h.name === name || h.name.includes(name) || name.includes(h.name));
-          return herb ? `<button class="chip" data-action="open" data-id="${herb.id}">${disc(herb.element, elements[herb.element] || elements["未知"])}${esc(herb.name)}</button>` : `<span class="chip">${esc(name)}</span>`;
+          return herb ? `<button class="chip" data-action="open" data-id="${herb.id}">${disc(herb.element, elements[herb.element] || elements["未知"])}${escDisplay(herb.name)}</button>` : `<span class="chip">${escDisplay(name)}</span>`;
         }).join("")}</div>
       </section>
     </section>
@@ -700,10 +727,10 @@ function detail() {
   const bookUses = (herb.usage_examples || []).map(item => {
     const formula = item.formula ? ` 配方：${item.formula}` : "";
     return {
-      text: `${item.method || ""}${formula}`,
-      source: item.source
+      text: cleanUseText(`${item.method || ""}${formula}`),
+      source: useSource(item)
     };
-  });
+  }).filter(item => item.text);
   const uses = bookUses.slice(0, 7);
   const related = VISIBLE_HERBS
     .filter(h => h.id !== herb.id && (h.powers.some(p => herb.powers.slice(0, 4).includes(p)) || h.element === herb.element))
@@ -738,11 +765,10 @@ function detail() {
           </section>
         ` : ""}
         ${bookData.description ? `<section class="detail-section"><h2>植物描述</h2><p>${esc(bookData.description)}</p></section>` : ""}
-        ${uses.length ? `<section class="detail-section"><h2>具体用法</h2>${uses.map(u => `<div class="magic-row book-source"><span>${esc(u.text)}${citeRef(u.source)}</span></div>`).join("")}</section>` : ""}
+        ${uses.length ? `<section class="detail-section"><h2>具体用法</h2>${uses.map(u => `<div class="magic-row book-source"><span>${escDisplay(u.text)}${citeRef(u.source)}</span></div>`).join("")}</section>` : ""}
         ${bookData.lore ? `<section class="detail-section book-notes"><h2>民俗 lore</h2><p>${esc(bookData.lore)}${loreRef}</p></section>` : ""}
         ${bookData.remedial ? `<section class="detail-section"><h2>传统药用</h2><p>${esc(bookData.remedial)}</p></section>` : ""}
         ${bookData.safety ? `<section class="detail-section"><h2>安全提示</h2><p>${esc(bookData.safety)}</p></section>` : ""}
-        ${Array.isArray(bookData.notes) && bookData.notes.length ? `<section class="detail-section"><h2>补充记录</h2>${bookData.notes.map(note => `<p>${esc(note)}</p>`).join("")}</section>` : ""}
         ${taxRows.length ? `<details class="detail-section fold-section"><summary>分类学</summary><div class="tax">${taxRows.map(r => `<div><span>${r[0]}</span><span>${r[1]}</span></div>`).join("")}</div></details>` : ""}
         ${relatedRecipes.length ? `<section class="detail-section"><h2>相关配方</h2><div class="recipe-grid compact-recipes">${relatedRecipes.map(recipeCard).join("")}</div></section>` : ""}
         ${related.length ? `<section class="detail-section"><h2>相近条目</h2><div class="chips">${related.map(h => `<button class="chip" data-action="open" data-id="${h.id}">${h.element && h.element !== "未知" ? disc(h.element, elements[h.element] || elements["未知"]) : ""}${esc(h.name)}</button>`).join("")}</div></section>` : ""}

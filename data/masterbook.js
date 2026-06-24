@@ -717,7 +717,7 @@ window.__MASTERBOOK_DETAILS = {
     "page": 207,
     "source": { "book": "The Master Book of Herbalism", "page": 207 },
     "lore": "魔法篇讨论的是 Celery Seed，称其为灵视草药，可用于占卜时打开心智、增强专注；书中明确区别花园芹菜与野芹菜。",
-    "safety": "这里对应芹菜种子；孕期、肾脏问题或过敏体质应谨慎。"
+    "safety": "本条主要指芹菜种子；孕期、肾脏问题或过敏体质应谨慎。"
   },
   "矢车菊": {
     "page": 211,
@@ -811,7 +811,7 @@ window.__MASTERBOOK_DETAILS = {
   "鸢尾花": {
     "page": 226,
     "source": { "book": "The Master Book of Herbalism", "page": 226 },
-    "description": "书中小节为 Iris (Orris Root)，魔法使用重点常在干燥根材，而不只是花。",
+    "description": "鸢尾在草药魔法中常指鸢尾根（Orris Root）：干燥根材是主要使用部位，花本身并非唯一重点。",
     "lore": "魔法篇记录 Irises 作为宗教草药有悠久声誉，与引导灵魂前往 Elysian Fields 的女神同名，也可作为葬礼草药带来和平与希望。"
   },
   "樟树【樟脑】": {
