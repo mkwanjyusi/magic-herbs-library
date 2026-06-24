@@ -9,8 +9,13 @@ const state = {
   filter: null,
   initial: "all",
   currentId: null,
-  currentRecipeId: null
+  currentRecipeId: null,
+  contactCopied: false
 };
+
+const CONTACT_WECHAT = "Margaret77";
+const viewHistory = [];
+let touchStart = null;
 
 const elements = { "火": "#c2604a", "水": "#5f82b0", "风": "#6f9e78", "土": "#a6824f", "未知": "#9a93a6" };
 const planets = { "太阳": "☉", "月亮": "☽", "水星": "☿", "金星": "♀", "火星": "♂", "木星": "♃", "土星": "♄", "未知": "·" };
@@ -96,8 +101,28 @@ function esc(value) {
   return String(value ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
-function setView(next) {
+function snapshotState() {
+  return {
+    view: state.view,
+    query: state.query,
+    filter: state.filter ? { ...state.filter } : null,
+    initial: state.initial,
+    currentId: state.currentId,
+    currentRecipeId: state.currentRecipeId
+  };
+}
+
+function setView(next, options = {}) {
+  if (options.track !== false) viewHistory.push(snapshotState());
   Object.assign(state, next);
+  render();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function goBack() {
+  const previous = viewHistory.pop();
+  if (!previous) return;
+  Object.assign(state, previous);
   render();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -301,6 +326,7 @@ function topbar(detail = "") {
       <div class="topbar">
         <button class="brand" data-action="home">灵草志</button>
         <button class="toplink" data-action="recipes">复杂配方</button>
+        <button class="toplink" data-action="contact">联系版主</button>
         ${detail ? `<small>${detail}</small>` : searchBox(true)}
       </div>
     </div>
@@ -348,7 +374,7 @@ function home() {
             <div class="pill">草药 · 魔法 · 对应之书</div>
             <h1>灵草志</h1>
         <div class="latin">Library of Magic Herbs</div>
-            <p class="intro">查阅每一味草药的元素、行星、阴阳极性与魔法用途。输入草药名、拼音或想达成的法术目的，翻开这本会回应你的草木索引。</p>
+            <p class="intro">输入草药名或想达成的魔法目的</p>
             ${searchBox()}
             <div class="hero-cta">
               <button class="primary" data-action="name">浏览全部草药 →</button>
@@ -397,6 +423,20 @@ function home() {
         </button>
       </section>
     </div>
+    <section class="contact-band" id="contact">
+      <div class="wrap contact-inner">
+        <div class="contact-copy">
+          <span class="contact-kicker">Free Consultation</span>
+          <h2>写信给版主</h2>
+          <p>如果你想交流草药魔法、配方整理，或在草药魔法、仪式魔法的实践中遇到困惑，版主提供免费咨询。来信尽力回复。</p>
+        </div>
+        <div class="contact-card">
+          <small>微信</small>
+          <strong>${CONTACT_WECHAT}</strong>
+          <button class="secondary contact-copy-button" data-action="copy-contact">${state.contactCopied ? "已复制" : "复制微信号"}</button>
+        </div>
+      </div>
+    </section>
     <footer class="iris">
       <div class="wrap">
         <img src="assets/iris-hero.png" alt="鸢尾花">
@@ -601,13 +641,17 @@ function render() {
     app.innerHTML = `<div class="empty"><strong>没有读取到草药数据</strong><span>请确认原始设计包仍在当前文件夹中。</span></div>`;
     return;
   }
-  app.innerHTML = state.view === "home" ? home() : state.view === "browse" ? browse() : state.view === "name" ? nameDirectory() : state.view === "recipes" ? recipesView() : state.view === "recipeDetail" ? recipeDetail() : detail();
+  const backButton = viewHistory.length ? `<button class="back-float" data-action="back" aria-label="返回上一级" title="返回上一级">‹</button>` : "";
+  app.innerHTML = `${backButton}${state.view === "home" ? home() : state.view === "browse" ? browse() : state.view === "name" ? nameDirectory() : state.view === "recipes" ? recipesView() : state.view === "recipeDetail" ? recipeDetail() : detail()}`;
 }
 
 app.addEventListener("input", event => {
   if (event.target.matches("[data-action='search']")) {
-    state.query = event.target.value;
-    if (state.view === "home" && state.query.trim()) state.view = "browse";
+    const wasHome = state.view === "home";
+    const nextQuery = event.target.value;
+    if (wasHome && nextQuery.trim()) viewHistory.push(snapshotState());
+    state.query = nextQuery;
+    if (wasHome && state.query.trim()) state.view = "browse";
     render();
     const input = app.querySelector("[data-action='search']");
     if (input) {
@@ -636,13 +680,57 @@ app.addEventListener("click", event => {
   const el = event.target.closest("[data-action]");
   if (!el) return;
   const action = el.dataset.action;
+  if (action === "back") {
+    goBack();
+    return;
+  }
   if (action === "home") setView({ view: "home", query: "", filter: null, currentId: null });
+  if (action === "contact") {
+    setView({ view: "home", query: "", filter: null, currentId: null });
+    requestAnimationFrame(() => document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth", block: "start" }));
+  }
+  if (action === "copy-contact") {
+    if (navigator.clipboard?.writeText) {
+      navigator.clipboard.writeText(CONTACT_WECHAT);
+    } else {
+      const input = document.createElement("textarea");
+      input.value = CONTACT_WECHAT;
+      input.setAttribute("readonly", "");
+      input.style.position = "fixed";
+      input.style.opacity = "0";
+      document.body.appendChild(input);
+      input.select();
+      document.execCommand("copy");
+      input.remove();
+    }
+    state.contactCopied = true;
+    render();
+    requestAnimationFrame(() => document.querySelector("#contact")?.scrollIntoView({ block: "center" }));
+  }
   if (action === "name") setView({ view: "name", query: "", filter: null, initial: "all" });
   if (action === "recipes") setView({ view: "recipes", query: "", filter: null });
   if (action === "open-recipe") setView({ view: "recipeDetail", currentRecipeId: el.dataset.id });
-  if (action === "letter") setView({ initial: el.dataset.letter });
+  if (action === "letter") setView({ initial: el.dataset.letter }, { track: false });
   if (action === "open") setView({ view: "detail", currentId: Number(el.dataset.id) });
   if (action === "filter") setView({ view: "browse", query: "", filter: { type: el.dataset.type, value: el.dataset.value, label: el.dataset.label } });
 });
+
+window.addEventListener("touchstart", event => {
+  const touch = event.changedTouches[0];
+  if (!touch || touch.clientX > 32) return;
+  touchStart = { x: touch.clientX, y: touch.clientY };
+}, { passive: true });
+
+window.addEventListener("touchend", event => {
+  if (!touchStart || !viewHistory.length) {
+    touchStart = null;
+    return;
+  }
+  const touch = event.changedTouches[0];
+  const dx = touch.clientX - touchStart.x;
+  const dy = Math.abs(touch.clientY - touchStart.y);
+  touchStart = null;
+  if (dx > 90 && dy < 70) goBack();
+}, { passive: true });
 
 render();
