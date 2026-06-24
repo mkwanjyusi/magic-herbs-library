@@ -700,7 +700,7 @@ function detail() {
   const bookUses = (herb.usage_examples || []).map(item => {
     const formula = item.formula ? ` 配方：${item.formula}` : "";
     return {
-      text: `${item.title ? item.title + "：" : ""}${item.method || ""}${formula}`,
+      text: `${item.method || ""}${formula}`,
       source: item.source
     };
   });

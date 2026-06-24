@@ -769,7 +769,7 @@ window.__MASTERBOOK_DETAILS = {
   "薄荷": {
     "page": 241,
     "source": { "book": "The Master Book of Herbalism", "page": 241 },
-    "description": "此处承接 Peppermint/Mints 的西方魔法语境，作为薄荷类泛称处理；若日后拆分，可另建胡椒薄荷。",
+    "description": "薄荷是一类气味清凉鲜明的芳香草药，叶片揉碎后香气迅速散开，常被用于清新、净化和疗愈相关的日常魔法。",
     "lore": "魔法篇称 Peppermint 为灵视草药，可在日落后作为薰香带来预言之梦，也用于占卜、尊奉 Zeus 和理解塔罗愚者牌。",
     "safety": "薄荷精油刺激性强；儿童、孕期、胃食管反流或皮肤敏感者需谨慎。"
   },
@@ -793,7 +793,7 @@ window.__MASTERBOOK_DETAILS = {
   "蓟": {
     "page": 250,
     "source": { "book": "The Master Book of Herbalism", "page": 250 },
-    "description": "此处按 Thistles 泛称处理，不混入圣蓟或奶蓟的专门资料。",
+    "description": "蓟类植物多具刺与坚韧外形，传统中常以带刺的防护意象进入保护、驱邪与力量相关用途。",
     "lore": "魔法篇称 Thistles 象征耐力与生存能力，可用于动物的仪式疗愈；红色蓟可放在治疗圈四方召请疗愈力量。"
   },
   "亚麻": {
@@ -804,7 +804,7 @@ window.__MASTERBOOK_DETAILS = {
   "蕨类【部分有毒】": {
     "page": 219,
     "source": { "book": "The Master Book of Herbalism", "page": 219 },
-    "description": "此处按 Ferns 泛称处理，不自动并入 Male Fern 的专门根材用法。",
+    "description": "蕨类以无花、孢子繁殖和阴湿林地中的生长习性著称，魔法传统中常与隐秘、守护和幸运相关。",
     "lore": "魔法篇最重视 Ferns 的孢子传说：携带孢子可带来隐身般的低可见感，也可用于水盆占卜未来。",
     "safety": "蕨类差异很大，部分有毒或含不适合食用的成分；不要泛化为可食或可药用。"
   },
@@ -817,7 +817,7 @@ window.__MASTERBOOK_DETAILS = {
   "樟树【樟脑】": {
     "page": 205,
     "source": { "book": "The Master Book of Herbalism", "page": 205 },
-    "description": "此处对应 Camphor，重点是樟脑材料，而非整株樟树的全部用途。",
+    "description": "樟脑是樟树相关的强烈芳香材料，气味清透而穿透，传统中更常作为净化空间与驱散滞重气息的材料使用。",
     "lore": "魔法篇记录 Camphor 可清洁和净化家庭或圣殿空间，去除负面能量；晶体形式也用于晚间冥想和预言之梦。",
     "safety": "樟脑有毒，尤其儿童和宠物风险高；不可内服，外用和熏香都需谨慎。"
   },
@@ -829,25 +829,25 @@ window.__MASTERBOOK_DETAILS = {
   "苹果花": {
     "page": 200,
     "source": { "book": "The Master Book of Herbalism", "page": 200 },
-    "lore": "魔法篇的 Apple 条目包括苹果树整体传统；苹果花可承接其与 Aphrodite、爱情延续和树木祝福相关的民俗，但应与果实用途区分。"
+    "lore": "苹果花延续苹果树在爱情、祝福和女神 Aphrodite 传统中的象征意味，也带有春季开花、关系萌发与温柔守护的联想。"
   },
   "大茴香": {
     "page": 200,
     "source": { "book": "The Master Book of Herbalism", "page": 200 },
-    "description": "此处只对应 Star Anise / Illicium verum，即大茴香、八角；不使用 Anise 的资料。",
+    "description": "大茴香即八角，来自 Illicium verum 的星形果实，香气甜辛而明显；在魔法用途中多取其果实或树皮的芳香性质。",
     "lore": "魔法篇记录 Star Anise 在日本被视为神圣草药，可栽植于寺庙和神圣墓地周围，带来保护与仁善的神圣能量；树皮粉也可作寺庙薰香。",
     "safety": "必须区分可食用八角与有毒近缘物种；不应误用日本莽草等。"
   },
   "基列香膏": {
     "page": 202,
     "source": { "book": "The Master Book of Herbalism", "page": 202 },
-    "description": "此处按 Balm of Gilead 作为材料/传统名处理，不强行归为单一物种。",
+    "description": "基列香膏在草药与魔法传统中多作为芳香树脂或树芽类材料出现，重点在其气味、黏脂质感与安抚性的象征用途。",
     "lore": "魔法篇记录 Balm of Gilead 可作为油彻底涂覆蜡烛，用于 psychic healing；蜡烛需先以加盐冷水洗净以去除不需要的能量。"
   },
   "克里特白藓": {
     "page": 214,
     "source": { "book": "The Master Book of Herbalism", "page": 214 },
-    "description": "此处对应 Dittany of Crete / Origanum dictamnus；建议后续把条目名改为“克里特牛至”或“克里特迪塔尼”。",
+    "description": "克里特白藓在本书中指 Dittany of Crete，即克里特岛传统中的芳香草本，叶片与花穗带有地中海草药的温热气息。",
     "lore": "魔法篇记录 Dittany of Crete 可在万圣前夜用于向逝者、教师与亲族寻求智慧，也可召请 Persephone 与 Osiris 这类掌管彼世钥匙的神祇。"
   },
   "龙血": {
@@ -860,20 +860,20 @@ window.__MASTERBOOK_DETAILS = {
   "欧洲岑树": {
     "page": 201,
     "source": { "book": "The Master Book of Herbalism", "page": 201 },
-    "description": "此处对应 Ash；条目名后续建议校为“欧洲梣树”。",
+    "description": "欧洲岑树在本书中对应 Ash，是欧洲民俗中重要的树木，叶片、枝条与树身常与保护、清理和解除不良影响相关。",
     "lore": "魔法篇记录 Ash 可移除不想要的能量，历史上用于解除咒法和诅咒；叶片也可放在交通工具中作旅途保护。"
   },
   "曼陀罗": {
     "page": 251,
     "source": { "book": "The Master Book of Herbalism", "page": 251 },
-    "description": "此处对应 Thornapple / Jimson Weed / Datura，不是 Mandrake 曼德拉草。",
+    "description": "曼陀罗在这里指 Thornapple / Jimson Weed 一类 Datura 植物，外形醒目而危险，在传统中常被视为强烈且不可轻用的异象草药。",
     "lore": "魔法篇称 Thornapple 为灵视草药，长期与施咒和寻求异象相关；书中也提醒大剂量危险。",
     "safety": "曼陀罗属植物高毒，可致幻、谵妄甚至致命；不提供任何内服、熏吸或制剂建议。"
   },
   "天竺葵": {
     "page": 244,
     "source": { "book": "The Master Book of Herbalism", "page": 244 },
-    "description": "此处对应 Rose Geranium / 香叶天竺葵，而非所有 Geranium/Pelargonium。",
+    "description": "天竺葵在本书中偏向香叶天竺葵一类芳香叶用植物，叶片揉碎后有明显香气，常被用于爱情、保护与疗愈相关的温和仪式。",
     "lore": "魔法篇记录 Rose Geranium 香气出众，叶片可干燥研磨入爱情药粉，精油则由寻求性满足者佩戴，象征性成熟与其中的喜悦。",
     "safety": "天竺葵类精油可能刺激皮肤，外用应稀释；宠物环境需谨慎。"
   }
