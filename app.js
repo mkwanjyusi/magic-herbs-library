@@ -1,7 +1,12 @@
 const HERBS = Array.isArray(window.__HERBS) ? window.__HERBS : [];
 const TAXONOMY = window.__TAXONOMY || {};
 const RECIPES = Array.isArray(window.__RECIPES) ? window.__RECIPES : [];
+const MASTERBOOK_DETAILS = window.__MASTERBOOK_DETAILS || {};
 const app = document.querySelector("#app");
+
+HERBS.forEach(herb => {
+  if (!herb.beyerl && MASTERBOOK_DETAILS[herb.name]) herb.beyerl = MASTERBOOK_DETAILS[herb.name];
+});
 
 const state = {
   view: "home",
@@ -237,12 +242,24 @@ function quoteRef(quote) {
   `;
 }
 
+function citeRef(source) {
+  if (!source) return "";
+  const book = source.book || "The Master Book of Herbalism";
+  return `
+    <details class="source-ref quote-ref">
+      <summary>出处</summary>
+      <span>${esc(book)}${source.page ? ` · p.${esc(source.page)}` : ""}</span>
+    </details>
+  `;
+}
+
 function beyerlSections(herb) {
   const data = herb.beyerl || herb.masterBook || herb.book_profile;
   if (!data) return "";
+  const loreRef = quoteRef(data.loreQuote) || citeRef(data.source);
   return `
     ${data.description ? `<section class="detail-section"><h2>植物描述</h2><p>${esc(data.description)}</p></section>` : ""}
-    ${data.lore ? `<section class="detail-section book-notes"><h2>民俗 lore</h2><p>${esc(data.lore)}${quoteRef(data.loreQuote)}</p></section>` : ""}
+    ${data.lore ? `<section class="detail-section book-notes"><h2>民俗 lore</h2><p>${esc(data.lore)}${loreRef}</p></section>` : ""}
     ${data.remedial ? `<section class="detail-section"><h2>传统药用</h2><p>${esc(data.remedial)}</p></section>` : ""}
     ${data.safety ? `<section class="detail-section"><h2>安全提示</h2><p>${esc(data.safety)}</p></section>` : ""}
     ${Array.isArray(data.notes) && data.notes.length ? `<section class="detail-section"><h2>补充记录</h2>${data.notes.map(note => `<p>${esc(note)}</p>`).join("")}</section>` : ""}
