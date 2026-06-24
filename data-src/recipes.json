@@ -3677,5 +3677,1789 @@
       "艾菊",
       "马鞭草"
     ]
+  },
+  {
+    "id": "magical-herbalism-protective-bath-salts",
+    "title": "保护浴盐",
+    "type": "浴盐",
+    "complexity": "保护浴盐",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 69,
+    "intent": [
+      "保护",
+      "净化"
+    ],
+    "ingredients": [
+      {
+        "name": "海盐",
+        "amount": "1 杯",
+        "latin": "Sea salt"
+      },
+      {
+        "name": "迷迭香油",
+        "amount": "数滴",
+        "latin": "Rosemary oil"
+      },
+      {
+        "name": "乳香油",
+        "amount": "数滴",
+        "latin": "Frankincense oil",
+        "note": "可与其他保护油替换或组合"
+      }
+    ],
+    "method": [
+      "将海盐装入洁净罐中。",
+      "滴入迷迭香、乳香或其他保护油，边滴边搅拌，直到盐粒微微润湿。",
+      "静置数日后避光阴凉保存。",
+      "使用时取三撮加入浴水。"
+    ],
+    "usage": "用于保护仪式前的净化浴。",
+    "safety": "仅作象征性仪式与芳香外用；油剂需先做小范围皮肤测试，避免眼口、黏膜与破损皮肤。孕期、哺乳期、儿童、宠物或过敏体质需谨慎。",
+    "relatedHerbs": [
+      "海盐",
+      "迷迭香",
+      "乳香"
+    ]
+  },
+  {
+    "id": "magical-herbalism-protection-incense-betony",
+    "title": "保护薰香（龙血竭）",
+    "type": "薰香",
+    "complexity": "复方薰香",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 70,
+    "intent": [
+      "保护",
+      "守护"
+    ],
+    "ingredients": [
+      {
+        "name": "乳香",
+        "amount": "1 份",
+        "latin": "Frankincense"
+      },
+      {
+        "name": "木 betony",
+        "amount": "1 份",
+        "latin": "Wood betony"
+      },
+      {
+        "name": "龙血竭",
+        "amount": "1 份",
+        "latin": "Dragon's blood"
+      }
+    ],
+    "method": [
+      "将三种材料等比研细。",
+      "混合均匀后装入避光密封容器。",
+      "保护仪式中少量焚烧。"
+    ],
+    "usage": "用于保护魔法、建立个人或空间的保护气场。",
+    "safety": "龙血竭来源复杂，可能刺激或有孕期风险；确认材料来源后再使用。焚香需保持通风，并使用耐热容器；只取少量焚烧，远离儿童、宠物和易燃物。",
+    "relatedHerbs": [
+      "乳香",
+      "木 betony",
+      "龙血竭"
+    ]
+  },
+  {
+    "id": "magical-herbalism-protection-sachet",
+    "title": "保护香包",
+    "type": "香包 / 护身符",
+    "complexity": "保护香包",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 71,
+    "intent": [
+      "保护",
+      "家宅保护",
+      "守护"
+    ],
+    "ingredients": [
+      {
+        "name": "保护类草药",
+        "amount": "任选 3、7 或 9 种，等量",
+        "note": "可从白芷、莳萝、月桂、杜松、迷迭香、芸香、马鞭草等保护草药中选择。"
+      },
+      {
+        "name": "白棉布",
+        "amount": "约 7 英寸见方"
+      },
+      {
+        "name": "红线",
+        "amount": "1 段"
+      }
+    ],
+    "method": [
+      "选择三、七或九种干燥保护草药，等量放入陶碗混合。",
+      "铺开白棉布，将草药放在中央。",
+      "收拢四角，用红线扎紧成香包。",
+      "挂在屋内高处、门口、车内或需要保护的位置。"
+    ],
+    "usage": "用于家宅、车辆或个人空间的通用保护。",
+    "safety": "仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "白芷",
+      "莳萝",
+      "月桂叶",
+      "杜松",
+      "迷迭香",
+      "芸香",
+      "马鞭草"
+    ]
+  },
+  {
+    "id": "magical-herbalism-bundled-protection-herbs",
+    "title": "红线保护草束",
+    "type": "香包 / 护身符",
+    "complexity": "草束护符",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 72,
+    "intent": [
+      "保护",
+      "家宅保护"
+    ],
+    "ingredients": [
+      {
+        "name": "保护类草药鲜枝",
+        "amount": "数枝",
+        "note": "任选数种保护草药。"
+      },
+      {
+        "name": "红线",
+        "amount": "1 段"
+      }
+    ],
+    "method": [
+      "采集或准备数枝保护类草药。",
+      "将茎部以红线紧紧绑束。",
+      "悬挂在需要保护的位置。"
+    ],
+    "usage": "用于门口、房间或家宅的简易保护。",
+    "safety": "仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "迷迭香",
+      "杜松",
+      "芸香",
+      "马鞭草"
+    ]
+  },
+  {
+    "id": "magical-herbalism-rowan-red-thread-charm",
+    "title": "花楸红线护符",
+    "type": "香包 / 护身符",
+    "complexity": "家宅护符",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 73,
+    "intent": [
+      "保护",
+      "家宅保护"
+    ],
+    "ingredients": [
+      {
+        "name": "花楸树枝",
+        "amount": "1 枝",
+        "latin": "Rowan twig"
+      },
+      {
+        "name": "红线或红纱",
+        "amount": "数码"
+      }
+    ],
+    "method": [
+      "在五月节取得一枝花楸树枝。",
+      "以红线或红纱缠绕枝条。",
+      "放在窗边可见处。"
+    ],
+    "usage": "用于家宅和窗口的通用保护。",
+    "safety": "仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "花楸"
+    ]
+  },
+  {
+    "id": "magical-herbalism-anti-lightning-charm",
+    "title": "防雷护符",
+    "type": "香包 / 护身符",
+    "complexity": "保护护符",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 73,
+    "intent": [
+      "保护",
+      "家宅保护"
+    ],
+    "ingredients": [
+      {
+        "name": "槲寄生",
+        "amount": "1 份",
+        "latin": "Mistletoe"
+      },
+      {
+        "name": "山楂",
+        "amount": "1 份",
+        "latin": "Hawthorn"
+      },
+      {
+        "name": "月桂叶",
+        "amount": "1 份",
+        "latin": "Bay laurel"
+      },
+      {
+        "name": "银线或白线",
+        "amount": "1 段"
+      }
+    ],
+    "method": [
+      "将槲寄生、山楂与月桂叶合包。",
+      "以银线或白线扎束。",
+      "悬挂在烟囱、屋内最高处或需要象征性防护的位置。"
+    ],
+    "usage": "用于雷暴多发地区的传统防雷保护护符。",
+    "safety": "仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "槲寄生",
+      "山楂",
+      "月桂叶"
+    ]
+  },
+  {
+    "id": "magical-herbalism-solar-cross-protection-charm",
+    "title": "太阳十字保护护符",
+    "type": "香包 / 护身符",
+    "complexity": "个人护符",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 73,
+    "intent": [
+      "保护",
+      "护身"
+    ],
+    "ingredients": [
+      {
+        "name": "橡树枝或花楸树枝",
+        "amount": "2 枝",
+        "latin": "Oak or rowan twigs"
+      },
+      {
+        "name": "红线",
+        "amount": "1 段"
+      }
+    ],
+    "method": [
+      "将两枝橡树或花楸树枝摆成等臂十字。",
+      "用红线固定。",
+      "随身携带，或做成较大版本悬挂室内。"
+    ],
+    "usage": "用于个人护身、钱包或房间保护。",
+    "safety": "仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "橡树",
+      "花楸"
+    ]
+  },
+  {
+    "id": "magical-herbalism-house-purification-incense",
+    "title": "家宅净化薰香",
+    "type": "薰香",
+    "complexity": "净化复方薰香",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 75,
+    "intent": [
+      "净化",
+      "家宅保护",
+      "驱邪"
+    ],
+    "ingredients": [
+      {
+        "name": "月桂",
+        "amount": "1 份",
+        "latin": "Bay"
+      },
+      {
+        "name": "水杨梅",
+        "amount": "1 份",
+        "latin": "Avens"
+      },
+      {
+        "name": "艾草",
+        "amount": "1 份",
+        "latin": "Mugwort"
+      },
+      {
+        "name": "蓍草",
+        "amount": "1 份",
+        "latin": "Yarrow"
+      },
+      {
+        "name": "迷迭香",
+        "amount": "1 份",
+        "latin": "Rosemary"
+      },
+      {
+        "name": "圣约翰草",
+        "amount": "1 份",
+        "latin": "St. John's wort"
+      },
+      {
+        "name": "白芷",
+        "amount": "1 份",
+        "latin": "Angelica"
+      },
+      {
+        "name": "罗勒",
+        "amount": "1 份",
+        "latin": "Basil"
+      },
+      {
+        "name": "杜松果",
+        "amount": "1 份",
+        "latin": "Juniper berries"
+      }
+    ],
+    "method": [
+      "将所有材料等量研细。",
+      "在研钵中混合均匀。",
+      "需要净化家宅时少量焚烧，并依空间逐处熏香。"
+    ],
+    "usage": "用于搬入新居、空间紧张或需要清理旧气场时的家宅净化。",
+    "safety": "原书建议净化时移开人和宠物；实际使用需保持通风，避免烟雾过量。焚香需保持通风，并使用耐热容器；只取少量焚烧，远离儿童、宠物和易燃物。",
+    "relatedHerbs": [
+      "月桂叶",
+      "水杨梅",
+      "艾草",
+      "蓍草",
+      "迷迭香",
+      "圣约翰草",
+      "白芷",
+      "罗勒",
+      "杜松"
+    ]
+  },
+  {
+    "id": "magical-herbalism-protection-wreath",
+    "title": "保护花环",
+    "type": "香包 / 护身符",
+    "complexity": "家宅花环",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 76,
+    "intent": [
+      "保护",
+      "家宅保护"
+    ],
+    "ingredients": [
+      {
+        "name": "迷迭香长枝",
+        "amount": "数枝",
+        "latin": "Rosemary"
+      },
+      {
+        "name": "绿色棉线",
+        "amount": "适量"
+      },
+      {
+        "name": "红缎带",
+        "amount": "1 段"
+      },
+      {
+        "name": "保护类草药",
+        "amount": "若干",
+        "note": "如月桂、马鞭草、槲寄生、芸香、艾草、牛膝草、茴香、罗勒等。"
+      },
+      {
+        "name": "保护类花朵",
+        "amount": "3、7 或 9 朵",
+        "note": "如金鱼草、仙客来、大蒜花、万寿菊、康乃馨或玫瑰。"
+      }
+    ],
+    "method": [
+      "将迷迭香枝条弯成圆形并用绿色棉线固定。",
+      "继续加迷迭香枝，使花环饱满。",
+      "在花环上系红缎带。",
+      "插入保护类草药和 3、7 或 9 朵保护花。",
+      "挂在壁炉、前门或窗边。"
+    ],
+    "usage": "用于门口、窗户或家宅核心位置的长期保护装饰。",
+    "safety": "仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "迷迭香",
+      "月桂叶",
+      "马鞭草",
+      "槲寄生",
+      "芸香",
+      "艾草",
+      "牛膝草",
+      "茴香",
+      "罗勒",
+      "康乃馨",
+      "玫瑰"
+    ]
+  },
+  {
+    "id": "magical-herbalism-witches-sight-oil",
+    "title": "女巫视力油",
+    "type": "魔法油",
+    "complexity": "占卜复方油",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 80,
+    "intent": [
+      "占卜",
+      "通灵",
+      "灵视"
+    ],
+    "ingredients": [
+      {
+        "name": "茴芹油",
+        "amount": "1 份",
+        "latin": "Anise oil"
+      },
+      {
+        "name": "金合欢油",
+        "amount": "1 份",
+        "latin": "Acacia oil"
+      },
+      {
+        "name": "桂皮油",
+        "amount": "1 份",
+        "latin": "Cassia oil"
+      }
+    ],
+    "method": [
+      "将三种油等量混合。",
+      "装入深色小瓶。",
+      "占卜或灵视练习前少量外用。"
+    ],
+    "usage": "用于占卜前涂抹，辅助进入灵视和直觉状态。",
+    "safety": "桂皮油刺激性较强，必须充分稀释。仅作象征性仪式与芳香外用；油剂需先做小范围皮肤测试，避免眼口、黏膜与破损皮肤。孕期、哺乳期、儿童、宠物或过敏体质需谨慎。",
+    "relatedHerbs": [
+      "茴芹",
+      "金合欢",
+      "肉桂"
+    ]
+  },
+  {
+    "id": "magical-herbalism-witches-sight-incense",
+    "title": "女巫视力薰香",
+    "type": "薰香",
+    "complexity": "占卜复方薰香",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 81,
+    "intent": [
+      "占卜",
+      "通灵",
+      "灵视"
+    ],
+    "ingredients": [
+      {
+        "name": "乳香黄连木脂",
+        "amount": "1 份",
+        "latin": "Gum mastic"
+      },
+      {
+        "name": "广藿香",
+        "amount": "1 份",
+        "latin": "Patchouli"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1 份",
+        "latin": "Cinnamon"
+      },
+      {
+        "name": "杜松",
+        "amount": "1 份",
+        "latin": "Juniper"
+      },
+      {
+        "name": "檀香",
+        "amount": "1 份",
+        "latin": "Sandalwood"
+      },
+      {
+        "name": "麝香油",
+        "amount": "数滴",
+        "latin": "Musk oil"
+      },
+      {
+        "name": "龙涎香油",
+        "amount": "数滴",
+        "latin": "Ambergris oil",
+        "note": "可用合成香或替代香。"
+      }
+    ],
+    "method": [
+      "在蜡月的星期三，将粉末材料等量混合。",
+      "以少量混合的麝香油与龙涎香油润香。",
+      "搅拌到材料湿润但不泥泞。",
+      "静置一夜后装瓶，瓶塞略松。"
+    ],
+    "usage": "用于塔罗、水晶球、冥想和一般占卜练习。",
+    "safety": "焚香需保持通风，并使用耐热容器；只取少量焚烧，远离儿童、宠物和易燃物。",
+    "relatedHerbs": [
+      "乳香黄连木脂",
+      "广藿香",
+      "肉桂",
+      "杜松",
+      "檀香",
+      "麝香"
+    ]
+  },
+  {
+    "id": "magical-herbalism-scrying-incense",
+    "title": "水晶球占卜薰香",
+    "type": "薰香",
+    "complexity": "占卜薰香",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 81,
+    "intent": [
+      "占卜",
+      "灵视"
+    ],
+    "ingredients": [
+      {
+        "name": "艾草",
+        "amount": "1 份",
+        "latin": "Mugwort"
+      },
+      {
+        "name": "苦艾",
+        "amount": "1 份",
+        "latin": "Wormwood"
+      }
+    ],
+    "method": [
+      "将艾草与苦艾等量研细混合。",
+      "水晶球占卜时少量焚烧。",
+      "原书也建议以新鲜艾草叶擦拭水晶球以增强联系。"
+    ],
+    "usage": "用于水晶球凝视、灵视和影像占卜。",
+    "safety": "苦艾和艾草不适合孕期使用；仅少量焚香。焚香需保持通风，并使用耐热容器；只取少量焚烧，远离儿童、宠物和易燃物。",
+    "relatedHerbs": [
+      "艾草",
+      "苦艾"
+    ]
+  },
+  {
+    "id": "magical-herbalism-vision-incense",
+    "title": "视象薰香",
+    "type": "薰香",
+    "complexity": "占卜复方薰香",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 82,
+    "intent": [
+      "占卜",
+      "通灵",
+      "灵视"
+    ],
+    "ingredients": [
+      {
+        "name": "委陵菜",
+        "amount": "3 份",
+        "latin": "Cinquefoil"
+      },
+      {
+        "name": "菊苣根",
+        "amount": "3 份",
+        "latin": "Chicory root"
+      },
+      {
+        "name": "丁香",
+        "amount": "1 份",
+        "latin": "Clove"
+      }
+    ],
+    "method": [
+      "在星期三夜晚将材料按比例研细。",
+      "混合均匀后密封保存。",
+      "无牌卡或水晶球等道具时少量焚烧，用于接触潜意识。"
+    ],
+    "usage": "用于无道具占卜、潜意识信息接收和内在视象。",
+    "safety": "焚香需保持通风，并使用耐热容器；只取少量焚烧，远离儿童、宠物和易燃物。",
+    "relatedHerbs": [
+      "委陵菜",
+      "菊苣根",
+      "丁香"
+    ]
+  },
+  {
+    "id": "magical-herbalism-clairvoyance-brew",
+    "title": "灵视蒸汽煎液",
+    "type": "仪式煎液",
+    "complexity": "占卜蒸汽",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 82,
+    "intent": [
+      "占卜",
+      "通灵",
+      "灵视",
+      "梦境"
+    ],
+    "ingredients": [
+      {
+        "name": "泉水",
+        "amount": "半锅",
+        "latin": "Spring water"
+      },
+      {
+        "name": "月桂叶",
+        "amount": "适量切碎",
+        "latin": "Bay laurel"
+      },
+      {
+        "name": "艾草",
+        "amount": "适量",
+        "latin": "Mugwort"
+      },
+      {
+        "name": "委陵菜",
+        "amount": "适量",
+        "latin": "Cinquefoil"
+      }
+    ],
+    "method": [
+      "将泉水加热至沸腾。",
+      "加入月桂叶、艾草和委陵菜后盖紧。",
+      "离火移至祭坛或安全位置。",
+      "短时间吸入蒸汽并进入放松状态；也可睡前使用以辅助梦境。"
+    ],
+    "usage": "用于灵视、占卜前的状态转换或预示性梦境。",
+    "safety": "注意烫伤风险；孕期或呼吸道敏感者避免使用。不可饮用。仅作象征性仪式记录；涉及火、水、烟、植物接触或户外行为时需注意通风、防火、个人安全与当地环境规则。",
+    "relatedHerbs": [
+      "月桂叶",
+      "艾草",
+      "委陵菜"
+    ]
+  },
+  {
+    "id": "magical-herbalism-herb-scrying-pan",
+    "title": "草药占写盘",
+    "type": "占卜工具",
+    "complexity": "单方占卜",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 84,
+    "intent": [
+      "占卜",
+      "灵视"
+    ],
+    "ingredients": [
+      {
+        "name": "广藿香、艾草或苦艾",
+        "amount": "少量干燥材料",
+        "latin": "Patchouli, mugwort, or wormwood"
+      },
+      {
+        "name": "玻璃或陶瓷方盘",
+        "amount": "1 个"
+      }
+    ],
+    "method": [
+      "将少量干草药在手中揉碎。",
+      "倒入玻璃或陶瓷方盘。",
+      "点燃黄色蜡烛后闭眼，用弱手食指在草药中随意移动。",
+      "睁眼解读草药中形成的符号。"
+    ],
+    "usage": "用于以草药痕迹进行象征占卜。",
+    "safety": "仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "广藿香",
+      "艾草",
+      "苦艾"
+    ]
+  },
+  {
+    "id": "magical-herbalism-clairvoyance-simple",
+    "title": "灵视单方茶",
+    "type": "仪式茶",
+    "complexity": "单方浸泡",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 84,
+    "intent": [
+      "占卜",
+      "通灵",
+      "灵视"
+    ],
+    "ingredients": [
+      {
+        "name": "艾草、百里香、迷迭香或蓍草",
+        "amount": "1/2 盎司",
+        "latin": "Mugwort, thyme, rosemary, or yarrow"
+      },
+      {
+        "name": "水",
+        "amount": "1 品脱",
+        "latin": "Water"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "少量，可选",
+        "latin": "Honey"
+      }
+    ],
+    "method": [
+      "将水煮沸。",
+      "把任选一种草药置于茶壶或杯中，倒入热水。",
+      "浸泡十分钟后过滤。",
+      "可少量加蜂蜜，在占卜或灵视练习前啜饮。"
+    ],
+    "usage": "用于发展灵视能力，尤其适合占卜前的仪式性饮用。",
+    "safety": "草药饮用需谨慎；蓍草长期或大量使用可能有风险，孕期和慢性病用药者避免自行饮用。",
+    "relatedHerbs": [
+      "艾草",
+      "百里香",
+      "迷迭香",
+      "蓍草",
+      "蜂蜜"
+    ]
+  },
+  {
+    "id": "magical-herbalism-herbal-pendulum",
+    "title": "草药灵摆",
+    "type": "占卜工具",
+    "complexity": "占卜护符",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 85,
+    "intent": [
+      "占卜",
+      "灵视"
+    ],
+    "ingredients": [
+      {
+        "name": "鸢尾根、乳香、八角、檀香或肉桂皮",
+        "amount": "1 块",
+        "latin": "Orris root, frankincense, star anise, sandalwood, or cinnamon bark"
+      },
+      {
+        "name": "浅黄色天然纤维线",
+        "amount": "1 段"
+      }
+    ],
+    "method": [
+      "选取一块草药或树脂作为灵摆坠。",
+      "用浅黄色天然纤维线牢牢系住。",
+      "按手掌比例裁剪长度。",
+      "用于是/否问题的灵摆占卜。"
+    ],
+    "usage": "用于草药材料制成的灵摆占卜。",
+    "safety": "仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "鸢尾根",
+      "乳香",
+      "八角",
+      "檀香",
+      "肉桂"
+    ]
+  },
+  {
+    "id": "magical-herbalism-mugwort-dream-pillow",
+    "title": "艾草灵梦枕",
+    "type": "香包 / 护身符",
+    "complexity": "梦枕",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 86,
+    "intent": [
+      "梦境",
+      "预知梦",
+      "通灵"
+    ],
+    "ingredients": [
+      {
+        "name": "艾草",
+        "amount": "约 1/4 磅，或填满小枕",
+        "latin": "Mugwort"
+      },
+      {
+        "name": "小枕套",
+        "amount": "约 9×9 英寸"
+      }
+    ],
+    "method": [
+      "准备小枕套或缝制小枕袋。",
+      "填入干燥艾草。",
+      "缝合开口。",
+      "放在普通枕头上连续数夜使用。"
+    ],
+    "usage": "用于引发灵视梦、预知梦或更清晰的梦境信息。",
+    "safety": "艾草孕期避免使用；对气味敏感者慎用。仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "艾草"
+    ]
+  },
+  {
+    "id": "magical-herbalism-all-purpose-dream-pillow",
+    "title": "通用梦枕",
+    "type": "香包 / 护身符",
+    "complexity": "梦枕",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 86,
+    "intent": [
+      "梦境",
+      "睡眠仪式",
+      "预知梦"
+    ],
+    "ingredients": [
+      {
+        "name": "柠檬香蜂草",
+        "amount": "1 份",
+        "latin": "Lemon balm"
+      },
+      {
+        "name": "圣母草",
+        "amount": "1 份",
+        "latin": "Costmary"
+      },
+      {
+        "name": "玫瑰花瓣",
+        "amount": "1 份",
+        "latin": "Rose petals"
+      },
+      {
+        "name": "薄荷",
+        "amount": "1 份",
+        "latin": "Mint"
+      },
+      {
+        "name": "丁香",
+        "amount": "1 份",
+        "latin": "Cloves"
+      }
+    ],
+    "method": [
+      "将所有材料等量混合。",
+      "填入小枕袋并缝合。",
+      "像艾草梦枕一样放在枕头上使用。"
+    ],
+    "usage": "用于通用梦境工作、安睡和梦境信息接收。",
+    "safety": "仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "柠檬香蜂草",
+      "圣母草",
+      "玫瑰",
+      "薄荷",
+      "丁香"
+    ]
+  },
+  {
+    "id": "magical-herbalism-laurel-frankincense-divination",
+    "title": "月桂乳香火占",
+    "type": "占卜仪式",
+    "complexity": "火焰占卜",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 87,
+    "intent": [
+      "占卜",
+      "预兆"
+    ],
+    "ingredients": [
+      {
+        "name": "月桂叶",
+        "amount": "数片",
+        "latin": "Laurel leaves"
+      },
+      {
+        "name": "乳香粉",
+        "amount": "一把或少量",
+        "latin": "Frankincense"
+      },
+      {
+        "name": "香炭或壁炉火",
+        "amount": "安全火源"
+      }
+    ],
+    "method": [
+      "点燃香炭或准备安全火源。",
+      "提出问题后投入月桂叶，观察燃烧声响和火势。",
+      "也可向壁炉火中撒少量乳香粉，观察火焰形态作为预兆。"
+    ],
+    "usage": "用于判断时机、是/否或远方所爱之人的状况。",
+    "safety": "仅作象征性仪式记录；涉及火、水、烟、植物接触或户外行为时需注意通风、防火、个人安全与当地环境规则。",
+    "relatedHerbs": [
+      "月桂叶",
+      "乳香"
+    ]
+  },
+  {
+    "id": "magical-herbalism-poppy-smoke-divination",
+    "title": "罂粟籽烟占",
+    "type": "占卜仪式",
+    "complexity": "烟雾占卜",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 87,
+    "intent": [
+      "占卜",
+      "预兆"
+    ],
+    "ingredients": [
+      {
+        "name": "黑罂粟籽",
+        "amount": "少量",
+        "latin": "Black poppy seeds"
+      },
+      {
+        "name": "香炭",
+        "amount": "1 块"
+      }
+    ],
+    "method": [
+      "点燃香炭。",
+      "将少量黑罂粟籽撒在炭上。",
+      "观察烟雾轻重、升散速度与停留方式。"
+    ],
+    "usage": "用于传统烟雾预兆占卜。",
+    "safety": "仅作象征性仪式记录；涉及火、水、烟、植物接触或户外行为时需注意通风、防火、个人安全与当地环境规则。",
+    "relatedHerbs": [
+      "罂粟"
+    ]
+  },
+  {
+    "id": "magical-herbalism-healing-amulet",
+    "title": "通用疗愈护符",
+    "type": "香包 / 护身符",
+    "complexity": "疗愈护符",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 94,
+    "intent": [
+      "疗愈",
+      "健康",
+      "保护"
+    ],
+    "ingredients": [
+      {
+        "name": "大蒜",
+        "amount": "1 瓣，去皮",
+        "latin": "Garlic"
+      },
+      {
+        "name": "尤加利",
+        "amount": "1 撮",
+        "latin": "Eucalyptus"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1 撮",
+        "latin": "Cinnamon"
+      },
+      {
+        "name": "鼠尾草",
+        "amount": "2 撮",
+        "latin": "Sage"
+      },
+      {
+        "name": "番红花",
+        "amount": "1 撮",
+        "latin": "Saffron"
+      },
+      {
+        "name": "蓝布",
+        "amount": "1 块"
+      },
+      {
+        "name": "檀香油",
+        "amount": "少量",
+        "latin": "Sandalwood oil"
+      }
+    ],
+    "method": [
+      "将大蒜、尤加利、肉桂、鼠尾草与番红花包入蓝布。",
+      "缝合成护符。",
+      "以檀香油涂抹。",
+      "随身携带或交给需要疗愈支持的人。"
+    ],
+    "usage": "用于通用疗愈、病中支持和健康守护。",
+    "safety": "不替代医疗诊断或治疗。仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "大蒜",
+      "尤加利",
+      "肉桂",
+      "鼠尾草",
+      "番红花",
+      "檀香"
+    ]
+  },
+  {
+    "id": "magical-herbalism-lung-healing-amulet",
+    "title": "肺部疗愈护符",
+    "type": "香包 / 护身符",
+    "complexity": "疗愈护符",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 94,
+    "intent": [
+      "疗愈",
+      "健康"
+    ],
+    "ingredients": [
+      {
+        "name": "通用疗愈护符材料",
+        "amount": "1 组"
+      },
+      {
+        "name": "绿薄荷",
+        "amount": "少量",
+        "latin": "Spearmint"
+      }
+    ],
+    "method": [
+      "按通用疗愈护符制作基础材料。",
+      "额外加入少量绿薄荷。",
+      "缝入蓝布并以檀香油涂抹。"
+    ],
+    "usage": "用于肺部不适相关的象征性疗愈护符。",
+    "safety": "不替代医疗诊断或治疗。仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "绿薄荷",
+      "大蒜",
+      "尤加利",
+      "肉桂",
+      "鼠尾草",
+      "番红花"
+    ]
+  },
+  {
+    "id": "magical-herbalism-head-mind-healing-amulet",
+    "title": "头脑疗愈护符",
+    "type": "香包 / 护身符",
+    "complexity": "疗愈护符",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 94,
+    "intent": [
+      "疗愈",
+      "健康",
+      "智慧"
+    ],
+    "ingredients": [
+      {
+        "name": "通用疗愈护符材料",
+        "amount": "1 组"
+      },
+      {
+        "name": "迷迭香",
+        "amount": "少量",
+        "latin": "Rosemary"
+      }
+    ],
+    "method": [
+      "按通用疗愈护符制作基础材料。",
+      "额外加入少量迷迭香。",
+      "缝入蓝布并以檀香油涂抹。"
+    ],
+    "usage": "用于头部、思绪或精神层面的象征性疗愈支持。",
+    "safety": "不替代医疗诊断或治疗。仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "迷迭香",
+      "大蒜",
+      "尤加利",
+      "肉桂",
+      "鼠尾草",
+      "番红花"
+    ]
+  },
+  {
+    "id": "magical-herbalism-eye-healing-amulet",
+    "title": "眼部疗愈护符",
+    "type": "香包 / 护身符",
+    "complexity": "疗愈护符",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 94,
+    "intent": [
+      "疗愈",
+      "健康"
+    ],
+    "ingredients": [
+      {
+        "name": "通用疗愈护符材料",
+        "amount": "1 组"
+      },
+      {
+        "name": "小米草或洋甘菊",
+        "amount": "少量",
+        "latin": "Eyebright or camomile"
+      }
+    ],
+    "method": [
+      "按通用疗愈护符制作基础材料。",
+      "额外加入小米草或洋甘菊。",
+      "缝入蓝布并以檀香油涂抹。"
+    ],
+    "usage": "用于眼部问题相关的象征性疗愈护符。",
+    "safety": "不替代医疗诊断或治疗；不要把香包内容物接触眼睛。仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "小米草",
+      "洋甘菊",
+      "大蒜",
+      "尤加利",
+      "肉桂",
+      "鼠尾草",
+      "番红花"
+    ]
+  },
+  {
+    "id": "magical-herbalism-headache-sachet",
+    "title": "头痛香包",
+    "type": "香包 / 护身符",
+    "complexity": "疗愈香包",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 97,
+    "intent": [
+      "疗愈",
+      "健康"
+    ],
+    "ingredients": [
+      {
+        "name": "熏衣草",
+        "amount": "1 份",
+        "latin": "Lavender"
+      },
+      {
+        "name": "曼德拉草",
+        "amount": "1 份",
+        "latin": "Mandrake"
+      },
+      {
+        "name": "胡椒薄荷",
+        "amount": "1 份",
+        "latin": "Peppermint"
+      },
+      {
+        "name": "艾草",
+        "amount": "1 份",
+        "latin": "Mugwort"
+      },
+      {
+        "name": "丁香",
+        "amount": "1 份",
+        "latin": "Clove"
+      },
+      {
+        "name": "马郁兰",
+        "amount": "1 份",
+        "latin": "Marjoram"
+      },
+      {
+        "name": "橙皮",
+        "amount": "1 份",
+        "latin": "Orange peel"
+      },
+      {
+        "name": "浅蓝色小布袋",
+        "amount": "1 个"
+      }
+    ],
+    "method": [
+      "将所有草药等量混合。",
+      "缝入浅蓝色小布袋。",
+      "系在蓝线或蓝绳上，作为预防头痛的香包佩戴。"
+    ],
+    "usage": "用于头痛预防和气味安抚的传统疗愈香包。",
+    "safety": "曼德拉草有毒，仅作资料整理；不建议实际制作含曼德拉草的香包。不替代医疗诊断或治疗。仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "熏衣草",
+      "曼德拉草",
+      "胡椒薄荷",
+      "艾草",
+      "丁香",
+      "马郁兰",
+      "橙"
+    ]
+  },
+  {
+    "id": "magical-herbalism-eucalyptus-cold-sachet",
+    "title": "尤加利感冒香包",
+    "type": "香包 / 护身符",
+    "complexity": "健康香包",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 98,
+    "intent": [
+      "健康",
+      "保护",
+      "疗愈"
+    ],
+    "ingredients": [
+      {
+        "name": "尤加利",
+        "amount": "适量",
+        "latin": "Eucalyptus"
+      },
+      {
+        "name": "蓝布",
+        "amount": "1 块"
+      }
+    ],
+    "method": [
+      "将尤加利缝入蓝布。",
+      "在寒冷季节随身佩戴或携带。"
+    ],
+    "usage": "用于感冒季节的象征性健康守护。",
+    "safety": "不替代医疗诊断或治疗；尤加利气味强烈，儿童和宠物周围慎用。仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "尤加利"
+    ]
+  },
+  {
+    "id": "magical-herbalism-rue-disease-averting-sachet",
+    "title": "芸香防病香包",
+    "type": "香包 / 护身符",
+    "complexity": "健康香包",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 99,
+    "intent": [
+      "健康",
+      "保护"
+    ],
+    "ingredients": [
+      {
+        "name": "芸香",
+        "amount": "少量干燥材料",
+        "latin": "Rue"
+      },
+      {
+        "name": "小布袋",
+        "amount": "1 个"
+      }
+    ],
+    "method": [
+      "在恢复健康后准备少量干燥芸香。",
+      "缝入小布袋。",
+      "随身佩戴作为防病护符。"
+    ],
+    "usage": "用于病后健康守护和防病象征。",
+    "safety": "芸香可能引起皮肤刺激，孕期避免使用。仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "芸香"
+    ]
+  },
+  {
+    "id": "magical-herbalism-red-thistle-animal-healing",
+    "title": "红蓟动物疗愈阵",
+    "type": "仪式",
+    "complexity": "疗愈仪式",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 98,
+    "intent": [
+      "疗愈",
+      "动物守护"
+    ],
+    "ingredients": [
+      {
+        "name": "红蓟花",
+        "amount": "4 朵",
+        "latin": "Red thistle blossoms"
+      },
+      {
+        "name": "石头",
+        "amount": "1 块"
+      }
+    ],
+    "method": [
+      "破晓前采集四朵红蓟花。",
+      "按四方位各放一朵，中间放一块石头。",
+      "让受伤动物短暂停留在中央石头上。"
+    ],
+    "usage": "用于动物开放性伤口的传统象征性疗愈仪式记录。",
+    "safety": "必须优先寻求兽医处理；不要延误真实伤口治疗。仅作象征性仪式记录；涉及火、水、烟、植物接触或户外行为时需注意通风、防火、个人安全与当地环境规则。",
+    "relatedHerbs": [
+      "蓟"
+    ]
+  },
+  {
+    "id": "magical-herbalism-orange-blossom-marriage-sachet",
+    "title": "橙花婚姻香包",
+    "type": "香包 / 护身符",
+    "complexity": "婚姻香包",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 104,
+    "intent": [
+      "爱情",
+      "婚姻"
+    ],
+    "ingredients": [
+      {
+        "name": "橙花",
+        "amount": "适量",
+        "latin": "Orange flowers"
+      }
+    ],
+    "method": [
+      "将橙花装入小香包。",
+      "随身携带。"
+    ],
+    "usage": "用于表达婚姻意愿、吸引婚姻机会。",
+    "safety": "仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "橙花"
+    ]
+  },
+  {
+    "id": "magical-herbalism-hazel-fertility-bag",
+    "title": "榛子丰饶袋",
+    "type": "香包 / 护身符",
+    "complexity": "丰饶护符",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 104,
+    "intent": [
+      "生育",
+      "丰饶"
+    ],
+    "ingredients": [
+      {
+        "name": "榛子",
+        "amount": "一袋",
+        "latin": "Hazel nuts"
+      }
+    ],
+    "method": [
+      "将榛子装入小袋。",
+      "随身携带，或赠予新娘作为丰饶祝福。"
+    ],
+    "usage": "用于丰饶、生育和婚礼祝福。",
+    "safety": "仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "榛树"
+    ]
+  },
+  {
+    "id": "magical-herbalism-fertility-sachet",
+    "title": "丰饶生育香包",
+    "type": "香包 / 护身符",
+    "complexity": "丰饶香包",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 104,
+    "intent": [
+      "生育",
+      "丰饶"
+    ],
+    "ingredients": [
+      {
+        "name": "罗勒",
+        "amount": "适量",
+        "latin": "Basil"
+      },
+      {
+        "name": "榛子",
+        "amount": "适量",
+        "latin": "Hazel"
+      },
+      {
+        "name": "罂粟",
+        "amount": "适量",
+        "latin": "Poppy"
+      },
+      {
+        "name": "黄瓜",
+        "amount": "适量",
+        "latin": "Cucumber"
+      },
+      {
+        "name": "苹果",
+        "amount": "适量",
+        "latin": "Apple"
+      },
+      {
+        "name": "石榴",
+        "amount": "适量",
+        "latin": "Pomegranate"
+      },
+      {
+        "name": "橡实",
+        "amount": "适量",
+        "latin": "Acorns"
+      },
+      {
+        "name": "香桃木",
+        "amount": "适量",
+        "latin": "Myrtle"
+      },
+      {
+        "name": "坚果",
+        "amount": "适量",
+        "latin": "Nuts"
+      }
+    ],
+    "method": [
+      "从列出的丰饶材料中选择合适材料。",
+      "装入香包。",
+      "作为丰饶、生育或婚礼祝福护符携带。"
+    ],
+    "usage": "用于生育、丰饶和婚姻祝福。",
+    "safety": "仅作象征性香包，不作食用建议。仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "罗勒",
+      "榛树",
+      "罂粟",
+      "黄瓜",
+      "苹果",
+      "石榴",
+      "橡树",
+      "香桃木"
+    ]
+  },
+  {
+    "id": "magical-herbalism-yarrow-marriage-charm",
+    "title": "蓍草婚姻护符",
+    "type": "香包 / 护身符",
+    "complexity": "婚姻护符",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 105,
+    "intent": [
+      "爱情",
+      "婚姻",
+      "伴侣关系"
+    ],
+    "ingredients": [
+      {
+        "name": "蓍草花头",
+        "amount": "9 个，干燥",
+        "latin": "Yarrow flower heads"
+      },
+      {
+        "name": "铜线",
+        "amount": "1 段"
+      },
+      {
+        "name": "绿色缎带",
+        "amount": "1 段"
+      }
+    ],
+    "method": [
+      "在蜡月的星期五取九个干燥蓍草花头。",
+      "用铜线将花茎绑在一起。",
+      "在铜线外系绿色蝴蝶结。",
+      "赠予夫妻或挂在床头。"
+    ],
+    "usage": "用于婚姻祝福、伴侣关系维系和新婚护符。",
+    "safety": "仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "蓍草"
+    ]
+  },
+  {
+    "id": "magical-herbalism-heartbreak-mending-herbs",
+    "title": "失恋修复随身草药",
+    "type": "香包 / 护身符",
+    "complexity": "情感护符",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 105,
+    "intent": [
+      "爱情",
+      "情绪",
+      "平静"
+    ],
+    "ingredients": [
+      {
+        "name": "吉列香脂",
+        "amount": "任选其一",
+        "latin": "Balm of Gilead"
+      },
+      {
+        "name": "缬草",
+        "amount": "任选其一",
+        "latin": "Valerian"
+      },
+      {
+        "name": "仙客来",
+        "amount": "任选其一，新鲜",
+        "latin": "Cyclamen"
+      },
+      {
+        "name": "马齿苋、菊苣或金银花",
+        "amount": "可选",
+        "note": "用于忘记旧爱。"
+      }
+    ],
+    "method": [
+      "在失恋或结束关系后，选择一种修复草药随身携带。",
+      "若需要放下旧爱，可另选马齿苋、菊苣或金银花携带。",
+      "待伤痛平复后，可重新制作爱情香包。"
+    ],
+    "usage": "用于失恋后的情绪修复、放下旧关系和重新开始。",
+    "safety": "仅作随身香包或象征性护符使用，不可食用；含刺激性、致敏或有毒风险材料时需避免接触皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "吉列香脂",
+      "缬草",
+      "仙客来",
+      "马齿苋",
+      "菊苣",
+      "金银花"
+    ]
+  },
+  {
+    "id": "magical-herbalism-earth-fluid-condenser",
+    "title": "土元素流体凝聚剂",
+    "type": "流体凝聚剂",
+    "complexity": "元素凝聚剂",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 113,
+    "intent": [
+      "土元素",
+      "金钱",
+      "工作",
+      "丰饶"
+    ],
+    "ingredients": [
+      {
+        "name": "土元素对应草药",
+        "amount": "两把，任选一味或奇数复方",
+        "note": "如雪松、丝柏、金银花、广藿香、松树、鼠尾草等。"
+      },
+      {
+        "name": "冷水",
+        "amount": "覆盖材料"
+      },
+      {
+        "name": "烈酒或酒精",
+        "amount": "与浓缩液等量"
+      }
+    ],
+    "method": [
+      "将新鲜或干燥草药放入锅中，以冷水覆盖。",
+      "加盖煮约二十分钟，离火盖着冷却十三分钟。",
+      "过滤后回锅，继续煮至液量减半。",
+      "冷却后加入等量烈酒或酒精，摇匀。",
+      "经四层细麻布过滤，装入深色玻璃瓶。"
+    ],
+    "usage": "用于金钱、事业、物质、丰饶和土元素相关施作。",
+    "safety": "含酒精或高浓度草药浸液，仅作象征性仪式外用或工具使用，不可饮用；火元素凝聚剂原书特别提示不可接触皮肤。",
+    "relatedHerbs": [
+      "雪松",
+      "丝柏",
+      "金银花",
+      "广藿香",
+      "松树",
+      "鼠尾草"
+    ]
+  },
+  {
+    "id": "magical-herbalism-air-fluid-condenser",
+    "title": "风元素流体凝聚剂",
+    "type": "流体凝聚剂",
+    "complexity": "元素凝聚剂",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 113,
+    "intent": [
+      "风元素",
+      "学习",
+      "记忆",
+      "占卜"
+    ],
+    "ingredients": [
+      {
+        "name": "风元素对应草药",
+        "amount": "两把，任选一味或奇数复方",
+        "note": "如金合欢、茴芹、安息香、接骨木、尤加利、小米草、熏衣草、柠檬马鞭草等。"
+      },
+      {
+        "name": "冷水",
+        "amount": "覆盖材料"
+      },
+      {
+        "name": "烈酒或酒精",
+        "amount": "与浓缩液等量"
+      }
+    ],
+    "method": [
+      "按基础流体凝聚剂流程煎煮、浓缩、冷却。",
+      "加入等量烈酒或酒精后摇匀。",
+      "过滤后装入深色玻璃瓶并标注风元素。"
+    ],
+    "usage": "用于学习、记忆、考试、沟通、占卜和风元素相关施作。",
+    "safety": "含酒精或高浓度草药浸液，仅作象征性仪式外用或工具使用，不可饮用；火元素凝聚剂原书特别提示不可接触皮肤。",
+    "relatedHerbs": [
+      "金合欢",
+      "茴芹",
+      "安息香",
+      "接骨木",
+      "尤加利",
+      "小米草",
+      "熏衣草",
+      "柠檬马鞭草"
+    ]
+  },
+  {
+    "id": "magical-herbalism-fire-fluid-condenser",
+    "title": "火元素流体凝聚剂",
+    "type": "流体凝聚剂",
+    "complexity": "元素凝聚剂",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 113,
+    "intent": [
+      "火元素",
+      "成功",
+      "保护",
+      "驱邪"
+    ],
+    "ingredients": [
+      {
+        "name": "火元素对应草药",
+        "amount": "两把，任选一味或奇数复方",
+        "note": "如白芷、罗勒、月桂、康乃馨、肉桂、丁香、大蒜、牛膝草、杜松、迷迭香、芸香、番红花等。"
+      },
+      {
+        "name": "冷水",
+        "amount": "覆盖材料"
+      },
+      {
+        "name": "烈酒或酒精",
+        "amount": "与浓缩液等量"
+      }
+    ],
+    "method": [
+      "按基础流体凝聚剂流程煎煮、浓缩、冷却。",
+      "加入等量烈酒或酒精后摇匀。",
+      "过滤后装入深色玻璃瓶并标注火元素。"
+    ],
+    "usage": "用于成功、竞赛、保护、驱散疾病或火元素相关施作；可点在符纸、蜡烛或疗愈香包上。",
+    "safety": "原书提示火元素凝聚剂不可接触裸露皮肤。含酒精或高浓度草药浸液，仅作象征性仪式外用或工具使用，不可饮用；火元素凝聚剂原书特别提示不可接触皮肤。",
+    "relatedHerbs": [
+      "白芷",
+      "罗勒",
+      "月桂叶",
+      "康乃馨",
+      "肉桂",
+      "丁香",
+      "大蒜",
+      "牛膝草",
+      "杜松",
+      "迷迭香",
+      "芸香",
+      "番红花"
+    ]
+  },
+  {
+    "id": "magical-herbalism-water-fluid-condenser",
+    "title": "水元素流体凝聚剂",
+    "type": "流体凝聚剂",
+    "complexity": "元素凝聚剂",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 113,
+    "intent": [
+      "水元素",
+      "爱情",
+      "疗愈",
+      "家庭"
+    ],
+    "ingredients": [
+      {
+        "name": "水元素对应草药",
+        "amount": "两把，任选一味或奇数复方",
+        "note": "如苹果、洋甘菊、猫薄荷、黄瓜、栀子、天竺葵、常春藤、没药、香桃木、橙、鸢尾根、玫瑰、紫罗兰、柳树、蓍草等。"
+      },
+      {
+        "name": "冷水",
+        "amount": "覆盖材料"
+      },
+      {
+        "name": "烈酒或酒精",
+        "amount": "与浓缩液等量"
+      }
+    ],
+    "method": [
+      "按基础流体凝聚剂流程煎煮、浓缩、冷却。",
+      "加入等量烈酒或酒精后摇匀。",
+      "过滤后装入深色玻璃瓶并标注水元素。"
+    ],
+    "usage": "用于爱情、友谊、家庭、疗愈、梦境、祖先和水元素相关施作。",
+    "safety": "含酒精或高浓度草药浸液，仅作象征性仪式外用或工具使用，不可饮用；火元素凝聚剂原书特别提示不可接触皮肤。",
+    "relatedHerbs": [
+      "苹果",
+      "洋甘菊",
+      "猫薄荷",
+      "黄瓜",
+      "栀子花",
+      "天竺葵",
+      "常春藤",
+      "没药",
+      "香桃木",
+      "橙",
+      "鸢尾根",
+      "玫瑰",
+      "紫罗兰",
+      "柳树",
+      "蓍草"
+    ]
+  },
+  {
+    "id": "magical-herbalism-universal-fluid-condenser",
+    "title": "通用流体凝聚剂",
+    "type": "流体凝聚剂",
+    "complexity": "通用复方凝聚剂",
+    "source_book": "Magical Herbalism: The Secret Craft of the Wise",
+    "source_page": 116,
+    "intent": [
+      "魔法",
+      "净化",
+      "祝福",
+      "力量"
+    ],
+    "ingredients": [
+      {
+        "name": "白芷叶",
+        "amount": "1 份",
+        "latin": "Angelica leaves"
+      },
+      {
+        "name": "鼠尾草叶",
+        "amount": "1 份",
+        "latin": "Sage leaves"
+      },
+      {
+        "name": "黄瓜皮",
+        "amount": "1 份",
+        "latin": "Cucumber skin"
+      },
+      {
+        "name": "洋甘菊花",
+        "amount": "1 份",
+        "latin": "Camomile flowers"
+      },
+      {
+        "name": "橡树叶或树皮",
+        "amount": "1 份",
+        "latin": "Oak leaves or bark"
+      },
+      {
+        "name": "紫罗兰花或叶",
+        "amount": "1 份",
+        "latin": "Violet flowers or leaves"
+      },
+      {
+        "name": "胡椒薄荷叶",
+        "amount": "1 份",
+        "latin": "Peppermint leaves"
+      },
+      {
+        "name": "烟草叶",
+        "amount": "1 份",
+        "latin": "Tobacco leaves"
+      },
+      {
+        "name": "甜瓜籽",
+        "amount": "1 份",
+        "latin": "Melon seeds"
+      },
+      {
+        "name": "泉水",
+        "amount": "覆盖材料",
+        "latin": "Spring water"
+      },
+      {
+        "name": "烈酒或酒精",
+        "amount": "与浓缩液等量"
+      }
+    ],
+    "method": [
+      "取各材料等量，总量约两把。",
+      "以泉水覆盖，慢煮半小时。",
+      "冷却、过滤，再煮至浓稠。",
+      "加入等量烈酒或酒精，摇匀。",
+      "再次过滤后装入深色玻璃瓶，并标注日期。"
+    ],
+    "usage": "用于增强咒语、护符、工具、香包、净化浴、清洗液、蜡烛、魔法图像、珠宝和宝石的力量。",
+    "safety": "含酒精或高浓度草药浸液，仅作象征性仪式外用或工具使用，不可饮用；火元素凝聚剂原书特别提示不可接触皮肤。",
+    "relatedHerbs": [
+      "白芷",
+      "鼠尾草",
+      "黄瓜",
+      "洋甘菊",
+      "橡树",
+      "紫罗兰",
+      "胡椒薄荷",
+      "烟草",
+      "甜瓜"
+    ]
   }
 ]
