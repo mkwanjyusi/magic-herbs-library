@@ -289,7 +289,7 @@ function filteredHerbs() {
   }
   const q = state.query.trim().toLowerCase();
   if (q) {
-    list = list.filter(h => h.name.toLowerCase().includes(q));
+    list = list.filter(h => h.name.toLowerCase().includes(q) || (h.aliases || []).some(alias => alias.toLowerCase().includes(q)));
   }
   return list;
 }

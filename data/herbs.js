@@ -122,7 +122,7 @@ window.__HERBS = [
   },
   {
     "id": 7,
-    "name": "八角",
+    "name": "大茴香",
     "gender": "阳性",
     "element": "风",
     "planet": "木星",
@@ -137,20 +137,27 @@ window.__HERBS = [
       "驱除邪恶"
     ],
     "toxic": false,
-    "initial": "B",
-    "pinyin": "ba jiao",
+    "initial": "D",
+    "pinyin": "da hui xiang",
     "sources": [
       {
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
-        "row": 186
+        "row": 20
       },
       {
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
-        "row": 20,
-        "merged_from": "大茴香"
+        "row": 186,
+        "merged_from": "八角"
+      },
+      {
+        "type": "cleanup",
+        "note": "按主名调整：八角作为别名，主条目显示为大茴香；学名为 Illicium verum Hook.fil."
       }
+    ],
+    "aliases": [
+      "八角"
     ]
   },
   {

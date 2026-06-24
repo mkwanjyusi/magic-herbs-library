@@ -37,17 +37,6 @@ window.__HERB_IMAGES = {
     "title": "Köhler's Medizinal-Pflanzen in naturgetreuen Abbildungen mit kurz erläuterndem Texte (Plate 113) (8232785520)",
     "checkedAt": "2026-06-24T13:23:18.719Z"
   },
-  "八角": {
-    "src": "assets/herbs/007-herb-illicium-verum.jpg",
-    "alt": "八角（Illicium verum）真实生物照片",
-    "scientificName": "Illicium verum",
-    "source": "Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Illicium_verum_in_HDR.jpg",
-    "author": "Arria Belli (Arria Belli)",
-    "license": "CC BY-SA 2.0",
-    "title": "Illicium verum in HDR",
-    "checkedAt": "2026-06-24T13:23:20.752Z"
-  },
   "百合": {
     "src": "assets/herbs/008-herb-lilium.jpg",
     "alt": "百合（Lilium）真实生物照片",
@@ -1144,5 +1133,16 @@ window.__HERB_IMAGES = {
     "status": "not_found",
     "scientificName": "Cuminum cyminum",
     "checkedAt": "2026-06-24T13:39:59.436Z"
+  },
+  "大茴香": {
+    "src": "assets/herbs/007-herb-illicium-verum.jpg",
+    "alt": "大茴香（Illicium verum）真实生物照片",
+    "scientificName": "Illicium verum",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Illicium_verum_in_HDR.jpg",
+    "author": "Arria Belli (Arria Belli)",
+    "license": "CC BY-SA 2.0",
+    "title": "Illicium verum in HDR",
+    "checkedAt": "2026-06-24T13:23:20.752Z"
   }
 };
