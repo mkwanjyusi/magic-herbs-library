@@ -142,7 +142,11 @@ function imageForHerb(herb) {
 }
 
 function normalizedName(value) {
-  return String(value || "").replace(/[薰熏]/g, "熏").replace(/【.*?】|（.*?）|\\(.*?\\)/g, "").trim();
+  return String(value || "")
+    .replace(/[薰熏]/g, "熏")
+    .replace(/【.*?】|（.*?）|\(.*?\)/g, "")
+    .replace(/精油|粉末|粉|根|花|叶|皮|果|油$/g, "")
+    .trim();
 }
 
 function recipeMatchesHerb(recipe, herb) {
@@ -273,11 +277,7 @@ function filteredHerbs() {
   }
   const q = state.query.trim().toLowerCase();
   if (q) {
-    list = list.filter(h =>
-      h.name.toLowerCase().includes(q) ||
-      (h.pinyin || "").toLowerCase().includes(q) ||
-      h.effect.toLowerCase().includes(q)
-    );
+    list = list.filter(h => h.name.toLowerCase().includes(q));
   }
   return list;
 }
@@ -286,7 +286,7 @@ function searchBox(compact = false) {
   return `
     <label class="search ${compact ? "compact" : ""}">
       <span>⌕</span>
-      <input data-action="search" value="${esc(state.query)}" placeholder="${compact ? "在结果中继续搜索..." : "搜索草药名、拼音，或想要的功效..."}">
+      <input data-action="search" value="${esc(state.query)}" placeholder="${compact ? "继续搜索草药名..." : "搜索草药名..."}">
     </label>
   `;
 }

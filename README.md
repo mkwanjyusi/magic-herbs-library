@@ -1,5 +1,5 @@
-# 灵草志 · Library of Magic Herbs
+# Magic Herbs Library
 
-一个草药魔法属性检索网站，包含草药目录、功效筛选、分类学信息与复杂配方入口。
+静态草药魔法检索网站，包含草药资料、分类学信息、图片上传占位和复杂配方索引。
 
-This is a static website. Open `index.html` or publish the folder with GitHub Pages.
+本项目中的配方内容为索引与改写摘要，不包含原书全文。
