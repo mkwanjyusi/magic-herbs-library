@@ -21,7 +21,6 @@ const viewHistory = [];
 let touchStart = null;
 
 const elements = { "火": "#c2604a", "水": "#5f82b0", "风": "#6f9e78", "土": "#a6824f", "未知": "#9a93a6" };
-const elementSymbols = { "火": "🜂", "水": "🜄", "风": "🜁", "土": "🜃" };
 const planets = { "太阳": "☉", "月亮": "☽", "水星": "☿", "金星": "♀", "火星": "♂", "木星": "♃", "土星": "♄", "未知": "·" };
 const genders = { "阳性": "☉", "阴性": "☾", "未知": "·" };
 const powerCats = [
@@ -380,7 +379,7 @@ function homeDrawer() {
   }
   if (state.homeSection === "source") {
     const sourceCards = [
-      ...["火", "水", "风", "土"].map(el => ({ type: "element", value: el, label: `元素 · ${el}`, title: `${el}元素`, meta: `${countBy(h => h.element === el)} 项`, icon: `<span class="disc element-symbol" style="background:${elements[el]}">${elementSymbols[el]}</span>` })),
+      ...["火", "水", "风", "土"].map(el => ({ type: "element", value: el, label: `元素 · ${el}`, title: `${el}元素`, meta: `${countBy(h => h.element === el)} 项`, icon: disc(el, elements[el]) })),
       ...["太阳", "月亮", "水星", "金星", "火星", "木星", "土星"].map(p => ({ type: "planet", value: p, label: `行星 · ${p}`, title: p, meta: `${countBy(h => h.planet === p)} 项`, icon: `<span class="sym">${planets[p]}</span>` })),
       ...["阳性", "阴性"].map(g => ({ type: "gender", value: g, label: `极性 · ${g}`, title: g, meta: `${countBy(h => h.gender === g)} 项`, icon: `<span class="sym">${genders[g]}</span>` })),
       { type: "toxic", value: "true", label: "毒草 · 慎用", title: "毒性提示", meta: `${countBy(h => h.toxic)} 项`, icon: `<span class="sym">☠</span>` }

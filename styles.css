@@ -578,13 +578,10 @@ h1, h2, h3, p { margin: 0; }
   justify-content: center;
   color: #fff;
   font-family: "Noto Serif SC", serif;
-  font-weight: 600;
-}
-.element-symbol {
-  font-family: "Apple Symbols", "Segoe UI Symbol", "Noto Sans Symbols 2", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 700;
   line-height: 1;
+  text-align: center;
 }
 .sym { color: var(--accent); font-size: 16px; }
 .chip small { color: var(--faint); }
