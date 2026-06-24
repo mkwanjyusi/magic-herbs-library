@@ -656,6 +656,25 @@ window.__HERBS = [
         "row": 108
       }
     ],
+    "beyerl": {
+      "page": 111,
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 111
+      },
+      "description": "书中将大蒜描述为厨房中最常用的草药之一，可凭外观与气味识别；干燥叶片编成辫状时，会留下成串的蒜瓣。",
+      "lore": "民俗记录中，成串大蒜与厨房的健康、保护相关；书中还提到它在古埃及曾作为宗教草药使用，并出现在多种古代传说中。",
+      "loreQuote": {
+        "text": "A rope of garlic cloves brings health and protection to the kitchen.",
+        "translation": "一串蒜瓣会为厨房带来健康与保护。",
+        "source": {
+          "book": "The Master Book of Herbalism",
+          "page": 111
+        }
+      },
+      "remedial": "传统药用部分强调其含硫成分与疗愈性质有关；书中记录它曾作为伤口与割伤清洁用的防腐材料，也用于胸部拥塞、百日咳外擦，以及风湿和关节炎不适的传统处理。",
+      "safety": "书中没有把大蒜作为日常烹调用量之外的安全说明展开；涉及内服或外用治疗时应按具体体质与剂量谨慎处理。"
+    },
     "usage_examples": [
       {
         "source_book": "魔药调制圣典",
@@ -2490,8 +2509,32 @@ window.__HERBS = [
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
         "row": 13
+      },
+      {
+        "source_book": "The Master Book of Herbalism",
+        "source_page": 56,
+        "note": "sample detail-page entry"
       }
-    ]
+    ],
+    "beyerl": {
+      "page": 56,
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 56
+      },
+      "lore": "在民俗记录中，芦荟带有宗教与守护意味；旅行者归家会将其悬于门上以求保护，也曾被种在墓地，象征安宁。",
+      "loreQuote": {
+        "text": "It is then hung over the doorway of the traveler upon returning home, for it will bring protection.",
+        "translation": "随后它会被挂在归家旅人的门上，因为它会带来保护。",
+        "source": {
+          "book": "The Master Book of Herbalism",
+          "page": 56
+        }
+      },
+      "description": "书中描述芦荟叶片呈交互方向生长，有时会缓慢向上形成螺旋；叶片带有深浅两种绿色，较浅处呈斑点状，触感清凉，且能适应多种室内温度与光照条件。",
+      "remedial": "传统药草用法中，芦荟以汁液或凝胶见长，常用于外部皮肤照护；书中提到它可用于割伤、灼伤、晒伤、粗糙皮肤等外用场景。",
+      "safety": "内服资料与外用凝胶分开处理；家庭场景更适合参考外用凝胶信息。"
+    }
   },
   {
     "id": 106,
@@ -2813,7 +2856,26 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 180
       }
-    ]
+    ],
+    "beyerl": {
+      "page": 147,
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 147
+      },
+      "description": "书中说健康的迷迭香植株很像常绿植物，带有浓密的深色针状叶；在北方气候中通常需要盆栽移入室内越冬。",
+      "lore": "民俗记录将迷迭香追溯到古代，并提到它在婚礼、葬礼与宗教薰香配方中的使用；其强烈芳香也使它常被纳入基督教与异教传统的香方。",
+      "loreQuote": {
+        "text": "Rosemary is an herb that has lore dating back to the ancients.",
+        "translation": "迷迭香是一种其民俗传承可追溯到古代的草药。",
+        "source": {
+          "book": "The Master Book of Herbalism",
+          "page": 147
+        }
+      },
+      "remedial": "传统药用部分提到迷迭香与记忆、头痛和偏头痛相关，也用于紧张引起的胃部不适；书中还记录迷迭香茶可用于难以入睡和思绪烦扰，洗剂可用于发根与头皮屑护理，并可作为心脏的补益草药。",
+      "safety": "本条书中未列出明确禁忌；涉及长期内服、精油或高浓度制剂时仍应谨慎。"
+    }
   },
   {
     "id": 119,
@@ -3517,7 +3579,26 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 91
       }
-    ]
+    ],
+    "beyerl": {
+      "page": 94,
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 94
+      },
+      "description": "书中称蒲公英几乎无需描述，但补充它是一种营养草药，含铁、铜、维生素 A 与 E、钙、镁等成分；嫩叶适合做沙拉或烹调，过老时苦汁会更明显。",
+      "lore": "民俗记录中，梦见蒲公英被视为困难时期将至的象征，但书中也解释这些时期可被理解为变化与转机；天气魔法还将无风时蒲公英冠毛飘散视为将雨的征兆。",
+      "loreQuote": {
+        "text": "It is said that a dandelion in one’s dream is a symbol of difficult times ahead.",
+        "translation": "据说梦中的蒲公英象征着前方会有艰难时期。",
+        "source": {
+          "book": "The Master Book of Herbalism",
+          "page": 94
+        }
+      },
+      "remedial": "传统药用部分强调蒲公英用于身体内部器官的处理：内服为温和轻缓的通便草药，并清理肝、肾、膀胱及相关通道；外用汁液则用于痤疮、疖肿和类似皮肤问题，根部煎剂也可用于湿疹相关处理。",
+      "safety": "书中将其描述为温和草药，但涉及泌尿系统、肝脏问题或持续内服时仍应谨慎评估。"
+    }
   },
   {
     "id": 149,
@@ -3846,7 +3927,26 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 77
       }
-    ]
+    ],
+    "beyerl": {
+      "page": 83,
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 83
+      },
+      "description": "书中描述商业肉桂取自幼枝：外层树皮被去除，内层树皮干燥后以两种形态出售，一种是未加工的卷曲长条，另一种是更常见的细粉。",
+      "lore": "民俗记录中，肉桂在其原产东方曾作为宗教草药焚烧，用于净化神殿；书中也说它作为魔法草药的使用延续至今。",
+      "loreQuote": {
+        "text": "In the East where Cinnamon was originally grown, it was used as a Religious Herbe, burnt as an incense to purify the temples.",
+        "translation": "在肉桂原本生长的东方，它曾作为宗教草药使用，被当作薰香焚烧以净化神殿。",
+        "source": {
+          "book": "The Master Book of Herbalism",
+          "page": 83
+        }
+      },
+      "remedial": "传统药用部分说肉桂常用于胃部不适，尤其适合与其他胃部草药和收敛草药混合；书中记录它可缓解胀气和由胀气引起的痉挛，也用于止吐。",
+      "safety": "书中本条未列出详细禁忌；高浓度粉末、精油或长期大量使用应谨慎。"
+    }
   },
   {
     "id": 163,
@@ -4171,7 +4271,26 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 181
       }
-    ]
+    ],
+    "beyerl": {
+      "page": 150,
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 150
+      },
+      "description": "书中描述鼠尾草为灌木状植物，原产地中海并传播到欧洲，成为重要的家庭与药用草药；它叶片坚韧、长椭圆、浅绿色，并可由特殊气味辨认。",
+      "lore": "民俗记录中，鼠尾草用于清理思维、驱散负面想法；书中也提到它在北美部族中是重要的宗教草药，并与常识、厨房绿草药用途相连。",
+      "loreQuote": {
+        "text": "Sage is much used to cleanse the thinking process, to rid the mind of negative thoughts.",
+        "translation": "鼠尾草常被用来净化思考过程，使心智摆脱负面念头。",
+        "source": {
+          "book": "The Master Book of Herbalism",
+          "page": 150
+        }
+      },
+      "remedial": "传统药用部分将鼠尾草列为止血草药：鲜叶轻揉或咀嚼后可敷于割伤或伤口。书中还记录它用于消化不良、便秘、胃溃疡组织调理，外用擦剂用于肌肉酸痛与关节炎，洗剂或漱口液用于口腔和咽喉感染，并可用于感冒初期、寒战、肺部与呼吸系统配方。",
+      "safety": "书中提到鼠尾草含侧柏酮等挥发油成分；涉及精油、高浓度制剂、孕期或长期内服时应谨慎。"
+    }
   },
   {
     "id": 176,
@@ -4929,7 +5048,26 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 128
       }
-    ]
+    ],
+    "beyerl": {
+      "page": 124,
+      "source": {
+        "book": "The Master Book of Herbalism",
+        "page": 124
+      },
+      "description": "书中描述熏衣草为多年生灌木状植物，在较北气候中过冬困难；其名称据说来自拉丁语 lavare，花朵呈小穗状，主要为采花与提取挥发油而栽培。",
+      "lore": "民俗记录中，熏衣草在前基督教时期的欧洲已被广泛使用；书中称它既是魔法草药，也是宗教草药，并延续到当代使用。",
+      "loreQuote": {
+        "text": "Lavender as an herb was much in use in Pre-Christian Europe.",
+        "translation": "作为草药的熏衣草，在前基督教时期的欧洲已被大量使用。",
+        "source": {
+          "book": "The Master Book of Herbalism",
+          "page": 125
+        }
+      },
+      "remedial": "传统药用部分记录熏衣草茶用于安抚受扰的神经、歇斯底里倾向与情绪爆发，也用于压力和疲劳引起的头痛；外洗可用于痤疮和问题皮肤，花油可擦太阳穴以缓解头痛，也可作为擦剂。",
+      "safety": "书中特别提醒应严格避免大剂量使用熏衣草油，因为在这种情况下可能表现为麻醉性毒物。"
+    }
   },
   {
     "id": 207,

@@ -130,15 +130,7 @@ function recipesForHerb(herb) {
 function taxonomyRows(herb) {
   const tax = TAXONOMY[herb.name];
   if (!tax?.scientificName && !tax?.canonicalName) {
-    return [
-      ["学名", "待校对"],
-      ["界", "待校对"],
-      ["门", "待校对"],
-      ["纲", "待校对"],
-      ["目", "待校对"],
-      ["科", "待校对"],
-      ["属", "待校对"]
-    ];
+    return [];
   }
   const cnTax = {
     Plantae: "植物界",
@@ -218,18 +210,43 @@ function taxonomyRows(herb) {
     Violaceae: "堇菜科"
   };
   const withCn = value => {
-    if (!value) return "待校对";
+    if (!value) return "";
     return cnTax[value] ? `${cnTax[value]} ${value}` : value;
   };
   return [
-    ["学名", tax.scientificName || tax.canonicalName || "待校对"],
+    ["学名", tax.scientificName || tax.canonicalName || ""],
     ["界", withCn(tax.kingdom)],
     ["门", withCn(tax.phylum)],
     ["纲", withCn(tax.class)],
     ["目", withCn(tax.order)],
     ["科", withCn(tax.family)],
     ["属", withCn(tax.genus)]
-  ];
+  ].filter(([, value]) => value);
+}
+
+function quoteRef(quote) {
+  if (!quote?.text) return "";
+  const ref = quote.source || {};
+  const book = ref.book || quote.book || "The Master Book of Herbalism";
+  const page = ref.page || quote.page;
+  return `
+    <details class="source-ref quote-ref">
+      <summary>原文</summary>
+      <span><i>${esc(quote.text)}</i>${quote.translation ? `<br>${esc(quote.translation)}` : ""}<br>${esc(book)}${page ? ` · p.${esc(page)}` : ""}</span>
+    </details>
+  `;
+}
+
+function beyerlSections(herb) {
+  const data = herb.beyerl || herb.masterBook || herb.book_profile;
+  if (!data) return "";
+  return `
+    ${data.description ? `<section class="detail-section"><h2>植物描述</h2><p>${esc(data.description)}</p></section>` : ""}
+    ${data.lore ? `<section class="detail-section book-notes"><h2>民俗 lore</h2><p>${esc(data.lore)}${quoteRef(data.loreQuote)}</p></section>` : ""}
+    ${data.remedial ? `<section class="detail-section"><h2>传统药用</h2><p>${esc(data.remedial)}</p></section>` : ""}
+    ${data.safety ? `<section class="detail-section"><h2>安全提示</h2><p>${esc(data.safety)}</p></section>` : ""}
+    ${Array.isArray(data.notes) && data.notes.length ? `<section class="detail-section"><h2>补充记录</h2>${data.notes.map(note => `<p>${esc(note)}</p>`).join("")}</section>` : ""}
+  `;
 }
 
 function filteredHerbs() {
@@ -615,9 +632,8 @@ function detail() {
   const prev = HERBS[(index - 1 + HERBS.length) % HERBS.length];
   const next = HERBS[(index + 1) % HERBS.length];
   const bookUses = (herb.usage_examples || []).map(item => {
-    const source = item.source_book ? `（${item.source_book}${item.source_page ? ` p.${item.source_page}` : ""}）` : "";
     const formula = item.formula ? ` 配方：${item.formula}` : "";
-    return `${item.title ? item.title + "：" : ""}${item.method || ""}${formula}${source}`;
+    return `${item.title ? item.title + "：" : ""}${item.method || ""}${formula}`;
   });
   const uses = bookUses.slice(0, 7);
   const related = HERBS
@@ -625,6 +641,7 @@ function detail() {
     .slice(0, 6);
   const relatedRecipes = recipesForHerb(herb);
   const taxRows = taxonomyRows(herb);
+  const hasCoreText = herb.powers.length || herb.effect;
   return `
     ${topbar("/ 草药详情")}
     <section class="wrap detail-grid">
@@ -634,27 +651,27 @@ function detail() {
           ${image ? `<img src="${esc(image)}" alt="${esc(herb.name)}">` : ""}
         </label>
         <div class="attr-card">
-          <div class="attr-row"><small>元素</small><strong>${disc(herb.element, herb.elColor)}${esc(herb.element)}</strong></div>
-          <div class="attr-row"><small>行星</small><strong><span class="sym">${herb.planetSym}</span>${esc(herb.planet)}</strong></div>
-          <div class="attr-row"><small>极性</small><strong><span class="sym">${herb.genderSym}</span>${esc(herb.gender)}</strong></div>
+          ${herb.element && herb.element !== "未知" ? `<div class="attr-row"><small>元素</small><strong>${disc(herb.element, herb.elColor)}${esc(herb.element)}</strong></div>` : ""}
+          ${herb.planet && herb.planet !== "未知" ? `<div class="attr-row"><small>行星</small><strong><span class="sym">${herb.planetSym}</span>${esc(herb.planet)}</strong></div>` : ""}
+          ${herb.gender && herb.gender !== "未知" ? `<div class="attr-row"><small>极性</small><strong><span class="sym">${herb.genderSym}</span>${esc(herb.gender)}</strong></div>` : ""}
         </div>
       </aside>
       <article>
         ${herb.toxic ? `<div class="warning">☠ 此草有毒，切勿内服，仅作护符、熏香等外用法术</div>` : ""}
         <h1 class="detail-title">${esc(herb.name)}</h1>
         <span class="pinyin">${esc(englishNote(herb))}</span>
-        <section class="detail-section">
-          <h2>功效</h2>
-          <div class="tags">${herb.powers.map(p => `<span class="tag">${esc(p)}</span>`).join("") || `<span class="tag">待补充</span>`}</div>
-          <p style="margin-top:18px">${esc(herb.effect || "这一味草药的功效文本待补充。")}</p>
-        </section>
-        ${uses.length ? `<section class="detail-section"><h2>书籍记录的魔法用法</h2>${uses.map(u => `<div class="magic-row book-source"><b>※</b><span>${esc(u)}</span></div>`).join("")}</section>` : ""}
-        <section class="detail-section"><h2>分类学 · 界门纲目科属</h2><div class="tax">${taxRows.map(r => `<div><span>${r[0]}</span><span>${r[1]}</span></div>`).join("")}</div></section>
-        <section class="detail-section">
-          <h2>相关复杂配方</h2>
-          ${relatedRecipes.length ? `<div class="recipe-grid compact-recipes">${relatedRecipes.map(recipeCard).join("")}</div>` : `<button class="ghost recipe-empty" data-action="recipes">暂无直接匹配，查看全部复杂配方 →</button>`}
-        </section>
-        <section class="detail-section"><h2>功效相近的草药</h2><div class="chips">${related.map(h => `<button class="chip" data-action="open" data-id="${h.id}">${disc(h.element, elements[h.element] || elements["未知"])}${esc(h.name)}</button>`).join("")}</div></section>
+        ${hasCoreText ? `
+          <section class="detail-section core-entry">
+            <h2>魔法力量</h2>
+            ${herb.powers.length ? `<div class="tags">${herb.powers.map(p => `<span class="tag">${esc(p)}</span>`).join("")}</div>` : ""}
+            ${herb.effect ? `<p>${esc(herb.effect)}</p>` : ""}
+          </section>
+        ` : ""}
+        ${beyerlSections(herb)}
+        ${uses.length ? `<section class="detail-section"><h2>具体用法</h2>${uses.map(u => `<div class="magic-row book-source"><span>${esc(u)}</span></div>`).join("")}</section>` : ""}
+        ${taxRows.length ? `<details class="detail-section fold-section"><summary>分类学</summary><div class="tax">${taxRows.map(r => `<div><span>${r[0]}</span><span>${r[1]}</span></div>`).join("")}</div></details>` : ""}
+        ${relatedRecipes.length ? `<section class="detail-section"><h2>相关复杂配方</h2><div class="recipe-grid compact-recipes">${relatedRecipes.map(recipeCard).join("")}</div></section>` : ""}
+        ${related.length ? `<section class="detail-section"><h2>相近条目</h2><div class="chips">${related.map(h => `<button class="chip" data-action="open" data-id="${h.id}">${h.element && h.element !== "未知" ? disc(h.element, elements[h.element] || elements["未知"]) : ""}${esc(h.name)}</button>`).join("")}</div></section>` : ""}
         <div class="pager">
           <button data-action="open" data-id="${prev.id}"><small>← 上一味</small><strong>${esc(prev.name)}</strong></button>
           <button data-action="open" data-id="${next.id}"><small>下一味 →</small><strong>${esc(next.name)}</strong></button>
