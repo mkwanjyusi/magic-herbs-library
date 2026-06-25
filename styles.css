@@ -1115,6 +1115,25 @@ h1, h2, h3, p { margin: 0; }
   color: var(--danger);
   line-height: 1.8;
 }
+.ritual-notice {
+  margin-top: 18px;
+  border: 1px solid rgba(126, 91, 55, .28);
+  border-radius: 8px;
+  background: rgba(255, 252, 244, .82);
+  color: var(--ink);
+  padding: 18px 20px;
+}
+.ritual-notice strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: "Noto Serif SC", serif;
+  font-size: 18px;
+}
+.ritual-notice p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
 .recipe-columns {
   display: grid;
   grid-template-columns: 360px 1fr;
