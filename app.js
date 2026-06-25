@@ -636,8 +636,8 @@ function recipeDetail() {
           <span>p.${escDisplay(recipe.source_page)}</span>
         </aside>
       </div>
-      ${highRisk ? `<section class="risk-card"><strong>高风险资料整理</strong><p>${escDisplay(recipe.risk_note || "此条目涉及强控制、驱逐、报复、束缚、羞辱或医疗风险内容，仅作民俗资料整理；不建议直接照做，需遵守法律、伦理与现实安全边界。")}</p></section>` : ""}
-      ${recipe.ritual_notice ? `<section class="ritual-notice"><strong>原书仪式提示</strong><p>${escDisplay(recipe.ritual_notice)}</p></section>` : ""}
+      ${highRisk ? `<section class="risk-card"><strong>高风险提示</strong><p>${escDisplay(recipe.risk_note || "此条目涉及强控制、驱逐、报复、束缚、羞辱或医疗风险内容，仅作民俗资料整理；不建议直接照做，需遵守法律、伦理与现实安全边界。")}</p></section>` : ""}
+      ${recipe.ritual_notice ? `<section class="ritual-notice"><strong>仪式提示</strong><p>${escDisplay(recipe.ritual_notice)}</p></section>` : ""}
       <div class="recipe-columns">
         <section>
           <h2>材料</h2>
