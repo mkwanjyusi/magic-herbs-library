@@ -6692,5 +6692,704 @@
     "relatedHerbs": [
       "柠檬"
     ]
+  },
+  {
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "id": "hoodoo-herbal-money-oil",
+    "title": "金钱油",
+    "type": "魔法油",
+    "complexity": "Hoodoo 复方油",
+    "source_page": 78,
+    "intent": [
+      "金钱",
+      "繁荣",
+      "吸引"
+    ],
+    "ingredients": [
+      {
+        "name": "蜡杨梅",
+        "amount": "1 份",
+        "latin": "Bayberry"
+      },
+      {
+        "name": "磁砂",
+        "amount": "1 份",
+        "latin": "Magnetic sand"
+      },
+      {
+        "name": "菖蒲",
+        "amount": "1 份",
+        "latin": "Calamus root"
+      },
+      {
+        "name": "基底油",
+        "amount": "覆盖材料"
+      }
+    ],
+    "method": [
+      "将草药材料放入洁净瓶中，以基底油覆盖。",
+      "静置融合香气，并按个人传统以祈祷或意图为油赋能。",
+      "用于涂抹蜡烛、工具或少量外用仪式点位；避免接触眼口和破损皮肤。"
+    ],
+    "usage": "用于招财蜡烛、金钱施作和吸引繁荣机会。",
+    "safety": "仅作象征性仪式与外用芳香用途，不可饮用；使用根材、树脂、精油或刺激性材料时避免接触眼口、破损皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "蜡杨梅",
+      "菖蒲"
+    ],
+    "ritual_notice": "本页只整理此配方的材料与基础制作线索；原书中的祷文、咒语与完整仪式脉络未在网页展开，请翻阅对应页码以阅读原文。"
+  },
+  {
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "id": "hoodoo-herbal-love-oil",
+    "title": "爱情油",
+    "type": "魔法油",
+    "complexity": "Hoodoo 复方油",
+    "source_page": 80,
+    "intent": [
+      "爱情",
+      "吸引",
+      "关系"
+    ],
+    "ingredients": [
+      {
+        "name": "欧当归",
+        "amount": "1 份",
+        "latin": "Lovage"
+      },
+      {
+        "name": "熏衣草",
+        "amount": "1 份",
+        "latin": "Lavender"
+      },
+      {
+        "name": "鸢尾根",
+        "amount": "1 份",
+        "latin": "Queen Elizabeth root"
+      },
+      {
+        "name": "基底油",
+        "amount": "覆盖材料"
+      }
+    ],
+    "method": [
+      "将草药材料放入洁净瓶中，以基底油覆盖。",
+      "静置融合香气，并按个人传统以祈祷或意图为油赋能。",
+      "用于涂抹蜡烛、工具或少量外用仪式点位；避免接触眼口和破损皮肤。"
+    ],
+    "usage": "用于爱情吸引、关系修复和爱情类蜡烛或护符。",
+    "safety": "仅作象征性仪式与外用芳香用途，不可饮用；使用根材、树脂、精油或刺激性材料时避免接触眼口、破损皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "欧当归",
+      "熏衣草",
+      "鸢尾根"
+    ],
+    "ritual_notice": "本页只整理此配方的材料与基础制作线索；原书中的祷文、咒语与完整仪式脉络未在网页展开，请翻阅对应页码以阅读原文。"
+  },
+  {
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "id": "hoodoo-herbal-healing-oil",
+    "title": "疗愈油",
+    "type": "魔法油",
+    "complexity": "Hoodoo 复方油",
+    "source_page": 83,
+    "intent": [
+      "疗愈",
+      "健康",
+      "支持"
+    ],
+    "ingredients": [
+      {
+        "name": "车叶草",
+        "amount": "1 份",
+        "latin": "Master of the Woods"
+      },
+      {
+        "name": "欧白芷",
+        "amount": "1 份",
+        "latin": "Angelica"
+      },
+      {
+        "name": "乳香",
+        "amount": "1 份",
+        "latin": "Frankincense"
+      },
+      {
+        "name": "基底油",
+        "amount": "覆盖材料"
+      }
+    ],
+    "method": [
+      "将草药材料放入洁净瓶中，以基底油覆盖。",
+      "静置融合香气，并按个人传统以祈祷或意图为油赋能。",
+      "用于涂抹蜡烛、工具或少量外用仪式点位；避免接触眼口和破损皮肤。"
+    ],
+    "usage": "用于疗愈蜡烛、健康祈愿和病中精神支持类施作。",
+    "safety": "不替代医疗诊断或治疗。仅作象征性仪式与外用芳香用途，不可饮用；使用根材、树脂、精油或刺激性材料时避免接触眼口、破损皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "车叶草",
+      "欧白芷",
+      "乳香"
+    ],
+    "ritual_notice": "本页只整理此配方的材料与基础制作线索；原书中的祷文、咒语与完整仪式脉络未在网页展开，请翻阅对应页码以阅读原文。"
+  },
+  {
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "id": "hoodoo-herbal-protection-oil",
+    "title": "保护油",
+    "type": "魔法油",
+    "complexity": "Hoodoo 复方油",
+    "source_page": 88,
+    "intent": [
+      "保护",
+      "驱邪",
+      "边界"
+    ],
+    "ingredients": [
+      {
+        "name": "龙血竭",
+        "amount": "1 份",
+        "latin": "Dragon's blood"
+      },
+      {
+        "name": "魔鬼爪",
+        "amount": "1 份",
+        "latin": "Devil's claw"
+      },
+      {
+        "name": "白芥子",
+        "amount": "1 份",
+        "latin": "White mustard seed"
+      },
+      {
+        "name": "基底油",
+        "amount": "覆盖材料"
+      }
+    ],
+    "method": [
+      "将草药材料放入洁净瓶中，以基底油覆盖。",
+      "静置融合香气，并按个人传统以祈祷或意图为油赋能。",
+      "用于涂抹蜡烛、工具或少量外用仪式点位；避免接触眼口和破损皮肤。"
+    ],
+    "usage": "用于保护蜡烛、门口守护、个人边界和驱散负面影响。",
+    "safety": "仅作象征性仪式与外用芳香用途，不可饮用；使用根材、树脂、精油或刺激性材料时避免接触眼口、破损皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "龙血",
+      "魔鬼爪",
+      "白芥子"
+    ],
+    "ritual_notice": "本页只整理此配方的材料与基础制作线索；原书中的祷文、咒语与完整仪式脉络未在网页展开，请翻阅对应页码以阅读原文。"
+  },
+  {
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "id": "hoodoo-herbal-justice-oil",
+    "title": "正义油",
+    "type": "魔法油",
+    "complexity": "Hoodoo 高风险油",
+    "source_page": 91,
+    "risk_level": "high",
+    "risk_note": "此条目涉及正义、制止伤害和对抗性意图，仅作民俗资料整理；现实纠纷应优先使用法律和安全求助渠道。",
+    "intent": [
+      "正义",
+      "制止伤害",
+      "权威"
+    ],
+    "ingredients": [
+      {
+        "name": "所罗门封印根",
+        "amount": "1 份",
+        "latin": "Solomon's seal root"
+      },
+      {
+        "name": "主宰根",
+        "amount": "1 份",
+        "latin": "Master root"
+      },
+      {
+        "name": "甘草",
+        "amount": "1 份",
+        "latin": "Licorice root"
+      },
+      {
+        "name": "基底油",
+        "amount": "覆盖材料"
+      }
+    ],
+    "method": [
+      "将草药材料放入洁净瓶中，以基底油覆盖。",
+      "静置融合香气，并按个人传统以祈祷或意图为油赋能。",
+      "用于涂抹蜡烛、工具或少量外用仪式点位；避免接触眼口和破损皮肤。"
+    ],
+    "usage": "用于正义、申诉、制止伤害和保持权威清明的蜡烛或工具。",
+    "safety": "仅作象征性仪式与外用芳香用途，不可饮用；使用根材、树脂、精油或刺激性材料时避免接触眼口、破损皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "所罗门封印根",
+      "主宰根",
+      "甘草"
+    ],
+    "ritual_notice": "本页只整理此配方的材料与基础制作线索；原书中的祷文、咒语与完整仪式脉络未在网页展开，请翻阅对应页码以阅读原文。"
+  },
+  {
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "id": "hoodoo-herbal-removing-oil",
+    "title": "移除油",
+    "type": "魔法油",
+    "complexity": "Hoodoo 高风险油",
+    "source_page": 95,
+    "risk_level": "high",
+    "risk_note": "此条目涉及移除、驱离和切断类意图，仅作民俗资料整理；不建议用于伤害、骚扰或侵犯他人边界。",
+    "intent": [
+      "移除",
+      "切断",
+      "清除"
+    ],
+    "ingredients": [
+      {
+        "name": "柠檬香蜂草",
+        "amount": "1 份",
+        "latin": "Lemon balm"
+      },
+      {
+        "name": "柠檬精油",
+        "amount": "少量",
+        "latin": "Lemon essential oil"
+      },
+      {
+        "name": "车叶草",
+        "amount": "1 份",
+        "latin": "Master of the Woods"
+      },
+      {
+        "name": "基底油",
+        "amount": "覆盖材料"
+      }
+    ],
+    "method": [
+      "将草药材料放入洁净瓶中，以基底油覆盖。",
+      "静置融合香气，并按个人传统以祈祷或意图为油赋能。",
+      "用于涂抹蜡烛、工具或少量外用仪式点位；避免接触眼口和破损皮肤。"
+    ],
+    "usage": "用于象征性地移除阻碍、切断不利影响或清理旧能量。",
+    "safety": "柠檬精油可能光敏，外用后避免日晒。仅作象征性仪式与外用芳香用途，不可饮用；使用根材、树脂、精油或刺激性材料时避免接触眼口、破损皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "柠檬香蜂草",
+      "柠檬",
+      "车叶草"
+    ],
+    "ritual_notice": "本页只整理此配方的材料与基础制作线索；原书中的祷文、咒语与完整仪式脉络未在网页展开，请翻阅对应页码以阅读原文。"
+  },
+  {
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "id": "hoodoo-herbal-crown-of-success-oil",
+    "title": "成功之冠油",
+    "type": "魔法油",
+    "complexity": "Hoodoo 复方油",
+    "source_page": 98,
+    "intent": [
+      "成功",
+      "事业",
+      "繁荣",
+      "勇气"
+    ],
+    "ingredients": [
+      {
+        "name": "佛手柑",
+        "amount": "1 份",
+        "latin": "Bergamot"
+      },
+      {
+        "name": "鹿舌草",
+        "amount": "1 份",
+        "latin": "Deer's-tongue"
+      },
+      {
+        "name": "高约翰根",
+        "amount": "1 份",
+        "latin": "High John"
+      },
+      {
+        "name": "车叶草",
+        "amount": "1 份",
+        "latin": "Master of the Woods"
+      },
+      {
+        "name": "所罗门封印根",
+        "amount": "1 份",
+        "latin": "Solomon's seal root"
+      },
+      {
+        "name": "基底油",
+        "amount": "覆盖材料"
+      }
+    ],
+    "method": [
+      "将草药材料放入洁净瓶中，以基底油覆盖。",
+      "静置融合香气，并按个人传统以祈祷或意图为油赋能。",
+      "用于涂抹蜡烛、工具或少量外用仪式点位；避免接触眼口和破损皮肤。"
+    ],
+    "usage": "用于事业、考试、公开表达、目标达成和成功之冠类蜡烛。",
+    "safety": "仅作象征性仪式与外用芳香用途，不可饮用；使用根材、树脂、精油或刺激性材料时避免接触眼口、破损皮肤、儿童和宠物。",
+    "relatedHerbs": [
+      "佛手柑",
+      "鹿舌草",
+      "高约翰根",
+      "车叶草",
+      "所罗门封印根"
+    ],
+    "ritual_notice": "本页只整理此配方的材料与基础制作线索；原书中的祷文、咒语与完整仪式脉络未在网页展开，请翻阅对应页码以阅读原文。"
+  },
+  {
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "id": "hoodoo-herbal-peaceful-home-wash",
+    "title": "家庭和平洗液",
+    "type": "洗液 / 喷雾",
+    "complexity": "Hoodoo 洗液",
+    "source_page": 100,
+    "intent": [
+      "家庭",
+      "和平",
+      "安抚"
+    ],
+    "ingredients": [
+      {
+        "name": "血根草",
+        "amount": "1 份",
+        "latin": "Bloodroot"
+      },
+      {
+        "name": "月桂叶",
+        "amount": "1 份",
+        "latin": "Bay leaf"
+      },
+      {
+        "name": "盐",
+        "amount": "一撮",
+        "latin": "Pinch of salt"
+      },
+      {
+        "name": "清水",
+        "amount": "适量"
+      }
+    ],
+    "method": [
+      "将材料加入沸水中短暂煮出气味。",
+      "熄火加盖，静置至冷却，并在静置时加入对应意图或祈祷。",
+      "过滤后作为地板洗液、门口洗液或喷雾使用；用过的草药可少量撒在门口附近。"
+    ],
+    "usage": "用于家庭空间清洗、平息冲突和恢复家中安稳。",
+    "safety": "血根草有毒，不可饮用或接触破损皮肤。仅作象征性空间清洁用途，不可饮用；避免入口、入眼或接触敏感皮肤，远离儿童和宠物。",
+    "relatedHerbs": [
+      "血根草",
+      "月桂叶"
+    ],
+    "ritual_notice": "本页只整理此配方的材料与基础制作线索；原书中的祷文、咒语与完整仪式脉络未在网页展开，请翻阅对应页码以阅读原文。"
+  },
+  {
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "id": "hoodoo-herbal-rule-the-roost-wash",
+    "title": "掌控家宅洗液",
+    "type": "洗液 / 喷雾",
+    "complexity": "Hoodoo 洗液",
+    "source_page": 101,
+    "intent": [
+      "掌控",
+      "家宅",
+      "权威"
+    ],
+    "ingredients": [
+      {
+        "name": "甘草",
+        "amount": "1 份",
+        "latin": "Licorice"
+      },
+      {
+        "name": "菖蒲",
+        "amount": "1 份",
+        "latin": "Calamus"
+      },
+      {
+        "name": "车叶草",
+        "amount": "1 份",
+        "latin": "Master of the Woods"
+      },
+      {
+        "name": "清水",
+        "amount": "适量"
+      }
+    ],
+    "method": [
+      "将材料加入沸水中短暂煮出气味。",
+      "熄火加盖，静置至冷却，并在静置时加入对应意图或祈祷。",
+      "过滤后作为地板洗液、门口洗液或喷雾使用；用过的草药可少量撒在门口附近。"
+    ],
+    "usage": "用于建立家宅秩序、增强自身主导权和稳固空间边界。",
+    "safety": "菖蒲不作内服建议；甘草高浓度接触或误食需谨慎。仅作象征性空间清洁用途，不可饮用；避免入口、入眼或接触敏感皮肤，远离儿童和宠物。",
+    "relatedHerbs": [
+      "甘草",
+      "菖蒲",
+      "车叶草"
+    ],
+    "ritual_notice": "本页只整理此配方的材料与基础制作线索；原书中的祷文、咒语与完整仪式脉络未在网页展开，请翻阅对应页码以阅读原文。"
+  },
+  {
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "id": "hoodoo-herbal-better-business-wash",
+    "title": "生意改善洗液",
+    "type": "洗液 / 喷雾",
+    "complexity": "Hoodoo 洗液",
+    "source_page": 101,
+    "intent": [
+      "生意",
+      "成功",
+      "顾客"
+    ],
+    "ingredients": [
+      {
+        "name": "所罗门封印根",
+        "amount": "1 份",
+        "latin": "Solomon's seal root"
+      },
+      {
+        "name": "百里香",
+        "amount": "1 份",
+        "latin": "Thyme"
+      },
+      {
+        "name": "高约翰根",
+        "amount": "1 份",
+        "latin": "High John the Conqueror root"
+      },
+      {
+        "name": "清水",
+        "amount": "适量"
+      }
+    ],
+    "method": [
+      "将材料加入沸水中短暂煮出气味。",
+      "熄火加盖，静置至冷却，并在静置时加入对应意图或祈祷。",
+      "过滤后作为地板洗液、门口洗液或喷雾使用；用过的草药可少量撒在门口附近。"
+    ],
+    "usage": "用于店铺、工作区或办公空间的生意改善、成功与顾客吸引。",
+    "safety": "仅作象征性空间清洁用途，不可饮用；避免入口、入眼或接触敏感皮肤，远离儿童和宠物。",
+    "relatedHerbs": [
+      "所罗门封印根",
+      "百里香",
+      "高约翰根"
+    ],
+    "ritual_notice": "本页只整理此配方的材料与基础制作线索；原书中的祷文、咒语与完整仪式脉络未在网页展开，请翻阅对应页码以阅读原文。"
+  },
+  {
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "id": "hoodoo-herbal-money-magnet-wash",
+    "title": "金钱磁石洗液",
+    "type": "洗液 / 喷雾",
+    "complexity": "Hoodoo 洗液",
+    "source_page": 101,
+    "intent": [
+      "金钱",
+      "吸引",
+      "繁荣"
+    ],
+    "ingredients": [
+      {
+        "name": "纸钞碎片",
+        "amount": "少量",
+        "latin": "Shredded money"
+      },
+      {
+        "name": "大磁铁",
+        "amount": "1 块",
+        "latin": "A large magnet"
+      },
+      {
+        "name": "黄樟叶粉",
+        "amount": "1 份",
+        "latin": "Gumbo filé",
+        "note": "即黄樟 / 檫木叶粉。"
+      },
+      {
+        "name": "清水",
+        "amount": "适量"
+      }
+    ],
+    "method": [
+      "将材料加入沸水中短暂煮出气味。",
+      "熄火加盖，静置至冷却，并在静置时加入对应意图或祈祷。",
+      "过滤后作为地板洗液、门口洗液或喷雾使用；用过的草药可少量撒在门口附近。"
+    ],
+    "usage": "用于象征性地吸引金钱、机会和繁荣流入。",
+    "safety": "仅作象征性空间清洁用途，不可饮用；避免入口、入眼或接触敏感皮肤，远离儿童和宠物。",
+    "relatedHerbs": [
+      "黄樟"
+    ],
+    "ritual_notice": "本页只整理此配方的材料与基础制作线索；原书中的祷文、咒语与完整仪式脉络未在网页展开，请翻阅对应页码以阅读原文。"
+  },
+  {
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "id": "hoodoo-herbal-attraction-wash",
+    "title": "吸引洗液",
+    "type": "洗液 / 喷雾",
+    "complexity": "Hoodoo 洗液",
+    "source_page": 101,
+    "intent": [
+      "吸引",
+      "机会",
+      "爱情"
+    ],
+    "ingredients": [
+      {
+        "name": "大磁铁",
+        "amount": "1 块",
+        "latin": "Large magnet"
+      },
+      {
+        "name": "黄樟",
+        "amount": "1 份",
+        "latin": "Sassafras"
+      },
+      {
+        "name": "欧当归",
+        "amount": "1 份",
+        "latin": "Lovage"
+      },
+      {
+        "name": "清水",
+        "amount": "适量"
+      }
+    ],
+    "method": [
+      "将材料加入沸水中短暂煮出气味。",
+      "熄火加盖，静置至冷却，并在静置时加入对应意图或祈祷。",
+      "过滤后作为地板洗液、门口洗液或喷雾使用；用过的草药可少量撒在门口附近。"
+    ],
+    "usage": "用于吸引机会、资源、善意或爱情相关能量。",
+    "safety": "仅作象征性空间清洁用途，不可饮用；避免入口、入眼或接触敏感皮肤，远离儿童和宠物。",
+    "relatedHerbs": [
+      "黄樟",
+      "欧当归"
+    ],
+    "ritual_notice": "本页只整理此配方的材料与基础制作线索；原书中的祷文、咒语与完整仪式脉络未在网页展开，请翻阅对应页码以阅读原文。"
+  },
+  {
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "id": "hoodoo-herbal-money-drawing-powder-1",
+    "title": "招财粉 1",
+    "type": "魔法粉",
+    "complexity": "Hoodoo 粉",
+    "source_page": 102,
+    "intent": [
+      "金钱",
+      "吸引",
+      "繁荣"
+    ],
+    "ingredients": [
+      {
+        "name": "黄樟",
+        "amount": "1 份",
+        "latin": "Sassafras"
+      },
+      {
+        "name": "钱灰",
+        "amount": "1 份",
+        "latin": "Money burned to ash"
+      },
+      {
+        "name": "磁砂",
+        "amount": "1 份",
+        "latin": "Magnetic sand"
+      }
+    ],
+    "method": [
+      "将黄樟研细。",
+      "加入钱灰和磁砂混合均匀。",
+      "以招财、繁荣或机会吸引意图赋能，少量用于门口、钱袋、护符或蜡烛周围。"
+    ],
+    "usage": "用于招财、吸引金钱机会和增强繁荣象征。",
+    "safety": "避免吸入粉末，不可食用；含土、灰或矿物类象征材料时仅作撒粉或护符资料整理，远离儿童和宠物。",
+    "relatedHerbs": [
+      "黄樟"
+    ]
+  },
+  {
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "id": "hoodoo-herbal-love-powder-1",
+    "title": "爱情粉 1",
+    "type": "魔法粉",
+    "complexity": "Hoodoo 粉",
+    "source_page": 103,
+    "intent": [
+      "爱情",
+      "吸引",
+      "伴侣关系"
+    ],
+    "ingredients": [
+      {
+        "name": "亚当夏娃根",
+        "amount": "1 份",
+        "latin": "Adam-and-eve root"
+      },
+      {
+        "name": "达米阿那",
+        "amount": "1 份",
+        "latin": "Damiana"
+      },
+      {
+        "name": "糖",
+        "amount": "1 份",
+        "latin": "Sugar"
+      }
+    ],
+    "method": [
+      "将植物材料研至适合撒粉的细度。",
+      "加入糖并混合均匀。",
+      "以爱情吸引、伴侣关系或关系甜化意图赋能，少量用于护符或蜡烛周围。"
+    ],
+    "usage": "用于爱情吸引、关系甜化和伴侣关系相关施作。",
+    "safety": "避免吸入粉末，不可食用；含土、灰或矿物类象征材料时仅作撒粉或护符资料整理，远离儿童和宠物。",
+    "relatedHerbs": [
+      "亚当夏娃根",
+      "达米阿那"
+    ]
+  },
+  {
+    "source_book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+    "id": "hoodoo-herbal-love-powder-3",
+    "title": "爱情粉 3",
+    "type": "魔法粉",
+    "complexity": "Hoodoo 粉",
+    "source_page": 103,
+    "intent": [
+      "爱情",
+      "吸引",
+      "道路开启"
+    ],
+    "ingredients": [
+      {
+        "name": "十字路口土",
+        "amount": "1 份",
+        "latin": "Crossroads dirt"
+      },
+      {
+        "name": "欧当归",
+        "amount": "1 份",
+        "latin": "Lovage root"
+      },
+      {
+        "name": "熏衣草",
+        "amount": "1 份",
+        "latin": "Lavender"
+      }
+    ],
+    "method": [
+      "将欧当归和熏衣草研细。",
+      "加入十字路口土并混合均匀。",
+      "以爱情吸引、关系道路开启或新机会意图赋能，少量用于护符或蜡烛周围。"
+    ],
+    "usage": "用于爱情吸引、打开关系道路和创造新的相遇机会。",
+    "safety": "避免吸入粉末，不可食用；含土、灰或矿物类象征材料时仅作撒粉或护符资料整理，远离儿童和宠物。",
+    "relatedHerbs": [
+      "欧当归",
+      "熏衣草"
+    ]
   }
 ]
