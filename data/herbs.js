@@ -5727,123 +5727,239 @@ window.__HERBS = [
     "name": "高约翰根",
     "gender": "阳性",
     "element": "火",
-    "planet": "木星",
-    "effect": "力量，成功，金钱，突破，开路",
+    "planet": "火星",
+    "effect": "力量，掌控，胜利，运气，赌博运，金钱，法律胜诉，吸引女性，打破诅咒，个人权力，幸福",
     "powers": [
       "力量",
-      "成功",
+      "掌控",
+      "胜利",
+      "运气",
+      "赌博运",
       "金钱",
-      "突破",
-      "开路"
+      "法律胜诉",
+      "吸引女性",
+      "打破诅咒",
+      "个人权力",
+      "幸福"
     ],
-    "toxic": false,
+    "toxic": true,
     "initial": "G",
     "pinyin": "gao yue han gen",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "为后续筛选出的 Hoodoo Herbal 配方补建可见条目；属性为保守整理，后续可细化。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Ipomoea jalapa / Ipomoea purga。"
       }
-    ]
+    ],
+    "englishName": "High John the Conqueror Root",
+    "aliases": [
+      "征服者约翰根",
+      "High John the Conqueror",
+      "King Root",
+      "Man Root",
+      "Jalap Root"
+    ],
+    "latin": "Ipomoea jalapa / Ipomoea purga",
+    "description": "Hoodoo 中最核心的根材之一，以非裔美国民间传说中的骗术英雄 High John the Conqueror 命名。整根随身携带或浸入油中制成 High John Oil。被视为男性之根，与 Queen Elizabeth Root 互为对偶。",
+    "safety": "强泻药，严禁内服。仅限外用、携带、浸油、撒粉或熏香等民俗用途。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "Hoodoo 中最核心的根材之一，以非裔美国民间传说中的骗术英雄 High John the Conqueror 命名。整根随身携带或浸入油中制成 High John Oil。被视为男性之根，与 Queen Elizabeth Root 互为对偶。",
+      "lore": "Hoodoo 对应名：High John the Conqueror Root。魔法用途：力量，掌控，胜利，运气，赌博运，金钱，法律胜诉，吸引女性，打破诅咒，个人权力，幸福。",
+      "safety": "强泻药，严禁内服。仅限外用、携带、浸油、撒粉或熏香等民俗用途。"
+    }
   },
   {
     "id": 237,
-    "name": "林中之主",
-    "gender": "未知",
-    "element": "土",
-    "planet": "未知",
-    "effect": "力量，保护，掌控，稳固，疗愈",
+    "name": "车叶草",
+    "gender": "阳性",
+    "element": "火",
+    "planet": "火星",
+    "effect": "命令，掌控，保护，勇气，胜利，爱情，繁荣，金钱吸引，消除负面能量",
     "powers": [
-      "力量",
-      "保护",
+      "命令",
       "掌控",
-      "稳固",
-      "疗愈"
+      "保护",
+      "勇气",
+      "胜利",
+      "爱情",
+      "繁荣",
+      "金钱吸引",
+      "消除负面能量"
     ],
-    "toxic": false,
-    "initial": "L",
-    "pinyin": "lin zhong zhi zhu",
+    "toxic": true,
+    "initial": "C",
+    "pinyin": "che ye cao",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Master of the Woods；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Galium odoratum / Asperula odorata。"
       }
-    ]
+    ],
+    "englishName": "Sweet Woodruff / Master of the Woods",
+    "aliases": [
+      "林中之主",
+      "香车叶草",
+      "Sweet Woodruff",
+      "Master of the Woods",
+      "Waldmeister"
+    ],
+    "latin": "Galium odoratum / Asperula odorata",
+    "description": "德文名 Waldmeister 直译为林中之主。Hoodoo 中归入命令与统治类草药，常用于掌控、保护、勇气、胜利与繁荣类施作。干燥后有新鲜干草和香草气息。",
+    "safety": "含香豆素，可能有抗凝血作用；大量食用可致头晕、呕吐。本站仅作民俗用途整理。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "德文名 Waldmeister 直译为林中之主。Hoodoo 中归入命令与统治类草药，常用于掌控、保护、勇气、胜利与繁荣类施作。干燥后有新鲜干草和香草气息。",
+      "lore": "Hoodoo 对应名：Sweet Woodruff / Master of the Woods。魔法用途：命令，掌控，保护，勇气，胜利，爱情，繁荣，金钱吸引，消除负面能量。",
+      "safety": "含香豆素，可能有抗凝血作用；大量食用可致头晕、呕吐。本站仅作民俗用途整理。"
+    }
   },
   {
     "id": 238,
     "name": "主宰根",
     "gender": "阳性",
     "element": "火",
-    "planet": "太阳",
-    "effect": "掌控，力量，成功，支配，权威",
+    "planet": "火星",
+    "effect": "命令，控制，个人力量，自信，保护，破除诅咒，净化，接地，精神清明，提升准确度",
     "powers": [
-      "掌控",
-      "力量",
-      "成功",
-      "支配",
-      "权威"
+      "命令",
+      "控制",
+      "个人力量",
+      "自信",
+      "保护",
+      "破除诅咒",
+      "净化",
+      "接地",
+      "精神清明",
+      "提升准确度"
     ],
-    "toxic": false,
+    "toxic": true,
     "initial": "Z",
     "pinyin": "zhu zai gen",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Master Root；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Imperatoria ostruthium / Peucedanum ostruthium。"
       }
-    ]
+    ],
+    "englishName": "Master Root / Masterwort",
+    "aliases": [
+      "欧白前胡",
+      "Master Root",
+      "Masterwort",
+      "Holy Ghost Root"
+    ],
+    "latin": "Imperatoria ostruthium / Peucedanum ostruthium",
+    "description": "拉丁属名 Imperatoria 带有统帅、皇帝之意。Hoodoo 中用于命令类咒法、mojo bag 与仪式浴；部分供应商会与欧白芷混用，但它与 Master of the Woods 并非同一植物。",
+    "safety": "含呋喃香豆素，可能引起光敏反应。外用和接触后应避免强烈日晒。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "拉丁属名 Imperatoria 带有统帅、皇帝之意。Hoodoo 中用于命令类咒法、mojo bag 与仪式浴；部分供应商会与欧白芷混用，但它与 Master of the Woods 并非同一植物。",
+      "lore": "Hoodoo 对应名：Master Root / Masterwort。魔法用途：命令，控制，个人力量，自信，保护，破除诅咒，净化，接地，精神清明，提升准确度。",
+      "safety": "含呋喃香豆素，可能引起光敏反应。外用和接触后应避免强烈日晒。"
+    }
   },
   {
     "id": 239,
-    "name": "独活草",
+    "name": "欧当归",
     "gender": "阳性",
     "element": "火",
     "planet": "太阳",
-    "effect": "爱情，吸引，净化，保护",
+    "effect": "爱情吸引，净化，催情",
     "powers": [
-      "爱情",
-      "吸引",
+      "爱情吸引",
       "净化",
-      "保护"
+      "催情"
     ],
     "toxic": false,
-    "initial": "D",
-    "pinyin": "du huo cao",
+    "initial": "O",
+    "pinyin": "ou dang gui",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Lovage；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Levisticum officinale。"
       }
-    ]
+    ],
+    "englishName": "Lovage",
+    "aliases": [
+      "Lovage",
+      "Love-ache",
+      "独活草"
+    ],
+    "latin": "Levisticum officinale",
+    "description": "Lovage 的标准中文植物名为欧当归。名称虽常被民间解释为与爱有关，但词源其实来自芹菜类植物古称；因民间联想而进入爱情和吸引类魔法。气味近似芹菜但更辛辣。",
+    "safety": "一般较安全；根部含呋喃香豆素，长期过量可能增加光敏感。孕妇慎用。避免与中药独活混淆。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "Lovage 的标准中文植物名为欧当归。名称虽常被民间解释为与爱有关，但词源其实来自芹菜类植物古称；因民间联想而进入爱情和吸引类魔法。气味近似芹菜但更辛辣。",
+      "lore": "Hoodoo 对应名：Lovage。魔法用途：爱情吸引，净化，催情。",
+      "safety": "一般较安全；根部含呋喃香豆素，长期过量可能增加光敏感。孕妇慎用。避免与中药独活混淆。"
+    }
   },
   {
     "id": 240,
-    "name": "檫木",
+    "name": "黄樟",
     "gender": "阳性",
     "element": "火",
     "planet": "木星",
-    "effect": "金钱，繁荣，吸引，清除",
+    "effect": "金钱，健康，治愈，繁荣，吸引，清除",
     "powers": [
       "金钱",
+      "健康",
+      "治愈",
       "繁荣",
       "吸引",
       "清除"
     ],
-    "toxic": false,
-    "initial": "C",
-    "pinyin": "cha mu",
+    "toxic": true,
+    "initial": "H",
+    "pinyin": "huang zhang",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Sassafras；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Sassafras albidum。"
       }
-    ]
+    ],
+    "englishName": "Sassafras",
+    "aliases": [
+      "北美檫木",
+      "檫木",
+      "Sassafras",
+      "Sassafras Root",
+      "Gumbo filé",
+      "Filé powder",
+      "黄樟叶粉",
+      "檫木叶粉"
+    ],
+    "latin": "Sassafras albidum",
+    "description": "北美原生落叶乔木，根皮曾是根汁啤酒的原始原料。Gumbo filé 即黄樟干叶研磨而成的叶粉，与秋葵无关；在 Cajun/Creole 烹饪中作增稠剂和调味料。",
+    "safety": "根皮含黄樟素，相关食品添加用途受限。叶粉中黄樟素含量较低，但本站仅作民俗材料整理，不作食用或医疗建议。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "北美原生落叶乔木，根皮曾是根汁啤酒的原始原料。Gumbo filé 即黄樟干叶研磨而成的叶粉，与秋葵无关；在 Cajun/Creole 烹饪中作增稠剂和调味料。",
+      "lore": "Hoodoo 对应名：Sassafras。魔法用途：金钱，健康，治愈，繁荣，吸引，清除。",
+      "safety": "根皮含黄樟素，相关食品添加用途受限。叶粉中黄樟素含量较低，但本站仅作民俗材料整理，不作食用或医疗建议。"
+    }
   },
   {
     "id": 241,
@@ -5851,23 +5967,43 @@ window.__HERBS = [
     "gender": "阳性",
     "element": "火",
     "planet": "火星",
-    "effect": "保护，爱情，家庭守护，驱散",
+    "effect": "保护，净化，爱情，家庭和谐，驱邪，婚姻保护",
     "powers": [
       "保护",
+      "净化",
       "爱情",
-      "家庭守护",
-      "驱散"
+      "家庭和谐",
+      "驱邪",
+      "婚姻保护"
     ],
     "toxic": true,
     "initial": "X",
     "pinyin": "xue gen cao",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Bloodroot；有毒性风险，仅作为传统民俗材料索引，不建议内服或接触破损皮肤。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Sanguinaria canadensis。"
       }
-    ]
+    ],
+    "englishName": "Bloodroot",
+    "aliases": [
+      "Bloodroot",
+      "Red Puccoon",
+      "Tetterwort"
+    ],
+    "latin": "Sanguinaria canadensis",
+    "description": "根部折断时流出鲜红色汁液，因而得名。Hoodoo 中用于家庭保护，尤其与婚姻和谐、驱邪和保护相关，也曾被作为红色染料替代品。",
+    "safety": "有毒。含血根碱等生物碱，内服可致严重不适，大量可致命；外用亦需谨慎。仅作民俗外用资料整理。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "根部折断时流出鲜红色汁液，因而得名。Hoodoo 中用于家庭保护，尤其与婚姻和谐、驱邪和保护相关，也曾被作为红色染料替代品。",
+      "lore": "Hoodoo 对应名：Bloodroot。魔法用途：保护，净化，爱情，家庭和谐，驱邪，婚姻保护。",
+      "safety": "有毒。含血根碱等生物碱，内服可致严重不适，大量可致命；外用亦需谨慎。仅作民俗外用资料整理。"
+    }
   },
   {
     "id": 242,
@@ -5875,143 +6011,248 @@ window.__HERBS = [
     "gender": "阳性",
     "element": "火",
     "planet": "火星",
-    "effect": "保护，防流言，封口，家宅守护",
+    "effect": "保护，驱除负面能量，家宅防护",
     "powers": [
       "保护",
-      "防流言",
-      "封口",
-      "家宅守护"
+      "驱除负面能量",
+      "家宅防护"
     ],
     "toxic": true,
     "initial": "H",
     "pinyin": "hu wei lan",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Mother-in-Law's Tongue / Snake Plant；误食有风险，家中有儿童或宠物时需避免接触。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Dracaena trifasciata / Sansevieria trifasciata。"
       }
-    ]
+    ],
+    "englishName": "Mother-in-Law's Tongue / Snake Plant",
+    "aliases": [
+      "虎皮兰",
+      "Mother-in-Law's Tongue",
+      "Snake Plant",
+      "Good Luck Plant"
+    ],
+    "latin": "Dracaena trifasciata / Sansevieria trifasciata",
+    "description": "主要作为活植物用于家宅保护，常放在门口或窗边形成保护屏障。叶片坚硬如剑，因此与防御、切断和守护能量相关。",
+    "safety": "对猫狗有轻度毒性，误食可致恶心和呕吐。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "主要作为活植物用于家宅保护，常放在门口或窗边形成保护屏障。叶片坚硬如剑，因此与防御、切断和守护能量相关。",
+      "lore": "Hoodoo 对应名：Mother-in-Law's Tongue / Snake Plant。魔法用途：保护，驱除负面能量，家宅防护。",
+      "safety": "对猫狗有轻度毒性，误食可致恶心和呕吐。"
+    }
   },
   {
     "id": 243,
     "name": "秋葵",
     "gender": "阴性",
     "element": "水",
-    "planet": "月亮",
-    "effect": "净化，清除，保护，祝福",
+    "planet": "金星",
+    "effect": "生育力，丰收，繁荣",
     "powers": [
-      "净化",
-      "清除",
-      "保护",
-      "祝福"
+      "生育力",
+      "丰收",
+      "繁荣"
     ],
     "toxic": false,
     "initial": "Q",
     "pinyin": "qiu kui",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "为后续筛选出的 Hoodoo Herbal 配方补建可见条目；属性为保守整理，后续可细化。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Abelmoschus esculentus。"
       }
-    ]
+    ],
+    "englishName": "Okra",
+    "aliases": [
+      "Okra",
+      "Lady's Fingers",
+      "Gumbo"
+    ],
+    "latin": "Abelmoschus esculentus",
+    "description": "在非裔美国传统中与丰饶和祝福相关。Gumbo 一词可能源自西非班图语系的秋葵名称；秋葵本身可作为 gumbo 菜肴的增稠剂之一，但 Gumbo filé 不是秋葵。",
+    "safety": "食用通常安全；本站仅作民俗用途整理。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "在非裔美国传统中与丰饶和祝福相关。Gumbo 一词可能源自西非班图语系的秋葵名称；秋葵本身可作为 gumbo 菜肴的增稠剂之一，但 Gumbo filé 不是秋葵。",
+      "lore": "Hoodoo 对应名：Okra。魔法用途：生育力，丰收，繁荣。",
+      "safety": "食用通常安全；本站仅作民俗用途整理。"
+    }
   },
   {
     "id": 244,
     "name": "白鹤芋",
     "gender": "阴性",
     "element": "水",
-    "planet": "金星",
-    "effect": "平安，家庭和谐，和平，安抚",
+    "planet": "月亮",
+    "effect": "和平，和谐，净化空间能量，精神安抚，灵性成长",
     "powers": [
-      "平安",
-      "家庭和谐",
       "和平",
-      "安抚"
+      "和谐",
+      "净化空间能量",
+      "精神安抚",
+      "灵性成长"
     ],
     "toxic": true,
     "initial": "B",
     "pinyin": "bai he yu",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Peace Lily；误食有刺激性风险，家中有儿童或宠物时需避免接触。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Spathiphyllum spp.。"
       }
-    ]
+    ],
+    "englishName": "Peace Lily",
+    "aliases": [
+      "Peace Lily"
+    ],
+    "latin": "Spathiphyllum spp.",
+    "description": "常作为活植物种植在家中。白色佛焰苞象征和平与纯洁，在民间魔法中用于促进家庭和谐、化解冲突和安抚空间。",
+    "safety": "含草酸钙结晶，误食可导致口腔、舌头和喉咙刺痛或肿胀；对宠物也有风险。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "常作为活植物种植在家中。白色佛焰苞象征和平与纯洁，在民间魔法中用于促进家庭和谐、化解冲突和安抚空间。",
+      "lore": "Hoodoo 对应名：Peace Lily。魔法用途：和平，和谐，净化空间能量，精神安抚，灵性成长。",
+      "safety": "含草酸钙结晶，误食可导致口腔、舌头和喉咙刺痛或肿胀；对宠物也有风险。"
+    }
   },
   {
     "id": 245,
     "name": "矮牵牛",
-    "gender": "阴性",
-    "element": "水",
-    "planet": "金星",
-    "effect": "保护，门口守护，吸附负面，平静",
+    "gender": "未知",
+    "element": "未知",
+    "planet": "土星",
+    "effect": "保护，驱邪",
     "powers": [
       "保护",
-      "门口守护",
-      "吸附负面",
-      "平静"
+      "驱邪"
     ],
     "toxic": false,
     "initial": "A",
     "pinyin": "ai qian niu",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Petunia；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Petunia × hybrida。"
       }
-    ]
+    ],
+    "englishName": "Petunias",
+    "aliases": [
+      "Petunia",
+      "Petunias"
+    ],
+    "latin": "Petunia × hybrida",
+    "description": "在 Hoodoo 家宅植物传统中，矮牵牛可种在家门口、窗台或花园，用作护宅植物。传统对应资料较少，更多来自实践传承。",
+    "safety": "通常无毒。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "在 Hoodoo 家宅植物传统中，矮牵牛可种在家门口、窗台或花园，用作护宅植物。传统对应资料较少，更多来自实践传承。",
+      "lore": "Hoodoo 对应名：Petunias。魔法用途：保护，驱邪。",
+      "safety": "通常无毒。"
+    }
   },
   {
     "id": 246,
     "name": "凤仙花",
     "gender": "阴性",
     "element": "水",
-    "planet": "月亮",
-    "effect": "保护，反弹，传统疗愈，清凉",
+    "planet": "土星",
+    "effect": "保护，净化，打破诅咒",
     "powers": [
       "保护",
-      "反弹",
-      "传统疗愈",
-      "清凉"
+      "净化",
+      "打破诅咒"
     ],
     "toxic": false,
     "initial": "F",
     "pinyin": "feng xian hua",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Touch-me-not / Jewelweed；仅作为传统民俗用途索引，不构成医疗建议。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Impatiens capensis / Impatiens balsamina。"
       }
-    ]
+    ],
+    "englishName": "Touch-me-nots / Jewelweed",
+    "aliases": [
+      "Touch-me-not",
+      "Jewelweed",
+      "凤仙花属"
+    ],
+    "latin": "Impatiens capensis / Impatiens balsamina",
+    "description": "英文 Touch-me-not 在北美常指 Jewelweed，中文凤仙花通常指同属另一种植物。其果实成熟时轻触即弹射种子，因此与弹开、断开和解除不利影响的象征有关。",
+    "safety": "Jewelweed 外用通常安全；内服资料有限。注意不同种之间不要混淆。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "英文 Touch-me-not 在北美常指 Jewelweed，中文凤仙花通常指同属另一种植物。其果实成熟时轻触即弹射种子，因此与弹开、断开和解除不利影响的象征有关。",
+      "lore": "Hoodoo 对应名：Touch-me-nots / Jewelweed。魔法用途：保护，净化，打破诅咒。",
+      "safety": "Jewelweed 外用通常安全；内服资料有限。注意不同种之间不要混淆。"
+    }
   },
   {
     "id": 247,
-    "name": "月桂莓",
-    "gender": "阳性",
-    "element": "火",
+    "name": "蜡杨梅",
+    "gender": "阴性",
+    "element": "土",
     "planet": "木星",
-    "effect": "金钱，繁荣，好运，家庭",
+    "effect": "金钱，好运，繁荣，保护，祝福",
     "powers": [
       "金钱",
-      "繁荣",
       "好运",
-      "家庭"
+      "繁荣",
+      "保护",
+      "祝福"
     ],
     "toxic": false,
-    "initial": "Y",
-    "pinyin": "yue gui mei",
+    "initial": "L",
+    "pinyin": "la yang mei",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Bayberry；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Myrica cerifera / Morella cerifera。"
       }
-    ]
+    ],
+    "englishName": "Bayberry",
+    "aliases": [
+      "月桂莓",
+      "Bayberry",
+      "Southern Bayberry",
+      "Wax Myrtle",
+      "Candleberry"
+    ],
+    "latin": "Myrica cerifera / Morella cerifera",
+    "description": "不要与月桂或中国杨梅混淆。果实表面的蜡质可制蜡烛，Bayberry 蜡烛在美国民俗中常用于新年或圣诞招财纳福。",
+    "safety": "蜡烛使用一般安全；根皮大量内服有刺激性。本站仅作民俗用途整理。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "不要与月桂或中国杨梅混淆。果实表面的蜡质可制蜡烛，Bayberry 蜡烛在美国民俗中常用于新年或圣诞招财纳福。",
+      "lore": "Hoodoo 对应名：Bayberry。魔法用途：金钱，好运，繁荣，保护，祝福。",
+      "safety": "蜡烛使用一般安全；根皮大量内服有刺激性。本站仅作民俗用途整理。"
+    }
   },
   {
     "id": 248,
@@ -6019,95 +6260,179 @@ window.__HERBS = [
     "gender": "阴性",
     "element": "水",
     "planet": "金星",
-    "effect": "爱情，吸引，梦境，灵性",
+    "effect": "爱情吸引，个人魅力，沟通能力，女性权威，忠诚，通灵力，美梦",
     "powers": [
-      "爱情",
-      "吸引",
-      "梦境",
-      "灵性"
+      "爱情吸引",
+      "个人魅力",
+      "沟通能力",
+      "女性权威",
+      "忠诚",
+      "通灵力",
+      "美梦"
     ],
     "toxic": false,
     "initial": "Y",
     "pinyin": "yuan wei gen",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Orris Root / Queen Elizabeth Root；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Iris germanica var. florentina / Iris pallida。"
       }
-    ]
+    ],
+    "englishName": "Queen Elizabeth Root / Orris Root",
+    "aliases": [
+      "Queen Elizabeth Root",
+      "Orris Root",
+      "Iris Root",
+      "Love Root"
+    ],
+    "latin": "Iris germanica var. florentina / Iris pallida",
+    "description": "Hoodoo 中重要的女性之根，与 High John 互为对偶。常用于帮助女性吸引男性、增强魅力和稳固关系；干燥根茎陈化后带紫罗兰香气。",
+    "safety": "部分人可能对鸢尾科植物过敏；以外用和随身携带为主。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "Hoodoo 中重要的女性之根，与 High John 互为对偶。常用于帮助女性吸引男性、增强魅力和稳固关系；干燥根茎陈化后带紫罗兰香气。",
+      "lore": "Hoodoo 对应名：Queen Elizabeth Root / Orris Root。魔法用途：爱情吸引，个人魅力，沟通能力，女性权威，忠诚，通灵力，美梦。",
+      "safety": "部分人可能对鸢尾科植物过敏；以外用和随身携带为主。"
+    }
   },
   {
     "id": 249,
     "name": "魔鬼爪",
-    "gender": "阳性",
+    "gender": "阴性",
     "element": "火",
     "planet": "火星",
-    "effect": "保护，反制，驱散，阻隔",
+    "effect": "保护，驱邪，净化，束缚，逆转诅咒，吸引，家宅防护",
     "powers": [
       "保护",
-      "反制",
-      "驱散",
-      "阻隔"
+      "驱邪",
+      "净化",
+      "束缚",
+      "逆转诅咒",
+      "吸引",
+      "家宅防护"
     ],
-    "toxic": false,
+    "toxic": true,
     "initial": "M",
     "pinyin": "mo gui zhua",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Devil's Claw；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Harpagophytum procumbens / Proboscidea louisianica。"
       }
-    ]
+    ],
+    "englishName": "Devil's Claw",
+    "aliases": [
+      "Devil's Claw",
+      "Grapple Plant",
+      "Unicorn Plant",
+      "Double Claw"
+    ],
+    "latin": "Harpagophytum procumbens / Proboscidea louisianica",
+    "description": "在参考书中只作为 Protection Oil 材料出现，但 Hoodoo 传统里用途较广。钩爪状果实或根按形象签名说被理解为抓住、钉住或阻隔负面影响。",
+    "safety": "非洲种根部可能干扰抗凝血药和心血管药物，孕妇禁用；成熟干荚不可食。本站仅作民俗用途整理。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "在参考书中只作为 Protection Oil 材料出现，但 Hoodoo 传统里用途较广。钩爪状果实或根按形象签名说被理解为抓住、钉住或阻隔负面影响。",
+      "lore": "Hoodoo 对应名：Devil's Claw。魔法用途：保护，驱邪，净化，束缚，逆转诅咒，吸引，家宅防护。",
+      "safety": "非洲种根部可能干扰抗凝血药和心血管药物，孕妇禁用；成熟干荚不可食。本站仅作民俗用途整理。"
+    }
   },
   {
     "id": 250,
-    "name": "白芥末籽",
+    "name": "白芥子",
     "gender": "阳性",
     "element": "火",
     "planet": "火星",
-    "effect": "保护，净化，信心，驱邪",
+    "effect": "保护，驱邪，信仰，勇气，净化",
     "powers": [
       "保护",
-      "净化",
-      "信心",
-      "驱邪"
+      "驱邪",
+      "信仰",
+      "勇气",
+      "净化"
     ],
     "toxic": false,
     "initial": "B",
-    "pinyin": "bai jie mo zi",
+    "pinyin": "bai jie zi",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 White Mustard Seed；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Sinapis alba / Brassica alba。"
       }
-    ]
+    ],
+    "englishName": "White Mustard Seeds",
+    "aliases": [
+      "白芥末籽",
+      "White Mustard Seed",
+      "White Mustard Seeds"
+    ],
+    "latin": "Sinapis alba / Brassica alba",
+    "description": "圣经中芥菜种子的比喻使其在基督教根工作中格外重要。Hoodoo 中常撒于门槛、窗台或四角，用作家宅保护。",
+    "safety": "食用通常安全；大量外用可能引起皮肤刺激。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "圣经中芥菜种子的比喻使其在基督教根工作中格外重要。Hoodoo 中常撒于门槛、窗台或四角，用作家宅保护。",
+      "lore": "Hoodoo 对应名：White Mustard Seeds。魔法用途：保护，驱邪，信仰，勇气，净化。",
+      "safety": "食用通常安全；大量外用可能引起皮肤刺激。"
+    }
   },
   {
     "id": 251,
     "name": "鹿舌草",
     "gender": "阳性",
-    "element": "风",
-    "planet": "水星",
-    "effect": "成功，口才，沟通，事业",
+    "element": "火",
+    "planet": "火星",
+    "effect": "口才，沟通，说服力，法庭胜诉，爱情吸引，通灵力增强，事业成功",
     "powers": [
-      "成功",
       "口才",
       "沟通",
-      "事业"
+      "说服力",
+      "法庭胜诉",
+      "爱情吸引",
+      "通灵力增强",
+      "事业成功"
     ],
-    "toxic": false,
+    "toxic": true,
     "initial": "L",
     "pinyin": "lu she cao",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Deer's-tongue；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Liatris odoratissima / Trilisa odoratissima。"
       }
-    ]
+    ],
+    "englishName": "Deer's-Tongue / Vanilla Leaf",
+    "aliases": [
+      "Deer's-Tongue",
+      "Vanilla Leaf",
+      "Wild Vanilla"
+    ],
+    "latin": "Liatris odoratissima / Trilisa odoratissima",
+    "description": "叶片形状似鹿舌，干燥后带浓郁香草气息。在 Hoodoo 中以甜蜜言辞、增强口才和说服力著称，也用于法庭案件和爱情吸引。",
+    "safety": "含香豆素，不建议大量内服。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "叶片形状似鹿舌，干燥后带浓郁香草气息。在 Hoodoo 中以甜蜜言辞、增强口才和说服力著称，也用于法庭案件和爱情吸引。",
+      "lore": "Hoodoo 对应名：Deer's-Tongue / Vanilla Leaf。魔法用途：口才，沟通，说服力，法庭胜诉，爱情吸引，通灵力增强，事业成功。",
+      "safety": "含香豆素，不建议大量内服。"
+    }
   },
   {
     "id": 252,
@@ -6115,23 +6440,43 @@ window.__HERBS = [
     "gender": "阴性",
     "element": "水",
     "planet": "金星",
-    "effect": "爱情，伴侣关系，吸引，结合",
+    "effect": "爱情，忠诚，婚姻和谐，吸引伴侣，关系保护，维系远距离恋情",
     "powers": [
       "爱情",
-      "伴侣关系",
-      "吸引",
-      "结合"
+      "忠诚",
+      "婚姻和谐",
+      "吸引伴侣",
+      "关系保护",
+      "维系远距离恋情"
     ],
     "toxic": false,
     "initial": "Y",
     "pinyin": "ya dang xia wa gen",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Adam and Eve Root；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Aplectrum hyemale。"
       }
-    ]
+    ],
+    "englishName": "Adam-and-Eve Roots",
+    "aliases": [
+      "Adam-and-Eve Root",
+      "Adam-and-Eve Roots",
+      "Putty Root"
+    ],
+    "latin": "Aplectrum hyemale",
+    "description": "北美原生兰花，球茎成对相连，象征两性能量结合与平衡。Hoodoo 中常成对使用，用于伴侣忠诚、爱情吸引和关系守护。",
+    "safety": "不供内服；野生种群持续减少，应注意可持续采集伦理。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "北美原生兰花，球茎成对相连，象征两性能量结合与平衡。Hoodoo 中常成对使用，用于伴侣忠诚、爱情吸引和关系守护。",
+      "lore": "Hoodoo 对应名：Adam-and-Eve Roots。魔法用途：爱情，忠诚，婚姻和谐，吸引伴侣，关系保护，维系远距离恋情。",
+      "safety": "不供内服；野生种群持续减少，应注意可持续采集伦理。"
+    }
   },
   {
     "id": 253,
@@ -6139,70 +6484,88 @@ window.__HERBS = [
     "gender": "阳性",
     "element": "火",
     "planet": "火星",
-    "effect": "爱情，欲望，梦境，灵性",
+    "effect": "爱情，欲望，催情，通灵力增强，灵视",
     "powers": [
       "爱情",
       "欲望",
-      "梦境",
-      "灵性"
+      "催情",
+      "通灵力增强",
+      "灵视"
     ],
     "toxic": false,
     "initial": "D",
     "pinyin": "da mi a na",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Damiana；为后续筛选出的 Hoodoo Herbal 配方补建可见条目。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Turnera diffusa / Turnera aphrodisiaca。"
       }
-    ]
+    ],
+    "englishName": "Damiana",
+    "aliases": [
+      "透纳草",
+      "Damiana"
+    ],
+    "latin": "Turnera diffusa / Turnera aphrodisiaca",
+    "description": "原产墨西哥和中美洲，传统上有催情声誉。Hoodoo 和威卡中常用于爱情、欲望、灵视和通灵类施作。",
+    "safety": "适量通常安全；大量可能影响血糖和铁吸收。孕妇禁用。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "原产墨西哥和中美洲，传统上有催情声誉。Hoodoo 和威卡中常用于爱情、欲望、灵视和通灵类施作。",
+      "lore": "Hoodoo 对应名：Damiana。魔法用途：爱情，欲望，催情，通灵力增强，灵视。",
+      "safety": "适量通常安全；大量可能影响血糖和铁吸收。孕妇禁用。"
+    }
   },
   {
     "id": 254,
-    "name": "玉竹",
+    "name": "所罗门封印根",
     "gender": "阴性",
     "element": "水",
     "planet": "土星",
-    "effect": "保护，智慧，成功，传统疗愈",
+    "effect": "保护，驱邪，智慧，封印誓言，封印咒法，决策，清明，召唤元素精灵",
     "powers": [
       "保护",
+      "驱邪",
       "智慧",
-      "成功",
-      "传统疗愈"
+      "封印誓言",
+      "封印咒法",
+      "决策",
+      "清明",
+      "召唤元素精灵"
     ],
-    "toxic": false,
-    "initial": "Y",
-    "pinyin": "yu zhu",
+    "toxic": true,
+    "initial": "S",
+    "pinyin": "suo luo men feng yin gen",
     "sources": [
       {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Solomon's Seal；仅作为传统民俗用途索引，不构成医疗建议。"
+        "type": "hoodoo-herbal-reference",
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "note": "已按 2026-06-25 核对资料更新。拉丁名：Polygonatum biflorum / Polygonatum multiflorum / Polygonatum odoratum。"
       }
-    ]
-  },
-  {
-    "id": 255,
-    "name": "秋葵叶粉",
-    "gender": "未知",
-    "element": "土",
-    "planet": "未知",
-    "effect": "金钱，吸引，繁荣，凝聚",
-    "powers": [
-      "金钱",
-      "吸引",
-      "繁荣",
-      "凝聚"
     ],
-    "toxic": false,
-    "initial": "Q",
-    "pinyin": "qiu kui ye fen",
-    "sources": [
-      {
-        "type": "hoodoo-herbal-needed-material",
-        "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
-        "note": "对应 Gumbo filé；通常指檫木叶粉。本站作为材料别名条目，用于配方关联。"
-      }
-    ]
+    "englishName": "Solomon's Seal Root",
+    "aliases": [
+      "玉竹",
+      "黄精根",
+      "Solomon's Seal Root",
+      "Lady's Seal",
+      "Sealwort"
+    ],
+    "latin": "Polygonatum biflorum / Polygonatum multiflorum / Polygonatum odoratum",
+    "description": "根茎上圆形疤痕似所罗门之印，因而得名。Hoodoo 中用于封印、加固誓言、智慧、Master Key 和 King Solomon Wisdom 等相关施作。",
+    "safety": "浆果有毒；根茎内服需谨慎。本站仅作民俗用途整理。",
+    "book_profile": {
+      "source": {
+        "book": "Hoodoo Herbal 植物条目核对参考",
+        "page": "2026-06-25"
+      },
+      "description": "根茎上圆形疤痕似所罗门之印，因而得名。Hoodoo 中用于封印、加固誓言、智慧、Master Key 和 King Solomon Wisdom 等相关施作。",
+      "lore": "Hoodoo 对应名：Solomon's Seal Root。魔法用途：保护，驱邪，智慧，封印誓言，封印咒法，决策，清明，召唤元素精灵。",
+      "safety": "浆果有毒；根茎内服需谨慎。本站仅作民俗用途整理。"
+    }
   }
 ];
