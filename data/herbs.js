@@ -306,7 +306,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将北美圣草用于美貌、疗愈与灵力保护类工作：叶片可加入疗愈薰香，或作为随身护符象征增强精神力量与防护边界。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Yerba Santa",
+          "page": 431,
+          "source_url": "https://publicism.info/magic/books/herbs/431.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 14,
@@ -559,7 +571,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将少量沉香作为高振动的灵性薰香，用于冥想、召请前的空间提升，或加入爱情与强化类香方中作为增强材料。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Aloes, Wood",
+          "page": 19,
+          "source_url": "https://publicism.info/magic/books/herbs/19.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 24,
@@ -687,7 +711,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "可上架，需突出安全警告",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "翠雀只适合作为历史与象征资料整理：传统上用于驱离幽灵、保护视力或避开毒性生物；因植物有毒，本站不建议实际采集、焚烧或贴身使用。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Larkspur",
+          "page": 232,
+          "source_url": "https://publicism.info/magic/books/herbs/232.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 29,
@@ -937,7 +973,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "可上架但仅做知识展示，需最高级安全警告",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "毒蝇伞仅作民俗象征资料展示：传统记录中与雨水征兆相关；因其毒性和致幻风险极高，不提供采食、焚烧、浸泡或仪式操作建议。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Toadstool",
+          "page": 397,
+          "source_url": "https://publicism.info/magic/books/herbs/397.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 37,
@@ -1089,7 +1137,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "可上架，必须改名为'非洲紫罗兰'",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将非洲紫罗兰作为家宅灵性与轻度保护植物栽培，放在清洁明亮处，象征提升空间的温柔灵性氛围。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: African Violet",
+          "page": 10,
+          "source_url": "https://publicism.info/magic/books/herbs/10.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 42,
@@ -1437,7 +1497,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "可上架",
       "confidence": "中——Cunningham 对 M. pudica 的行星归属不确定"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将含羞草用于净化、爱情、疗愈与预知梦工作：可把干燥材料少量撒在空间边界作净化象征，或置于梦境工作附近以辅助梦中信息。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Mimosa",
+          "page": 271,
+          "source_url": "https://publicism.info/magic/books/herbs/271.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 56,
@@ -1593,7 +1665,18 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "可上架，必须改名并标注最高级安全警告",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "相思子只建议作为有毒民俗材料的知识展示：传统中红黑种子被视作护身、好运与爱情象征；因剧毒，不建议购买散籽、穿孔、佩戴破损种子或用于可接触儿童宠物的护符。",
+        "source": {
+          "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+          "section": "Abrus Seeds / Jequirity",
+          "source_note": "本地 OCR 全文核对"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 62,
@@ -1847,7 +1930,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将鸡蛋花作为爱情类花材象征使用，适合放入爱情祭坛、花束或香包意象中，表达温柔吸引与情感靠近。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Plumeria",
+          "page": 326,
+          "source_url": "https://publicism.info/magic/books/herbs/326.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 72,
@@ -1999,7 +2094,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将锦葵用于爱情召回、吸引与保护工作：花束可放在门边或窗边作为关系回温象征；叶茎也可作为保护性涂油/护符的传统意象。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Mallow",
+          "page": 260,
+          "source_url": "https://publicism.info/magic/books/herbs/260.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 77,
@@ -2163,7 +2270,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "可上架，建议改名为'菊苣'",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将菊苣根用于道路开启、移除阻碍与获得善意帮助的工作，适合放入护符袋、撒粉或蜡烛周围，象征让机会显现。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Chicory",
+          "page": 102,
+          "source_url": "https://publicism.info/magic/books/herbs/102.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 84,
@@ -2312,7 +2431,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "可上架，建议改名为'柯巴脂'",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将柯巴脂作为爱情、净化与祝圣薰香材料，少量焚香用于清理空间、提升仪式感，或加入温和爱情香方。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Copal",
+          "page": 120,
+          "source_url": "https://publicism.info/magic/books/herbs/120.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 89,
@@ -2441,7 +2572,18 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架，需安全标注",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "蓝旗鸢尾在 Hoodoo 与草药魔法中常指向金钱、繁荣和增强施作力量；因有毒性，建议仅作资料整理或封存于不可接触的护符/资料条目，不作内服、泡水或皮肤接触。",
+        "source": {
+          "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+          "section": "Conjure Herbs and Their Uses: Blue Flag",
+          "source_note": "本地 OCR 全文核对"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 94,
@@ -2639,7 +2781,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将龙胆草用于增强力量、爱情与破除不利影响的象征工作，适合在蜡烛工作或护符中代表坚定、清醒与解除束缚。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Gentian",
+          "page": 176,
+          "source_url": "https://publicism.info/magic/books/herbs/176.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 102,
@@ -2676,7 +2830,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "可上架，需安全标注",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "龙舌兰可作为情欲与生命力象征材料整理；因汁液可能刺激皮肤，实际使用宜限于图像、干燥材料或封存护符，不建议直接接触汁液。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Maguey / Century Plant",
+          "page": 255,
+          "source_url": "https://publicism.info/magic/books/herbs/255.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 103,
@@ -2864,7 +3030,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "可上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将洛神花用于爱情、情欲与占卜工作：花材可加入爱情香包、茶色象征水碗或占卜前的祭坛布置，强化感官与心意表达。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Hibiscus",
+          "page": 201,
+          "source_url": "https://publicism.info/magic/books/herbs/201.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 109,
@@ -3102,7 +3280,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将孟加拉榕作为好运与稳定根基的树木象征，用于家宅、事业或长期愿望的护符图像与祭坛意象。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Banyan",
+          "page": 41,
+          "source_url": "https://publicism.info/magic/books/herbs/41.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 118,
@@ -3189,7 +3379,18 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将棉花用于保护、防御与祝福类工作：可作为护符袋内的柔性承载物，包裹祈愿纸、净化草药或祝福材料，象征缓冲伤害与承接祝福。",
+        "source": {
+          "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+          "section": "Materia Magica: Cotton",
+          "source_note": "本地 OCR 全文核对"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 120,
@@ -3231,7 +3432,18 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "中——Hoodoo 传统不使用 Cunningham 行星/元素体系，极性/元素/行星留空"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "魔鬼的鞋带可用于保护、抵御阻碍和稳住个人边界；传统也见于对抗性施作，本站建议只整理为护身、就业运与解决困难的边界用途。",
+        "source": {
+          "book": "Hoodoo Herbal: Folk Recipes for Conjure and Spellwork with Herbs, Houseplants, Roots, and Oils",
+          "section": "Conjure Herbs and Their Uses: Devil's Shoestring",
+          "source_note": "本地 OCR 全文核对"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 121,
@@ -3406,7 +3618,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架，需安全标注",
       "confidence": "中——行星归属有不同文献说法"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将南蛇藤用于保护与疗愈象征工作，适合做成封存护符或祭坛植物意象；因部分物种有毒，避免内服、焚烧和直接接触汁液。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Bittersweet",
+          "page": 57,
+          "source_url": "https://publicism.info/magic/books/herbs/57.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 128,
@@ -3574,7 +3798,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将疟疾根用于保护、破除不利影响与防止负面能量进入空间的工作，适合放入门口护符或边界类香包。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Ague Root",
+          "page": 13,
+          "source_url": "https://publicism.info/magic/books/herbs/13.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 135,
@@ -3638,7 +3874,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "中——行星/元素为推断，非 Cunningham 明确收录"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将欧前胡用于力量、勇气与掌控局面的工作，适合在重要谈判、公开表达或需要稳定意志时放入护符袋。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Masterwort",
+          "page": 265,
+          "source_url": "https://publicism.info/magic/books/herbs/265.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 137,
@@ -3751,7 +3999,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "可上架，需安全标注并纠正拉丁名",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "白头翁只适合做安全改写后的象征资料：传统上与健康和保护相关；因毛茛科植物多有刺激性或毒性，不建议实际贴身、泡水、焚烧或摄入。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Anemone",
+          "page": 23,
+          "source_url": "https://publicism.info/magic/books/herbs/23.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 141,
@@ -3861,7 +4121,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "可上架，必须改名纠错",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将欧洲山毛榉用于希望、创造力与许愿工作，适合把愿望写在纸上夹入书页、木片意象或祭坛中，象征让想法生根。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Beech",
+          "page": 47,
+          "source_url": "https://publicism.info/magic/books/herbs/47.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 145,
@@ -4106,7 +4378,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架，需安全标注",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "牵牛花适合做和平、幸福与祝福的植物象征；因种子存在毒性/致幻风险，本站只建议使用图像、花朵意象或非接触性摆设，不建议使用种子。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Morning Glory",
+          "page": 276,
+          "source_url": "https://publicism.info/magic/books/herbs/276.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 154,
@@ -4148,7 +4432,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将千穗谷用于疗愈、保护、哀悼与祖灵纪念工作；适合以干花穗或图像象征不朽、守护与伤痛修复。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Amaranth",
+          "page": 22,
+          "source_url": "https://publicism.info/magic/books/herbs/22.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 155,
@@ -4522,7 +4818,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "可上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将山茶花用于财富、优雅与丰盛象征，适合放在金钱祭坛、事业愿望瓶或招财布置中，表达柔和但持续的富足。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Camellia",
+          "page": 80,
+          "source_url": "https://publicism.info/magic/books/herbs/80.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 168,
@@ -4770,7 +5078,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将水稻或米用于保护、祈雨、金钱和生育类工作：米粒可撒在门口或护符中象征粮食、家庭安全与资源流入。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Rice",
+          "page": 343,
+          "source_url": "https://publicism.info/magic/books/herbs/343.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 177,
@@ -5047,7 +5367,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "可上架，需纠正拉丁名",
       "confidence": "中——行星/元素为推断"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将庭荠用于保护与化解愤怒的工作，适合放入和平香包、家庭调和护符或情绪冷却类仪式布置。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Alyssum",
+          "page": 21,
+          "source_url": "https://publicism.info/magic/books/herbs/21.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 187,
@@ -5223,7 +5555,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将仙鹤草用于保护、安眠和反弹不利影响的工作，适合放入睡眠护符、门口保护包或温和逆转类香包。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Agrimony",
+          "page": 12,
+          "source_url": "https://publicism.info/magic/books/herbs/12.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 193,
@@ -5349,7 +5693,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "可上架",
       "confidence": "中——powers 单薄"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "香蒲可作为情欲与生命力象征材料；考虑到其用途偏单一，建议只用于成人自我魅力或关系热度的象征布置，不用于操控他人意愿。",
+        "source": {
+          "book": "Cunningham magical herb list summary",
+          "section": "Cattail",
+          "source_url": "https://www.bookey.app/book/cunningham%27s-encyclopedia-of-magical-herbs",
+          "source_note": "二级网页摘要；后续可再核原书页码"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 197,
@@ -5455,7 +5811,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将小麦用于生育、金钱与丰收工作：麦穗或麦粒可放在丰盛祭坛、钱袋或家庭祝福布置中，象征收成与稳定增长。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Wheat",
+          "page": 418,
+          "source_url": "https://publicism.info/magic/books/herbs/418.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 201,
@@ -5545,7 +5913,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架，建议改名为'幸运手根'",
       "confidence": "中——Hoodoo 传统不使用行星/元素体系"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "幸运手根可用于就业、好运、金钱、旅行与保护类护符，适合封入随身袋中，象征抓住机会与让道路顺利。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Lucky Hand",
+          "page": 253,
+          "source_url": "https://publicism.info/magic/books/herbs/253.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 204,
@@ -5581,7 +5961,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架，需安全标注",
       "confidence": "中——Hoodoo 传统不使用行星/元素体系"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "绣球花可用于破咒、解除不利影响与边界重整；因植物有毒，建议只作封存护符、图像或资料性展示，不作茶饮、焚烧或皮肤接触。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Hydrangea",
+          "page": 216,
+          "source_url": "https://publicism.info/magic/books/herbs/216.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 205,
@@ -5833,7 +6225,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将洋玉兰用于忠诚、关系稳定和承诺类工作，适合放在伴侣关系祭坛或护符中，象征信任与持久。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Magnolia",
+          "page": 256,
+          "source_url": "https://publicism.info/magic/books/herbs/256.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 214,
@@ -5945,7 +6349,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将银扇草用于金钱、守财与驱散不受欢迎影响的工作，种荚的银色圆片可作为财富流动和保护财库的象征。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Honesty",
+          "page": 205,
+          "source_url": "https://publicism.info/magic/books/herbs/205.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 218,
@@ -6029,7 +6445,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将郁金香用于繁荣、爱情与保护工作，适合放在爱情或事业愿望的鲜花布置中，象征机会开放与关系柔和发展。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Tulip",
+          "page": 404,
+          "source_url": "https://publicism.info/magic/books/herbs/404.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 221,
@@ -6067,7 +6495,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "高"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "可将玉米用于保护、好运和占卜类工作，玉米粒或玉米粉可作为丰收、家庭供养与土地祝福的象征材料。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Corn",
+          "page": 122,
+          "source_url": "https://publicism.info/magic/books/herbs/122.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 222,
@@ -6226,7 +6666,19 @@ window.__HERBS = [
       "source": "herb-detail-data.json",
       "recommendation": "优先上架",
       "confidence": "中——powers 较单薄，行星/元素为推断"
-    }
+    },
+    "usage_examples": [
+      {
+        "method": "月见草可用于狩猎、追寻目标和夜间行动的象征工作；适合放入目标追踪或机会寻找类护符中，表达在昏暗处辨认方向。",
+        "source": {
+          "book": "Cunningham's Encyclopedia of Magical Herbs",
+          "section": "The Herbs: Yellow Evening Primrose",
+          "page": 429,
+          "source_url": "https://publicism.info/magic/books/herbs/429.html"
+        },
+        "evidence_type": "magical_specific_use"
+      }
+    ]
   },
   {
     "id": 226,
