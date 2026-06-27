@@ -502,7 +502,7 @@ function home() {
 
   return `
     <section class="home-hero">
-      <img class="hero-iris" src="assets/iris-hero.png" alt="鸢尾花">
+      <img class="hero-iris" src="assets/iris-hero.webp" alt="鸢尾花">
       <div class="wrap hero-shell">
         <nav class="hero-nav">
           <button class="brand" data-action="home">灵草志</button>
@@ -515,6 +515,9 @@ function home() {
             </div>
           </div>
         </nav>
+        <figure class="mobile-hero-art" aria-hidden="true">
+          <img src="assets/iris-hero.webp" alt="">
+        </figure>
         <div class="hero-layout">
           <section class="hero-copy">
             <div class="pill">草药 · 魔法 · 对应之书</div>
@@ -551,7 +554,7 @@ function home() {
     </section>
     <footer class="iris">
       <div class="wrap">
-        <img src="assets/iris-hero.png" alt="鸢尾花">
+        <img src="assets/iris-hero.webp" alt="鸢尾花">
         <div class="iris-copy">
           <h2>循草木之性，<br>行四时之法。</h2>
           <p>每一株草都有它的脾气与归属：元素、行星、阴阳，皆有迹可循。愿你在此寻得合手的那一味。</p>

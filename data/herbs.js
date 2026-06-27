@@ -5,14 +5,10 @@ window.__HERBS = [
     "gender": "阳性",
     "element": "风",
     "planet": "太阳",
-    "effect": "保护，力量，辟邪，金钱，爱情，柏拉图的爱情",
+    "effect": "保护，灵力",
     "powers": [
       "保护",
-      "力量",
-      "辟邪",
-      "金钱",
-      "爱情",
-      "柏拉图的爱情"
+      "灵力"
     ],
     "toxic": false,
     "initial": "A",
@@ -23,7 +19,24 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 2
       }
-    ]
+    ],
+    "englishName": "Acacia",
+    "latin": "Senegalia senegal",
+    "aliases": [
+      "Acacia",
+      "Gum Arabic",
+      "Cape Gum",
+      "Senegalia senegal",
+      "Acacia senegal"
+    ],
+    "safety_note": "阿拉伯胶（树胶）食品级安全，广泛用于食品工业。",
+    "entryType": "具体植物",
+    "naming_note": "现代分类学已将本种从 Acacia 属移至 Senegalia 属，但魔法文献中仍普遍使用 Acacia。Cunningham 所指即本种（产阿拉伯胶的非洲种），与澳洲金合欢属（保留 Acacia 属名的澳洲类群）无关。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 2,
@@ -258,12 +271,12 @@ window.__HERBS = [
     "id": 13,
     "name": "北美圣草",
     "gender": "阴性",
-    "element": "未知",
-    "planet": "未知",
-    "effect": "美貌，治疗，灵力，保护",
+    "element": "水",
+    "planet": "月亮",
+    "effect": "美貌，治愈，灵力，保护",
     "powers": [
       "美貌",
-      "治疗",
+      "治愈",
       "灵力",
       "保护"
     ],
@@ -276,7 +289,24 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 204
       }
-    ]
+    ],
+    "englishName": "Yerba Santa",
+    "latin": "Eriodictyon californicum",
+    "aliases": [
+      "Yerba Santa",
+      "Holy Herb",
+      "Mountain Balm",
+      "Bear Weed",
+      "Eriodictyon californicum"
+    ],
+    "safety_note": "安全。传统上用于草药茶和吸烟混合物。",
+    "entryType": "具体植物",
+    "naming_note": "Yerba Santa（西班牙语'圣草'）。中文'北美圣草'是可接受的描述性翻译。科级分类学近年有调整：传统归 Hydrophyllaceae（水叶草科），现部分系统归 Namaceae 或并入 Boraginaceae。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 14,
@@ -495,13 +525,11 @@ window.__HERBS = [
     "name": "沉香",
     "gender": "阴性",
     "element": "水",
-    "planet": "金星",
-    "effect": "爱，灵性，吸引好运，埃及会在召唤中烧",
+    "planet": "月亮",
+    "effect": "爱情，灵性",
     "powers": [
-      "爱",
-      "灵性",
-      "吸引好运",
-      "埃及会在召唤中烧"
+      "爱情",
+      "灵性"
     ],
     "toxic": false,
     "initial": "C",
@@ -512,7 +540,26 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 14
       }
-    ]
+    ],
+    "englishName": "Aloes, Wood",
+    "latin": "Aquilaria sinensis",
+    "aliases": [
+      "Aloes, Wood",
+      "Aloeswood",
+      "Agarwood",
+      "Oud",
+      "Aquilaria sinensis",
+      "Aquilaria agallocha",
+      "Aquilaria malaccensis"
+    ],
+    "safety_note": "熏香使用安全。注意通风。",
+    "entryType": "具体植物",
+    "naming_note": "Cunningham 以 Aquilaria agallocha 收录，为旧名。沉香属多个种均可产沉香（A. sinensis 为中国产种，A. malaccensis 为东南亚产种）。注意与芦荟属 Aloe（Aloe vera）完全无关，英文名 Aloes Wood 中的 Aloes 来自希伯来语/希腊语 ahaloth。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 24,
@@ -608,13 +655,12 @@ window.__HERBS = [
     "gender": "阴性",
     "element": "水",
     "planet": "金星",
-    "effect": "健康，保护，使灵体远离【或许】",
+    "effect": "健康，保护",
     "powers": [
       "健康",
-      "保护",
-      "使灵体远离【或许"
+      "保护"
     ],
-    "toxic": false,
+    "toxic": true,
     "initial": "C",
     "pinyin": "cui que",
     "sources": [
@@ -623,7 +669,25 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 127
       }
-    ]
+    ],
+    "englishName": "Larkspur",
+    "latin": "Delphinium spp.",
+    "aliases": [
+      "Larkspur",
+      "Delphinium",
+      "Lark's Heel",
+      "Knight's Spur",
+      "Delphinium spp.",
+      "Consolida spp."
+    ],
+    "safety_note": "全株有毒。含二萜生物碱（delphinine 等），可致心律失常和呼吸抑制。对牲畜尤其危险。页面需突出安全警告，不做操作性用法。",
+    "entryType": "具体植物",
+    "naming_note": "原词条拉丁名 D. grandiflorum 只是翠雀属的一个种。Cunningham 以 Delphinium spp. 泛指全属。一年生类型（Field Larkspur）有时归 Consolida 属。中文'翠雀'准确。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "可上架，需突出安全警告",
+      "confidence": "高"
+    }
   },
   {
     "id": 29,
@@ -842,11 +906,11 @@ window.__HERBS = [
     "id": 36,
     "name": "毒蝇伞",
     "gender": "阳性",
-    "element": "水",
+    "element": "火",
     "planet": "水星",
-    "effect": "生育【有毒！】",
+    "effect": "生育",
     "powers": [
-      "生育有毒"
+      "生育"
     ],
     "toxic": true,
     "initial": "D",
@@ -857,7 +921,23 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 6
       }
-    ]
+    ],
+    "englishName": "Toadstool",
+    "latin": "Amanita muscaria",
+    "aliases": [
+      "Toadstool",
+      "Fly Agaric",
+      "Fly Amanita",
+      "Amanita muscaria"
+    ],
+    "safety_note": "剧毒。含鹅膏蕈氨酸（ibotenic acid）和蝇蕈醇（muscimol），致幻致命。绝不可食用。页面仅做知识性展示，不做任何操作指引。",
+    "entryType": "具体真菌",
+    "naming_note": "注意：这不是植物，是真菌。Cunningham 以 Toadstool 名收录（指 Amanita muscaria）。如果灵草志严格限于植物界，此条需要决定是否纳入。Fly Agaric 是其最知名的英文俗名。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "可上架但仅做知识展示，需最高级安全警告",
+      "confidence": "高"
+    }
   },
   {
     "id": 37,
@@ -975,26 +1055,41 @@ window.__HERBS = [
   },
   {
     "id": 41,
-    "name": "非洲槿",
+    "name": "非洲紫罗兰",
     "gender": "阴性",
     "element": "水",
     "planet": "金星",
-    "effect": "灵性，保护，保护家宅",
+    "effect": "灵性，保护",
     "powers": [
       "灵性",
-      "保护",
-      "保护家宅"
+      "保护"
     ],
     "toxic": false,
     "initial": "F",
-    "pinyin": "fei zhou jin",
+    "pinyin": "fei zhou zi luo lan",
     "sources": [
       {
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
         "row": 5
       }
-    ]
+    ],
+    "englishName": "African Violet",
+    "latin": "Streptocarpus ionanthus",
+    "aliases": [
+      "非洲槿",
+      "African Violet",
+      "Streptocarpus ionanthus",
+      "Saintpaulia ionantha"
+    ],
+    "safety_note": "对人和宠物均安全。",
+    "entryType": "具体植物",
+    "naming_note": "原词条名'非洲槿'不标准，应改为'非洲紫罗兰'。现代分类学已将 Saintpaulia 并入 Streptocarpus 属（2015年修订），但 Saintpaulia 仍为广泛使用的旧名。注意：非洲紫罗兰既不是真正的紫罗兰（Viola）也不是非洲槿。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "可上架，必须改名为'非洲紫罗兰'",
+      "confidence": "高"
+    }
   },
   {
     "id": 42,
@@ -1307,9 +1402,9 @@ window.__HERBS = [
   {
     "id": 55,
     "name": "含羞草",
-    "gender": "未知",
-    "element": "土",
-    "planet": "未知",
+    "gender": "阴性",
+    "element": "水",
+    "planet": "月亮",
     "effect": "守护爱情，预知梦，净化",
     "powers": [
       "守护爱情",
@@ -1325,7 +1420,24 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 232
       }
-    ]
+    ],
+    "englishName": "Sensitive Plant",
+    "latin": "Mimosa pudica",
+    "aliases": [
+      "Sensitive Plant",
+      "Humble Plant",
+      "Touch-me-not",
+      "Shame Plant",
+      "Mimosa pudica"
+    ],
+    "safety_note": "整体安全。种子含含羞草碱（mimosine），长期大量食用有毒性，但魔法用途无此风险。",
+    "entryType": "具体植物",
+    "naming_note": "注意：Cunningham 另有一个 Mimosa 词条指的是 Acacia dealbata（银荆），不是含羞草。本词条为 M. pudica（含羞草，因触碰叶片闭合得名）。两者同科不同属。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "可上架",
+      "confidence": "中——Cunningham 对 M. pudica 的行星归属不确定"
+    }
   },
   {
     "id": 56,
@@ -1443,26 +1555,45 @@ window.__HERBS = [
   },
   {
     "id": 61,
-    "name": "红豆",
+    "name": "相思子",
     "gender": "阴性",
     "element": "水",
     "planet": "金星",
-    "effect": "友情，爱情，持久的感情",
+    "effect": "爱情，运气，护身符",
     "powers": [
-      "友情",
       "爱情",
-      "持久的感情"
+      "运气",
+      "护身符"
     ],
-    "toxic": false,
-    "initial": "H",
-    "pinyin": "hong dou",
+    "toxic": true,
+    "initial": "X",
+    "pinyin": "xiang si zi",
     "sources": [
       {
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
         "row": 224
       }
-    ]
+    ],
+    "englishName": "Jequirity",
+    "latin": "Abrus precatorius",
+    "aliases": [
+      "红豆",
+      "Jequirity",
+      "Rosary Pea",
+      "Crab's Eye",
+      "Prayer Bead",
+      "Lucky Bean",
+      "Abrus precatorius"
+    ],
+    "safety_note": "极度危险。种子含相思豆毒素（abrin），毒性与蓖麻毒素相当，一粒嚼碎的种子即可致命。完整未破损种子因硬壳包裹而吞食后可能安全排出，但不可冒险。仅限完整种子用于 mojo bag 等外用场景。页面需最高级安全警告。严禁指导食用或破损处理。",
+    "entryType": "具体植物",
+    "naming_note": "原词条名'红豆'不可用——中文'红豆'最常指赤小豆（Vigna angularis），原词条拉丁名 Vaccinium vitis-idaea（越橘）更是完全错配。在魔法语境下，红黑相间的豆子指的是相思子 Abrus precatorius。必须改名为'相思子'，并彻底纠正分类学。种子作为护身符在非洲和加勒比传统中广泛使用。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "可上架，必须改名并标注最高级安全警告",
+      "confidence": "高"
+    }
   },
   {
     "id": 62,
@@ -1698,7 +1829,25 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 223
       }
-    ]
+    ],
+    "englishName": "Plumeria",
+    "latin": "Plumeria rubra",
+    "aliases": [
+      "Plumeria",
+      "Frangipani",
+      "Temple Tree",
+      "Graveyard Flower",
+      "Plumeria rubra",
+      "Plumeria acuminata"
+    ],
+    "safety_note": "乳汁可致皮肤刺激。避免接触眼睛。整体低毒。",
+    "entryType": "具体植物",
+    "naming_note": "Cunningham 以 Plumeria 收录，也称 Frangipani。中文'鸡蛋花'准确。白花品种为 P. alba。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 72,
@@ -1819,12 +1968,11 @@ window.__HERBS = [
     "gender": "阴性",
     "element": "水",
     "planet": "月亮",
-    "effect": "爱情，保护，驱魔，回心转意",
+    "effect": "爱情，保护，驱魔",
     "powers": [
       "爱情",
       "保护",
-      "驱魔",
-      "回心转意"
+      "驱魔"
     ],
     "toxic": false,
     "initial": "J",
@@ -1835,7 +1983,23 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 141
       }
-    ]
+    ],
+    "englishName": "Mallow",
+    "latin": "Malva sylvestris",
+    "aliases": [
+      "Mallow",
+      "Common Mallow",
+      "Cheeses",
+      "Malva sylvestris"
+    ],
+    "safety_note": "安全。叶和花可食用。",
+    "entryType": "具体植物",
+    "naming_note": "中文'锦葵'准确对应 Malva sylvestris。注意与已上架的'药蜀葵'（Marshmallow, Althaea officinalis）区分：两者同科不同属，魔法用途不同。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 77,
@@ -1962,26 +2126,44 @@ window.__HERBS = [
   },
   {
     "id": 83,
-    "name": "菊苣根",
+    "name": "菊苣",
     "gender": "阳性",
     "element": "风",
-    "planet": "未知",
-    "effect": "吸引有影响力的人，移除障碍，驱逐",
+    "planet": "太阳",
+    "effect": "移除障碍，隐形，获得恩惠，节俭",
     "powers": [
-      "吸引有影响力的人",
       "移除障碍",
-      "驱逐"
+      "隐形",
+      "获得恩惠",
+      "节俭"
     ],
     "toxic": false,
     "initial": "J",
-    "pinyin": "ju ju gen",
+    "pinyin": "ju ju",
     "sources": [
       {
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
         "row": 210
       }
-    ]
+    ],
+    "englishName": "Chicory",
+    "latin": "Cichorium intybus",
+    "aliases": [
+      "菊苣根",
+      "Chicory",
+      "Succory",
+      "Wild Succory",
+      "Cichorium intybus"
+    ],
+    "safety_note": "根部广泛用作咖啡替代品。安全。",
+    "entryType": "具体植物",
+    "naming_note": "原词条名'菊苣根'是植物部位名，建议改为'菊苣'作为页面标题，在正文中说明魔法使用以根部为主。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "可上架，建议改名为'菊苣'",
+      "confidence": "高"
+    }
   },
   {
     "id": 84,
@@ -2061,11 +2243,11 @@ window.__HERBS = [
     "gender": "阳性",
     "element": "火",
     "planet": "太阳",
-    "effect": "保护，力气，治疗",
+    "effect": "保护，力量，治愈",
     "powers": [
       "保护",
-      "力气",
-      "治疗"
+      "力量",
+      "治愈"
     ],
     "toxic": false,
     "initial": "K",
@@ -2076,11 +2258,27 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 66
       }
-    ]
+    ],
+    "englishName": "Carnation",
+    "latin": "Dianthus caryophyllus",
+    "aliases": [
+      "Carnation",
+      "Gillyflower",
+      "Jove's Flower",
+      "Dianthus caryophyllus"
+    ],
+    "safety_note": "花瓣可食用，安全。",
+    "entryType": "具体植物",
+    "naming_note": "Cunningham 将各色康乃馨分别赋予不同功能（红色：保护与治愈；白色：力量与治愈；粉色：力量提升）。Gillyflower 在古英语中也可指紫罗兰属，需注意语境。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 88,
-    "name": "柯巴树",
+    "name": "柯巴脂",
     "gender": "阳性",
     "element": "火",
     "planet": "太阳",
@@ -2091,14 +2289,30 @@ window.__HERBS = [
     ],
     "toxic": false,
     "initial": "K",
-    "pinyin": "ke ba shu",
+    "pinyin": "ke ba zhi",
     "sources": [
       {
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
         "row": 83
       }
-    ]
+    ],
+    "englishName": "Copal",
+    "latin": "Protium copal",
+    "aliases": [
+      "柯巴树",
+      "Copal",
+      "Protium copal",
+      "Bursera spp."
+    ],
+    "safety_note": "熏香使用安全。注意通风。",
+    "entryType": "材料（树脂）",
+    "naming_note": "Copal 是产自橄榄科 Burseraceae 多个属（Protium、Bursera、Hymenaea）的半化石化树脂的统称。中美洲仪式用柯巴脂主要来自 Protium copal 和 Bursera bipinnata。建议中文名改'柯巴脂'而非'柯巴树'，因词条焦点是树脂材料而非单一树种。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "可上架，建议改名为'柯巴脂'",
+      "confidence": "高"
+    }
   },
   {
     "id": 89,
@@ -2196,12 +2410,12 @@ window.__HERBS = [
     "gender": "阴性",
     "element": "水",
     "planet": "金星",
-    "effect": "金钱，增加营收",
+    "effect": "金钱，增加收入",
     "powers": [
       "金钱",
-      "增加营收"
+      "增加收入"
     ],
-    "toxic": false,
+    "toxic": true,
     "initial": "L",
     "pinyin": "lan qi yuan wei",
     "sources": [
@@ -2210,7 +2424,24 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 52
       }
-    ]
+    ],
+    "englishName": "Blue Flag",
+    "latin": "Iris versicolor",
+    "aliases": [
+      "Blue Flag",
+      "Blue Flag Iris",
+      "Poison Flag",
+      "Water Flag",
+      "Iris versicolor"
+    ],
+    "safety_note": "全株有毒，根茎含 iridin（鸢尾苷），可致严重消化道症状（恶心、呕吐、腹泻）。仅限外用/mojo bag。页面需突出安全警告。",
+    "entryType": "具体植物",
+    "naming_note": "Hoodoo 财运经典根料。注意与已上架的'鸢尾花'（Iris spp. 泛称）和'鸢尾根'（Orris Root，Iris germanica var. florentina）区分：Blue Flag 是特定物种 I. versicolor，以根茎入魔法。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架，需安全标注",
+      "confidence": "高"
+    }
   },
   {
     "id": 94,
@@ -2375,14 +2606,12 @@ window.__HERBS = [
     "name": "龙胆草",
     "gender": "阳性",
     "element": "火",
-    "planet": "未知",
-    "effect": "爱情，幸运，能量，破诅咒，驱逐",
+    "planet": "火星",
+    "effect": "爱情，力量，破除诅咒",
     "powers": [
       "爱情",
-      "幸运",
-      "能量",
-      "破诅咒",
-      "驱逐"
+      "力量",
+      "破除诅咒"
     ],
     "toxic": false,
     "initial": "L",
@@ -2393,7 +2622,24 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 218
       }
-    ]
+    ],
+    "englishName": "Gentian",
+    "latin": "Gentiana lutea",
+    "aliases": [
+      "Gentian",
+      "Yellow Gentian",
+      "Bitter Root",
+      "Felwort",
+      "Gentiana lutea"
+    ],
+    "safety_note": "根部极苦，用作苦味酒原料。安全。",
+    "entryType": "具体植物",
+    "naming_note": "Cunningham 收录的 Gentian 指黄龙胆 G. lutea（欧洲种）。中药的'龙胆草'通常指 G. scabra 或 G. manshurica（东亚种），同属不同种。魔法传统以欧洲黄龙胆为主体，建议正文说明。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 102,
@@ -2405,7 +2651,7 @@ window.__HERBS = [
     "powers": [
       "欲望"
     ],
-    "toxic": false,
+    "toxic": true,
     "initial": "L",
     "pinyin": "long she lan",
     "sources": [
@@ -2414,7 +2660,23 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 139
       }
-    ]
+    ],
+    "englishName": "Century Plant",
+    "latin": "Agave americana",
+    "aliases": [
+      "Century Plant",
+      "Agave",
+      "Maguey",
+      "Agave americana"
+    ],
+    "safety_note": "汁液含草酸钙针晶和皂苷，接触可致严重皮肤刺激和光敏反应。不可食用生鲜部分。",
+    "entryType": "具体植物",
+    "naming_note": "Cunningham 以 Century Plant（百年兰）收录。中文'龙舌兰'准确。Agave 是龙舌兰酒的原料属，但魔法文献指定 A. americana。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "可上架，需安全标注",
+      "confidence": "高"
+    }
   },
   {
     "id": 103,
@@ -2568,13 +2830,13 @@ window.__HERBS = [
     "id": 108,
     "name": "洛神花",
     "gender": "阴性",
-    "element": "火",
+    "element": "水",
     "planet": "金星",
-    "effect": "占卜，投射，提升能力【通】",
+    "effect": "欲望，爱情，占卜",
     "powers": [
-      "占卜",
-      "投射",
-      "提升能力【通"
+      "欲望",
+      "爱情",
+      "占卜"
     ],
     "toxic": false,
     "initial": "L",
@@ -2585,7 +2847,24 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 215
       }
-    ]
+    ],
+    "englishName": "Hibiscus",
+    "latin": "Hibiscus sabdariffa",
+    "aliases": [
+      "Hibiscus",
+      "Roselle",
+      "Jamaica Sorrel",
+      "Red Sorrel",
+      "Hibiscus sabdariffa"
+    ],
+    "safety_note": "花萼广泛用于饮品。安全。",
+    "entryType": "具体植物",
+    "naming_note": "Cunningham 以 Hibiscus 泛称收录，指称范围涵盖 H. rosa-sinensis（朱槿，最常见魔法用途）和 H. sabdariffa（洛神花）。洛神花在 Hoodoo 中有独立传统（红色花萼用于爱情/占卜工作）。建议做为 Hibiscus 属的种级词条，与泛称 Hibiscus 交叉引用。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "可上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 109,
@@ -2794,10 +3073,9 @@ window.__HERBS = [
     "gender": "阳性",
     "element": "风",
     "planet": "木星",
-    "effect": "运气，夫妻幸福",
+    "effect": "运气",
     "powers": [
-      "运气",
-      "夫妻幸福"
+      "运气"
     ],
     "toxic": false,
     "initial": "M",
@@ -2808,7 +3086,23 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 35
       }
-    ]
+    ],
+    "englishName": "Banyan",
+    "latin": "Ficus benghalensis",
+    "aliases": [
+      "Banyan",
+      "Indian Banyan",
+      "Vata Tree",
+      "Ficus benghalensis"
+    ],
+    "safety_note": "乳汁可致皮肤刺激。整体安全。",
+    "entryType": "具体植物",
+    "naming_note": "Cunningham 收录 Banyan。中文'孟加拉榕'准确。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 118,
@@ -2862,14 +3156,13 @@ window.__HERBS = [
     "gender": "阴性",
     "element": "土",
     "planet": "月亮",
-    "effect": "运气，治疗，保护，雨与钓鱼，驱邪，找回失去的爱人",
+    "effect": "运气，治愈，保护，祈雨，钓鱼魔法",
     "powers": [
       "运气",
-      "治疗",
+      "治愈",
       "保护",
-      "雨与钓鱼",
-      "驱邪",
-      "找回失去的爱人"
+      "祈雨",
+      "钓鱼魔法"
     ],
     "toxic": false,
     "initial": "M",
@@ -2880,21 +3173,38 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 85
       }
-    ]
+    ],
+    "englishName": "Cotton",
+    "latin": "Gossypium herbaceum",
+    "aliases": [
+      "Cotton",
+      "Gossypium herbaceum",
+      "Gossypium hirsutum",
+      "Gossypium barbadense"
+    ],
+    "safety_note": "棉纤维安全。棉籽含棉酚（gossypol），有毒，不可食用。",
+    "entryType": "具体植物",
+    "naming_note": "Cunningham 收录 Cotton。商业棉花主要为 G. hirsutum（陆地棉）和 G. barbadense（海岛棉），Cunningham 指定 G. herbaceum（非洲棉/亚洲棉，旧世界种）。棉铃和棉纤维均用于 Hoodoo 工作。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 120,
     "name": "魔鬼的鞋带",
-    "gender": "未知",
+    "gender": "阳性",
     "element": "未知",
     "planet": "未知",
-    "effect": "保护，运气，力量，就业，解决困难",
+    "effect": "保护，运气，力量，就业，解决困难，赌运",
     "powers": [
       "保护",
       "运气",
       "力量",
       "就业",
-      "解决困难"
+      "解决困难",
+      "赌运"
     ],
     "toxic": false,
     "initial": "M",
@@ -2905,7 +3215,23 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 93
       }
-    ]
+    ],
+    "englishName": "Devil's Shoestring",
+    "latin": "Viburnum alnifolium",
+    "aliases": [
+      "Devil's Shoestring",
+      "Hobble Bush",
+      "Viburnum alnifolium",
+      "Viburnum lantanoides"
+    ],
+    "safety_note": "根部外用为主。无显著毒性报告。",
+    "entryType": "民俗材料名",
+    "naming_note": "Devil's Shoestring 在 Hoodoo 中是核心根料，但此名在不同地区可指不同植物：Viburnum alnifolium（北美荚蒾，最常见指称）、Nolina lindheimeriana（熊草）、或 Tephrosia virginiana（弗吉尼亚灰叶豆）。建议词条以 Viburnum alnifolium 为主体，命名备注中说明多源性。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "中——Hoodoo 传统不使用 Cunningham 行星/元素体系，极性/元素/行星留空"
+    }
   },
   {
     "id": 121,
@@ -3049,13 +3375,12 @@ window.__HERBS = [
     "gender": "阳性",
     "element": "风",
     "planet": "水星",
-    "effect": "保护，治疗，对抗邪灵",
+    "effect": "保护，治愈",
     "powers": [
       "保护",
-      "治疗",
-      "对抗邪灵"
+      "治愈"
     ],
-    "toxic": false,
+    "toxic": true,
     "initial": "N",
     "pinyin": "nan she teng",
     "sources": [
@@ -3064,7 +3389,24 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 48
       }
-    ]
+    ],
+    "englishName": "Bittersweet",
+    "latin": "Celastrus scandens",
+    "aliases": [
+      "Bittersweet",
+      "American Bittersweet",
+      "Climbing Bittersweet",
+      "Waxwork",
+      "Celastrus scandens"
+    ],
+    "safety_note": "浆果有毒，可致消化道不适。果实对儿童有吸引力，需注意。",
+    "entryType": "具体植物",
+    "naming_note": "Cunningham 以 Bittersweet 收录（指 Celastrus scandens）。注意区分：(1) Woody Nightshade/European Bittersweet = Solanum dulcamara（茄科，有毒）——完全不同的植物；(2) Oriental Bittersweet = C. orbiculatus（入侵种）。中文'南蛇藤'是准确的植物学名称。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架，需安全标注",
+      "confidence": "中——行星归属有不同文献说法"
+    }
   },
   {
     "id": 128,
@@ -3196,9 +3538,9 @@ window.__HERBS = [
   {
     "id": 134,
     "name": "疟疾根",
-    "gender": "未知",
-    "element": "未知",
-    "planet": "未知",
+    "gender": "阳性",
+    "element": "火",
+    "planet": "火星",
     "effect": "保护，防止邪恶入侵，破除咒语",
     "powers": [
       "保护",
@@ -3214,7 +3556,25 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 8
       }
-    ]
+    ],
+    "englishName": "Ague Root",
+    "latin": "Aletris farinosa",
+    "aliases": [
+      "Ague Root",
+      "Ague Weed",
+      "Unicorn Root",
+      "Star Grass",
+      "True Unicorn Root",
+      "Aletris farinosa"
+    ],
+    "safety_note": "大剂量可致恶心，正常魔法用途安全。",
+    "entryType": "具体植物",
+    "naming_note": "Ague Root 是 Cunningham 收录的民俗名。'疟疾根'是对 Ague Root 的直译（ague = 疟疾），作为中文标题可用。注意不要与 False Unicorn Root（Chamaelirium luteum）混淆。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 135,
@@ -3247,10 +3607,11 @@ window.__HERBS = [
     "gender": "阳性",
     "element": "火",
     "planet": "火星",
-    "effect": "力气，勇气",
+    "effect": "力量，勇气，保护",
     "powers": [
-      "力气",
-      "勇气"
+      "力量",
+      "勇气",
+      "保护"
     ],
     "toxic": false,
     "initial": "O",
@@ -3261,7 +3622,23 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 145
       }
-    ]
+    ],
+    "englishName": "Masterwort",
+    "latin": "Peucedanum ostruthium",
+    "aliases": [
+      "Masterwort",
+      "Imperatoria",
+      "Peucedanum ostruthium",
+      "Imperatoria ostruthium"
+    ],
+    "safety_note": "含呋喃香豆素，可致光敏性皮炎（接触后日晒起疱）。避免皮肤接触后暴晒。",
+    "entryType": "具体植物",
+    "naming_note": "注意与 Astrantia major（也叫 Masterwort 的观赏植物）区分。魔法传统中的 Masterwort 指的是伞形科的 Peucedanum/Imperatoria，不是星形花属。中文'欧前胡'准确。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "中——行星/元素为推断，非 Cunningham 明确收录"
+    }
   },
   {
     "id": 137,
@@ -3336,26 +3713,45 @@ window.__HERBS = [
   },
   {
     "id": 140,
-    "name": "欧洲白头翁",
+    "name": "白头翁",
     "gender": "阳性",
     "element": "火",
     "planet": "火星",
-    "effect": "健康，治疗，保护",
+    "effect": "健康，保护，治愈",
     "powers": [
       "健康",
-      "治疗",
-      "保护"
+      "保护",
+      "治愈"
     ],
-    "toxic": false,
-    "initial": "O",
-    "pinyin": "ou zhou bai tou weng",
+    "toxic": true,
+    "initial": "B",
+    "pinyin": "bai tou weng",
     "sources": [
       {
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
         "row": 18
       }
-    ]
+    ],
+    "englishName": "Anemone",
+    "latin": "Pulsatilla vulgaris",
+    "aliases": [
+      "欧洲白头翁",
+      "Anemone",
+      "Pasque Flower",
+      "Wind Flower",
+      "Meadow Anemone",
+      "Pulsatilla vulgaris",
+      "Anemone pulsatilla"
+    ],
+    "safety_note": "全株含原白头翁素（protoanemonin），鲜草接触可致水疱和皮炎，内服引起强烈消化道反应。干燥后毒性大减。页面需安全标注。",
+    "entryType": "具体植物",
+    "naming_note": "原词条拉丁名拼写 'Anemone pulsalilla' 有误，正确旧名为 Anemone pulsatilla，现接受名 Pulsatilla vulgaris。建议中文名简化为'白头翁'（去掉'欧洲'前缀——中药白头翁 P. chinensis 为东亚种，可在正文中区分）。Cunningham 以 Anemone 收录。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "可上架，需安全标注并纠正拉丁名",
+      "confidence": "高"
+    }
   },
   {
     "id": 141,
@@ -3430,9 +3826,9 @@ window.__HERBS = [
   },
   {
     "id": 144,
-    "name": "欧洲山毛桦",
+    "name": "欧洲山毛榉",
     "gender": "阴性",
-    "element": "未知",
+    "element": "风",
     "planet": "土星",
     "effect": "希望，创造力，许愿",
     "powers": [
@@ -3442,14 +3838,30 @@ window.__HERBS = [
     ],
     "toxic": false,
     "initial": "O",
-    "pinyin": "ou zhou shan mao hua",
+    "pinyin": "ou zhou shan mao ju",
     "sources": [
       {
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
         "row": 41
       }
-    ]
+    ],
+    "englishName": "Beech",
+    "latin": "Fagus sylvatica",
+    "aliases": [
+      "欧洲山毛桦",
+      "Beech",
+      "European Beech",
+      "Fagus sylvatica"
+    ],
+    "safety_note": "坚果可食用（去壳后）。安全。",
+    "entryType": "具体植物",
+    "naming_note": "原词条写'欧洲山毛桦'为错字，'桦'应为'榉'。山毛榉（Fagus，壳斗科）与桦树（Betula，桦木科）是完全不同的树种。必须纠正。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "可上架，必须改名纠错",
+      "confidence": "高"
+    }
   },
   {
     "id": 145,
@@ -3659,16 +4071,15 @@ window.__HERBS = [
   {
     "id": 153,
     "name": "牵牛花",
-    "gender": "阳性",
+    "gender": "阴性",
     "element": "水",
     "planet": "土星",
-    "effect": "幸福，和平，平安与幸福",
+    "effect": "幸福，和平",
     "powers": [
       "幸福",
-      "和平",
-      "平安与幸福"
+      "和平"
     ],
-    "toxic": false,
+    "toxic": true,
     "initial": "Q",
     "pinyin": "qian niu hua",
     "sources": [
@@ -3677,7 +4088,25 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 148
       }
-    ]
+    ],
+    "englishName": "Morning Glory",
+    "latin": "Ipomoea spp.",
+    "aliases": [
+      "Morning Glory",
+      "Bindweed",
+      "Ipomoea spp.",
+      "Ipomoea purpurea",
+      "Ipomoea tricolor",
+      "Ipomoea nil"
+    ],
+    "safety_note": "部分种（I. tricolor、I. violacea）种子含麦角酰胺（LSA），为管控致幻物质前体。常见园艺种（I. nil、I. purpurea）种子也含少量。页面应标注：种子不可食用。",
+    "entryType": "具体植物",
+    "naming_note": "Cunningham 以 Ipomoea spp. 收录。中国常见牵牛花为 I. nil（日本牵牛）和 I. purpurea（紫茉莉牵牛），均属旋花科。Heavenly Blue 品种（I. tricolor）因种子含 LSA 而特殊。原词条拉丁名 I. nil 可用，但建议做属级词条。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架，需安全标注",
+      "confidence": "高"
+    }
   },
   {
     "id": 154,
@@ -3685,12 +4114,12 @@ window.__HERBS = [
     "gender": "阴性",
     "element": "火",
     "planet": "土星",
-    "effect": "治疗，保护，隐形，召唤S者，治疗情伤",
+    "effect": "治愈，保护，隐形，召唤亡灵，治疗情伤",
     "powers": [
-      "治疗",
+      "治愈",
       "保护",
       "隐形",
-      "召唤S者",
+      "召唤亡灵",
       "治疗情伤"
     ],
     "toxic": false,
@@ -3702,7 +4131,24 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 17
       }
-    ]
+    ],
+    "englishName": "Amaranth",
+    "latin": "Amaranthus hypochondriacus",
+    "aliases": [
+      "Amaranth",
+      "Love-Lies-Bleeding",
+      "Red Cockscomb",
+      "Velvet Flower",
+      "Amaranthus hypochondriacus"
+    ],
+    "safety_note": "种子和嫩叶可食用。安全。",
+    "entryType": "具体植物",
+    "naming_note": "Cunningham 收录的 Amaranth 包含整个属的魔法用途。千穗谷（A. hypochondriacus）是最常被指定的种。Love-Lies-Bleeding 特指 A. caudatus（尾穗苋），下垂红穗品种。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 155,
@@ -3753,11 +4199,10 @@ window.__HERBS = [
     "gender": "阴性",
     "element": "土",
     "planet": "土星",
-    "effect": "灵力，生育力，驱逐，招财",
+    "effect": "灵力，生育力，招财",
     "powers": [
       "灵力",
       "生育力",
-      "驱逐",
       "招财"
     ],
     "toxic": false,
@@ -3769,7 +4214,26 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 47
       }
-    ]
+    ],
+    "englishName": "Bistort",
+    "latin": "Bistorta officinalis",
+    "aliases": [
+      "Bistort",
+      "Snakeweed",
+      "Dragonwort",
+      "Sweet Dock",
+      "Bistorta officinalis",
+      "Polygonum bistorta",
+      "Persicaria bistorta"
+    ],
+    "safety_note": "安全。根茎传统上可食用（英国 Easter Ledger Pudding）。",
+    "entryType": "具体植物",
+    "naming_note": "原词条已有拉丁名 Polygonum bistorta（旧名），现代分类归入 Bistorta 属。中文'拳参'准确。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 158,
@@ -4030,10 +4494,9 @@ window.__HERBS = [
     "gender": "阴性",
     "element": "水",
     "planet": "月亮",
-    "effect": "财富，带来奢侈品",
+    "effect": "财富",
     "powers": [
-      "财富",
-      "带来奢侈品"
+      "财富"
     ],
     "toxic": false,
     "initial": "S",
@@ -4044,7 +4507,22 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 62
       }
-    ]
+    ],
+    "englishName": "Camellia",
+    "latin": "Camellia japonica",
+    "aliases": [
+      "Camellia",
+      "Japonica",
+      "Camellia japonica"
+    ],
+    "safety_note": "安全。花瓣可食用。",
+    "entryType": "具体植物",
+    "naming_note": "Cunningham 收录 Camellia（C. japonica），与茶树（C. sinensis）同属不同种。中文名准确。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "可上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 168,
@@ -4262,12 +4740,12 @@ window.__HERBS = [
     "gender": "阳性",
     "element": "风",
     "planet": "太阳",
-    "effect": "保护，金钱。生育，抵御邪恶",
+    "effect": "保护，祈雨，金钱，生育",
     "powers": [
       "保护",
+      "祈雨",
       "金钱",
-      "生育",
-      "抵御邪恶"
+      "生育"
     ],
     "toxic": false,
     "initial": "S",
@@ -4278,7 +4756,21 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 178
       }
-    ]
+    ],
+    "englishName": "Rice",
+    "latin": "Oryza sativa",
+    "aliases": [
+      "Rice",
+      "Oryza sativa"
+    ],
+    "safety_note": "安全。",
+    "entryType": "具体植物",
+    "naming_note": "原不可见列表中还有 ID 31'稻草'（Oryza rufipogon），属误配——O. rufipogon 是野生稻。稻草/Straw 是加工产物，不建议单独设词条。本词条覆盖水稻及其魔法用途（包括米饭、米粒撒洒等）。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 177,
@@ -4521,15 +5013,13 @@ window.__HERBS = [
   {
     "id": 186,
     "name": "庭荠",
-    "gender": "未知",
-    "element": "未知",
-    "planet": "未知",
-    "effect": "保护，化解愤怒，破除魔咒，防止迷恋",
+    "gender": "阴性",
+    "element": "风",
+    "planet": "金星",
+    "effect": "保护，化解愤怒",
     "powers": [
       "保护",
-      "化解愤怒",
-      "破除魔咒",
-      "防止迷恋"
+      "化解愤怒"
     ],
     "toxic": false,
     "initial": "T",
@@ -4540,7 +5030,24 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 16
       }
-    ]
+    ],
+    "englishName": "Alyssum",
+    "latin": "Lobularia maritima",
+    "aliases": [
+      "Alyssum",
+      "Madwort",
+      "Sweet Alyssum",
+      "Lobularia maritima",
+      "Alyssum maritimum"
+    ],
+    "safety_note": "安全。",
+    "entryType": "具体植物",
+    "naming_note": "原词条拉丁名 Alyssum desertorum（沙漠庭荠）几乎不在魔法文献中出现。Cunningham 收录的 Alyssum/Madwort 实际指 Sweet Alyssum = Lobularia maritima（现已从 Alyssum 属移出）。建议以 Lobularia maritima 为主体。中文'庭荠'可用作泛称，或改为'甜庭荠'。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "可上架，需纠正拉丁名",
+      "confidence": "中——行星/元素为推断"
+    }
   },
   {
     "id": 187,
@@ -4571,13 +5078,13 @@ window.__HERBS = [
     "gender": "阴性",
     "element": "水",
     "planet": "月亮",
-    "effect": "保护，爱情，占卜，睡眠，免受肉体诱惑",
+    "effect": "贞洁，保护，爱情，占卜，睡眠",
     "powers": [
+      "贞洁",
       "保护",
       "爱情",
       "占卜",
-      "睡眠",
-      "免受肉体诱惑"
+      "睡眠"
     ],
     "toxic": false,
     "initial": "W",
@@ -4588,7 +5095,22 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 132
       }
-    ]
+    ],
+    "englishName": "Lettuce",
+    "latin": "Lactuca sativa",
+    "aliases": [
+      "Lettuce",
+      "Garden Lettuce",
+      "Lactuca sativa"
+    ],
+    "safety_note": "安全。",
+    "entryType": "具体植物",
+    "naming_note": "Cunningham 收录 Lettuce（L. sativa）。其近缘野生种 Wild Lettuce（L. virosa）含乳汁中的 lactucarium（莴苣鸦片），有镇静/致幻传统，但 Cunningham 的 Lettuce 词条指的是普通莴苣。可在正文中提及 L. virosa 作为关联知识。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "可上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 189,
@@ -4669,11 +5191,11 @@ window.__HERBS = [
     "gender": "阳性",
     "element": "风",
     "planet": "木星",
-    "effect": "克服内在障碍，守护，消除负面情绪",
+    "effect": "保护，睡眠，反弹咒语",
     "powers": [
-      "克服内在障碍",
-      "守护",
-      "消除负面情绪"
+      "保护",
+      "睡眠",
+      "反弹咒语"
     ],
     "toxic": false,
     "initial": "X",
@@ -4684,7 +5206,24 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 207
       }
-    ]
+    ],
+    "englishName": "Agrimony",
+    "latin": "Agrimonia eupatoria",
+    "aliases": [
+      "Agrimony",
+      "Church Steeples",
+      "Sticklewort",
+      "Cocklebur",
+      "Agrimonia eupatoria"
+    ],
+    "safety_note": "安全。传统上用作草药茶。",
+    "entryType": "具体植物",
+    "naming_note": "中文'仙鹤草'在中药语境中指 Agrimonia pilosa（龙芽草），与西方 Agrimony（A. eupatoria）为同属近缘种。魔法文献中的 Agrimony 特指欧洲种 A. eupatoria。建议正文中说明两者关系。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 193,
@@ -4692,15 +5231,14 @@ window.__HERBS = [
     "gender": "阴性",
     "element": "水",
     "planet": "金星",
-    "effect": "生育，保护，幸福，欲望，消除心中悲伤",
+    "effect": "生育，保护，幸福，欲望",
     "powers": [
       "生育",
       "保护",
       "幸福",
-      "欲望",
-      "消除心中悲伤"
+      "欲望"
     ],
-    "toxic": false,
+    "toxic": true,
     "initial": "X",
     "pinyin": "xian ke lai",
     "sources": [
@@ -4709,7 +5247,24 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 88
       }
-    ]
+    ],
+    "englishName": "Cyclamen",
+    "latin": "Cyclamen purpurascens",
+    "aliases": [
+      "Cyclamen",
+      "Sowbread",
+      "Groundbread",
+      "Cyclamen purpurascens",
+      "Cyclamen europaeum"
+    ],
+    "safety_note": "全株含仙客来皂苷（cyclamin），块茎毒性最强，可致剧烈呕吐与腹泻。对猫狗有毒。仅限外用/仪式摆放，不可服食。",
+    "entryType": "具体植物",
+    "naming_note": "Cunningham 收录的 C. europaeum 是旧名，现接受名为 C. purpurascens。原词条写 C. europaeum 需更正。市售仙客来多为 C. persicum 栽培种，但魔法传统指的是欧洲野生种。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架，需安全标注",
+      "confidence": "高"
+    }
   },
   {
     "id": 194,
@@ -4777,7 +5332,24 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 69
       }
-    ]
+    ],
+    "englishName": "Cattail",
+    "latin": "Typha latifolia",
+    "aliases": [
+      "Cattail",
+      "Bulrush",
+      "Reed Mace",
+      "Punk",
+      "Typha latifolia"
+    ],
+    "safety_note": "安全。花粉和嫩茎传统上可食用。",
+    "entryType": "具体植物",
+    "naming_note": "中文'香蒲'准确。注意英文 Bulrush 在不同地区可能指不同植物（Typha vs. Scirpus vs. Cyperus）。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "可上架",
+      "confidence": "中——powers 单薄"
+    }
   },
   {
     "id": 197,
@@ -4869,7 +5441,21 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 201
       }
-    ]
+    ],
+    "englishName": "Wheat",
+    "latin": "Triticum aestivum",
+    "aliases": [
+      "Wheat",
+      "Triticum aestivum"
+    ],
+    "safety_note": "安全。",
+    "entryType": "具体植物",
+    "naming_note": "中文名准确。小麦在欧洲丰收仪式（Lammas/Lughnasadh）和 Corn Dolly 传统中有核心地位。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 201,
@@ -4919,7 +5505,7 @@ window.__HERBS = [
   },
   {
     "id": 203,
-    "name": "幸运手",
+    "name": "幸运手根",
     "gender": "阴性",
     "element": "水",
     "planet": "金星",
@@ -4933,26 +5519,45 @@ window.__HERBS = [
     ],
     "toxic": false,
     "initial": "X",
-    "pinyin": "xing yun shou",
+    "pinyin": "xing yun shou gen",
     "sources": [
       {
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
         "row": 137
       }
-    ]
+    ],
+    "englishName": "Lucky Hand",
+    "latin": "Orchis spp.",
+    "aliases": [
+      "幸运手",
+      "Lucky Hand",
+      "Lucky Hand Root",
+      "Salep Root",
+      "Hand of Power",
+      "Orchis spp.",
+      "Dactylorhiza spp."
+    ],
+    "safety_note": "外用为主（放在 mojo bag 中）。块茎本身无毒。注意：多种兰科植物受 CITES 保护，采购需注意合法来源。",
+    "entryType": "民俗材料名",
+    "naming_note": "Lucky Hand 是 Hoodoo 核心根料，指兰科植物干燥块茎中具掌状（手指状）形态者。主要来源为 Orchis 属和 Dactylorhiza 属的欧亚兰花。中文建议用'幸运手根'以明确是根部材料。因涉及多个种，分类学定到属级。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架，建议改名为'幸运手根'",
+      "confidence": "中——Hoodoo 传统不使用行星/元素体系"
+    }
   },
   {
     "id": 204,
     "name": "绣球花",
-    "gender": "未知",
+    "gender": "阴性",
     "element": "未知",
     "planet": "未知",
     "effect": "破咒",
     "powers": [
       "破咒"
     ],
-    "toxic": false,
+    "toxic": true,
     "initial": "X",
     "pinyin": "xiu qiu hua",
     "sources": [
@@ -4961,7 +5566,22 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 119
       }
-    ]
+    ],
+    "englishName": "Hydrangea",
+    "latin": "Hydrangea arborescens",
+    "aliases": [
+      "Hydrangea",
+      "Seven Barks",
+      "Hydrangea arborescens"
+    ],
+    "safety_note": "含氰苷类化合物。花蕾和叶片有毒，不可食用。接触后洗手。",
+    "entryType": "具体植物",
+    "naming_note": "Hoodoo 传统中用于破咒的 Hydrangea 通常指北美原生种 H. arborescens（别名 Seven Barks，因树皮多层剥落）。园艺常见的大叶绣球 H. macrophylla 为东亚种。建议以 H. arborescens 为主体。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架，需安全标注",
+      "confidence": "中——Hoodoo 传统不使用行星/元素体系"
+    }
   },
   {
     "id": 205,
@@ -5197,7 +5817,23 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 140
       }
-    ]
+    ],
+    "englishName": "Magnolia",
+    "latin": "Magnolia grandiflora",
+    "aliases": [
+      "Magnolia",
+      "Southern Magnolia",
+      "Bull Bay",
+      "Magnolia grandiflora"
+    ],
+    "safety_note": "安全。花瓣可食用。",
+    "entryType": "具体植物",
+    "naming_note": "Cunningham 收录的 Magnolia 指北美大花木兰 M. grandiflora。中文'洋玉兰'准确。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 214,
@@ -5272,25 +5908,44 @@ window.__HERBS = [
   },
   {
     "id": 217,
-    "name": "银扇草【金钱花】",
+    "name": "银扇草",
     "gender": "阴性",
     "element": "土",
     "planet": "月亮",
-    "effect": "金钱，驱魔",
+    "effect": "金钱，驱除怪物",
     "powers": [
       "金钱",
-      "驱魔"
+      "驱除怪物"
     ],
     "toxic": false,
     "initial": "Y",
-    "pinyin": "yin shan cao 【 jin qian hua 】",
+    "pinyin": "yin shan cao",
     "sources": [
       {
         "type": "spreadsheet",
         "file": "AAA草药条目.xlsx",
         "row": 116
       }
-    ]
+    ],
+    "englishName": "Honesty",
+    "latin": "Lunaria annua",
+    "aliases": [
+      "银扇草【金钱花】",
+      "Honesty",
+      "Lunaria",
+      "Money Plant",
+      "Moonwort",
+      "Silver Dollar",
+      "Lunaria annua"
+    ],
+    "safety_note": "安全。种子可食用。",
+    "entryType": "具体植物",
+    "naming_note": "原词条标注'金钱花'为别名，可在正文提及。Cunningham 以 Honesty 收录。银色半透明种荚形如月亮/银币，故名 Money Plant / Silver Dollar / Lunaria。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 218,
@@ -5344,12 +5999,11 @@ window.__HERBS = [
     "gender": "阴性",
     "element": "土",
     "planet": "金星",
-    "effect": "繁荣，爱情，保护，转运",
+    "effect": "繁荣，爱情，保护",
     "powers": [
       "繁荣",
       "爱情",
-      "保护",
-      "转运"
+      "保护"
     ],
     "toxic": false,
     "initial": "Y",
@@ -5360,7 +6014,22 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 197
       }
-    ]
+    ],
+    "englishName": "Tulip",
+    "latin": "Tulipa gesneriana",
+    "aliases": [
+      "Tulip",
+      "Tulipa gesneriana",
+      "Tulipa × gesneriana"
+    ],
+    "safety_note": "球根可致'郁金香手指'接触性皮炎（含 tulipalin A）。不宜食用。整体低风险。",
+    "entryType": "具体植物",
+    "naming_note": "现代分类学认为园艺郁金香多为杂交起源（T. × gesneriana），非纯种。中文名准确。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 221,
@@ -5383,7 +6052,22 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 84
       }
-    ]
+    ],
+    "englishName": "Corn",
+    "latin": "Zea mays",
+    "aliases": [
+      "Corn",
+      "Maize",
+      "Zea mays"
+    ],
+    "safety_note": "安全。",
+    "entryType": "具体植物",
+    "naming_note": "英文 Corn 在英式英语中可泛指谷物（=Grain），但 Cunningham 明确指 Maize（Zea mays）。中文名准确。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "高"
+    }
   },
   {
     "id": 222,
@@ -5510,9 +6194,9 @@ window.__HERBS = [
   {
     "id": 225,
     "name": "月见草",
-    "gender": "未知",
-    "element": "未知",
-    "planet": "未知",
+    "gender": "阴性",
+    "element": "水",
+    "planet": "月亮",
     "effect": "狩猎",
     "powers": [
       "狩猎"
@@ -5526,7 +6210,23 @@ window.__HERBS = [
         "file": "AAA草药条目.xlsx",
         "row": 203
       }
-    ]
+    ],
+    "englishName": "Evening Primrose",
+    "latin": "Oenothera biennis",
+    "aliases": [
+      "Evening Primrose",
+      "Sun Drop",
+      "Night Willow-Herb",
+      "Oenothera biennis"
+    ],
+    "safety_note": "安全。种子油广泛用于保健品。",
+    "entryType": "具体植物",
+    "naming_note": "中文'月见草'准确。注意不要与报春花属 Primula（也译'报春'/'樱草'）混淆——Evening Primrose 与 Primrose 完全不同科。",
+    "review": {
+      "source": "herb-detail-data.json",
+      "recommendation": "优先上架",
+      "confidence": "中——powers 较单薄，行星/元素为推断"
+    }
   },
   {
     "id": 226,

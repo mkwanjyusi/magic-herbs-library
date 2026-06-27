@@ -1,0 +1,15 @@
+README.md
+.DS_Store
+
+# Local source files used to rebuild generated browser data.
+data-src/
+tools/
+book-extraction/
+
+# Source/reference JSON not loaded by index.html.
+data/taxonomy.json
+data/image-sources/
+
+# Original image sources are kept locally; the site loads WebP versions.
+assets/iris-hero.png
+assets/herbs/*.jpg

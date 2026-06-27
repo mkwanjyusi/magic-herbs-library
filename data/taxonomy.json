@@ -1,7 +1,7 @@
 {
   "阿拉伯胶树": {
-    "scientificName": "Acacia senegal (L.) Willd.",
-    "canonicalName": "Acacia senegal",
+    "scientificName": "Senegalia senegal",
+    "canonicalName": "Senegalia senegal",
     "rank": "SPECIES",
     "kingdom": "Plantae",
     "phylum": "Tracheophyta",
@@ -10,12 +10,9 @@
     "family": "Fabaceae",
     "genus": "Senegalia",
     "species": "Senegalia senegal",
-    "gbifKey": 2978697,
-    "confidence": 98,
-    "matchType": "EXACT",
-    "source": "manual+gbif",
-    "wikidata": null,
-    "reviewed": true
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "现代分类学已将本种从 Acacia 属移至 Senegalia 属，但魔法文献中仍普遍使用 Acacia。Cunningham 所指即本种（产阿拉伯胶的非洲种），与澳洲金合欢属（保留 Acacia 属名的澳洲类群）无关。"
   },
   "阿魏": {
     "scientificName": "Ferula assa-foetida L.",
@@ -156,8 +153,19 @@
     "query": "保护，欲望"
   },
   "北美圣草": {
-    "status": "unmatched",
-    "query": "北美圣草"
+    "scientificName": "Eriodictyon californicum",
+    "canonicalName": "Eriodictyon californicum",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Boraginales",
+    "family": "Namaceae",
+    "genus": "Eriodictyon",
+    "species": "Eriodictyon californicum",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Yerba Santa（西班牙语'圣草'）。中文'北美圣草'是可接受的描述性翻译。科级分类学近年有调整：传统归 Hydrophyllaceae（水叶草科），现部分系统归 Namaceae 或并入 Boraginaceae。"
   },
   "薄荷": {
     "scientificName": "Mentha canadensis L.",
@@ -322,7 +330,7 @@
     "reviewed": true
   },
   "沉香": {
-    "scientificName": "Aquilaria sinensis (Lour.) Spreng",
+    "scientificName": "Aquilaria sinensis",
     "canonicalName": "Aquilaria sinensis",
     "rank": "SPECIES",
     "kingdom": "Plantae",
@@ -332,12 +340,9 @@
     "family": "Thymelaeaceae",
     "genus": "Aquilaria",
     "species": "Aquilaria sinensis",
-    "gbifKey": 5523984,
-    "confidence": 97,
-    "matchType": "EXACT",
-    "source": "wikidata+gbif",
-    "wikidata": "Q716542",
-    "reviewed": false
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Cunningham 以 Aquilaria agallocha 收录，为旧名。沉香属多个种均可产沉香（A. sinensis 为中国产种，A. malaccensis 为东南亚产种）。注意与芦荟属 Aloe（Aloe vera）完全无关，英文名 Aloes Wood 中的 Aloes 来自希伯来语/希腊语 ahaloth。"
   },
   "橙": {
     "scientificName": "Citrus sinensis (Mill.) Pers., 1806",
@@ -394,22 +399,19 @@
     "reviewed": false
   },
   "翠雀": {
-    "scientificName": "Delphinium grandiflorum L.",
-    "canonicalName": "Delphinium grandiflorum",
-    "rank": "SPECIES",
+    "scientificName": "Delphinium spp.",
+    "canonicalName": "Delphinium spp.",
+    "rank": "GENUS_OR_MATERIAL",
     "kingdom": "Plantae",
     "phylum": "Tracheophyta",
     "class": "Magnoliopsida",
     "order": "Ranunculales",
     "family": "Ranunculaceae",
     "genus": "Delphinium",
-    "species": "Delphinium grandiflorum",
-    "gbifKey": 3033699,
-    "confidence": 97,
-    "matchType": "EXACT",
-    "source": "wikidata+gbif",
-    "wikidata": "Q1028248",
-    "reviewed": false
+    "species": "Delphinium spp.",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "原词条拉丁名 D. grandiflorum 只是翠雀属的一个种。Cunningham 以 Delphinium spp. 泛指全属。一年生类型（Field Larkspur）有时归 Consolida 属。中文'翠雀'准确。"
   },
   "大蒜": {
     "scientificName": "Allium sativum L.",
@@ -538,7 +540,7 @@
     "reviewed": true
   },
   "毒蝇伞": {
-    "scientificName": "Amanita muscaria (L.) Lam.",
+    "scientificName": "Amanita muscaria",
     "canonicalName": "Amanita muscaria",
     "rank": "SPECIES",
     "kingdom": "Fungi",
@@ -548,12 +550,9 @@
     "family": "Amanitaceae",
     "genus": "Amanita",
     "species": "Amanita muscaria",
-    "gbifKey": 8168319,
-    "confidence": 97,
-    "matchType": "EXACT",
-    "source": "manual+gbif",
-    "wikidata": null,
-    "reviewed": true
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "注意：这不是植物，是真菌。Cunningham 以 Toadstool 名收录（指 Amanita muscaria）。如果灵草志严格限于植物界，此条需要决定是否纳入。Fly Agaric 是其最知名的英文俗名。"
   },
   "多香果": {
     "scientificName": "Pimenta dioica (L.) Merr.",
@@ -626,10 +625,6 @@
     "source": "wikidata+gbif",
     "wikidata": "Q36177",
     "reviewed": false
-  },
-  "非洲槿": {
-    "status": "unmatched",
-    "query": "非洲槿"
   },
   "凤梨": {
     "scientificName": "Ananas comosus (L.) Merr.",
@@ -866,7 +861,7 @@
     "reviewed": true
   },
   "含羞草": {
-    "scientificName": "Mimosa pudica L.",
+    "scientificName": "Mimosa pudica",
     "canonicalName": "Mimosa pudica",
     "rank": "SPECIES",
     "kingdom": "Plantae",
@@ -876,12 +871,9 @@
     "family": "Fabaceae",
     "genus": "Mimosa",
     "species": "Mimosa pudica",
-    "gbifKey": 2969284,
-    "confidence": 98,
-    "matchType": "EXACT",
-    "source": "manual+gbif",
-    "wikidata": null,
-    "reviewed": true
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "注意：Cunningham 另有一个 Mimosa 词条指的是 Acacia dealbata（银荆），不是含羞草。本词条为 M. pudica（含羞草，因触碰叶片闭合得名）。两者同科不同属。"
   },
   "荷包牡丹": {
     "scientificName": "Lamprocapnos spectabilis (L.) Fukuhara",
@@ -971,24 +963,6 @@
     "matchType": "EXACT",
     "source": "wikidata+gbif",
     "wikidata": "Q13541716",
-    "reviewed": false
-  },
-  "红豆": {
-    "scientificName": "Vaccinium vitis-idaea L.",
-    "canonicalName": "Vaccinium vitis-idaea",
-    "rank": "SPECIES",
-    "kingdom": "Plantae",
-    "phylum": "Tracheophyta",
-    "class": "Magnoliopsida",
-    "order": "Ericales",
-    "family": "Ericaceae",
-    "genus": "Vaccinium",
-    "species": "Vaccinium vitis-idaea",
-    "gbifKey": 2882835,
-    "confidence": 99,
-    "matchType": "EXACT",
-    "source": "wikidata+gbif",
-    "wikidata": "Q93235",
     "reviewed": false
   },
   "红巧梅": {
@@ -1114,8 +1088,19 @@
     "query": "蓟"
   },
   "鸡蛋花": {
-    "status": "unmatched",
-    "query": "鸡蛋"
+    "scientificName": "Plumeria rubra",
+    "canonicalName": "Plumeria rubra",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Gentianales",
+    "family": "Apocynaceae",
+    "genus": "Plumeria",
+    "species": "Plumeria rubra",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Cunningham 以 Plumeria 收录，也称 Frangipani。中文'鸡蛋花'准确。白花品种为 P. alba。"
   },
   "基列香膏": {
     "status": "unmatched",
@@ -1162,8 +1147,19 @@
     "reviewed": true
   },
   "锦葵": {
-    "status": "unmatched",
-    "query": "锦葵"
+    "scientificName": "Malva sylvestris",
+    "canonicalName": "Malva sylvestris",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malvales",
+    "family": "Malvaceae",
+    "genus": "Malva",
+    "species": "Malva sylvestris",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "中文'锦葵'准确对应 Malva sylvestris。注意与已上架的'药蜀葵'（Marshmallow, Althaea officinalis）区分：两者同科不同属，魔法用途不同。"
   },
   "金鱼草": {
     "status": "unmatched",
@@ -1184,10 +1180,6 @@
   "聚合草": {
     "status": "unmatched",
     "query": "聚合草"
-  },
-  "菊苣根": {
-    "status": "unmatched",
-    "query": "菊苣根"
   },
   "蕨类【部分有毒】": {
     "status": "unmatched",
@@ -1230,7 +1222,7 @@
     "reviewed": true
   },
   "康乃馨": {
-    "scientificName": "Dianthus caryophyllus L.",
+    "scientificName": "Dianthus caryophyllus",
     "canonicalName": "Dianthus caryophyllus",
     "rank": "SPECIES",
     "kingdom": "Plantae",
@@ -1240,16 +1232,9 @@
     "family": "Caryophyllaceae",
     "genus": "Dianthus",
     "species": "Dianthus caryophyllus",
-    "gbifKey": 3085420,
-    "confidence": 99,
-    "matchType": "EXACT",
-    "source": "manual+gbif",
-    "wikidata": null,
-    "reviewed": true
-  },
-  "柯巴树": {
-    "status": "unmatched",
-    "query": "柯巴"
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Cunningham 将各色康乃馨分别赋予不同功能（红色：保护与治愈；白色：力量与治愈；粉色：力量提升）。Gillyflower 在古英语中也可指紫罗兰属，需注意语境。"
   },
   "克里特白藓": {
     "status": "unmatched",
@@ -1282,8 +1267,19 @@
     "query": "蓝莓"
   },
   "蓝旗鸢尾": {
-    "status": "unmatched",
-    "query": "蓝旗鸢尾"
+    "scientificName": "Iris versicolor",
+    "canonicalName": "Iris versicolor",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Asparagales",
+    "family": "Iridaceae",
+    "genus": "Iris",
+    "species": "Iris versicolor",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Hoodoo 财运经典根料。注意与已上架的'鸢尾花'（Iris spp. 泛称）和'鸢尾根'（Orris Root，Iris germanica var. florentina）区分：Blue Flag 是特定物种 I. versicolor，以根茎入魔法。"
   },
   "酪梨": {
     "scientificName": "Persea americana Mill.",
@@ -1356,12 +1352,34 @@
     "query": "柳"
   },
   "龙胆草": {
-    "status": "unmatched",
-    "query": "龙胆草"
+    "scientificName": "Gentiana lutea",
+    "canonicalName": "Gentiana lutea",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Gentianales",
+    "family": "Gentianaceae",
+    "genus": "Gentiana",
+    "species": "Gentiana lutea",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Cunningham 收录的 Gentian 指黄龙胆 G. lutea（欧洲种）。中药的'龙胆草'通常指 G. scabra 或 G. manshurica（东亚种），同属不同种。魔法传统以欧洲黄龙胆为主体，建议正文说明。"
   },
   "龙舌兰": {
-    "status": "unmatched",
-    "query": "龙舌兰"
+    "scientificName": "Agave americana",
+    "canonicalName": "Agave americana",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Asparagales",
+    "family": "Asparagaceae",
+    "genus": "Agave",
+    "species": "Agave americana",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Cunningham 以 Century Plant（百年兰）收录。中文'龙舌兰'准确。Agave 是龙舌兰酒的原料属，但魔法文献指定 A. americana。"
   },
   "龙血": {
     "status": "unmatched",
@@ -1426,7 +1444,7 @@
     "reviewed": true
   },
   "洛神花": {
-    "scientificName": "Hibiscus sabdariffa L.",
+    "scientificName": "Hibiscus sabdariffa",
     "canonicalName": "Hibiscus sabdariffa",
     "rank": "SPECIES",
     "kingdom": "Plantae",
@@ -1436,12 +1454,9 @@
     "family": "Malvaceae",
     "genus": "Hibiscus",
     "species": "Hibiscus sabdariffa",
-    "gbifKey": 3152582,
-    "confidence": 97,
-    "matchType": "EXACT",
-    "source": "manual+gbif",
-    "wikidata": null,
-    "reviewed": true
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Cunningham 以 Hibiscus 泛称收录，指称范围涵盖 H. rosa-sinensis（朱槿，最常见魔法用途）和 H. sabdariffa（洛神花）。洛神花在 Hoodoo 中有独立传统（红色花萼用于爱情/占卜工作）。建议做为 Hibiscus 属的种级词条，与泛称 Hibiscus 交叉引用。"
   },
   "马鞭草": {
     "scientificName": "Verbena officinalis L.",
@@ -1574,8 +1589,19 @@
     "reviewed": true
   },
   "孟加拉榕": {
-    "status": "unmatched",
-    "query": "孟加拉榕"
+    "scientificName": "Ficus benghalensis",
+    "canonicalName": "Ficus benghalensis",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Rosales",
+    "family": "Moraceae",
+    "genus": "Ficus",
+    "species": "Ficus benghalensis",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Cunningham 收录 Banyan。中文'孟加拉榕'准确。"
   },
   "迷迭香": {
     "scientificName": "Salvia rosmarinus Spenn.",
@@ -1596,12 +1622,34 @@
     "reviewed": true
   },
   "棉花": {
-    "status": "unmatched",
-    "query": "棉"
+    "scientificName": "Gossypium herbaceum",
+    "canonicalName": "Gossypium herbaceum",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Malvales",
+    "family": "Malvaceae",
+    "genus": "Gossypium",
+    "species": "Gossypium herbaceum",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Cunningham 收录 Cotton。商业棉花主要为 G. hirsutum（陆地棉）和 G. barbadense（海岛棉），Cunningham 指定 G. herbaceum（非洲棉/亚洲棉，旧世界种）。棉铃和棉纤维均用于 Hoodoo 工作。"
   },
   "魔鬼的鞋带": {
-    "status": "unmatched",
-    "query": "魔鬼的鞋带"
+    "scientificName": "Viburnum alnifolium",
+    "canonicalName": "Viburnum alnifolium",
+    "rank": "GENUS_OR_MATERIAL",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Dipsacales",
+    "family": "Adoxaceae",
+    "genus": "Viburnum",
+    "species": "Viburnum alnifolium",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Devil's Shoestring 在 Hoodoo 中是核心根料，但此名在不同地区可指不同植物：Viburnum alnifolium（北美荚蒾，最常见指称）、Nolina lindheimeriana（熊草）、或 Tephrosia virginiana（弗吉尼亚灰叶豆）。建议词条以 Viburnum alnifolium 为主体，命名备注中说明多源性。"
   },
   "茉莉": {
     "scientificName": "Jasminum sambac (L.) Aiton",
@@ -1684,8 +1732,19 @@
     "reviewed": true
   },
   "南蛇藤": {
-    "status": "unmatched",
-    "query": "南蛇藤"
+    "scientificName": "Celastrus scandens",
+    "canonicalName": "Celastrus scandens",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Celastrales",
+    "family": "Celastraceae",
+    "genus": "Celastrus",
+    "species": "Celastrus scandens",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Cunningham 以 Bittersweet 收录（指 Celastrus scandens）。注意区分：(1) Woody Nightshade/European Bittersweet = Solanum dulcamara（茄科，有毒）——完全不同的植物；(2) Oriental Bittersweet = C. orbiculatus（入侵种）。中文'南蛇藤'是准确的植物学名称。"
   },
   "柠檬": {
     "scientificName": "Citrus × limon (L.) Osbeck",
@@ -1764,16 +1823,38 @@
     "query": "牛膝草"
   },
   "疟疾根": {
-    "status": "unmatched",
-    "query": "疟疾根"
+    "scientificName": "Aletris farinosa",
+    "canonicalName": "Aletris farinosa",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Dioscoreales",
+    "family": "Nartheciaceae",
+    "genus": "Aletris",
+    "species": "Aletris farinosa",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Ague Root 是 Cunningham 收录的民俗名。'疟疾根'是对 Ague Root 的直译（ague = 疟疾），作为中文标题可用。注意不要与 False Unicorn Root（Chamaelirium luteum）混淆。"
   },
   "欧白芷": {
     "status": "unmatched",
     "query": "欧白芷"
   },
   "欧前胡": {
-    "status": "unmatched",
-    "query": "欧前胡"
+    "scientificName": "Peucedanum ostruthium",
+    "canonicalName": "Peucedanum ostruthium",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Apiales",
+    "family": "Apiaceae",
+    "genus": "Peucedanum",
+    "species": "Peucedanum ostruthium",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "注意与 Astrantia major（也叫 Masterwort 的观赏植物）区分。魔法传统中的 Masterwort 指的是伞形科的 Peucedanum/Imperatoria，不是星形花属。中文'欧前胡'准确。"
   },
   "欧芹": {
     "scientificName": "Petroselinum crispum (Mill.) Fuss",
@@ -1801,10 +1882,6 @@
     "status": "unmatched",
     "query": "欧亚路边青"
   },
-  "欧洲白头翁": {
-    "status": "unmatched",
-    "query": "欧洲白头翁"
-  },
   "欧洲白杨木": {
     "status": "unmatched",
     "query": "欧洲白杨木"
@@ -1816,10 +1893,6 @@
   "欧洲厥": {
     "status": "unmatched",
     "query": "欧洲厥"
-  },
-  "欧洲山毛桦": {
-    "status": "unmatched",
-    "query": "欧洲山毛桦"
   },
   "佩兰": {
     "status": "unmatched",
@@ -1924,25 +1997,22 @@
     "reviewed": false
   },
   "牵牛花": {
-    "scientificName": "Ipomoea nil (L.) Roth",
-    "canonicalName": "Ipomoea nil",
-    "rank": "SPECIES",
+    "scientificName": "Ipomoea spp.",
+    "canonicalName": "Ipomoea spp.",
+    "rank": "GENUS_OR_MATERIAL",
     "kingdom": "Plantae",
     "phylum": "Tracheophyta",
     "class": "Magnoliopsida",
     "order": "Solanales",
     "family": "Convolvulaceae",
     "genus": "Ipomoea",
-    "species": "Ipomoea nil",
-    "gbifKey": 2928534,
-    "confidence": 97,
-    "matchType": "EXACT",
-    "source": "wikidata+gbif",
-    "wikidata": "Q162117",
-    "reviewed": false
+    "species": "Ipomoea spp.",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Cunningham 以 Ipomoea spp. 收录。中国常见牵牛花为 I. nil（日本牵牛）和 I. purpurea（紫茉莉牵牛），均属旋花科。Heavenly Blue 品种（I. tricolor）因种子含 LSA 而特殊。原词条拉丁名 I. nil 可用，但建议做属级词条。"
   },
   "千穗谷": {
-    "scientificName": "Amaranthus hypochondriacus L.",
+    "scientificName": "Amaranthus hypochondriacus",
     "canonicalName": "Amaranthus hypochondriacus",
     "rank": "SPECIES",
     "kingdom": "Plantae",
@@ -1952,12 +2022,9 @@
     "family": "Amaranthaceae",
     "genus": "Amaranthus",
     "species": "Amaranthus hypochondriacus",
-    "gbifKey": 9080185,
-    "confidence": 99,
-    "matchType": "EXACT",
-    "source": "wikidata+gbif",
-    "wikidata": "Q159611",
-    "reviewed": false
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Cunningham 收录的 Amaranth 包含整个属的魔法用途。千穗谷（A. hypochondriacus）是最常被指定的种。Love-Lies-Bleeding 特指 A. caudatus（尾穗苋），下垂红穗品种。"
   },
   "荞麦": {
     "scientificName": "Fagopyrum esculentum Moench",
@@ -1996,7 +2063,7 @@
     "reviewed": true
   },
   "拳参": {
-    "scientificName": "Bistorta officinalis Raf.",
+    "scientificName": "Bistorta officinalis",
     "canonicalName": "Bistorta officinalis",
     "rank": "SPECIES",
     "kingdom": "Plantae",
@@ -2006,12 +2073,9 @@
     "family": "Polygonaceae",
     "genus": "Bistorta",
     "species": "Bistorta officinalis",
-    "gbifKey": 7925535,
-    "confidence": 98,
-    "matchType": "EXACT",
-    "source": "wikidata+gbif",
-    "wikidata": "Q112917",
-    "reviewed": false
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "原词条已有拉丁名 Polygonum bistorta（旧名），现代分类归入 Bistorta 属。中文'拳参'准确。"
   },
   "染色朱草": {
     "status": "unmatched",
@@ -2148,7 +2212,7 @@
     "reviewed": true
   },
   "山茶花": {
-    "scientificName": "Camellia japonica L.",
+    "scientificName": "Camellia japonica",
     "canonicalName": "Camellia japonica",
     "rank": "SPECIES",
     "kingdom": "Plantae",
@@ -2158,12 +2222,9 @@
     "family": "Theaceae",
     "genus": "Camellia",
     "species": "Camellia japonica",
-    "gbifKey": 3189636,
-    "confidence": 97,
-    "matchType": "EXACT",
-    "source": "manual+gbif",
-    "wikidata": null,
-    "reviewed": true
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Cunningham 收录 Camellia（C. japonica），与茶树（C. sinensis）同属不同种。中文名准确。"
   },
   "山楂": {
     "scientificName": "Crataegus monogyna Jacq.",
@@ -2296,7 +2357,7 @@
     "reviewed": true
   },
   "水稻": {
-    "scientificName": "Oryza sativa L.",
+    "scientificName": "Oryza sativa",
     "canonicalName": "Oryza sativa",
     "rank": "SPECIES",
     "kingdom": "Plantae",
@@ -2306,12 +2367,9 @@
     "family": "Poaceae",
     "genus": "Oryza",
     "species": "Oryza sativa",
-    "gbifKey": 2703459,
-    "confidence": 97,
-    "matchType": "EXACT",
-    "source": "manual+gbif",
-    "wikidata": null,
-    "reviewed": true
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "原不可见列表中还有 ID 31'稻草'（Oryza rufipogon），属误配——O. rufipogon 是野生稻。稻草/Straw 是加工产物，不建议单独设词条。本词条覆盖水稻及其魔法用途（包括米饭、米粒撒洒等）。"
   },
   "水仙": {
     "scientificName": "Narcissus tazetta L.",
@@ -2436,22 +2494,19 @@
     "reviewed": true
   },
   "庭荠": {
-    "scientificName": "Alyssum desertorum Stapf",
-    "canonicalName": "Alyssum desertorum",
+    "scientificName": "Lobularia maritima",
+    "canonicalName": "Lobularia maritima",
     "rank": "SPECIES",
     "kingdom": "Plantae",
     "phylum": "Tracheophyta",
     "class": "Magnoliopsida",
     "order": "Brassicales",
     "family": "Brassicaceae",
-    "genus": "Alyssum",
-    "species": "Alyssum turkestanicum",
-    "gbifKey": 3044743,
-    "confidence": 98,
-    "matchType": "EXACT",
-    "source": "wikidata+gbif",
-    "wikidata": "Q4099382",
-    "reviewed": false
+    "genus": "Lobularia",
+    "species": "Lobularia maritima",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "原词条拉丁名 Alyssum desertorum（沙漠庭荠）几乎不在魔法文献中出现。Cunningham 收录的 Alyssum/Madwort 实际指 Sweet Alyssum = Lobularia maritima（现已从 Alyssum 属移出）。建议以 Lobularia maritima 为主体。中文'庭荠'可用作泛称，或改为'甜庭荠'。"
   },
   "豌豆": {
     "scientificName": "Pisum sativum L.",
@@ -2472,7 +2527,7 @@
     "reviewed": true
   },
   "莴苣": {
-    "scientificName": "Lactuca sativa L.",
+    "scientificName": "Lactuca sativa",
     "canonicalName": "Lactuca sativa",
     "rank": "SPECIES",
     "kingdom": "Plantae",
@@ -2482,12 +2537,9 @@
     "family": "Asteraceae",
     "genus": "Lactuca",
     "species": "Lactuca sativa",
-    "gbifKey": 7403263,
-    "confidence": 99,
-    "matchType": "EXACT",
-    "source": "manual+gbif",
-    "wikidata": null,
-    "reviewed": true
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Cunningham 收录 Lettuce（L. sativa）。其近缘野生种 Wild Lettuce（L. virosa）含乳汁中的 lactucarium（莴苣鸦片），有镇静/致幻传统，但 Cunningham 的 Lettuce 词条指的是普通莴苣。可在正文中提及 L. virosa 作为关联知识。"
   },
   "芜菜籽": {
     "status": "unmatched",
@@ -2516,12 +2568,34 @@
     "query": "五指草"
   },
   "仙鹤草": {
-    "status": "unmatched",
-    "query": "仙鹤草"
+    "scientificName": "Agrimonia eupatoria",
+    "canonicalName": "Agrimonia eupatoria",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Rosales",
+    "family": "Rosaceae",
+    "genus": "Agrimonia",
+    "species": "Agrimonia eupatoria",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "中文'仙鹤草'在中药语境中指 Agrimonia pilosa（龙芽草），与西方 Agrimony（A. eupatoria）为同属近缘种。魔法文献中的 Agrimony 特指欧洲种 A. eupatoria。建议正文中说明两者关系。"
   },
   "仙客来": {
-    "status": "unmatched",
-    "query": "仙客来"
+    "scientificName": "Cyclamen purpurascens",
+    "canonicalName": "Cyclamen purpurascens",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Ericales",
+    "family": "Primulaceae",
+    "genus": "Cyclamen",
+    "species": "Cyclamen purpurascens",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Cunningham 收录的 C. europaeum 是旧名，现接受名为 C. purpurascens。原词条写 C. europaeum 需更正。市售仙客来多为 C. persicum 栽培种，但魔法传统指的是欧洲野生种。"
   },
   "仙人掌": {
     "status": "unmatched",
@@ -2532,8 +2606,19 @@
     "query": "香蕉"
   },
   "香蒲": {
-    "status": "unmatched",
-    "query": "香蒲"
+    "scientificName": "Typha latifolia",
+    "canonicalName": "Typha latifolia",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Poales",
+    "family": "Typhaceae",
+    "genus": "Typha",
+    "species": "Typha latifolia",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "中文'香蒲'准确。注意英文 Bulrush 在不同地区可能指不同植物（Typha vs. Scirpus vs. Cyperus）。"
   },
   "向日葵": {
     "scientificName": "Helianthus annuus L.",
@@ -2562,7 +2647,7 @@
     "query": "小凤梨"
   },
   "小麦": {
-    "scientificName": "Triticum aestivum L.",
+    "scientificName": "Triticum aestivum",
     "canonicalName": "Triticum aestivum",
     "rank": "SPECIES",
     "kingdom": "Plantae",
@@ -2572,12 +2657,9 @@
     "family": "Poaceae",
     "genus": "Triticum",
     "species": "Triticum aestivum",
-    "gbifKey": 7795888,
-    "confidence": 97,
-    "matchType": "EXACT",
-    "source": "manual+gbif",
-    "wikidata": null,
-    "reviewed": true
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "中文名准确。小麦在欧洲丰收仪式（Lammas/Lughnasadh）和 Corn Dolly 传统中有核心地位。"
   },
   "杏仁": {
     "status": "unmatched",
@@ -2587,13 +2669,20 @@
     "status": "unmatched",
     "query": "杏桃"
   },
-  "幸运手": {
-    "status": "unmatched",
-    "query": "幸运手"
-  },
   "绣球花": {
-    "status": "unmatched",
-    "query": "绣球"
+    "scientificName": "Hydrangea arborescens",
+    "canonicalName": "Hydrangea arborescens",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Cornales",
+    "family": "Hydrangeaceae",
+    "genus": "Hydrangea",
+    "species": "Hydrangea arborescens",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Hoodoo 传统中用于破咒的 Hydrangea 通常指北美原生种 H. arborescens（别名 Seven Barks，因树皮多层剥落）。园艺常见的大叶绣球 H. macrophylla 为东亚种。建议以 H. arborescens 为主体。"
   },
   "雪松": {
     "scientificName": "Tracheophyta",
@@ -2684,8 +2773,19 @@
     "query": "洋槐"
   },
   "洋玉兰": {
-    "status": "unmatched",
-    "query": "洋玉兰"
+    "scientificName": "Magnolia grandiflora",
+    "canonicalName": "Magnolia grandiflora",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Magnoliales",
+    "family": "Magnoliaceae",
+    "genus": "Magnolia",
+    "species": "Magnolia grandiflora",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Cunningham 收录的 Magnolia 指北美大花木兰 M. grandiflora。中文'洋玉兰'准确。"
   },
   "药蜀葵": {
     "status": "unmatched",
@@ -2727,10 +2827,6 @@
     "wikidata": null,
     "reviewed": true
   },
-  "银扇草【金钱花】": {
-    "status": "unmatched",
-    "query": "银扇草"
-  },
   "樱桃": {
     "scientificName": "Prunus avium (L.) L.",
     "canonicalName": "Prunus avium",
@@ -2754,7 +2850,7 @@
     "query": "尤加利"
   },
   "郁金香": {
-    "scientificName": "Tulipa gesneriana L.",
+    "scientificName": "Tulipa gesneriana",
     "canonicalName": "Tulipa gesneriana",
     "rank": "SPECIES",
     "kingdom": "Plantae",
@@ -2764,15 +2860,12 @@
     "family": "Liliaceae",
     "genus": "Tulipa",
     "species": "Tulipa gesneriana",
-    "gbifKey": 5299675,
-    "confidence": 98,
-    "matchType": "EXACT",
-    "source": "manual+gbif",
-    "wikidata": null,
-    "reviewed": true
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "现代分类学认为园艺郁金香多为杂交起源（T. × gesneriana），非纯种。中文名准确。"
   },
   "玉米": {
-    "scientificName": "Zea mays L.",
+    "scientificName": "Zea mays",
     "canonicalName": "Zea mays",
     "rank": "SPECIES",
     "kingdom": "Plantae",
@@ -2782,12 +2875,9 @@
     "family": "Poaceae",
     "genus": "Zea",
     "species": "Zea mays",
-    "gbifKey": 5290052,
-    "confidence": 99,
-    "matchType": "EXACT",
-    "source": "manual+gbif",
-    "wikidata": null,
-    "reviewed": true
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "英文 Corn 在英式英语中可泛指谷物（=Grain），但 Cunningham 明确指 Maize（Zea mays）。中文名准确。"
   },
   "榆树": {
     "scientificName": "Ulmus",
@@ -2832,8 +2922,19 @@
     "reviewed": true
   },
   "月见草": {
-    "status": "unmatched",
-    "query": "月见草"
+    "scientificName": "Oenothera biennis",
+    "canonicalName": "Oenothera biennis",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Myrtales",
+    "family": "Onagraceae",
+    "genus": "Oenothera",
+    "species": "Oenothera biennis",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "中文'月见草'准确。注意不要与报春花属 Primula（也译'报春'/'樱草'）混淆——Evening Primrose 与 Primrose 完全不同科。"
   },
   "樟树【樟脑】": {
     "status": "unmatched",
@@ -2956,5 +3057,125 @@
     "source": "manual+gbif",
     "wikidata": null,
     "reviewed": true
+  },
+  "柯巴脂": {
+    "scientificName": "Protium copal",
+    "canonicalName": "Protium copal",
+    "rank": "GENUS_OR_MATERIAL",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Sapindales",
+    "family": "Burseraceae",
+    "genus": "Protium",
+    "species": "Protium copal",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Copal 是产自橄榄科 Burseraceae 多个属（Protium、Bursera、Hymenaea）的半化石化树脂的统称。中美洲仪式用柯巴脂主要来自 Protium copal 和 Bursera bipinnata。建议中文名改'柯巴脂'而非'柯巴树'，因词条焦点是树脂材料而非单一树种。"
+  },
+  "菊苣": {
+    "scientificName": "Cichorium intybus",
+    "canonicalName": "Cichorium intybus",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Asterales",
+    "family": "Asteraceae",
+    "genus": "Cichorium",
+    "species": "Cichorium intybus",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "原词条名'菊苣根'是植物部位名，建议改为'菊苣'作为页面标题，在正文中说明魔法使用以根部为主。"
+  },
+  "幸运手根": {
+    "scientificName": "Orchis spp.",
+    "canonicalName": "Orchis spp.",
+    "rank": "GENUS_OR_MATERIAL",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Liliopsida",
+    "order": "Asparagales",
+    "family": "Orchidaceae",
+    "genus": "Orchis / Dactylorhiza",
+    "species": "Orchis / Dactylorhiza spp.",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "Lucky Hand 是 Hoodoo 核心根料，指兰科植物干燥块茎中具掌状（手指状）形态者。主要来源为 Orchis 属和 Dactylorhiza 属的欧亚兰花。中文建议用'幸运手根'以明确是根部材料。因涉及多个种，分类学定到属级。"
+  },
+  "银扇草": {
+    "scientificName": "Lunaria annua",
+    "canonicalName": "Lunaria annua",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Brassicales",
+    "family": "Brassicaceae",
+    "genus": "Lunaria",
+    "species": "Lunaria annua",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "原词条标注'金钱花'为别名，可在正文提及。Cunningham 以 Honesty 收录。银色半透明种荚形如月亮/银币，故名 Money Plant / Silver Dollar / Lunaria。"
+  },
+  "非洲紫罗兰": {
+    "scientificName": "Streptocarpus ionanthus",
+    "canonicalName": "Streptocarpus ionanthus",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Lamiales",
+    "family": "Gesneriaceae",
+    "genus": "Streptocarpus",
+    "species": "Streptocarpus ionanthus",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "原词条名'非洲槿'不标准，应改为'非洲紫罗兰'。现代分类学已将 Saintpaulia 并入 Streptocarpus 属（2015年修订），但 Saintpaulia 仍为广泛使用的旧名。注意：非洲紫罗兰既不是真正的紫罗兰（Viola）也不是非洲槿。"
+  },
+  "欧洲山毛榉": {
+    "scientificName": "Fagus sylvatica",
+    "canonicalName": "Fagus sylvatica",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Fagales",
+    "family": "Fagaceae",
+    "genus": "Fagus",
+    "species": "Fagus sylvatica",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "原词条写'欧洲山毛桦'为错字，'桦'应为'榉'。山毛榉（Fagus，壳斗科）与桦树（Betula，桦木科）是完全不同的树种。必须纠正。"
+  },
+  "白头翁": {
+    "scientificName": "Pulsatilla vulgaris",
+    "canonicalName": "Pulsatilla vulgaris",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Ranunculales",
+    "family": "Ranunculaceae",
+    "genus": "Pulsatilla",
+    "species": "Pulsatilla vulgaris",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "原词条拉丁名拼写 'Anemone pulsalilla' 有误，正确旧名为 Anemone pulsatilla，现接受名 Pulsatilla vulgaris。建议中文名简化为'白头翁'（去掉'欧洲'前缀——中药白头翁 P. chinensis 为东亚种，可在正文中区分）。Cunningham 以 Anemone 收录。"
+  },
+  "相思子": {
+    "scientificName": "Abrus precatorius",
+    "canonicalName": "Abrus precatorius",
+    "rank": "SPECIES",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Fabales",
+    "family": "Fabaceae",
+    "genus": "Abrus",
+    "species": "Abrus precatorius",
+    "source": "herb-detail-data.json",
+    "reviewed": true,
+    "reviewNote": "原词条名'红豆'不可用——中文'红豆'最常指赤小豆（Vigna angularis），原词条拉丁名 Vaccinium vitis-idaea（越橘）更是完全错配。在魔法语境下，红黑相间的豆子指的是相思子 Abrus precatorius。必须改名为'相思子'，并彻底纠正分类学。种子作为护身符在非洲和加勒比传统中广泛使用。"
   }
 }

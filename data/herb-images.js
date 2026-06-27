@@ -1,6 +1,6 @@
 window.__HERB_IMAGES = {
   "阿拉伯胶树": {
-    "src": "assets/herbs/001-herb-acacia-senegal.jpg",
+    "src": "assets/herbs/001-herb-acacia-senegal.webp",
     "alt": "阿拉伯胶树（Acacia senegal）真实生物照片",
     "scientificName": "Acacia senegal",
     "source": "iNaturalist",
@@ -11,7 +11,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:23:10.865Z"
   },
   "阿魏": {
-    "src": "assets/herbs/002-herb-ferula-assa-foetida.jpg",
+    "src": "assets/herbs/002-herb-ferula-assa-foetida.webp",
     "alt": "阿魏（Ferula assa-foetida）真实生物照片",
     "scientificName": "Ferula assa-foetida",
     "source": "Wikimedia Commons",
@@ -27,7 +27,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:36:52.074Z"
   },
   "安息香": {
-    "src": "assets/herbs/006-herb-styrax-benzoin.jpg",
+    "src": "assets/herbs/006-herb-styrax-benzoin.webp",
     "alt": "安息香（Styrax benzoin）真实生物照片",
     "scientificName": "Styrax benzoin",
     "source": "Wikimedia Commons",
@@ -38,7 +38,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:23:18.719Z"
   },
   "百合": {
-    "src": "assets/herbs/008-herb-lilium.jpg",
+    "src": "assets/herbs/008-herb-lilium.webp",
     "alt": "百合（Lilium）真实生物照片",
     "scientificName": "Lilium",
     "source": "Wikimedia Commons",
@@ -49,7 +49,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:23:23.302Z"
   },
   "百里香": {
-    "src": "assets/herbs/009-herb-thymus-vulgaris.jpg",
+    "src": "assets/herbs/009-herb-thymus-vulgaris.webp",
     "alt": "百里香（Thymus vulgaris）真实生物照片",
     "scientificName": "Thymus vulgaris",
     "source": "Wikimedia Commons",
@@ -70,7 +70,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:36:52.924Z"
   },
   "薄荷": {
-    "src": "assets/herbs/014-herb-mentha-canadensis.jpg",
+    "src": "assets/herbs/014-herb-mentha-canadensis.webp",
     "alt": "薄荷（Mentha canadensis）真实生物照片",
     "scientificName": "Mentha canadensis",
     "source": "Wikimedia Commons",
@@ -81,7 +81,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:23:33.745Z"
   },
   "菜豆": {
-    "src": "assets/herbs/015-herb-phaseolus-vulgaris.jpg",
+    "src": "assets/herbs/015-herb-phaseolus-vulgaris.webp",
     "alt": "菜豆（Phaseolus vulgaris）真实生物照片",
     "scientificName": "Phaseolus vulgaris",
     "source": "Wikimedia Commons",
@@ -92,7 +92,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:25:47.128Z"
   },
   "草": {
-    "src": "assets/herbs/016-herb-dichondra-repens.jpg",
+    "src": "assets/herbs/016-herb-dichondra-repens.webp",
     "alt": "草（Dichondra repens）真实生物照片",
     "scientificName": "Dichondra repens",
     "source": "Wikimedia Commons",
@@ -103,7 +103,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:25:49.452Z"
   },
   "草莓": {
-    "src": "assets/herbs/017-herb-fragaria-ananassa.jpg",
+    "src": "assets/herbs/017-herb-fragaria-ananassa.webp",
     "alt": "草莓（Fragaria ananassa）真实生物照片",
     "scientificName": "Fragaria ananassa",
     "source": "Wikimedia Commons",
@@ -122,7 +122,7 @@ window.__HERB_IMAGES = {
     "error": "429 https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Starr-080415-4023-Fragaria_x_ananassa-leaves-Makawao-Maui_%2824788884052%29.jpg/960px-Starr-080415-4023-Fragaria_x_ananassa-leaves-Makawao-Maui_%2824788884052%29.jpg"
   },
   "茶【不单指某一品种】": {
-    "src": "assets/herbs/019-herb-camellia-sinensis.jpg",
+    "src": "assets/herbs/019-herb-camellia-sinensis.webp",
     "alt": "茶【不单指某一品种】（Camellia sinensis）真实生物照片",
     "scientificName": "Camellia sinensis",
     "source": "Wikimedia Commons",
@@ -133,7 +133,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:28:37.847Z"
   },
   "常春藤": {
-    "src": "assets/herbs/020-herb-hedera-helix.jpg",
+    "src": "assets/herbs/020-herb-hedera-helix.webp",
     "alt": "常春藤（Hedera helix）真实生物照片",
     "scientificName": "Hedera helix",
     "source": "iNaturalist",
@@ -144,7 +144,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:23:45.323Z"
   },
   "菖蒲": {
-    "src": "assets/herbs/021-herb-acorus-calamus.jpg",
+    "src": "assets/herbs/021-herb-acorus-calamus.webp",
     "alt": "菖蒲（Acorus calamus）真实生物照片",
     "scientificName": "Acorus calamus",
     "source": "Wikimedia Commons",
@@ -155,7 +155,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:28:40.641Z"
   },
   "车前草": {
-    "src": "assets/herbs/022-herb-plantago-asiatica.jpg",
+    "src": "assets/herbs/022-herb-plantago-asiatica.webp",
     "alt": "车前草（Plantago asiatica）真实生物照片",
     "scientificName": "Plantago asiatica",
     "source": "iNaturalist",
@@ -166,7 +166,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:23:49.380Z"
   },
   "沉香": {
-    "src": "assets/herbs/023-herb-aquilaria-sinensis.jpg",
+    "src": "assets/herbs/023-herb-aquilaria-sinensis.webp",
     "alt": "沉香（Aquilaria sinensis）真实生物照片",
     "scientificName": "Aquilaria sinensis",
     "source": "iNaturalist",
@@ -185,7 +185,7 @@ window.__HERB_IMAGES = {
     "error": "429 https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Citrus-sinensis-fruit.JPG/960px-Citrus-sinensis-fruit.JPG"
   },
   "橙花": {
-    "src": "assets/herbs/025-herb-citrus-aurantium.jpg",
+    "src": "assets/herbs/025-herb-citrus-aurantium.webp",
     "alt": "橙花（Citrus aurantium）真实生物照片",
     "scientificName": "Citrus aurantium",
     "source": "Wikimedia Commons",
@@ -196,7 +196,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:28:46.316Z"
   },
   "翠菊": {
-    "src": "assets/herbs/026-herb-callistephus-chinensis.jpg",
+    "src": "assets/herbs/026-herb-callistephus-chinensis.webp",
     "alt": "翠菊（Callistephus chinensis）真实生物照片",
     "scientificName": "Callistephus chinensis",
     "source": "iNaturalist",
@@ -215,7 +215,7 @@ window.__HERB_IMAGES = {
     "error": "429 https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Garlic_Bulbs.jpg/960px-Garlic_Bulbs.jpg"
   },
   "当归": {
-    "src": "assets/herbs/030-herb-angelica-sinensis.jpg",
+    "src": "assets/herbs/030-herb-angelica-sinensis.webp",
     "alt": "当归（Angelica sinensis）真实生物照片",
     "scientificName": "Angelica sinensis",
     "source": "Wikimedia Commons",
@@ -258,7 +258,7 @@ window.__HERB_IMAGES = {
     "error": "429 https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Amanita_muscaria_mushroom.jpg/960px-Amanita_muscaria_mushroom.jpg"
   },
   "番红花": {
-    "src": "assets/herbs/038-herb-crocus-sativus.jpg",
+    "src": "assets/herbs/038-herb-crocus-sativus.webp",
     "alt": "番红花（Crocus sativus）真实生物照片",
     "scientificName": "Crocus sativus",
     "source": "iNaturalist",
@@ -269,7 +269,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:24:01.195Z"
   },
   "核桃": {
-    "src": "assets/herbs/058-herb-juglans-regia.jpg",
+    "src": "assets/herbs/058-herb-juglans-regia.webp",
     "alt": "核桃（Juglans regia）真实生物照片",
     "scientificName": "Juglans regia",
     "source": "iNaturalist",
@@ -280,7 +280,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:24:02.829Z"
   },
   "黑胡椒": {
-    "src": "assets/herbs/059-herb-piper-nigrum.jpg",
+    "src": "assets/herbs/059-herb-piper-nigrum.webp",
     "alt": "黑胡椒（Piper nigrum）真实生物照片",
     "scientificName": "Piper nigrum",
     "source": "Wikimedia Commons",
@@ -291,7 +291,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:24:07.789Z"
   },
   "黑莓": {
-    "src": "assets/herbs/060-herb-rubus-fruticosus.jpg",
+    "src": "assets/herbs/060-herb-rubus-fruticosus.webp",
     "alt": "黑莓（Rubus fruticosus）真实生物照片",
     "scientificName": "Rubus fruticosus",
     "source": "Wikimedia Commons",
@@ -300,17 +300,6 @@ window.__HERB_IMAGES = {
     "license": "CC BY-SA 2.0",
     "title": "Bramble flowers, Old Shaston Road - geograph.org.uk - 1367835",
     "checkedAt": "2026-06-24T13:24:13.611Z"
-  },
-  "红豆": {
-    "src": "assets/herbs/061-herb-vaccinium-vitis-idaea.jpg",
-    "alt": "红豆（Vaccinium vitis-idaea）真实生物照片",
-    "scientificName": "Vaccinium vitis-idaea",
-    "source": "Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Icy_LingonBerry.jpg",
-    "author": "Staffan Enbom",
-    "license": "CC BY 2.0",
-    "title": "Icy LingonBerry",
-    "checkedAt": "2026-06-24T13:24:17.879Z"
   },
   "槲寄生": {
     "status": "download_failed",
@@ -321,7 +310,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:26:17.275Z"
   },
   "胡椒": {
-    "src": "assets/herbs/064-herb-piper-nigrum.jpg",
+    "src": "assets/herbs/064-herb-piper-nigrum.webp",
     "alt": "胡椒（Piper nigrum）真实生物照片",
     "scientificName": "Piper nigrum",
     "source": "Wikimedia Commons",
@@ -332,7 +321,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:24:24.988Z"
   },
   "葫芦巴": {
-    "src": "assets/herbs/065-herb-trigonella-foenum-graecum.jpg",
+    "src": "assets/herbs/065-herb-trigonella-foenum-graecum.webp",
     "alt": "葫芦巴（Trigonella foenum-graecum）真实生物照片",
     "scientificName": "Trigonella foenum-graecum",
     "source": "Wikimedia Commons",
@@ -351,7 +340,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:26:20.116Z"
   },
   "接骨木": {
-    "src": "assets/herbs/075-herb-sambucus-nigra.jpg",
+    "src": "assets/herbs/075-herb-sambucus-nigra.webp",
     "alt": "接骨木（Sambucus nigra）真实生物照片",
     "scientificName": "Sambucus nigra",
     "source": "iNaturalist",
@@ -362,7 +351,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:24:34.181Z"
   },
   "罗马洋甘菊": {
-    "src": "assets/herbs/107-herb-chamaemelum-nobile.jpg",
+    "src": "assets/herbs/107-herb-chamaemelum-nobile.webp",
     "alt": "罗马洋甘菊（Chamaemelum nobile）真实生物照片",
     "scientificName": "Chamaemelum nobile",
     "source": "iNaturalist",
@@ -389,7 +378,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:38:56.513Z"
   },
   "柠檬马鞭草": {
-    "src": "assets/herbs/130-herb-aloysia-citriodora.jpg",
+    "src": "assets/herbs/130-herb-aloysia-citriodora.webp",
     "alt": "柠檬马鞭草（Aloysia citriodora）真实生物照片",
     "scientificName": "Aloysia citriodora",
     "source": "iNaturalist",
@@ -400,7 +389,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:24:45.677Z"
   },
   "柠檬香蜂草": {
-    "src": "assets/herbs/131-herb-melissa-officinalis.jpg",
+    "src": "assets/herbs/131-herb-melissa-officinalis.webp",
     "alt": "柠檬香蜂草（Melissa officinalis）真实生物照片",
     "scientificName": "Melissa officinalis",
     "source": "Wikimedia Commons",
@@ -411,7 +400,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:39:05.104Z"
   },
   "肉桂": {
-    "src": "assets/herbs/162-herb-cinnamomum-verum.jpg",
+    "src": "assets/herbs/162-herb-cinnamomum-verum.webp",
     "alt": "肉桂（Cinnamomum verum）真实生物照片",
     "scientificName": "Cinnamomum verum",
     "source": "Wikimedia Commons",
@@ -422,7 +411,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:29:02.543Z"
   },
   "乳香": {
-    "src": "assets/herbs/163-herb-boswellia-sacra.jpg",
+    "src": "assets/herbs/163-herb-boswellia-sacra.webp",
     "alt": "乳香（Boswellia sacra）真实生物照片",
     "scientificName": "Boswellia sacra",
     "source": "iNaturalist",
@@ -433,7 +422,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:24:53.626Z"
   },
   "檀香": {
-    "src": "assets/herbs/181-herb-santalum-album.jpg",
+    "src": "assets/herbs/181-herb-santalum-album.webp",
     "alt": "檀香（Santalum album）真实生物照片",
     "scientificName": "Santalum album",
     "source": "iNaturalist",
@@ -464,7 +453,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:39:48.102Z"
   },
   "庭荠": {
-    "src": "assets/herbs/186-herb-alyssum-desertorum.jpg",
+    "src": "assets/herbs/186-herb-alyssum-desertorum.webp",
     "alt": "庭荠（Alyssum desertorum）真实生物照片",
     "scientificName": "Alyssum desertorum",
     "source": "iNaturalist",
@@ -475,7 +464,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:25:01.995Z"
   },
   "豌豆": {
-    "src": "assets/herbs/187-herb-pisum-sativum.jpg",
+    "src": "assets/herbs/187-herb-pisum-sativum.webp",
     "alt": "豌豆（Pisum sativum）真实生物照片",
     "scientificName": "Pisum sativum",
     "source": "Wikimedia Commons",
@@ -486,7 +475,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:25:08.627Z"
   },
   "莴苣": {
-    "src": "assets/herbs/188-herb-lactuca.jpg",
+    "src": "assets/herbs/188-herb-lactuca.webp",
     "alt": "莴苣（Lactuca）真实生物照片",
     "scientificName": "Lactuca",
     "source": "Wikimedia Commons",
@@ -497,7 +486,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:25:18.326Z"
   },
   "无花果": {
-    "src": "assets/herbs/190-herb-ficus-carica.jpg",
+    "src": "assets/herbs/190-herb-ficus-carica.webp",
     "alt": "无花果（Ficus carica）真实生物照片",
     "scientificName": "Ficus carica",
     "source": "Wikimedia Commons",
@@ -516,7 +505,7 @@ window.__HERB_IMAGES = {
     "error": "429 https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Sonnenblume_Helianthus_1.JPG/960px-Sonnenblume_Helianthus_1.JPG"
   },
   "小麦": {
-    "src": "assets/herbs/200-herb-triticum-aestivum.jpg",
+    "src": "assets/herbs/200-herb-triticum-aestivum.webp",
     "alt": "小麦（Triticum aestivum）真实生物照片",
     "scientificName": "Triticum aestivum",
     "source": "iNaturalist",
@@ -567,7 +556,7 @@ window.__HERB_IMAGES = {
     "error": "429 https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Cocos_nucifera_01.JPG/960px-Cocos_nucifera_01.JPG"
   },
   "益母草": {
-    "src": "assets/herbs/216-herb-leonurus-japonicus.jpg",
+    "src": "assets/herbs/216-herb-leonurus-japonicus.webp",
     "alt": "益母草（Leonurus japonicus）真实生物照片",
     "scientificName": "Leonurus japonicus",
     "source": "iNaturalist",
@@ -614,7 +603,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:39:57.852Z"
   },
   "芝麻": {
-    "src": "assets/herbs/228-herb-sesamum-indicum.jpg",
+    "src": "assets/herbs/228-herb-sesamum-indicum.webp",
     "alt": "芝麻（Sesamum indicum）真实生物照片",
     "scientificName": "Sesamum indicum",
     "source": "iNaturalist",
@@ -625,7 +614,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:26:52.178Z"
   },
   "栀子花": {
-    "src": "assets/herbs/229-herb-gardenia-jasminoides.jpg",
+    "src": "assets/herbs/229-herb-gardenia-jasminoides.webp",
     "alt": "栀子花（Gardenia jasminoides）真实生物照片",
     "scientificName": "Gardenia jasminoides",
     "source": "iNaturalist",
@@ -646,7 +635,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:36:59.601Z"
   },
   "凤梨": {
-    "src": "assets/herbs/042-herb-ananas-comosus.jpg",
+    "src": "assets/herbs/042-herb-ananas-comosus.webp",
     "alt": "凤梨（Ananas comosus）真实生物照片",
     "scientificName": "Ananas comosus",
     "source": "iNaturalist",
@@ -657,7 +646,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:37:02.124Z"
   },
   "佛手柑": {
-    "src": "assets/herbs/044-herb-citrus-bergamia.jpg",
+    "src": "assets/herbs/044-herb-citrus-bergamia.webp",
     "alt": "佛手柑（Citrus bergamia）真实生物照片",
     "scientificName": "Citrus bergamia",
     "source": "Wikimedia Commons",
@@ -668,7 +657,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:37:05.723Z"
   },
   "覆盆子": {
-    "src": "assets/herbs/045-herb-rubus-idaeus.jpg",
+    "src": "assets/herbs/045-herb-rubus-idaeus.webp",
     "alt": "覆盆子（Rubus idaeus）真实生物照片",
     "scientificName": "Rubus idaeus",
     "source": "iNaturalist",
@@ -679,7 +668,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:37:08.114Z"
   },
   "甘草": {
-    "src": "assets/herbs/046-herb-glycyrrhiza-glabra.jpg",
+    "src": "assets/herbs/046-herb-glycyrrhiza-glabra.webp",
     "alt": "甘草（Glycyrrhiza glabra）真实生物照片",
     "scientificName": "Glycyrrhiza glabra",
     "source": "Wikimedia Commons",
@@ -690,7 +679,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:37:13.087Z"
   },
   "橄榄": {
-    "src": "assets/herbs/047-herb-olea-europaea.jpg",
+    "src": "assets/herbs/047-herb-olea-europaea.webp",
     "alt": "橄榄（Olea europaea）真实生物照片",
     "scientificName": "Olea europaea",
     "source": "Wikimedia Commons",
@@ -701,7 +690,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:37:19.933Z"
   },
   "甘蓝": {
-    "src": "assets/herbs/048-herb-brassica-oleracea.jpg",
+    "src": "assets/herbs/048-herb-brassica-oleracea.webp",
     "alt": "甘蓝（Brassica oleracea）真实生物照片",
     "scientificName": "Brassica oleracea",
     "source": "Wikimedia Commons",
@@ -712,7 +701,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:37:25.861Z"
   },
   "甘蔗": {
-    "src": "assets/herbs/049-herb-saccharum-officinarum.jpg",
+    "src": "assets/herbs/049-herb-saccharum-officinarum.webp",
     "alt": "甘蔗（Saccharum officinarum）真实生物照片",
     "scientificName": "Saccharum officinarum",
     "source": "Wikimedia Commons",
@@ -723,7 +712,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:37:31.925Z"
   },
   "高良姜": {
-    "src": "assets/herbs/050-herb-alpinia-galanga.jpg",
+    "src": "assets/herbs/050-herb-alpinia-galanga.webp",
     "alt": "高良姜（Alpinia galanga）真实生物照片",
     "scientificName": "Alpinia galanga",
     "source": "iNaturalist",
@@ -734,7 +723,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:37:35.800Z"
   },
   "葛缕子": {
-    "src": "assets/herbs/051-herb-carum-carvi.jpg",
+    "src": "assets/herbs/051-herb-carum-carvi.webp",
     "alt": "葛缕子（Carum carvi）真实生物照片",
     "scientificName": "Carum carvi",
     "source": "Wikimedia Commons",
@@ -745,7 +734,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:37:41.031Z"
   },
   "广藿香": {
-    "src": "assets/herbs/052-herb-pogostemon-cablin.jpg",
+    "src": "assets/herbs/052-herb-pogostemon-cablin.webp",
     "alt": "广藿香（Pogostemon cablin）真实生物照片",
     "scientificName": "Pogostemon cablin",
     "source": "Wikimedia Commons",
@@ -756,7 +745,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:37:44.753Z"
   },
   "桂花": {
-    "src": "assets/herbs/053-herb-osmanthus-fragrans.jpg",
+    "src": "assets/herbs/053-herb-osmanthus-fragrans.webp",
     "alt": "桂花（Osmanthus fragrans）真实生物照片",
     "scientificName": "Osmanthus fragrans",
     "source": "iNaturalist",
@@ -772,7 +761,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:37:50.529Z"
   },
   "含羞草": {
-    "src": "assets/herbs/055-herb-mimosa-pudica.jpg",
+    "src": "assets/herbs/055-herb-mimosa-pudica.webp",
     "alt": "含羞草（Mimosa pudica）真实生物照片",
     "scientificName": "Mimosa pudica",
     "source": "iNaturalist",
@@ -783,7 +772,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:37:51.697Z"
   },
   "合欢花": {
-    "src": "assets/herbs/057-herb-albizia-julibrissin.jpg",
+    "src": "assets/herbs/057-herb-albizia-julibrissin.webp",
     "alt": "合欢花（Albizia julibrissin）真实生物照片",
     "scientificName": "Albizia julibrissin",
     "source": "iNaturalist",
@@ -794,7 +783,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:37:53.184Z"
   },
   "黄瓜": {
-    "src": "assets/herbs/068-herb-cucumis-sativus.jpg",
+    "src": "assets/herbs/068-herb-cucumis-sativus.webp",
     "alt": "黄瓜（Cucumis sativus）真实生物照片",
     "scientificName": "Cucumis sativus",
     "source": "iNaturalist",
@@ -805,7 +794,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:37:54.712Z"
   },
   "茴香": {
-    "src": "assets/herbs/069-herb-foeniculum-vulgare.jpg",
+    "src": "assets/herbs/069-herb-foeniculum-vulgare.webp",
     "alt": "茴香（Foeniculum vulgare）真实生物照片",
     "scientificName": "Foeniculum vulgare",
     "source": "Wikimedia Commons",
@@ -816,7 +805,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:38:00.080Z"
   },
   "姜": {
-    "src": "assets/herbs/074-herb-zingiber-officinale.jpg",
+    "src": "assets/herbs/074-herb-zingiber-officinale.webp",
     "alt": "姜（Zingiber officinale）真实生物照片",
     "scientificName": "Zingiber officinale",
     "source": "Wikimedia Commons",
@@ -827,7 +816,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:38:05.519Z"
   },
   "卡瓦胡椒": {
-    "src": "assets/herbs/085-herb-piperaceae.jpg",
+    "src": "assets/herbs/085-herb-piperaceae.webp",
     "alt": "卡瓦胡椒（Piperaceae）真实生物照片",
     "scientificName": "Piperaceae",
     "source": "Wikimedia Commons",
@@ -886,7 +875,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:38:34.786Z"
   },
   "芦荟": {
-    "src": "assets/herbs/105-herb-aloe-vera.jpg",
+    "src": "assets/herbs/105-herb-aloe-vera.webp",
     "alt": "芦荟（Aloe vera）真实生物照片",
     "scientificName": "Aloe vera",
     "source": "iNaturalist",
@@ -905,7 +894,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:38:42.067Z"
   },
   "洛神花": {
-    "src": "assets/herbs/108-herb-hibiscus-sabdariffa.jpg",
+    "src": "assets/herbs/108-herb-hibiscus-sabdariffa.webp",
     "alt": "洛神花（Hibiscus sabdariffa）真实生物照片",
     "scientificName": "Hibiscus sabdariffa",
     "source": "iNaturalist",
@@ -931,7 +920,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:38:50.181Z"
   },
   "马郁兰": {
-    "src": "assets/herbs/112-herb-origanum-majorana.jpg",
+    "src": "assets/herbs/112-herb-origanum-majorana.webp",
     "alt": "马郁兰（Origanum majorana）真实生物照片",
     "scientificName": "Origanum majorana",
     "source": "iNaturalist",
@@ -972,7 +961,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:38:59.844Z"
   },
   "柠檬": {
-    "src": "assets/herbs/128-herb-citrus-limon.jpg",
+    "src": "assets/herbs/128-herb-citrus-limon.webp",
     "alt": "柠檬（Citrus limon）真实生物照片",
     "scientificName": "Citrus limon",
     "source": "Wikimedia Commons",
@@ -1052,7 +1041,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:39:31.476Z"
   },
   "桑树": {
-    "src": "assets/herbs/166-herb-morus-alba.jpg",
+    "src": "assets/herbs/166-herb-morus-alba.webp",
     "alt": "桑树（Morus alba）真实生物照片",
     "scientificName": "Morus alba",
     "source": "iNaturalist",
@@ -1088,7 +1077,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:39:38.139Z"
   },
   "石榴": {
-    "src": "assets/herbs/173-herb-punica-granatum.jpg",
+    "src": "assets/herbs/173-herb-punica-granatum.webp",
     "alt": "石榴（Punica granatum）真实生物照片",
     "scientificName": "Punica granatum",
     "source": "iNaturalist",
@@ -1119,7 +1108,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:39:44.890Z"
   },
   "金盏花": {
-    "src": "assets/herbs/079-herb-calendula-officinalis.jpg",
+    "src": "assets/herbs/079-herb-calendula-officinalis.webp",
     "alt": "金盏花（Calendula officinalis）真实生物照片",
     "scientificName": "Calendula officinalis",
     "source": "Wikimedia Commons",
@@ -1135,7 +1124,7 @@ window.__HERB_IMAGES = {
     "checkedAt": "2026-06-24T13:39:59.436Z"
   },
   "大茴香": {
-    "src": "assets/herbs/007-herb-illicium-verum.jpg",
+    "src": "assets/herbs/007-herb-illicium-verum.webp",
     "alt": "大茴香（Illicium verum）真实生物照片",
     "scientificName": "Illicium verum",
     "source": "Wikimedia Commons",
@@ -1144,5 +1133,16 @@ window.__HERB_IMAGES = {
     "license": "CC BY-SA 2.0",
     "title": "Illicium verum in HDR",
     "checkedAt": "2026-06-24T13:23:20.752Z"
+  },
+  "相思子": {
+    "src": "assets/herbs/061-herb-vaccinium-vitis-idaea.webp",
+    "alt": "红豆（Vaccinium vitis-idaea）真实生物照片",
+    "scientificName": "Vaccinium vitis-idaea",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Icy_LingonBerry.jpg",
+    "author": "Staffan Enbom",
+    "license": "CC BY 2.0",
+    "title": "Icy LingonBerry",
+    "checkedAt": "2026-06-24T13:24:17.879Z"
   }
 };
