@@ -55,7 +55,7 @@ const state = {
   homeSection: null
 };
 
-const CONTACT_WECHAT = "Margaret77";
+const CONTACT_WECHAT = "margaretk77";
 const viewHistory = [];
 let touchStart = null;
 let searchComposing = false;
